@@ -1,2 +1,2 @@
 # cmc-ccd-submit-domain
-ccd domain for cmc submit a claim 
+save a civil money claim in ccd - creation domain
