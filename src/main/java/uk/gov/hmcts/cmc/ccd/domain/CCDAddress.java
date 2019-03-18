@@ -1,9 +1,9 @@
 package uk.gov.hmcts.cmc.ccd.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import lombok.Builder;
 import lombok.Value;
-
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Value
 @Builder

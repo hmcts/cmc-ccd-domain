@@ -1,10 +1,10 @@
 package uk.gov.hmcts.cmc.ccd.domain.defendant;
 
-import uk.gov.hmcts.cmc.ccd.domain.CCDAddress;
-import uk.gov.hmcts.cmc.ccd.domain.CCDPartyType;
-
 import lombok.Builder;
 import lombok.Value;
+
+import uk.gov.hmcts.cmc.ccd.domain.CCDAddress;
+import uk.gov.hmcts.cmc.ccd.domain.CCDPartyType;
 
 import java.time.LocalDate;
 
