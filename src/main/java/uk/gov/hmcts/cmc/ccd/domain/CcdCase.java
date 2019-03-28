@@ -1,42 +1,37 @@
 package uk.gov.hmcts.cmc.ccd.domain;
 
-import lombok.Builder;
 import lombok.Data;
 
-import uk.gov.hmcts.cmc.ccd.domain.defendant.CCDDefendant;
-import uk.gov.hmcts.cmc.ccd.domain.evidence.CCDEvidenceRow;
+import uk.gov.hmcts.cmc.ccd.domain.defendant.CcdDefendant;
+import uk.gov.hmcts.cmc.ccd.domain.evidence.CcdEvidenceRow;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 
 @Data
-@Builder
-public class CCDCase {
+public class CcdCase {
 
-    private Long id;
-    private String referenceNumber;
     private String externalId;
     private String reason;
-    private String externalReferenceNumber;
 
     private AmountType amountType;
     private BigDecimal amountLowerValue;
     private BigDecimal amountHigherValue;
-    private List<CCDCollectionElement<CCDAmountRow>> amountBreakDown;
+    private List<CcdCollectionElement<CcdAmountRow>> amountBreakDown;
     private BigDecimal totalAmount;
-    private CCDNotKnown notKnown;
+    private CcdNotKnown notKnown;
 
-    private CCDInterestType interestType;
+    private CcdInterestType interestType;
     private BigDecimal interestBreakDownAmount;
     private String interestBreakDownExplanation;
     private BigDecimal interestRate;
     private String interestReason;
     private BigDecimal interestSpecificDailyAmount;
-    private CCDInterestDateType interestDateType;
+    private CcdInterestDateType interestDateType;
     private LocalDate interestClaimStartDate;
     private String interestStartDateReason;
-    private CCDInterestEndDateType interestEndDateType;
+    private CcdInterestEndDateType interestEndDateType;
 
     private String paymentId;
     private BigDecimal paymentAmount;
@@ -52,8 +47,8 @@ public class CCDCase {
     private String sotSignerName;
     private String sotSignerRole;
 
-    private List<CCDCollectionElement<CCDClaimant>> claimants;
-    private List<CCDCollectionElement<CCDDefendant>> defendants;
-    private List<CCDCollectionElement<CCDTimelineEvent>> timeline;
-    private List<CCDCollectionElement<CCDEvidenceRow>> evidence;
+    private List<CcdCollectionElement<CcdClaimant>> claimants;
+    private List<CcdCollectionElement<CcdDefendant>> defendants;
+    private List<CcdCollectionElement<CcdTimelineEvent>> timeline;
+    private List<CcdCollectionElement<CcdEvidenceRow>> evidence;
 }

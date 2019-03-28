@@ -1,12 +1,12 @@
 package uk.gov.hmcts.cmc.ccd.domain;
 
-public enum CCDInterestDateType {
-    CUSTOM("custom"),
+public enum CcdInterestEndDateType {
+    SETTLED_OR_JUDGMENT("settled_or_judgment"),
     SUBMISSION("submission");
 
     private String value;
 
-    CCDInterestDateType(String value) {
+    CcdInterestEndDateType(String value) {
         this.value = value;
     }
 

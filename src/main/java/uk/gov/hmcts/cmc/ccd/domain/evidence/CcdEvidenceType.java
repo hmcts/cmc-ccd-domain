@@ -1,6 +1,6 @@
 package uk.gov.hmcts.cmc.ccd.domain.evidence;
 
-public enum CCDEvidenceType {
+public enum CcdEvidenceType {
     CONTRACTS_AND_AGREEMENTS("Contracts and agreements"),
     EXPERT_WITNESS("Expert witness"),
     CORRESPONDENCE("Letters, emails and other correspondence"),
@@ -11,7 +11,7 @@ public enum CCDEvidenceType {
 
     String description;
 
-    CCDEvidenceType(String description) {
+    CcdEvidenceType(String description) {
         this.description = description;
     }
 

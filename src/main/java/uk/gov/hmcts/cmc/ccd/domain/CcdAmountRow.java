@@ -1,13 +1,11 @@
 package uk.gov.hmcts.cmc.ccd.domain;
 
-import lombok.Builder;
-import lombok.Value;
+import lombok.Data;
 
 import java.math.BigDecimal;
 
-@Value
-@Builder
-public class CCDAmountRow {
+@Data
+public class CcdAmountRow {
     private String reason;
     private BigDecimal amount;
 }

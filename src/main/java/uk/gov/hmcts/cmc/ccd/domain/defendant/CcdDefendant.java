@@ -1,26 +1,24 @@
 package uk.gov.hmcts.cmc.ccd.domain.defendant;
 
-import lombok.Builder;
-import lombok.Value;
+import lombok.Data;
 
-import uk.gov.hmcts.cmc.ccd.domain.CCDAddress;
-import uk.gov.hmcts.cmc.ccd.domain.CCDPartyType;
+import uk.gov.hmcts.cmc.ccd.domain.CcdAddress;
+import uk.gov.hmcts.cmc.ccd.domain.CcdPartyType;
 
 import java.time.LocalDate;
 
-@Value
-@Builder
-public class CCDDefendant {
+@Data
+public class CcdDefendant {
     private String letterHolderId;
     private String defendantId;
     private LocalDate responseDeadline;
 
-    private CCDPartyType claimantProvidedType;
+    private CcdPartyType claimantProvidedType;
     private String claimantProvidedEmail;
-    private CCDAddress claimantProvidedServiceAddress;
+    private CcdAddress claimantProvidedServiceAddress;
     private String claimantProvidedName;
-    private CCDAddress claimantProvidedAddress;
-    private CCDAddress claimantProvidedCorrespondenceAddress;
+    private CcdAddress claimantProvidedAddress;
+    private CcdAddress claimantProvidedCorrespondenceAddress;
     private LocalDate claimantProvidedDateOfBirth;
     private String claimantProvidedContactPerson;
     private String claimantProvidedCompaniesHouseNumber;
@@ -28,25 +26,25 @@ public class CCDDefendant {
     private String claimantProvidedBusinessName;
 
     private String claimantProvidedRepresentativeOrganisationName;
-    private CCDAddress claimantProvidedRepresentativeOrganisationAddress;
+    private CcdAddress claimantProvidedRepresentativeOrganisationAddress;
     private String claimantProvidedRepresentativeOrganisationPhone;
     private String claimantProvidedRepresentativeOrganisationEmail;
     private String claimantProvidedRepresentativeOrganisationDxAddress;
 
     private String representativeOrganisationName;
-    private CCDAddress representativeOrganisationAddress;
+    private CcdAddress representativeOrganisationAddress;
     private String representativeOrganisationPhone;
     private String representativeOrganisationEmail;
     private String representativeOrganisationDxAddress;
 
-    private CCDPartyType partyType;
+    private CcdPartyType partyType;
     private String partyTitle;
     private String partyName;
     private LocalDate partyDateOfBirth;
     private String partyPhone;
     private String partyEmail;
-    private CCDAddress partyAddress;
-    private CCDAddress partyCorrespondenceAddress;
+    private CcdAddress partyAddress;
+    private CcdAddress partyCorrespondenceAddress;
     private String partyBusinessName;
     private String partyContactPerson;
     private String partyCompaniesHouseNumber;

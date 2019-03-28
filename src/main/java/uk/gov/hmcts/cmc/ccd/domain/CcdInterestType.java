@@ -1,6 +1,6 @@
 package uk.gov.hmcts.cmc.ccd.domain;
 
-public enum CCDInterestType {
+public enum CcdInterestType {
     STANDARD("standard"),
     BREAKDOWN("breakdown"),
     DIFFERENT("different"),
@@ -8,7 +8,7 @@ public enum CCDInterestType {
 
     private String value;
 
-    CCDInterestType(String value) {
+    CcdInterestType(String value) {
         this.value = value;
     }
 

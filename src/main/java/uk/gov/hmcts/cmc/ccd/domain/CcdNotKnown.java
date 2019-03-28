@@ -1,4 +1,4 @@
 package uk.gov.hmcts.cmc.ccd.domain;
 
-public class CCDNotKnown {
+public class CcdNotKnown {
 }

@@ -1,11 +1,9 @@
 package uk.gov.hmcts.cmc.ccd.domain;
 
-import lombok.Builder;
-import lombok.Value;
+import lombok.Data;
 
-@Value
-@Builder
-public class CCDTimelineEvent {
+@Data
+public class CcdTimelineEvent {
 
     private String date;
     private String description;
