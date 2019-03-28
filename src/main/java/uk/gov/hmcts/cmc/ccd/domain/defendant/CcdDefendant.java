@@ -1,6 +1,9 @@
 package uk.gov.hmcts.cmc.ccd.domain.defendant;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import uk.gov.hmcts.cmc.ccd.domain.CcdAddress;
 import uk.gov.hmcts.cmc.ccd.domain.CcdPartyType;
@@ -8,6 +11,9 @@ import uk.gov.hmcts.cmc.ccd.domain.CcdPartyType;
 import java.time.LocalDate;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class CcdDefendant {
     private String letterHolderId;
     private String defendantId;

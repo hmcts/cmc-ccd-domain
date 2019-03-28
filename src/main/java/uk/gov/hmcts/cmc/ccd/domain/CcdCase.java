@@ -1,6 +1,9 @@
 package uk.gov.hmcts.cmc.ccd.domain;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import uk.gov.hmcts.cmc.ccd.domain.defendant.CcdDefendant;
 import uk.gov.hmcts.cmc.ccd.domain.evidence.CcdEvidenceRow;
@@ -10,6 +13,9 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class CcdCase {
 
     private String externalId;
