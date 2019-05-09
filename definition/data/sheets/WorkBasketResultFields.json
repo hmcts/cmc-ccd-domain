@@ -1,0 +1,1 @@
+[{"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "previousServiceCaseReference", "Label": "Claim number", "DisplayOrder": 1}, {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "issuedOn", "Label": "Issue date", "DisplayOrder": 2}, {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterEmail", "Label": "Claimant email", "DisplayOrder": 3}]

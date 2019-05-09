@@ -1,0 +1,6 @@
+[
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "previousServiceCaseReference", "Label": "Claim number", "DisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "issuedOn", "Label": "Issue date", "DisplayOrder": 2},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "[STATE]", "Label": "Current state", "DisplayOrder": 3},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "[LAST_MODIFIED_DATE]", "Label": "Last updated on", "DisplayOrder": 4}
+]
