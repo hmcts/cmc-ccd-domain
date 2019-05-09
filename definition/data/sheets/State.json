@@ -1,0 +1,5 @@
+[
+  {"CaseTypeID": "MoneyClaimCase", "ID": "open", "Name": "Open", "Description": "Case is open", "DisplayOrder": 1, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "closed", "Name": "Closed", "Description": "Case is closed", "DisplayOrder": 2, "TitleDisplay": "# ${previousServiceCaseReference}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "settled", "Name": "Settled", "Description": "Claim is settled", "DisplayOrder": 3, "TitleDisplay": "# ${previousServiceCaseReference}"}
+]
