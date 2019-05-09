@@ -13,11 +13,11 @@ docker pull hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:${VERSION}
 
 echo "Generating definition file..."
 docker run --rm --name json2xlsx \
-  -v $(pwd)/xls-definitions:/tmp \
+  -v $(pwd)/definition/releases:/tmp \
   hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:${VERSION} \
   sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /tmp/cmc-ccd.xlsx && yarn cache clean"
 
 echo "Versioning definition file..."
-mv ./xls-definitions/cmc-ccd.xlsx ./xls-definitions/cmc-ccd-v${VERSION}.xlsx 
+mv ./definition/releases/cmc-ccd.xlsx ./definition/releases/cmc-ccd-v${VERSION}.xlsx 
 
-echo "Saved: ./xls-definitions/cmc-ccd-v${VERSION}.xlsx"
+echo "Saved: ./definition/releases/cmc-ccd-v${VERSION}.xlsx"
