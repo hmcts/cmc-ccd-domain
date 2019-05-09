@@ -13,10 +13,10 @@ az account set --subscription DCD-CNP-DEV
 az acr task create \
     --registry hmcts \
     --name ${ACR_TASKNAME} \
-    --file acr-build-task.yaml \
+    --file ./definition/acr-build-task.yaml \
     --context https://github.com/hmcts/cmc-ccd-domain.git \
     --branch ${BRANCH} \
-    --values values-test.yaml \
+    --values ./definition/values-test.yaml \
     --git-access-token $GITHUB_TOKEN
 
 az acr task run --registry hmcts --name ${ACR_TASKNAME}
