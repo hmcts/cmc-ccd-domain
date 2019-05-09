@@ -11,6 +11,7 @@ steps:
       -t {{.Run.Registry}}/hmcts/cmc-ccd-definition-importer/base
       --cache-from {{.Run.Registry}}/hmcts/cmc-ccd-definition-importer/base:latest
       --target base
+      -f ./definition/Dockerfile
       .
     when:
       - pull-base
@@ -23,6 +24,7 @@ steps:
       -t {{.Run.Registry}}/hmcts/cmc-ccd-definition-importer:{{.Run.ID}}
       --cache-from {{.Run.Registry}}/hmcts/cmc-ccd-definition-importer/base:latest
       --target runtime
+      -f ./definition/Dockerfile
       .
     when:
       - base
