@@ -1,2 +1,42 @@
 # cmc-ccd-submit-domain
-save a civil money claim in ccd - creation domain
+
+Repo for shared CMC/CCD Java model and CMC/CCD Definitions. It will contain:
+
+* CMC CCD model
+* CMC CCD JSON Definition
+* Tooling to release/manage CCD Definition
+* When merging into master:
+    * Release the Docker CCD Definition image
+    * Release new JAR
+    * Exercise cmc-claim-store and cmc-claim-submit-api functional tests (and any other consumers)
+
+## Master
+
+Currently any merge/commit to master will trigger an ACR task to build CCD Definition Docker image. See /definitions for more details.
+
+## Development
+
+1. Open PR here, bumping up /definitions/VERSION.yaml to 1.2.1 (no functional test running at this stage)
+    * cmc-ccd-domain - master 1.2.0
+    * cmc-claim-store - master 1.2.0
+    * cmc-integration-tests - master 1.2.0
+1. Merge PR
+    * cmc-ccd-domain - master 1.2.1
+    * cmc-claim-store - master 1.2.0
+    * cmc-integration-tests - master 1.2.0
+1. Open PR in cmc-claim-store and cmc-integration-tests, pinning version to new CCD definition 1.2.1 (this runs functional tests ensuring backward compatibility with current code base)
+    * cmc-ccd-domain - master 1.2.1
+    * cmc-claim-store - master 1.2.0
+    * cmc-integration-tests - master 1.2.0
+1. Merge PR in cmc-claim-store and cmc-integration-tests after green build (that brings the newer definition to all local dev environments)
+    * cmc-ccd-domain - master 1.2.1
+    * cmc-claim-store - master 1.2.1
+    * cmc-integration-tests - master 1.2.1
+1. Generate CCD Definition from the Docker image 1.2.1, attach to new Jira ticket, manually deploy to DEMO and AAT. 
+1. Manually regression test CCD Definition 1.2.1 in AAT.
+1. Manually deploy CCD Definition 1.2.1 to PROD.
+1. Open code change PR in cmc-claim-store (that run all functional test again new code and version 1.2.1)
+    * cmc-ccd-domain - master 1.2.1
+    * cmc-claim-store - master 1.2.1
+    * cmc-integration-tests - master 1.2.1
+1. Merge code change in cmc-claim-store after green build (deployed into PROD)
