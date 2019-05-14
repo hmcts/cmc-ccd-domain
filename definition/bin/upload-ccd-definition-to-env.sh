@@ -25,7 +25,7 @@ fi
 
 if [ -z "${1}" ]
   then
-    echo "Usage: ./upload-definition-to-env.docker.sh [env]\n"
+    echo "Usage: ./upload-definition-to-env.docker.sh [env] [version]\n"
     exit 1
 fi
 

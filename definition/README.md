@@ -51,31 +51,32 @@ If you need to work with local definitions:
 $ docker build -t hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:dev -f definition/Dockerfile .
 ```
 
-2. Pin new image in docker-compose.yaml in cmc-integration-tests project:
+2. Upload to local environment:
+```bash
+$ ./bin/upload-ccd-definition-to-env.sh local dev
+```
+
+Note: if you want to make this semi-permanent also update docker-compose.yaml in cmc-integration-tests project to pin to your dev version:
 ```
     ccd-importer:
       image: hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:dev
 ```
 
-3. Update to dev stack from cmc-integration-tests directory:
-```bash
-$ ./bin/update-ccd-definition-locally.sh
-```
-
 ## Upload to an environment
 
-To upload the CCD definition file found under 'docker/ccd-definition-import/data/ccd-definition.xlsx' to the designated environment:
 Note: uploading to an environment requires `azure-cli`, `jq` and `python3` to be installed.
 
 ```bash
-$ ./bin/upload-ccd-definition-to-env.sh aat
+$ ./bin/upload-ccd-definition-to-env.sh aat 1.2.3
 ```
+
+This will run the Docker image specified with version in command. So above will upload defintions released in: `hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:1.2.3` in AAT.
 
 ## Debugging
 
 If an error occurs try running the script with a `-v` flag after the script name:
 ```bash
-$ ./bin/upload-ccd-definition-to-env.sh -v aat
+$ ./bin/upload-ccd-definition-to-env.sh -v aat 1.2.3
 ```
 
 
