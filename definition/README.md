@@ -42,6 +42,44 @@ Step by Step Release Actions:
 2. Run `./bin/pull-definition-from-docker.sh 1.2.2` to pull a local copy of the definitions for version 1.2.2 in Excel format. Will save to current directory in: `./xls-definitions/`.
 3. Create Jira ticket for CCD team and attach definitions for uploading. 
 
+# Developing 
+
+If you need to work with local definitions:
+
+1. Build a new cmc-ccd-definition-importer, tagged with `dev`. In root directory:
+```bash
+$ docker build -t hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:dev -f definition/Dockerfile .
+```
+
+2. Upload to local environment:
+```bash
+$ ./bin/upload-ccd-definition-to-env.sh local dev
+```
+
+Note: if you want to make this semi-permanent also update docker-compose.yaml in cmc-integration-tests project to pin to your dev version:
+```
+    ccd-importer:
+      image: hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:dev
+```
+
+## Upload to an environment
+
+Note: uploading to an environment requires `azure-cli`, `jq` and `python3` to be installed.
+
+```bash
+$ ./bin/upload-ccd-definition-to-env.sh aat 1.2.3
+```
+
+This will run the Docker image specified with version in command. So above will upload defintions released in: `hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:1.2.3` in AAT.
+
+## Debugging
+
+If an error occurs try running the script with a `-v` flag after the script name:
+```bash
+$ ./bin/upload-ccd-definition-to-env.sh -v aat 1.2.3
+```
+
+
 # Running Excel to Json
 
 Sometimes you may need to convert the Excel definitions back to JSON. To do this run:
