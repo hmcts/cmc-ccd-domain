@@ -55,6 +55,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterLabel", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseDocuments", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "migratedFromClaimStore", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "claimSubmissionOperationIndicators", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterId", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseName", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "externalId", "UserRole": "citizen", "CRUD": "CRUD"},
@@ -111,6 +112,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "SOTLabel", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterLabel", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "migratedFromClaimStore", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "claimSubmissionOperationIndicators", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterId", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "externalId", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "previousServiceCaseReference", "UserRole": "letter-holder", "CRUD": "CRUD"},
@@ -165,5 +167,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "SOTLabel", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterLabel", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseDocuments", "UserRole": "letter-holder", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "migratedFromClaimStore", "UserRole": "letter-holder", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "migratedFromClaimStore", "UserRole": "letter-holder", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "claimSubmissionOperationIndicators", "UserRole": "letter-holder", "CRUD": "CRUD"}
 ]

@@ -1,4 +1,5 @@
-[ {"CaseTypeID": "MoneyClaimCase", "ID": "caseHistoryTab", "Label": "Submitter ID", "FieldType": "CaseHistoryViewer", "SecurityClassification": "Public"},
+[
+  {"CaseTypeID": "MoneyClaimCase", "ID": "caseHistoryTab", "Label": "Submitter ID", "FieldType": "CaseHistoryViewer", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "submitterId", "Label": "Submitter ID", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "caseName", "Label": "Case name", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "externalId", "Label": "External ID", "FieldType": "Text", "SecurityClassification": "Public"},
@@ -48,6 +49,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentStatus", "Label": "Payment Status", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentDateCreated", "Label": "Payment Date created", "FieldType": "Date", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "migratedFromClaimStore", "Label": "Is Migrated", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "claimSubmissionOperationIndicators", "Label": "Claim Submission Operation Indicators", "FieldType": "ClaimSubmissionOperationIndicators", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentLabel", "Label": "**Payment Details**", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "amountLabel", "Label": "**Claim amount details**", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "eligibilityLabel", "Label": "**Eligibility details**", "FieldType": "Label", "SecurityClassification": "Public"},
