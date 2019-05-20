@@ -33,8 +33,6 @@ require az "On mac run \`brew install azure-cli\`"
 require python3 "On mac run \`brew install python3\`"
 require jq "On mac run \`brew install jq\`"
 
-echo "Reading importer credentials from vault for idam env: ${IDAM_ENV}"
-
 az account show &> /dev/null || {
     echo "Please run \`az login\` and follow the instructions first"
     exit 1
@@ -43,45 +41,43 @@ az account show &> /dev/null || {
 ENV=${1}
 VERSION=${2}
 
+PROXY=http://proxyout.reform.hmcts.net:8080
 IDAM_URI="http://idam-api-idam-${ENV}.service.core-compute-idam-${ENV}.internal"
-AUTH_PROVIDER_BASE_URL="http://rpe-service-auth-provider-${ENV}.service.core-compute-idam-${ENV}.internal"
-CCD_DEF_BASE_URL="http://ccd-data-store-api-${ENV}.service.core-compute-idam-${ENV}.internal"
-CCD_STORE_BASE_URL="http://ccd-data-store-api-${ENV}.service.core-compute-idam-${ENV}.internal"
+AUTH_PROVIDER_BASE_URL="http://rpe-service-auth-provider-${ENV}.service.core-compute-${ENV}.internal"
+CCD_STORE_BASE_URL="http://ccd-data-store-api-${ENV}.service.core-compute-${ENV}.internal"
+CCD_DEF_BASE_URL="http://cmc-claim-store-${ENV}.service.core-compute-${ENV}.internal" # ccd callback url
 
 case ${ENV} in
   local)
+    PROXY=""
     IDAM_URI=http://host.docker.internal:5000
     IMPORTER_USERNAME=ccd-importer@server.net
     IMPORTER_PASSWORD=Password12
     CLIENT_SECRET=12345678
-    REDIRECT_URI=https://localhost:3000/receiver
-    CCD_STORE_BASE_URL=http://localhost:4451
+    REDIRECT_URI=http://localhost:3451/oauth2redirect
+    CCD_STORE_BASE_URL=http://host.docker.internal:4451
     AUTH_PROVIDER_BASE_URL=http://host.docker.internal:4552
-    CCD_DEF_BASE_URL=http://ccd-data-store-api:4452 # docker-compose service
+    CCD_DEF_BASE_URL=http://claim-store:4400 # docker-compose service
   ;;
-  saat)
-  sprod)
+  saat|sprod)
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-test")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-test")
     CLIENT_SECRET=$(keyVaultRead "oauth-client-secret-test")
     REDIRECT_URI=$(keyVaultRead "oauth-redirect-uri-test")
   ;;
   aat)
-    IDAM_URI="https://idam-api.aat.platform.hmcts.net"
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-preprod")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-preprod")
     CLIENT_SECRET=$(keyVaultRead "oauth-client-secret-preprod")
     REDIRECT_URI=$(keyVaultRead "oauth-redirect-uri-preprod")
   ;;
   demo)
-    IDAM_URI="https://idam-api.demo.platform.hmcts.net"
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-demo")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-demo")
     CLIENT_SECRET=$(keyVaultRead "oauth-client-secret-demo")
     REDIRECT_URI=$(keyVaultRead "oauth-redirect-uri-demo")
   ;;
   prod)
-    IDAM_URI="https://prod-idamapi.reform.hmcts.net:3511"
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-prod")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-prod")
     CLIENT_SECRET=$(keyVaultRead "oauth-client-secret-prod")
@@ -92,28 +88,27 @@ case ${ENV} in
     exit 1 ;;
 esac
 
-# proxy=http://proxyout.reform.hmcts.net:8080
-# export http_proxy=${proxy}
-# export https_proxy=${proxy}
-
 echo "Importing: ${VERSION}"
 
+ # should be aligned with cmc-integration-tests docker-compose for ccd-importer
 docker run \
-  --name ccd-importer-to-env \
+  --name cmc-ccd-importer-to-env \
   --rm `# cleanup after` \
+  -e "http_proxy=${PROXY}" \
+  -e "https_proxy=${PROXY}" \
   -e "VERBOSE=${VERBOSE:-false}" \
+  -e "AUTH_PROVIDER_BASE_URL=${AUTH_PROVIDER_BASE_URL}" \
+  -e "MICROSERVICE=ccd_gateway" `# s2s` \
+  -e "IDAM_URI=${IDAM_URI}" \
   -e "IMPORTER_USERNAME=${IMPORTER_USERNAME}" \
   -e "IMPORTER_PASSWORD=${IMPORTER_PASSWORD}" \
-  -e "CCD_STORE_BASE_URL=${CCD_STORE_BASE_URL}" \
-  -e "IDAM_URI=${IDAM_URI}" \
-  -e "AUTH_PROVIDER_BASE_URL=${AUTH_PROVIDER_BASE_URL}" \
-  -e "MICROSERVICE=ccd_gateway" \
+  -e "CLIENT_ID=ccd_gateway" \
   -e "REDIRECT_URI=${REDIRECT_URI}" \
-  -e "CLIENT_ID=cmc_citizen" \
-  -e "CLIENT_SECRET=12345678" \
+  -e "CLIENT_SECRET=${CLIENT_SECRET}" \
+  -e "CCD_STORE_BASE_URL=${CCD_STORE_BASE_URL}" \
   -e "CCD_DEF_FILENAME=cmc-ccd.xlsx" \
   -e "CCD_DEF_BASE_URL=${CCD_DEF_BASE_URL}" `# templated in definitions excel` \
-  -e "USER_ROLES=citizen, caseworker-cmc, caseworker-cmc-solicitor, caseworker-cmc-systemupdate, letter-holder" \
+  -e "USER_ROLES=citizen, caseworker-cmc, caseworker-cmc-solicitor, caseworker-cmc-systemupdate, letter-holder, caseworker-autotest1, caseworker-cmc-anonymouscitizen" \
   hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:${VERSION}
 
 echo Finished

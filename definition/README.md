@@ -86,5 +86,5 @@ Sometimes you may need to convert the Excel definitions back to JSON. To do this
 
 ```
 docker build -f xlsx2json.Dockerfile -t xlsx2json .
-docker run -v `pwd`/xls-definitions:/data xlsx2json
+docker run -v `pwd`/definition/xls:/data xlsx2json
 ```
