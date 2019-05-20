@@ -1,1 +1,6 @@
-[{"CaseTypeID": "MoneyClaimCase", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}, {"CaseTypeID": "MoneyClaimCase", "UserRole": "citizen", "CRUD": "CRUD"}, {"CaseTypeID": "MoneyClaimCase", "UserRole": "letter-holder", "CRUD": "CRUD"}]
+[
+  {"CaseTypeID": "MoneyClaimCase", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "UserRole": "letter-holder", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"}
+]
