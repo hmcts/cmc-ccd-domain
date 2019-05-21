@@ -205,8 +205,8 @@
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "sealedClaimUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of sealed claim successful", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "claimIssueReceiptUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of claim issue receipt successful", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "defendantPinLetterUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of defendant pin letter successful", "SecurityClassification": "Public"},
-  {"ID": "OtherDirection", "ListElementCode": "extraOrderDirection", "FieldType": "FixedList", "FieldTypeParameter": "ExtraOrderDirectionType", "ElementLabel": "Select direction", "SecurityClassification": "Public"},
-  {"ID": "OtherDirection", "ListElementCode": "otherDirection", "FieldType": "TextArea", "ElementLabel": "Extra direction", "SecurityClassification": "Public"},
+  {"ID": "OtherDirection", "ListElementCode": "extraOrderDirection", "FieldType": "FixedList", "FieldTypeParameter": "ExtraOrderDirectionType", "ElementLabel": "Select direction", "SecurityClassification": "Public"}, 
+  {"ID": "OtherDirection", "ListElementCode": "otherDirection", "FieldType": "TextArea", "ElementLabel": "Extra direction", "SecurityClassification": "Public", "FieldShowCondition": "extraOrderDirection=\"OTHER\""},
   {"ID": "OtherDirection", "ListElementCode": "sendBy", "FieldType": "Date", "ElementLabel": "Response deadline", "SecurityClassification": "Public"},
   {"ID": "OtherDirection", "ListElementCode": "forParty", "FieldType": "FixedList", "FieldTypeParameter": "DirectionPartyType", "ElementLabel": "Direction is for", "SecurityClassification": "Public"}
 ]
