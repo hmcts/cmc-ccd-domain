@@ -62,26 +62,28 @@ case ${ENV} in
   saat|sprod)
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-test")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-test")
-    CLIENT_SECRET=$(keyVaultRead "oauth-client-secret-test")
-    REDIRECT_URI=$(keyVaultRead "oauth-redirect-uri-test")
+    CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-test")
+    REDIRECT_URI=$(keyVaultRead "ccd-importer-redirect-uri-test")
   ;;
   aat)
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-preprod")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-preprod")
-    CLIENT_SECRET=$(keyVaultRead "oauth-client-secret-preprod")
-    REDIRECT_URI=$(keyVaultRead "oauth-redirect-uri-preprod")
+    CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-preprod")
+    REDIRECT_URI=$(keyVaultRead "ccd-importer-redirect-uri-preprod")
   ;;
   demo)
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-demo")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-demo")
-    CLIENT_SECRET=$(keyVaultRead "oauth-client-secret-demo")
-    REDIRECT_URI=$(keyVaultRead "oauth-redirect-uri-demo")
+    CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-demo")
+    REDIRECT_URI=$(keyVaultRead "ccd-importer-redirect-uri-demo")
   ;;
   prod)
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-prod")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-prod")
     CLIENT_SECRET=$(keyVaultRead "oauth-client-secret-prod")
     REDIRECT_URI=$(keyVaultRead "oauth-redirect-uri-prod")
+    echo "PROD KEYS NEED SETTING UP BY CCD TEAM: ccd-importer-client-secret-prod & ccd-importer-redirect-uri-prod"
+    exit 1 ;;
   ;;
   *)
     echo "$env not recognised"
