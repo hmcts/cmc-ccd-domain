@@ -33,5 +33,7 @@
     {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ActionReviewComments", "CaseFieldID": "hearingStatement", "PageID": 1, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 16},
     {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ActionReviewComments", "CaseFieldID": "draftOrderDoc", "PageID": 2, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 17},
     {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ActionReviewComments", "CaseFieldID": "assignedTo", "PageID": 2, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 18},
-    {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DrawOrder", "CaseFieldID": "caseDocuments", "PageID": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1}
-  ]
+    {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DrawOrder", "CaseFieldID": "caseDocuments", "PageID": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
+    {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateClaim", "CaseFieldID": "caseDocuments", "PageID": 1, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 1}
+
+]
