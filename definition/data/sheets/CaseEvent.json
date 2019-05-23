@@ -42,6 +42,5 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "SealedClaimUpload", "Name": "Sealed claim uploaded", "Description": "Sealed claim uploaded", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "ClaimIssueReceiptUpload", "Name": "Claim issue receipt uploaded", "Description": "Claim issue receipt uploaded", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "DefendantResponseReceiptUpload", "Name": "Defendant response uploaded", "Description": "Defendant response uploaded", "DisplayOrder": 1, "PreConditionState(s)": "open", "PostConditionState": "open", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "CCJRequestUpload", "Name": "CCJ request uploaded", "Description": "CCJ request uploaded", "DisplayOrder": 1, "PreConditionState(s)": "open", "PostConditionState": "open", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "SettlementAgreementUpload", "Name": "SA uploaded", "Description": "SA uploaded", "DisplayOrder": 1, "PreConditionState(s)": "open", "PostConditionState": "open", "SecurityClassification": "Public"}
 ]
