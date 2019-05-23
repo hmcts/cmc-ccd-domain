@@ -83,7 +83,7 @@ case ${ENV} in
     CLIENT_SECRET=$(keyVaultRead "oauth-client-secret-prod")
     REDIRECT_URI=$(keyVaultRead "oauth-redirect-uri-prod")
     echo "PROD KEYS NEED SETTING UP BY CCD TEAM: ccd-importer-client-secret-prod & ccd-importer-redirect-uri-prod"
-    exit 1 ;;
+    exit 1
   ;;
   *)
     echo "$env not recognised"
@@ -91,6 +91,8 @@ case ${ENV} in
 esac
 
 echo "Importing: ${VERSION}"
+
+echo "Vars: ${IMPORTER_USERNAME} ${IMPORTER_PASSWORD} ${CLIENT_SECRET} ${REDIRECT_URI}"
 
  # should be aligned with cmc-integration-tests docker-compose for ccd-importer
 docker run \
@@ -110,7 +112,8 @@ docker run \
   -e "CCD_STORE_BASE_URL=${CCD_STORE_BASE_URL}" \
   -e "CCD_DEF_FILENAME=cmc-ccd.xlsx" \
   -e "CCD_DEF_BASE_URL=${CCD_DEF_BASE_URL}" `# templated in definitions excel` \
-  -e "USER_ROLES=citizen, caseworker-cmc, caseworker-cmc-solicitor, caseworker-cmc-systemupdate, letter-holder, caseworker-autotest1, caseworker-cmc-anonymouscitizen" \
+  -e "CCD_DEF_CLAIM_STORE_BASE_URL=http://cmc-claim-store-demo.service.core-compute-demo.internal" `# templated in definitions excel` \
+  -e "USER_ROLES=citizen, caseworker-cmc, caseworker-cmc-solicitor, caseworker-cmc-systemupdate, letter-holder, caseworker-autotest1, caseworker-cmc-anonymouscitizen, caseworker-cmc-judge" \
   hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:${VERSION}
 
 echo Finished
