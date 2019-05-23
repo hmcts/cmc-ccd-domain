@@ -11,7 +11,7 @@ created using `./bin/deploy-acr-task.sh`. The task is defined in `acr-build-task
 
 _Disabled automatic ACR task for further investigation_
 
-To release a new definition image run the `./bin/run-release.sh` script. This triggers a new ACR task.
+To release a new definition image run the `./bin/release.sh master` script. This triggers a new ACR task against master.
 
 Note: you will need a GitHub personal token defined in `GITHUB_TOKEN` environment variable to run deploy script (https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line). The token is for setting up a webhook so Azure will be notified when a merge or commit happens. Make sure you are a repo admin and select token scope of: `admin:repo_hook  Full control of repository hooks`
 
@@ -30,7 +30,7 @@ You will see streamed output to help. It will push images tagged with `runid` an
 
 Several helper scripts for checking the ACR task:
 
-`./bin/run-release.sh` - runs manual ACR release task
+`./bin/release.sh [your-new-branch]` - runs manual ACR release task against a branch
 `./bin/get-status.sh` - will show status of last build
 `./bin/show-acr-task` - gets the ACR task details (if deployed)
 `./bin/delete-acr-task.sh` - delete the ACR task
