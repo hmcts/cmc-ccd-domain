@@ -22,7 +22,7 @@ More info on ACR tasks can be read here: https://docs.microsoft.com/en-us/azure/
 I don't think we will be doing this very often so it's not the prettiest way but we have a helper script to test the ACR task. To run:
 
 1. Create a branch from master
-2. Run: `./bin/test-acr-task.sh [your-new-branch]`
+2. Run: `./bin/test-acr-task.sh [branch-name]`
 
 You will see streamed output to help. It will push images tagged with `runid` and `test`.
 
@@ -30,7 +30,7 @@ You will see streamed output to help. It will push images tagged with `runid` an
 
 Several helper scripts for checking the ACR task:
 
-`./bin/release.sh [your-new-branch]` - runs manual ACR release task against a branch
+`./bin/release.sh [branch-name]` - runs manual ACR release task against a branch
 `./bin/get-status.sh` - will show status of last build
 `./bin/show-acr-task` - gets the ACR task details (if deployed)
 `./bin/delete-acr-task.sh` - delete the ACR task
@@ -44,7 +44,7 @@ Currently the release process is two phases. Defintion generation and release. R
 Step by Step Release Actions:
 
 1. Make defintion changes in a new PR (note: bump VERSION.yaml), get approval and merge to master
-1. Run `./bin/run-release.sh`
+1. Run `./bin/release.sh master`
 1. Run `./bin/pull-definition-from-docker.sh 1.2.2` to pull a local copy of the definitions for version 1.2.2 in Excel format. Will save to current directory in: `./xls-definitions/`.
 1. Create Jira ticket for CCD team and attach definitions for uploading. 
 
