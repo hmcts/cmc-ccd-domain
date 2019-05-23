@@ -92,8 +92,6 @@ esac
 
 echo "Importing: ${VERSION}"
 
-echo "Vars: ${IMPORTER_USERNAME} ${IMPORTER_PASSWORD} ${CLIENT_SECRET} ${REDIRECT_URI}"
-
  # should be aligned with cmc-integration-tests docker-compose for ccd-importer
 docker run \
   --name cmc-ccd-importer-to-env \

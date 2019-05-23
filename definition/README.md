@@ -7,7 +7,7 @@ The JSON will contain templated values like `CCD_DEF_BASE_URL`. An example is fo
 ## Building
 
 ~~Any commit or merge into master will automatically trigger an Azure ACR task. This task has been manually
-created using `./bin/deploy-acr-task.sh`. The task is defined in `acr-build-task.yaml`. ~~
+created using `./bin/deploy-acr-task.sh`. The task is defined in `acr-build-task.yaml`.~~
 
 _Disabled automatic ACR task for further investigation_
 
