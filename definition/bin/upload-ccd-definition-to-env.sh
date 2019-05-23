@@ -44,8 +44,8 @@ VERSION=${2}
 PROXY=http://proxyout.reform.hmcts.net:8080
 IDAM_URI="http://idam-api-idam-${ENV}.service.core-compute-idam-${ENV}.internal"
 AUTH_PROVIDER_BASE_URL="http://rpe-service-auth-provider-${ENV}.service.core-compute-${ENV}.internal"
-CCD_STORE_BASE_URL="http://ccd-data-store-api-${ENV}.service.core-compute-${ENV}.internal"
-CCD_DEF_BASE_URL="http://cmc-claim-store-${ENV}.service.core-compute-${ENV}.internal" # ccd callback url
+CCD_STORE_BASE_URL="http://ccd-definition-store-api-${ENV}.service.core-compute-${ENV}.internal"
+CLAIM_STORE_URL="http://cmc-claim-store-${ENV}.service.core-compute-${ENV}.internal" # ccd callback url
 
 case ${ENV} in
   local)
@@ -57,7 +57,7 @@ case ${ENV} in
     REDIRECT_URI=http://localhost:3451/oauth2redirect
     CCD_STORE_BASE_URL=http://host.docker.internal:4451
     AUTH_PROVIDER_BASE_URL=http://host.docker.internal:4552
-    CCD_DEF_BASE_URL=http://claim-store:4400 # docker-compose service
+    CLAIM_STORE_URL=http://claim-store:4400 # docker-compose service
   ;;
   saat|sprod)
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-test")
@@ -102,7 +102,7 @@ docker run \
   -e "https_proxy=${PROXY}" \
   -e "VERBOSE=${VERBOSE:-false}" \
   -e "AUTH_PROVIDER_BASE_URL=${AUTH_PROVIDER_BASE_URL}" \
-  -e "MICROSERVICE=ccd_gateway" `# s2s` \
+  -e "MICROSERVICE=ccd_gw" `# s2s` \
   -e "IDAM_URI=${IDAM_URI}" \
   -e "IMPORTER_USERNAME=${IMPORTER_USERNAME}" \
   -e "IMPORTER_PASSWORD=${IMPORTER_PASSWORD}" \
@@ -111,8 +111,7 @@ docker run \
   -e "CLIENT_SECRET=${CLIENT_SECRET}" \
   -e "CCD_STORE_BASE_URL=${CCD_STORE_BASE_URL}" \
   -e "CCD_DEF_FILENAME=cmc-ccd.xlsx" \
-  -e "CCD_DEF_BASE_URL=${CCD_DEF_BASE_URL}" `# templated in definitions excel` \
-  -e "CCD_DEF_CLAIM_STORE_BASE_URL=http://cmc-claim-store-demo.service.core-compute-demo.internal" `# templated in definitions excel` \
+  -e "CCD_DEF_CLAIM_STORE_BASE_URL=${CLAIM_STORE_URL}" `# templated in definitions excel` \
   -e "USER_ROLES=citizen, caseworker-cmc, caseworker-cmc-solicitor, caseworker-cmc-systemupdate, letter-holder, caseworker-autotest1, caseworker-cmc-anonymouscitizen, caseworker-cmc-judge" \
   hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:${VERSION}
 
