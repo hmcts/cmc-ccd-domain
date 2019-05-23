@@ -29,6 +29,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SealedClaimUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimIssueReceiptUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefendantResponseReceiptUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SettlementAgreementUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LinkLetterHolder", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "citizen", "CRUD": "CR"},
@@ -74,6 +75,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SealedClaimUpload", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimIssueReceiptUpload", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefendantResponseReceiptUpload", "UserRole": "citizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SettlementAgreementUpload", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LinkDefendant", "UserRole": "letter-holder", "CRUD": "CR"}
 ]
