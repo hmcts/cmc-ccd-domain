@@ -6,8 +6,12 @@ The JSON will contain templated values like `CCD_DEF_BASE_URL`. An example is fo
 
 ## Building
 
-Any commit or merge into master will automatically trigger an Azure ACR task. This task has been manually
-created using `./bin/deploy-acr-task.sh`. The task is defined in `acr-build-task.yaml`. 
+~~Any commit or merge into master will automatically trigger an Azure ACR task. This task has been manually
+created using `./bin/deploy-acr-task.sh`. The task is defined in `acr-build-task.yaml`.~~
+
+_Disabled automatic ACR task for further investigation_
+
+To release a new definition image run the `./bin/release.sh master` script. This triggers a new ACR task against master.
 
 Note: you will need a GitHub personal token defined in `GITHUB_TOKEN` environment variable to run deploy script (https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line). The token is for setting up a webhook so Azure will be notified when a merge or commit happens. Make sure you are a repo admin and select token scope of: `admin:repo_hook  Full control of repository hooks`
 
@@ -18,7 +22,7 @@ More info on ACR tasks can be read here: https://docs.microsoft.com/en-us/azure/
 I don't think we will be doing this very often so it's not the prettiest way but we have a helper script to test the ACR task. To run:
 
 1. Create a branch from master
-2. Run: `./bin/test-acr-task.sh [your-new-branch]`
+2. Run: `./bin/test-acr-task.sh [branch-name]`
 
 You will see streamed output to help. It will push images tagged with `runid` and `test`.
 
@@ -26,6 +30,7 @@ You will see streamed output to help. It will push images tagged with `runid` an
 
 Several helper scripts for checking the ACR task:
 
+`./bin/release.sh [branch-name]` - runs manual ACR release task against a branch
 `./bin/get-status.sh` - will show status of last build
 `./bin/show-acr-task` - gets the ACR task details (if deployed)
 `./bin/delete-acr-task.sh` - delete the ACR task
@@ -38,9 +43,10 @@ Currently the release process is two phases. Defintion generation and release. R
 
 Step by Step Release Actions:
 
-1. Make defintion changes in a new PR, get approval and merge to master
-2. Run `./bin/pull-definition-from-docker.sh 1.2.2` to pull a local copy of the definitions for version 1.2.2 in Excel format. Will save to current directory in: `./xls-definitions/`.
-3. Create Jira ticket for CCD team and attach definitions for uploading. 
+1. Make defintion changes in a new PR (note: bump VERSION.yaml), get approval and merge to master
+1. Run `./bin/release.sh master`
+1. Run `./bin/pull-definition-from-docker.sh 1.2.2` to pull a local copy of the definitions for version 1.2.2 in Excel format. Will save to current directory in: `./xls-definitions/`.
+1. Create Jira ticket for CCD team and attach definitions for uploading. 
 
 # Developing 
 
@@ -86,5 +92,5 @@ Sometimes you may need to convert the Excel definitions back to JSON. To do this
 
 ```
 docker build -f xlsx2json.Dockerfile -t xlsx2json .
-docker run -v `pwd`/xls-definitions:/data xlsx2json
+docker run -v `pwd`/definition/xls:/data xlsx2json
 ```
