@@ -60,18 +60,21 @@ case ${ENV} in
     CLAIM_STORE_URL=http://claim-store:4400 # docker-compose service
   ;;
   saat|sprod)
+    # INTERNAL IDAM URLS NOT WORK AS EXPECTED!!!
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-test")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-test")
     CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-test")
     REDIRECT_URI=$(keyVaultRead "ccd-importer-redirect-uri-test")
   ;;
   aat)
+    IDAM_URI=https://idam-api.aat.platform.hmcts.net
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-preprod")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-preprod")
     CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-preprod")
     REDIRECT_URI=$(keyVaultRead "ccd-importer-redirect-uri-preprod")
   ;;
   demo)
+    IDAM_URI=https://idam-api.demo.platform.hmcts.net
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-demo")
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-demo")
     CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-demo")
