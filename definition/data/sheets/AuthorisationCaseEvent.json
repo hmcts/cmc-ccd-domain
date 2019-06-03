@@ -32,7 +32,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SettlementAgreementUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LinkLetterHolder", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingRPA", "UserRole": "caseworker-cmc", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SupportUpdate", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SupportUpdate", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PinGenerationOperations", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingClaimantNotification", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "citizen", "CRUD": "CR"},
