@@ -43,5 +43,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "ClaimIssueReceiptUpload", "Name": "Claim issue receipt uploaded", "Description": "Claim issue receipt uploaded", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "DefendantResponseReceiptUpload", "Name": "Defendant response uploaded", "Description": "Defendant response uploaded", "DisplayOrder": 1, "PreConditionState(s)": "open", "PostConditionState": "open", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "SettlementAgreementUpload", "Name": "SA uploaded", "Description": "SA uploaded", "DisplayOrder": 1, "PreConditionState(s)": "open", "PostConditionState": "open", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "SupportUpdate", "Name": "Support update", "Description": "Support update", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "SupportUpdate", "Name": "Support update", "Description": "Support update", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "ResetClaimSubmissionOperationIndicators", "Name": "Reset CSOI", "Description": "Reset Claim Submission Operation Indicators", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "create", "SecurityClassification": "Public"}
 ]
+
