@@ -194,7 +194,6 @@
   {"ID": "Applicant", "ListElementCode": "representativeOrganisationDxAddress", "FieldType": "Text", "ElementLabel": "Organisation DxAddress", "SecurityClassification": "Public"},
   {"ID": "Applicant", "ListElementCode": "representativeOrganisationEmail", "FieldType": "Email", "ElementLabel": "Organisation Email", "SecurityClassification": "Public"},
   {"ID": "Applicant", "ListElementCode": "leadApplicantIndicator", "FieldType": "YesOrNo", "ElementLabel": "Lead applicant", "SecurityClassification": "Public"},
-  {"ID": "Applicant", "ListElementCode": "leadApplicantIndicator", "FieldType": "YesOrNo", "ElementLabel": "Lead applicant", "SecurityClassification": "Public"},
   {"ID": "Applicant", "ListElementCode": "preferredCourtName", "FieldType": "Text", "ElementLabel": "Preferred court name", "SecurityClassification": "Public"},
   {"ID": "Applicant", "ListElementCode": "preferredCourtAddress", "FieldType": "AddressUK", "ElementLabel": "Preferred court address", "SecurityClassification": "Public"},
   {"ID": "Applicant", "ListElementCode": "preferredCourtReason", "FieldType": "Text", "ElementLabel": "Reason for court preference", "SecurityClassification": "Public"},
