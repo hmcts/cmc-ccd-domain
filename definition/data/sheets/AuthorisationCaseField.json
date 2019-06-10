@@ -1,4 +1,5 @@
-[ {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseHistoryTab", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+[
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseHistoryTab", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterId", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseName", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "externalId", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
@@ -169,6 +170,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseDocuments", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "migratedFromClaimStore", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "claimSubmissionOperationIndicators", "UserRole": "letter-holder", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseHistoryTab", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterId", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseName", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "externalId", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
@@ -215,5 +217,15 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentAmount", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentReference", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentStatus", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentDateCreated", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentDateCreated", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentLabel", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "amountLabel", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "eligibilityLabel", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "timelineLabel", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "evidenceLabel", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "SOTLabel", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterLabel", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseDocuments", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "migratedFromClaimStore", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "claimSubmissionOperationIndicators", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"}
 ]
