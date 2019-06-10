@@ -119,5 +119,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "UserRole": "caseworker-cmc", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "UserRole": "citizen", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "UserRole": "citizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "Transfer", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ComplexCase", "UserRole": "caseworker-cmc", "CRUD": "CR"}
 ]
