@@ -53,6 +53,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "FailedMediation", "Name": "Mediation failed", "Description": "Mediation failed", "DisplayOrder": 1, "PreConditionState(s)": "referredMediation", "PostConditionState": "readyForDirections", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "UpdateClaim", "Name": "Update Claim", "Description": "Update Claim", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "ComplexCase", "Name": "Case complex for LA", "Description": "Case complex for LA", "DisplayOrder": 1, "PreConditionState(s)": "readyForDirections", "PostConditionState": "open", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "Transfer", "Name": "Transfer case", "Description": "Transferred to other court", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "Transferred", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "Transfer", "Name": "Transfer case", "Description": "Transferred to other court", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "transferred", "SecurityClassification": "Public"}
 
 ]
