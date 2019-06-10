@@ -80,7 +80,7 @@ ccd/add-ccd-role.sh "caseworker-cmc-systemupdate" "RESTRICTED" "${userToken}" "$
 
 echo "Uploading CMC definition to CCD"
 # upload definition file
-ccd/import-definition.sh "cmc-ccd-v1.2.6_AAT.xlsx" "${userToken}" "${env}"
+ccd/import-definition.sh "cmc-ccd-v1.2.5_AAT.xlsx" "${userToken}" "${env}"
 
 # Add blank line to end
 echo
