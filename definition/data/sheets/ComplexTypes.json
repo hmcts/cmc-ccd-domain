@@ -197,7 +197,5 @@
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "rpa", "FieldType": "YesOrNo", "ElementLabel": "RPA request successful", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "staffNotification", "FieldType": "YesOrNo", "ElementLabel": "Staff notification successful", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "sealedClaimUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of sealed claim successful", "SecurityClassification": "Public"},
-  {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "claimIssueReceiptUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of claim issue receipt successful", "SecurityClassification": "Public"},
-  {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "defendantPinLetterUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of defendant pin letter successful", "SecurityClassification": "Public"}
-
+  {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "claimIssueReceiptUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of claim issue receipt successful", "SecurityClassification": "Public"}
 ]
