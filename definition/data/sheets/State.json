@@ -2,5 +2,11 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "create", "Name": "Create", "Description": "Case is created", "DisplayOrder": 1, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "open", "Name": "Open", "Description": "Case is open", "DisplayOrder": 2, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "closed", "Name": "Closed", "Description": "Case is closed", "DisplayOrder": 3, "TitleDisplay": "# ${previousServiceCaseReference}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "settled", "Name": "Settled", "Description": "Claim is settled", "DisplayOrder": 4, "TitleDisplay": "# ${previousServiceCaseReference}"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "settled", "Name": "Settled", "Description": "Claim is settled", "DisplayOrder": 4, "TitleDisplay": "# ${previousServiceCaseReference}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "settled", "Name": "Settled", "Description": "Claim is settled", "DisplayOrder": 3, "TitleDisplay": "# ${previousServiceCaseReference}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "readyForDirections", "Name": "Ready for directions", "Description": "Ready for directions", "DisplayOrder": 4, "TitleDisplay": "# ${previousServiceCaseReference}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "orderForJudgeReview", "Name": "Ready for judge's review", "Description": "Ready for judge review", "DisplayOrder": 5, "TitleDisplay": "# ${previousServiceCaseReference}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "orderForLAReview", "Name": "Ready for legal advisor's review", "Description": "Ready for legal advisor review", "DisplayOrder": 6, "TitleDisplay": "# ${previousServiceCaseReference}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "orderDrawn", "Name": "Directions", "Description": "Order drawn", "DisplayOrder": 7, "TitleDisplay": "# ${previousServiceCaseReference}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "referredMediation", "Name": "Mediation is referred", "Description": "Mediation is referred", "DisplayOrder": 8, "TitleDisplay": "# ${previousServiceCaseReference}"}
 ]
