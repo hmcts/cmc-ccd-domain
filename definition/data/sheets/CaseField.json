@@ -73,7 +73,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "hearingCourt", "Label": "Hearing Court","FieldType": "FixedList", "FieldTypeParameter": "HearingCourtType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hearingCourtName", "Label": "Hearing court name","FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hearingCourtAddress", "Label": "Hearing court address","FieldType": "AddressUK", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "docUploadForParty", "Label": "Apply 'Upload evidence' direction to:","FieldType": "FixedRadioList", "FieldTypeParameter": "DirectionPartyType", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "docUploadForParty", "Label": "Apply 'Upload documents' direction to:","FieldType": "FixedRadioList", "FieldTypeParameter": "DirectionPartyType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "eyewitnessUploadForParty", "Label": "Apply 'Upload witness statements' direction to:","FieldType": "FixedRadioList", "FieldTypeParameter": "DirectionPartyType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "otherDirectionList", "Label": "Add new directions","FieldType": "Collection", "FieldTypeParameter": "OtherDirection", "SecurityClassification": "Public"}
 ]
