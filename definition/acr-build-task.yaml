@@ -34,6 +34,7 @@ steps:
     cmd: {{.Run.Registry}}/hmcts/cmc-ccd-definition-importer:{{.Run.ID}} sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx"
     env: 
       - CCD_DEF_BASE_URL=http://localhost
+      - CCD_DEF_CLAIM_STORE_BASE_URL=http://claim-store-api:4400
     when:
       - release
     
