@@ -143,6 +143,7 @@
   {"ID": "ExtraOrderDirectionType", "ListElementCode": "DOCUMENTS", "ListElement": "Upload Evidence"},
   {"ID": "ExtraOrderDirectionType", "ListElementCode": "EYEWITNESS", "ListElement": "Upload Witness Statements"},
   {"ID": "ExtraOrderDirectionType", "ListElementCode": "OTHER", "ListElement": "Other direction"},
+  {"ID": "ExtraOrderDirectionType", "ListElementCode": "EXPERT_REPORT_PERMISSION", "ListElement": "Permission for expert report"},
   {"ID": "LAList", "ListElementCode": "J1", "ListElement": "Judge Bloggs"},
   {"ID": "LAList", "ListElementCode": "J2", "ListElement": "Judge Bliss"}
 ]
