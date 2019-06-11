@@ -1,6 +1,6 @@
 **Confirm that:**
 
-- [ ] *VERSION* has been bumped
+- [ ] *VERSION* has been bumped (only for definition file changes)
 - [ ] commit messages are meaningful and follow good commit message guidelines
 - [ ] README and other documentation has been updated / added (if needed)
 
