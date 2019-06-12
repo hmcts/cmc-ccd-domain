@@ -8,5 +8,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "orderForLAReview", "Name": "Ready for legal advisor's review", "Description": "Ready for legal advisor review", "DisplayOrder": 6, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "orderDrawn", "Name": "Directions", "Description": "Order drawn", "DisplayOrder": 7, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "referredMediation", "Name": "Mediation is referred", "Description": "Mediation is referred", "DisplayOrder": 8, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "transferred", "Name": "Case transferred", "Description": "Case transferred to other court", "DisplayOrder": 10, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "transferred", "Name": "Case transferred", "Description": "Case transferred to other court", "DisplayOrder": 10, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "approved", "Name": "Order approved", "Description": "Order approved", "DisplayOrder": 10, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
+
 ]
