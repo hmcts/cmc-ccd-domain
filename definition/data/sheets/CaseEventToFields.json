@@ -5,7 +5,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "eyewitnessUploadDeadline", "PageID": 1, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 4, "FieldShowCondition": "directionList CONTAINS\"EYEWITNESS\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "eyewitnessUploadForParty", "PageID": 1, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 5, "FieldShowCondition": "directionList CONTAINS\"EYEWITNESS\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "otherDirections", "PageID": 1, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 7},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "hearingRequired", "PageID": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 8},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "hearingRequired", "PageID": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 8},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "preferredCourt", "PageID": 1, "DisplayContext": "READONLY","PageFieldDisplayOrder": 10, "FieldShowCondition": "hearingRequired=\"Yes\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "preferredCourtObjectingParty", "PageID": 1, "DisplayContext": "READONLY","PageFieldDisplayOrder": 11, "FieldShowCondition": "hearingRequired=\"Yes\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "newRequestedCourt", "PageID": 1, "DisplayContext": "READONLY","PageFieldDisplayOrder": 12, "FieldShowCondition": "hearingRequired=\"Yes\""},

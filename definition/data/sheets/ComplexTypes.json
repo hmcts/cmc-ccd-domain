@@ -200,7 +200,7 @@
   {"ID": "OtherDirection", "ListElementCode": "extraOrderDirection", "FieldType": "FixedList", "FieldTypeParameter": "ExtraOrderDirectionType", "ElementLabel": "Select direction", "SecurityClassification": "Public"},
   {"ID": "OtherDirection", "ListElementCode": "extraDocUploadList", "FieldType": "Collection", "FieldTypeParameter": "Text", "ElementLabel": "Extra statements for document upload", "SecurityClassification": "Public", "FieldShowCondition": "extraOrderDirection=\"DOCUMENTS\""},
   {"ID": "OtherDirection", "ListElementCode": "expertReport", "FieldType": "Collection", "FieldTypeParameter": "Text", "ElementLabel": "Extra statements for expert report", "SecurityClassification": "Public", "FieldShowCondition": "extraOrderDirection=\"EXPERT_REPORT_PERMISSION\""},
-  {"ID": "OtherDirection", "ListElementCode": "otherDirection", "FieldType": "TextArea", "ElementLabel": "Extra direction", "SecurityClassification": "Public", "FieldShowCondition": "extraOrderDirection=\"OTHER\""},
+  {"ID": "OtherDirection", "ListElementCode": "directionComment", "FieldType": "TextArea", "ElementLabel": "Extra direction", "SecurityClassification": "Public", "FieldShowCondition": "extraOrderDirection=\"OTHER\""},
   {"ID": "OtherDirection", "ListElementCode": "sendBy", "FieldType": "Date", "ElementLabel": "Response deadline", "SecurityClassification": "Public"},
   {"ID": "OtherDirection", "ListElementCode": "forParty", "FieldType": "FixedList", "FieldTypeParameter": "DirectionPartyType", "ElementLabel": "Direction is for", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "claimantNotification", "FieldType": "YesOrNo", "ElementLabel": "Claimant notification successful?", "SecurityClassification": "Public"},
