@@ -103,7 +103,7 @@ docker run \
   -e "https_proxy=${PROXY}" \
   -e "VERBOSE=${VERBOSE:-false}" \
   -e "AUTH_PROVIDER_BASE_URL=${AUTH_PROVIDER_BASE_URL}" \
-  -e "MICROSERVICE=ccd_gw" `# s2s` \
+  -e "MICROSERVICE=ccd_gateway" `# s2s` \
   -e "IDAM_URI=${IDAM_URI}" \
   -e "IMPORTER_USERNAME=${IMPORTER_USERNAME}" \
   -e "IMPORTER_PASSWORD=${IMPORTER_PASSWORD}" \
