@@ -93,6 +93,7 @@
   {"ID": "ClaimantResponse", "ListElementCode": "paymentReceived", "FieldType": "YesOrNo", "ElementLabel": "Payment received", "SecurityClassification": "Public"},
   {"ID": "ClaimantResponse", "ListElementCode": "settleForAmount", "FieldType": "YesOrNo", "ElementLabel": "Settle for amount", "SecurityClassification": "Public"},
   {"ID": "ClaimantResponse", "ListElementCode": "submittedOn", "FieldType": "DateTime", "ElementLabel": "Submitted  date", "SecurityClassification": "Public"},
+  {"ID": "ClaimantResponse", "ListElementCode": "directionsQuestionnaire", "FieldType": "DirectionsQuestionnaire", "ElementLabel": "Claimant Directions Questionnaire", "SecurityClassification": "Public"},
   {"ID": "CaseDocument", "ListElementCode": "documentName", "FieldType": "Text", "ElementLabel": "Name", "SecurityClassification": "Public"},
   {"ID": "CaseDocument", "ListElementCode": "documentType", "FieldType": "FixedList", "FieldTypeParameter": "DocumentType", "ElementLabel": "Type", "SecurityClassification": "Public"},
   {"ID": "CaseDocument", "ListElementCode": "documentLink", "FieldType": "Document", "ElementLabel": "Document URL", "SecurityClassification": "Public"},
