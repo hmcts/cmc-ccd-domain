@@ -132,7 +132,7 @@
   {"ID": "ExpertReport", "ListElementCode": "expertReportDate", "FieldType": "Date", "ElementLabel": "Expert report date", "SecurityClassification": "Public"},
   {"ID": "ExpertReport", "ListElementCode": "expertName", "FieldType": "Text", "ElementLabel": "Expert report name", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "selfWitness", "FieldType": "YesOrNo", "ElementLabel": "Self Witness", "SecurityClassification": "Public"},
-  {"ID": "DirectionsQuestionnaire", "ListElementCode": "howManyOtherWitness", "FieldType": "Number", "ElementLabel": "How many other witness in case", "SecurityClassification": "Public"},
+  {"ID": "DirectionsQuestionnaire", "ListElementCode": "numberOfOtherWitnesses", "FieldType": "Number", "ElementLabel": "How many other witness in case", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "hearingLocation", "FieldType": "Text", "ElementLabel": "Hearing location selected by Party", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "hearingLocationSlug", "FieldType": "Text", "ElementLabel": "Hearing slug location selected by Party", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "hearingLocationOption", "FieldType": "Text", "ElementLabel": "Hearing location option selected by Party", "SecurityClassification": "Public"},
