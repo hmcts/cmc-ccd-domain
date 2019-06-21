@@ -81,7 +81,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DrawOrder", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewOrder", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ActionReviewComments", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
