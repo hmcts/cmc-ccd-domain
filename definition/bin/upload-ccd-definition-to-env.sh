@@ -57,7 +57,7 @@ case ${ENV} in
     REDIRECT_URI=http://localhost:3451/oauth2redirect
     CCD_STORE_BASE_URL=http://host.docker.internal:4451
     AUTH_PROVIDER_BASE_URL=http://host.docker.internal:4552
-    CLAIM_STORE_URL=http://claim-store-api:4400 # docker-compose service
+    CLAIM_STORE_URL=http://host.docker.internal:4400 # docker-compose service
   ;;
   saat|sprod)
     # INTERNAL IDAM URLS NOT WORK AS EXPECTED!!!
