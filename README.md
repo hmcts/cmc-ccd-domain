@@ -3,7 +3,7 @@
 Repo for shared CMC/CCD Java model and CMC/CCD Definitions. It will contain:
 
 * CMC CCD model
-* CMC CCD JSON Definition
+* CMC CCD JSON Definition (*note:* see definition/README.md for how to handle defintions)
 * Tooling to release/manage CCD Definition
 * When merging into master:
     * Release the Docker CCD Definition image
