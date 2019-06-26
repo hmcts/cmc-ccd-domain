@@ -1,5 +1,3 @@
-[]
-[]
-{"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "evidenceHandled", "PageID": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
-
-
+[
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "evidenceHandled", "PageID": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
+]
