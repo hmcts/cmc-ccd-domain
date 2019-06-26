@@ -1,6 +1,29 @@
 language: java
 jdk:
 - openjdk8
+before_cache:
+- rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+- rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+  - "$HOME/.gradle/caches/"
+  - "$HOME/.gradle/wrapper/"
+deploy:
+- provider: script
+  script: "./gradlew bintrayUpload"
+  skip_cleanup: true
+  on:
+    repo: hmcts/cmc-ccd-domain
+    tags: true
+- provider: releases
+  api_key:
+    secure: TQPdJBxE2kJzHk5P9VN4R2VxnSutSV+jWeMzVkn8++IKc5dw3gJ8PP1dmWk5nGESiB/trtp+SAivq07Pn6J1d7LGWNOXR6IbnZNXu6MLXxNOmt4MeFbgkPkQdcXpFbwbxlX3p86eeDO7oNFBzG1ujGiBu2NkB9LFjg1aFUfl0VxLmgKu3+jservLF55wPPdg9B783uU3x5Qg3asFEHDdb6f77jKoXShIDpP0Pg84m5JsPKpPedLYqF4nghbehIlhJdLPZtmdp2svXr2wYY2oyT7TsnccNgBK0e72VNaQ8YwGHR7psQQ7ZVzWye72e579JpbK8KZZ68ximLGH5B6qvWeup3xPbaa/L0fX+OqlxOWHEGDIx2s3d+Fy2KhpiaDGxqs04wInHMVaQ9Q9TCrzbvuBmyWPr13Bnr0kJ2kRVFrsTiJwmOc/UJkPW/sOYO/0cQoAgP9r9NEiMAH9EimNWFxfM6S4/+Uv09TOqxwm/CkSxhK+hNmhHp/Po0CsL+PbQPSG6QcynZlxRoSKLGHPK2xb5eHj2BMFVS8A8NJXXIcX5R+Umvt+iG+807Mgd4WZP2XSmUllLiT7v2JrwDOSk/QPgYLc3zQYMGnY0s8zmj3buvE+g7VV6XQxvyiYs9+9EGo+bnn+tReWKS75w7CB+rQNnt7jwE7Jy5R1s0D5ifE=
+  file: build/libs/ccd-domain-*.jar
+  file_glob: true
+  skip_cleanup: true
+  on:
+    repo: hmcts/cmc-ccd-domain
+    tags: true
 env:
   global:
   - secure: BsSREqNyCTZbvTzsLtNghyjY/sfPGfeymgNoTzpXht7fe/FrRZi47RxnIPmszVLExEoZIo+8CiyJwlWUJ7UuXoNwqldXKiUi6cSiI24SWM42n7XgiTO72eH1U1WmqEQ9wVOTktALnHyzofZyZrWKhslhSMb3+Qcc7yOF+ZGEu3wU/uHvfaWO2UBdobK6PbkvED6MZZ2rmP5wL9kr4NMWOOcdtPAl0ZDDGTE3vehvai1uDcdXfJlBJ6aeCI3sPVFCpvzP2U+YMrnIgsNzFNyRYrdNgEOw6vJtjsogHGaRp6/AS48gJLe+E6BH7h/kOs5M7MbvBjpek/Jawj+e57lPSmtaYRuKANqF/8SXm77PSw7f8+hzScv0CsVVFt14cP42dCUOOcgWpYk0u4Z8mPWPbCjkryS1KCgPgzBQ6xb8/SDc6YsdZeyxF9Vlse9ZUC0s2vrSnXzoWb/YTnKfuAzxNoYvV92Azai7jfyx8s3Tqqg9we3j00ggOfOrLeLVbh0XUdeOsqZEee5L+CZuBDRQOwEys/Pvbm17lYW08t2zyTYjYIAbyCL/wr2ZvwwNzz7vcvtcdkR4HwPTPHa6O80KgGKbzKNERzAB9fL4bhZfHdUc82puhfUStBwtzbwNMZC7hl3B4/muzZV5Vig2foh3tO65TcY/EJTkeZch7MJ4LOU=
