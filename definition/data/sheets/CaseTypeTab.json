@@ -1,5 +1,6 @@
 [ {"CaseTypeID": "MoneyClaimCase", "TabID": "EventHistory", "TabLabel": "Claim Event History", "TabDisplayOrder": 1, "CaseFieldID": "caseHistoryTab", "TabFieldDisplayOrder": 1},
-  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "previousServiceCaseReference", "TabFieldDisplayOrder": 1},
+   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "previousServiceCaseReference", "TabFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "features", "TabFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "issuedOn", "TabFieldDisplayOrder": 2},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "submittedOn", "TabFieldDisplayOrder": 3},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "caseName", "TabFieldDisplayOrder": 3},
