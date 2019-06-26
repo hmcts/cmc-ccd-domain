@@ -124,6 +124,8 @@
   {"ID": "DocumentType", "ListElementCode": "DEFENDANT_PIN_LETTER", "ListElement": "Defendant Pin Letter"},
   {"ID": "OrderDirectionType", "ListElementCode": "DOCUMENTS", "ListElement": "Upload Documents"},
   {"ID": "OrderDirectionType", "ListElementCode": "EYEWITNESS", "ListElement": "Upload Witness Statements"},
+  {"ID": "OtherDirectionHeaderType", "ListElementCode": "HEADER_UPLOAD", "ListElement": "Upload"},
+  {"ID": "OtherDirectionHeaderType", "ListElementCode": "HEADER_CONFIRM\t", "ListElement": "Confirm"},
   {"ID": "HearingCourtType", "ListElementCode": "EDMONTON", "ListElement": "Edmonton"},
   {"ID": "HearingCourtType", "ListElementCode": "MANCHESTER", "ListElement": "Manchester"},
   {"ID": "HearingCourtType", "ListElementCode": "BIRMINGHAM", "ListElement": "Birmingham"},
