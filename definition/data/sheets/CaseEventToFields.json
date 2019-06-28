@@ -1,3 +1,4 @@
-[
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "evidenceHandled", "PageID": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
+[ {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "paperResponseType", "PageID": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
+ {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "caseDocuments", "PageID": 1, "DisplayContext": "MANDATORY", "FieldShowCondition":"paperResponseType=\"NON_VIA_SERVICE\"","PageFieldDisplayOrder": 1}
+ {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "evidenceHandled", "PageID": 1, "DisplayContext": "MANDATORY", "FieldShowCondition":"paperResponseType=\"BULK_SCAN\"", "PageFieldDisplayOrder": 1}
 ]
