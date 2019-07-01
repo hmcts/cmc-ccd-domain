@@ -43,5 +43,8 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "ClaimIssueReceiptUpload", "Name": "Claim issue receipt uploaded", "Description": "Claim issue receipt uploaded", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "DefendantResponseReceiptUpload", "Name": "Defendant response uploaded", "Description": "Defendant response uploaded", "DisplayOrder": 1, "PreConditionState(s)": "open", "PostConditionState": "open", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "SettlementAgreementUpload", "Name": "SA uploaded", "Description": "SA uploaded", "DisplayOrder": 1, "PreConditionState(s)": "open", "PostConditionState": "open", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "SupportUpdate", "Name": "Support update", "Description": "Support update", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "SupportUpdate", "Name": "Support update", "Description": "Support update", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "attachScannedDocs", "Name": "Attached via bulk scan", "Description": "Attached via bulk scan", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "ReviewedPaperResponse", "Name": "Paper response reviewed", "Description": "Paper response reviewed", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"}
+
 ]
