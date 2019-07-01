@@ -57,7 +57,7 @@ case ${ENV} in
     REDIRECT_URI=http://localhost:3451/oauth2redirect
     CCD_STORE_BASE_URL=http://host.docker.internal:4451
     AUTH_PROVIDER_BASE_URL=http://host.docker.internal:4552
-    CLAIM_STORE_URL=http://claim-store:4400 # docker-compose service
+    CLAIM_STORE_URL=http://claim-store-api:4400 # docker-compose service
   ;;
   saat|sprod)
     # INTERNAL IDAM URLS NOT WORK AS EXPECTED!!!
@@ -103,7 +103,7 @@ docker run \
   -e "https_proxy=${PROXY}" \
   -e "VERBOSE=${VERBOSE:-false}" \
   -e "AUTH_PROVIDER_BASE_URL=${AUTH_PROVIDER_BASE_URL}" \
-  -e "MICROSERVICE=ccd_gw" `# s2s` \
+  -e "MICROSERVICE=ccd_gateway" `# s2s` \
   -e "IDAM_URI=${IDAM_URI}" \
   -e "IMPORTER_USERNAME=${IMPORTER_USERNAME}" \
   -e "IMPORTER_PASSWORD=${IMPORTER_PASSWORD}" \
