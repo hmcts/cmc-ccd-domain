@@ -45,6 +45,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "SettlementAgreementUpload", "Name": "SA uploaded", "Description": "SA uploaded", "DisplayOrder": 1, "PreConditionState(s)": "open", "PostConditionState": "open", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "SupportUpdate", "Name": "Support update", "Description": "Support update", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "attachScannedDocs", "Name": "Attached via bulk scan", "Description": "Attached via bulk scan", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "ReviewedPaperResponse", "Name": "Paper response reviewed", "Description": "Paper response reviewed", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"}
-
+  {"CaseTypeID": "MoneyClaimCase", "ID": "ReviewedPaperResponse", "Name": "Paper response reviewed", "Description": "Paper response reviewed", "DisplayOrder": 1, "PreConditionState(s)": "*", "PostConditionState": "*", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "AssigningForDirections", "Name": "Assigning for directions", "Description": "Assigning for directions", "DisplayOrder": 1, "PreConditionState(s)": "open", "PostConditionState": "readyForDirections", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "ReferredToMediation", "Name": "Mediation pending", "Description": "Mediation pending", "DisplayOrder": 1, "PreConditionState(s)": "open", "PostConditionState": "stayed", "SecurityClassification": "Public"}
 ]
