@@ -120,6 +120,8 @@
   {"ID": "DocumentType", "ListElementCode": "CCJ_REQUEST", "ListElement": "County Court Judgment Request"},
   {"ID": "DocumentType", "ListElementCode": "SETTLEMENT_AGREEMENT", "ListElement": "Settlement Agreement"},
   {"ID": "DocumentType", "ListElementCode": "DEFENDANT_PIN_LETTER", "ListElement": "Defendant Pin Letter"},
+  {"ID": "DocumentType", "ListElementCode": "CLAIMANT_DIRECTIONS_QUESTIONNAIRE", "ListElement": "Claimant directions Questionnaire"},
+  {"ID": "DocumentType", "ListElementCode": "DEFENDANT_DIRECTIONS_QUESTIONNAIRE", "ListElement": "Defendant directions Questionnaire"},
   {"ID": "ScannedDocumentType", "ListElementCode": "cherished", "ListElement": "Cherished"},
   {"ID": "ScannedDocumentType", "ListElementCode": "other", "ListElement": "Other"},
   {"ID": "ScannedDocumentType", "ListElementCode": "form", "ListElement": "Form"},
