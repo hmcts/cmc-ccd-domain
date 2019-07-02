@@ -8,3 +8,7 @@ This will be moved to json and tooling updated to handle multiple definition sou
  # LOADING
 
  Manually load via CCD admin web ui for now, e.g. https://ccd-admin-web-aat.service.core-compute-aat.internal/
+
+ # USER PROFILE
+
+ Manually managed in each environment
