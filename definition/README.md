@@ -11,7 +11,7 @@ created using `./bin/deploy-acr-task.sh`. The task is defined in `acr-build-task
 
 _Disabled automatic ACR task for further investigation_
 
-To release a new definition image run the `./bin/release.sh master` script. This triggers a new ACR task against master.
+To release a new definition image run the `./definition/bin/release.sh master` script. This triggers a new ACR task against master.
 
 Note: you will need a GitHub personal token defined in `GITHUB_TOKEN` environment variable to run deploy script (https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line). The token is for setting up a webhook so Azure will be notified when a merge or commit happens. Make sure you are a repo admin and select token scope of: `admin:repo_hook  Full control of repository hooks`
 
@@ -22,7 +22,7 @@ More info on ACR tasks can be read here: https://docs.microsoft.com/en-us/azure/
 I don't think we will be doing this very often so it's not the prettiest way but we have a helper script to test the ACR task. To run:
 
 1. Create a branch from master
-2. Run: `./bin/test-acr-task.sh [branch-name]`
+2. Run: `./definition/bin/test-acr-task.sh [branch-name]`
 
 You will see streamed output to help. It will push images tagged with `runid` and `test`.
 
@@ -30,22 +30,22 @@ You will see streamed output to help. It will push images tagged with `runid` an
 
 Several helper scripts for checking the ACR task:
 
-`./bin/release.sh [branch-name]` - runs manual ACR release task against a branch
-`./bin/get-status.sh` - will show status of last build
-`./bin/show-acr-task` - gets the ACR task details (if deployed)
-`./bin/delete-acr-task.sh` - delete the ACR task
+`./definition/bin/release.sh [branch-name]` - runs manual ACR release task against a branch
+`./definition/bin/get-status.sh` - will show status of last build
+`./definition/bin/show-acr-task` - gets the ACR task details (if deployed)
+`./definition/bin/delete-acr-task.sh` - delete the ACR task
 
 More info on ACR tasks can be read here: https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tasks-overview
 
 # Release Process
 
-Currently the release process is two phases. Defintion generation and release. Release is a manual process that requires Jira tickets to be raised with CCD team. Generation happens with a PR here, then approval and merge to master, this creates a new hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer Docker image. This image will be responsible for loading defintions into AKS and local development environments.
+Currently the release process is two phases. Definition generation and release. Release is a manual process that requires Jira tickets to be raised with CCD team. Generation happens with a PR here, then approval and merge to master, this creates a new hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer Docker image. This image will be responsible for loading defintions into AKS and local development environments.
 
 Step by Step Release Actions:
 
-1. Make defintion changes in a new PR (note: bump VERSION.yaml), get approval and merge to master
-1. Run `./bin/release.sh master`
-1. Run `./bin/pull-definition-from-docker.sh 1.2.2` to pull a local copy of the definitions for version 1.2.2 in Excel format. Will save to current directory in: `./xls-definitions/`.
+1. Make definition changes in a new PR (note: bump VERSION.yaml), get approval and merge to master
+1. Run `./definition/bin/release.sh master`
+1. Run `./definition/bin/pull-definition-from-docker.sh 1.2.2` to pull a local copy of the definitions for version 1.2.2 in Excel format. Will save to current directory in: `./xls-definitions/`.
 1. Create Jira ticket for CCD team and attach definitions for uploading. 
 
 # Developing 
@@ -59,7 +59,7 @@ $ docker build -t hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:dev -f defi
 
 2. Upload to local environment:
 ```bash
-$ ./bin/upload-ccd-definition-to-env.sh local dev
+$ ./definition/bin/upload-ccd-definition-to-env.sh local dev
 ```
 
 Note: if you want to make this semi-permanent also update docker-compose.yaml in cmc-integration-tests project to pin to your dev version:
@@ -73,7 +73,7 @@ Note: if you want to make this semi-permanent also update docker-compose.yaml in
 Note: uploading to an environment requires `azure-cli`, `jq` and `python3` to be installed.
 
 ```bash
-$ ./bin/upload-ccd-definition-to-env.sh aat 1.2.3
+$ ./definition/bin/upload-ccd-definition-to-env.sh aat 1.2.3
 ```
 
 This will run the Docker image specified with version in command. So above will upload defintions released in: `hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:1.2.3` in AAT.
@@ -82,7 +82,7 @@ This will run the Docker image specified with version in command. So above will 
 
 If an error occurs try running the script with a `-v` flag after the script name:
 ```bash
-$ ./bin/upload-ccd-definition-to-env.sh -v aat 1.2.3
+$ ./definition/bin/upload-ccd-definition-to-env.sh -v aat 1.2.3
 ```
 
 
