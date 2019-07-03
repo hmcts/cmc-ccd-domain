@@ -52,6 +52,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "migratedFromClaimStore", "Label": "Is Migrated", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "evidenceHandled", "Label": "Scanned document reviewed", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "claimSubmissionOperationIndicators", "Label": "Claim Submission Operation Indicators", "FieldType": "ClaimSubmissionOperationIndicators", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "paperResponseType", "Label": "Received Paper Response type", "FieldType": "FixedList", "FieldTypeParameter": "PaperResponseType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentLabel", "Label": "**Payment Details**", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "amountLabel", "Label": "**Claim amount details**", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "eligibilityLabel", "Label": "**Eligibility details**", "FieldType": "Label", "SecurityClassification": "Public"},
