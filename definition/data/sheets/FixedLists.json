@@ -119,5 +119,11 @@
   {"ID": "DocumentType", "ListElementCode": "DEFENDANT_RESPONSE_RECEIPT", "ListElement": "Defendant Response Receipt"},
   {"ID": "DocumentType", "ListElementCode": "CCJ_REQUEST", "ListElement": "County Court Judgment Request"},
   {"ID": "DocumentType", "ListElementCode": "SETTLEMENT_AGREEMENT", "ListElement": "Settlement Agreement"},
-  {"ID": "DocumentType", "ListElementCode": "DEFENDANT_PIN_LETTER", "ListElement": "Defendant Pin Letter"}
+  {"ID": "DocumentType", "ListElementCode": "DEFENDANT_PIN_LETTER", "ListElement": "Defendant Pin Letter"},
+  {"ID": "ScannedDocumentType", "ListElementCode": "cherished", "ListElement": "Cherished"},
+  {"ID": "ScannedDocumentType", "ListElementCode": "other", "ListElement": "Other"},
+  {"ID": "ScannedDocumentType", "ListElementCode": "form", "ListElement": "Form"},
+  {"ID": "ScannedDocumentType", "ListElementCode": "coversheet", "ListElement": "Coversheet"},
+  {"ID": "PaperResponseType", "ListElementCode": "BULK_SCAN", "ListElement": "Received via Bulk scan"},
+  {"ID": "PaperResponseType", "ListElementCode": "NON_VIA_SERVICE", "ListElement": "Received not via service"}
 ]
