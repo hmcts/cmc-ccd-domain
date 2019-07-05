@@ -14,7 +14,7 @@ az acr task create \
     --file ./definition/acr-build-task.yaml \
     --context https://github.com/hmcts/cmc-ccd-domain.git \
     --branch ${BRANCH} \
-    --values ./definition/VERSION.yaml \
+    --values ../VERSION.yaml \
     --git-access-token $GITHUB_TOKEN
 
 az acr task run --registry hmcts --name ${ACR_TASKNAME}
