@@ -4,7 +4,7 @@ set -e
 BRANCH="${1:-}"
 ACR_REGISTRY="hmcts"
 ACR_TASKNAME="task-cmc-ccd-definition-importer"
-IMAGE="hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer"
+IMAGE="hmcts/cmc-ccd-definition-importer"
 TAG=$(cat VERSION.yaml | sed 's/TAG: //')
 
 [ "_${BRANCH}" = "_" ] && echo "No BRANCH defined. Script terminated." && exit 0
