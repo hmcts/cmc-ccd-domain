@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.1.xsd">
+    <suppress>
+        <notes><![CDATA[
+         Specific to deserialisation of AtomicDoubleArray and CompoundOrdering classes: https://github.com/google/guava/wiki/CVE-2018-10237
+        ]]></notes>
+        <gav regex="true">^com\.google\.guava:guava:.*$</gav>
+        <cve>CVE-2018-10237</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+         We are not using STOMP: https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#websocket-stomp-enable
+        ]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-1270</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+            Related to Windows and specifically serving static content, which we are not doing
+        ]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-1271</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+            We are not chaining multipart requests to other servers
+        ]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-1272</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+            Related to PostgreSQL server startup script, also up to 9.4 while we are using 9.6
+        ]]></notes>
+        <gav regex="true">^org\.postgresql:postgresql:.*$</gav>
+        <cve>CVE-2017-14798</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+			only relates to ssl which we don't do at the java app level
+			]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2014-3488</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+			only relates to ssl which we don't do at the java app level
+			]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2015-2156</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   CVE-2016-7048: only for Postgres lt 9.6 and we use 9.6 on Azure.  Also only impacts the installer.
+   ]]></notes>
+        <cve>CVE-2016-7048</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+    temp disable for prod release, spring boot 2 upgrade coming very soon
+    ]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-7489</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   temp disable for prod release, spring boot 2 upgrade coming very soon
+   ]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2017-14798</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   temp disable for prod release, spring boot 2 upgrade coming very soon
+   ]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-1304</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   temp disable for prod release, spring boot 2 upgrade coming very soon
+   ]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-1305</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   temp disable for prod release, spring boot 2 upgrade coming very soon
+   ]]></notes>
+        <gav regex="true">^org\.springframework:spring-context-support:.*$</gav>
+        <cve>CVE-2018-1199</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   relates to admin pack extension which is not installed for us
+   ]]></notes>
+        <gav regex="true">^org\.postgresql:postgresql:.*$</gav>
+        <cve>CVE-2018-1115</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   relates to CORS
+   ]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-8014</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   Unauthorized Access with Spring Security Method Security
+   ]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-1258</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   ReDoS Attack with spring-messaging
+   ]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-1257</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+    Doesn't look exploitable, will wait for spring boot to provide updated version in dependency management
+   ]]></notes>
+        <cve>CVE-2018-11039</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   JSONP is not enabled in our application
+   ]]></notes>
+        <cve>CVE-2018-11040</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+			The offending library and class and not used in our code
+			]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-8088</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+			Not applicable - relates to XML processing
+			]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2018-1000840</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+			Not applicable - Randomness vulnerability when using SecureRandomFactoryBean
+			]]></notes>
+        <gav regex="true">.*</gav>
+        <cve>CVE-2019-3795</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[No fix is available]]></notes>
+        <gav regex="true">^org\.springframework\.security:spring-security-rsa:1\.0\.7\.RELEASE$</gav>
+        <cve>CVE-2011-2731</cve>
+        <cve>CVE-2011-2732</cve>
+        <cve>CVE-2012-5055</cve>
+        <cve>CVE-2018-1260</cve>
+    </suppress>
+</suppressions>

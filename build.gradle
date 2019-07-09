@@ -19,6 +19,85 @@ plugins {
     id 'org.sonarqube' version '2.6.2'
 }
 
+checkstyle {
+    maxWarnings = 0
+
+    toolVersion = '8.18'
+    // need to set configDir to rootDir otherwise submodule will use submodule/config/checkstyle
+    configDir = new File(rootDir, 'config/checkstyle')
+}
+
+// https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/configuration.html
+dependencyCheck {
+    // Specifies if the build should be failed if a CVSS score above a specified level is identified.
+    // range of 0-10 fails the build, anything greater and it doesn't fail the build
+    failBuildOnCVSS = System.getProperty('dependencyCheck.failBuild') == 'false' ? 11 : 0
+    suppressionFile = 'dependency-check-suppressions.xml'
+    analyzers {
+        // Disable scanning of .NET related binaries
+        assemblyEnabled = false
+    }
+}
+
+compileJava {
+    options.compilerArgs << '-parameters' << '-Xlint:deprecation'
+}
+
+compileTestJava {
+    options.compilerArgs << '-Xlint:deprecation'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven {
+        url "https://dl.bintray.com/hmcts/hmcts-maven"
+    }
+    maven {
+        url 'https://repo.spring.io/libs-milestone'
+    }
+    jcenter()
+}
+
+dependencyManagement {
+    imports {
+        mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+    }
+
+    dependencies {
+        // checkstyle needs a certain version and so does spring fox swagger, so can't use latest
+        // fun times...
+        dependencySet(group: 'com.google.guava', version: '20.0') {
+            entry 'guava'
+        }
+        // solves CVE-2019-12086
+        // remove once spring manager incorporates this changes
+        dependencySet(
+                group: 'com.fasterxml.jackson.core',
+                version: '2.9.9'
+                //version: dependencyManagement.importedProperties['jackson.version'] solves CVE-2019-12086
+        ) {
+            entry 'jackson-core'
+            entry 'jackson-databind'
+        }
+        dependencySet(
+                group: 'com.fasterxml.jackson.datatype',
+                version: '2.9.9'
+                //version: dependencyManagement.importedProperties['jackson.version'] solves CVE-2019-12086
+        ) {
+            entry 'jackson-datatype-jdk8'
+            entry 'jackson-datatype-jsr310'
+        }
+        dependencySet(
+                group: 'com.fasterxml.jackson.module',
+                version: '2.9.9'
+                //version: dependencyManagement.importedProperties['jackson.version'] solves CVE-2019-12086
+        ) {
+            entry 'jackson-module-parameter-names'
+        }
+    }
+}
+
 def fileVersion = new org.yaml.snakeyaml.Yaml().load(new File("VERSION.yaml").newInputStream())
 
 group = 'uk.gov.hmcts.reform.cmc'
@@ -30,35 +109,26 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
-repositories {
-    maven { url "http://dl.bintray.com/hmcts/hmcts-maven/" }
-    mavenLocal()
-    jcenter()
-}
-
-dependencyManagement {
-	imports {
-		mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
-	}
-}
-
 dependencies {
-    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.6'
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
 
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-json'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter'
+    compile group: 'com.google.guava', name: 'guava', version: '20.0'
+
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.6'
+
     testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.12.2'
 }
 
 jar {
     manifest {
         attributes 'Implementation-Title': project.name, 'Implementation-Version': project.version
     }
-}
-
-checkstyle {
-  maxWarnings = 50
-  toolVersion = '8.14'
 }
 
 task printVersion {

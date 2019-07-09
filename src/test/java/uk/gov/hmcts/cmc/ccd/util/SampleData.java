@@ -38,11 +38,11 @@ import uk.gov.hmcts.cmc.ccd.domain.legaladvisor.CCDHearingDurationType;
 import uk.gov.hmcts.cmc.ccd.domain.legaladvisor.CCDOrderDirection;
 import uk.gov.hmcts.cmc.ccd.domain.legaladvisor.CCDOrderDirectionType;
 import uk.gov.hmcts.cmc.ccd.domain.legaladvisor.CCDOrderGenerationData;
-import uk.gov.hmcts.cmc.domain.utils.LocalDateTimeFactory;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.List;
 import java.util.UUID;
 import java.util.function.Supplier;
@@ -68,8 +68,6 @@ import static uk.gov.hmcts.cmc.ccd.domain.defendant.statementofmeans.CCDPriority
 import static uk.gov.hmcts.cmc.ccd.domain.defendant.statementofmeans.CCDResidenceType.JOINT_OWN_HOME;
 import static uk.gov.hmcts.cmc.ccd.domain.evidence.CCDEvidenceType.EXPERT_WITNESS;
 import static uk.gov.hmcts.cmc.ccd.util.SampleCCDClaimSubmissionOperationIndicators.defaultCCDClaimSubmissionOperationIndicators;
-import static uk.gov.hmcts.cmc.domain.models.particulars.DamagesExpectation.MORE_THAN_THOUSAND_POUNDS;
-import static uk.gov.hmcts.cmc.domain.models.particulars.DamagesExpectation.THOUSAND_POUNDS_OR_LESS;
 
 public class SampleData {
 
@@ -85,9 +83,9 @@ public class SampleData {
         .externalId(UUID.randomUUID().toString())
         .features("admissions")
         .amountType(BREAK_DOWN)
-        .housingDisrepairCostOfRepairDamages(MORE_THAN_THOUSAND_POUNDS.name())
-        .housingDisrepairOtherDamages(THOUSAND_POUNDS_OR_LESS.name())
-        .personalInjuryGeneralDamages(MORE_THAN_THOUSAND_POUNDS.name())
+        .housingDisrepairCostOfRepairDamages("MORE_THAN_THOUSAND_POUNDS")
+        .housingDisrepairOtherDamages("THOUSAND_POUNDS_OR_LESS")
+        .personalInjuryGeneralDamages("MORE_THAN_THOUSAND_POUNDS")
         .sotSignerName("name")
         .sotSignerRole("role")
         .externalReferenceNumber("external ref")
@@ -128,7 +126,7 @@ public class SampleData {
         return CCDResponseAcceptation.builder()
             .amountPaid(AMOUNT)
             .claimantPaymentIntention(getCCDPaymentIntention())
-            .submittedOn(LocalDateTimeFactory.nowInLocalZone())
+            .submittedOn(LocalDateTime.now(ZoneId.of("Europe/London")))
             .formaliseOption(formaliseOption)
             .build();
     }
@@ -137,7 +135,7 @@ public class SampleData {
         return CCDResponseAcceptation.builder()
             .amountPaid(AMOUNT)
             .claimantPaymentIntention(getCCDPaymentIntentionImmediately())
-            .submittedOn(LocalDateTimeFactory.nowInLocalZone())
+            .submittedOn(LocalDateTime.now(ZoneId.of("Europe/London")))
             .formaliseOption(SETTLEMENT)
             .build();
     }
@@ -146,7 +144,7 @@ public class SampleData {
         return CCDResponseAcceptation.builder()
             .amountPaid(AMOUNT)
             .claimantPaymentIntention(getCCDPaymentIntentionPayBySetDate())
-            .submittedOn(LocalDateTimeFactory.nowInLocalZone())
+            .submittedOn(LocalDateTime.now(ZoneId.of("Europe/London")))
             .formaliseOption(SETTLEMENT)
             .build();
     }
@@ -154,7 +152,7 @@ public class SampleData {
     public static CCDResponseRejection getResponseRejection() {
         return CCDResponseRejection.builder()
             .amountPaid(AMOUNT)
-            .submittedOn(LocalDateTimeFactory.nowInLocalZone())
+            .submittedOn(LocalDateTime.now(ZoneId.of("Europe/London")))
             .freeMediationOption(YES)
             .mediationPhoneNumber(CCDTelephone.builder().telephoneNumber("07999999999").build())
             .mediationContactPerson("Mediation Contact Person")
@@ -472,9 +470,9 @@ public class SampleData {
             .amountType(RANGE)
             .amountLowerValue("5000")
             .amountHigherValue("50000")
-            .housingDisrepairCostOfRepairDamages(MORE_THAN_THOUSAND_POUNDS.name())
-            .housingDisrepairOtherDamages(THOUSAND_POUNDS_OR_LESS.name())
-            .personalInjuryGeneralDamages(MORE_THAN_THOUSAND_POUNDS.name())
+            .housingDisrepairCostOfRepairDamages("MORE_THAN_THOUSAND_POUNDS")
+            .housingDisrepairOtherDamages("THOUSAND_POUNDS_OR_LESS")
+            .personalInjuryGeneralDamages("MORE_THAN_THOUSAND_POUNDS")
             .sotSignerName("name")
             .sotSignerRole("role")
             .externalReferenceNumber("external ref")
