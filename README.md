@@ -23,13 +23,14 @@ On any tagged commit Travis will build and push to bintray: http://dl.bintray.co
 1. Merge PR to master
 1. Checkout master: `git checkout master`
 1. Get last commit: `git log`
-1. Tag last commit with VERSION.yaml: `git tag -a $(cat VERSION.yaml | sed 's/TAG: //') cb6fbbb2e20dbdd5eb3e07e58928358a6b0a52fd`
+1. Tag last commit with VERSION.yaml: `git tag -a $(cat VERSION.yaml | sed 's/TAG: //') COMMIT_HASH`
 1. Push tag: `git push origin $(cat VERSION.yaml | sed 's/TAG: //')`
+
+Please create a release in GitHub too.
 
 ### Definitions (Docker image)
 
 See definition [README.md](./definition/README.md#)
-
 
 ## Development (WIP)
 
