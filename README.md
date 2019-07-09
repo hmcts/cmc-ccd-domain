@@ -1,6 +1,6 @@
 # CMC CCD Domain and Definitions
 
-Repo for shared CMC/CCD Java model and CMC/CCD Definitions. It will contain:
+Contains:
 
 * CMC CCD model
 * CMC CCD JSON Definition (*note:* [definition/README.md](./definition/README.md) for how to handle defintions)
