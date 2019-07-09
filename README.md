@@ -3,7 +3,7 @@
 Contains:
 
 * CMC CCD model
-* CMC CCD JSON Definition (*note:* [definition/README.md](./definition/README.md) for how to handle defintions)
+* CMC CCD JSON Definition (*note:* [definition/README.md](./definition/README.md) for how to handle definitions)
 * Tooling to release/manage CCD Definition
 * When merging into master:
     * Release the Docker CCD Definition image
