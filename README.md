@@ -1,4 +1,4 @@
-# cmc-ccd-submit-domain
+# CMC CCD Domain and Definitions
 
 Repo for shared CMC/CCD Java model and CMC/CCD Definitions. It will contain:
 
@@ -18,7 +18,7 @@ Version number is defined in file [VERSION.yaml](./VERSION.yaml), both artefacts
 
 On any tagged commit Travis will build and push to bintray: http://dl.bintray.com/hmcts/hmcts-maven/uk/gov/hmcts/reform/cmc/ccd-domain/
 
-### To release:
+#### To release:
 
 1. Merge PR to master
 1. Checkout master: `git checkout master`
