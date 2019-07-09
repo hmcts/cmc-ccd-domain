@@ -3,18 +3,35 @@
 Repo for shared CMC/CCD Java model and CMC/CCD Definitions. It will contain:
 
 * CMC CCD model
-* CMC CCD JSON Definition (*note:* see definition/README.md for how to handle defintions)
+* CMC CCD JSON Definition (*note:* [definition/README.md](./definition/README.md) for how to handle defintions)
 * Tooling to release/manage CCD Definition
 * When merging into master:
     * Release the Docker CCD Definition image
     * Release new JAR
     * Exercise cmc-claim-store and cmc-claim-submit-api functional tests (and any other consumers)
 
-## Master
+## Release
 
-Currently any merge/commit to master will trigger an ACR task to build CCD Definition Docker image. See /definitions for more details.
+Version number is defined in file [VERSION.yaml](./VERSION.yaml), both artefacts use same version number.
 
-## Development
+### Domain (Java Jar)
+
+On any tagged commit Travis will build and push to bintray: http://dl.bintray.com/hmcts/hmcts-maven/uk/gov/hmcts/reform/cmc/ccd-domain/
+
+### To release:
+
+1. Merge PR to master
+1. Checkout master: `git checkout master`
+1. Get last commit: `git log`
+1. Tag last commit with VERSION.yaml: `git tag -a $(cat VERSION.yaml | sed 's/TAG: //') cb6fbbb2e20dbdd5eb3e07e58928358a6b0a52fd`
+1. Push tag: `git push origin $(cat VERSION.yaml | sed 's/TAG: //')`
+
+### Definitions (Docker image)
+
+See definition [README.md](./definition/README.md#)
+
+
+## Development (WIP)
 
 1. Open PR here, bumping up /definitions/VERSION.yaml to 1.2.1 (no functional test running at this stage)
     * cmc-ccd-domain - master 1.2.0
