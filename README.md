@@ -26,12 +26,11 @@ On any tagged commit Travis will build and push to bintray: http://dl.bintray.co
 1. Tag last commit with VERSION.yaml: `git tag -a $(cat VERSION.yaml | sed 's/TAG: //') COMMIT_HASH`
 1. Push tag: `git push origin $(cat VERSION.yaml | sed 's/TAG: //')`
 
-Or manually create a release in GitHub.
+Please create a release in GitHub too.
 
 ### Definitions (Docker image)
 
 See definition [README.md](./definition/README.md#)
-
 
 ## Development (WIP)
 
