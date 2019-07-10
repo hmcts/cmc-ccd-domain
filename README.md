@@ -10,15 +10,19 @@ Contains:
     * Release new JAR
     * Exercise cmc-claim-store and cmc-claim-submit-api functional tests (and any other consumers)
 
-## Release
+## Versioning
 
 Version number is defined in file [VERSION.yaml](./VERSION.yaml), both artefacts use same version number.
 
-### Domain (Java Jar)
+*Important* do not change format of VERSION.yaml - sed is used in various scripts to extract the version number.
+
+### Release
+
+#### Domain (Java Jar)
 
 On any tagged commit Travis will build and push to bintray: http://dl.bintray.com/hmcts/hmcts-maven/uk/gov/hmcts/reform/cmc/ccd-domain/
 
-#### To release:
+##### To release:
 
 1. Merge PR to master
 1. Checkout master: `git checkout master`
@@ -28,7 +32,7 @@ On any tagged commit Travis will build and push to bintray: http://dl.bintray.co
 
 Please create a release in GitHub too.
 
-### Definitions (Docker image)
+#### Definitions (Docker image)
 
 See definition [README.md](./definition/README.md#)
 
