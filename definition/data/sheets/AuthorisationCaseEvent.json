@@ -88,6 +88,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferredToMediation", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "citizen", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OrderReviewRequested", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OrderReviewRequested", "UserRole": "citizen", "CRUD": "CR"}
 ]
