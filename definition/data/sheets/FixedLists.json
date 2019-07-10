@@ -125,5 +125,7 @@
   {"ID": "ScannedDocumentType", "ListElementCode": "form", "ListElement": "Form"},
   {"ID": "ScannedDocumentType", "ListElementCode": "coversheet", "ListElement": "Coversheet"},
   {"ID": "PaperResponseType", "ListElementCode": "BULK_SCAN", "ListElement": "Received via Bulk scan"},
-  {"ID": "PaperResponseType", "ListElementCode": "NON_VIA_SERVICE", "ListElement": "Received not via service"}
+  {"ID": "PaperResponseType", "ListElementCode": "NON_VIA_SERVICE", "ListElement": "Received not via service"},
+  {"ID": "ReviewOrderPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
+  {"ID": "ReviewOrderPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"}
 ]

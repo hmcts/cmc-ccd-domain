@@ -59,5 +59,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "timelineLabel", "Label": "**Timeline details**", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "evidenceLabel", "Label": "**Evidence details**", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "SOTLabel", "Label": "**SOT details**", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "submitterLabel", "Label": "**Submitter details**", "FieldType": "Label", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "submitterLabel", "Label": "**Submitter details**", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "reviewOrder", "Label": "Review Order", "FieldType": "ReviewOrder", "SecurityClassification": "Public"}
 ]
