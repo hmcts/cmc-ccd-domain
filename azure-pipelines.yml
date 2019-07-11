@@ -15,6 +15,7 @@ jobs:
     vmImage: 'Ubuntu 16.04'
   steps:
   - script: |
+      ls
       CCD_DEF_BASE_URL=http://localhost
       docker build -f definition/Dockerfile -t test-image definition/.
       docker run --rm test-image sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx"
