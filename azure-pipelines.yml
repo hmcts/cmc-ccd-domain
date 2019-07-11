@@ -1,19 +1,39 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+name: cmc-ccd-domain pipeline
 
 trigger:
-- master
+  branches:
+    include:
+    - refs/tags/*
+pr:
+  branches:
+    include:
+    - master
+    
+jobs:
+- job: Validate
+  pool:
+    vmImage: 'Ubuntu 16.04'
+  steps:
+  - template: steps/charts/validate.yaml@cnp-library
+    parameters:
+      chartName: ccd
+      chartReleaseName: chart-ccd-ci-test
+      chartNamespace: chart-tests
+      helmInstallTimeout: "600"
 
-pool:
-  vmImage: 'ubuntu-latest'
-
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- job: Release
+  # Make sure we have a tag to run this job
+  condition: >
+    and(
+        succeeded(),
+        startsWith(variables['Build.SourceBranch'], 'refs/tags/')
+      )
+  dependsOn: Validate
+  pool:
+    vmImage: 'Ubuntu 16.04'
+  steps:
+  - template: steps/charts/release.yaml@cnp-library
+    parameters:
+      chartName: ccd
+      chartReleaseName: chart-ccd
+      chartNamespace: chart-tests
