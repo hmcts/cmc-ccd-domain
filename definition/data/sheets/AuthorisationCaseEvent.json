@@ -4,7 +4,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferredToMediation", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "attachScannedDocs", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "UserRole": "caseworker-cmc", "CRUD": "CR"},
-  
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefaultCCJRequested", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MoreTimeRequestedOnline", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SettledPreJudgment", "UserRole": "caseworker-cmc", "CRUD": "R"},
@@ -29,7 +28,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OfferCounterSignedByDefendant", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DirectionsQuestionnaireDeadline", "UserRole": "caseworker-cmc", "CRUD": "R"}, 
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SealedClaimUpload", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimIssueReceiptUpload", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefendantResponseReceiptUpload", "UserRole": "caseworker-cmc", "CRUD": "C"},
@@ -39,7 +37,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SupportUpdate", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PinGenerationOperations", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingClaimantNotification", "UserRole": "caseworker-cmc", "CRUD": "C"},
-  
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetClaimSubmissionOperationIndicators", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetClaimSubmissionOperationIndicators", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetClaimSubmissionOperationIndicators", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "C"}
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueClaim", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefaultCCJRequested", "UserRole": "citizen", "CRUD": "CR"},
@@ -82,10 +82,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferredToMediation", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "citizen", "CRUD": "CR"},
-  
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LinkDefendant", "UserRole": "letter-holder", "CRUD": "CR"},
-
-  
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueClaim", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefaultCCJRequested", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
@@ -129,13 +126,11 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferredToMediation", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
-  
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueClaim", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SealedClaimUpload", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PinGenerationOperations", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingClaimantNotification", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
-  
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingClaimantNotification", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"}, 
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueClaim", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefaultCCJRequested", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
@@ -179,6 +174,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferredToMediation", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"}
-
   
 ]

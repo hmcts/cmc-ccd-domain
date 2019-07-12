@@ -123,5 +123,7 @@
   {"ID": "ScannedDocumentType", "ListElementCode": "cherished", "ListElement": "Cherished"},
   {"ID": "ScannedDocumentType", "ListElementCode": "other", "ListElement": "Other"},
   {"ID": "ScannedDocumentType", "ListElementCode": "form", "ListElement": "Form"},
-  {"ID": "ScannedDocumentType", "ListElementCode": "coversheet", "ListElement": "Coversheet"}
+  {"ID": "ScannedDocumentType", "ListElementCode": "coversheet", "ListElement": "Coversheet"},
+  {"ID": "PaperResponseType", "ListElementCode": "BULK_SCAN", "ListElement": "Received via Bulk scan"},
+  {"ID": "PaperResponseType", "ListElementCode": "NON_VIA_SERVICE", "ListElement": "Received not via service"}
 ]

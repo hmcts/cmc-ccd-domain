@@ -1,0 +1,9 @@
+[ 
+    {"ID": "CaseDocument","CaseEventID": "ReviewedPaperResponse","CaseFieldID": "caseDocuments","ListElementCode": "documentName","EventElementLabel": "Document Name","EventHintText": "","FieldDisplayOrder": "","DisplayContext": "OPTIONAL"},
+    {"ID": "CaseDocument","CaseEventID": "ReviewedPaperResponse","CaseFieldID": "caseDocuments","ListElementCode": "documentType","EventElementLabel": "Document Type","EventHintText": "","FieldDisplayOrder": "","DisplayContext": "MANDATORY"},
+    {"ID": "CaseDocument","CaseEventID": "ReviewedPaperResponse","CaseFieldID": "caseDocuments","ListElementCode": "documentLink","EventElementLabel": "Document Link","EventHintText": "","FieldDisplayOrder": "","DisplayContext": "OPTIONAL"},
+    {"ID": "CaseDocument","CaseEventID": "ReviewedPaperResponse","CaseFieldID": "caseDocuments","ListElementCode": "receivedDatetime","EventElementLabel": "Document submitted on","EventHintText": "","FieldDisplayOrder": "","DisplayContext": "MANDATORY"},
+    {"ID": "ScannedDocument","CaseEventID": "ReviewedPaperResponse","CaseFieldID": "scannedDocuments","ListElementCode": "url","EventElementLabel": "Document Link","EventHintText": "","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
+    {"ID": "ScannedDocument","CaseEventID": "ReviewedPaperResponse","CaseFieldID": "scannedDocuments","ListElementCode": "type","EventElementLabel": "Document Type","EventHintText": "","FieldDisplayOrder": 2,"DisplayContext": "MANDATORY"},
+    {"ID": "ScannedDocument","CaseEventID": "ReviewedPaperResponse","CaseFieldID": "scannedDocuments","ListElementCode": "subtype","EventElementLabel": "Document Subtype","EventHintText": "","FieldDisplayOrder": 3,"DisplayContext": "MANDATORY"}
+]

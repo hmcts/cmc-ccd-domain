@@ -46,6 +46,7 @@ IDAM_URI="http://idam-api-idam-${ENV}.service.core-compute-idam-${ENV}.internal"
 AUTH_PROVIDER_BASE_URL="http://rpe-service-auth-provider-${ENV}.service.core-compute-${ENV}.internal"
 CCD_STORE_BASE_URL="http://ccd-definition-store-api-${ENV}.service.core-compute-${ENV}.internal"
 CLAIM_STORE_URL="http://cmc-claim-store-${ENV}.service.core-compute-${ENV}.internal" # ccd callback url
+MICROSERVICE=ccd_gw
 
 case ${ENV} in
   local)
@@ -58,6 +59,7 @@ case ${ENV} in
     CCD_STORE_BASE_URL=http://host.docker.internal:4451
     AUTH_PROVIDER_BASE_URL=http://host.docker.internal:4552
     CLAIM_STORE_URL=http://claim-store-api:4400 # docker-compose service
+    MICROSERVICE=ccd_gateway
   ;;
   saat|sprod)
     # INTERNAL IDAM URLS NOT WORK AS EXPECTED!!!
@@ -79,6 +81,13 @@ case ${ENV} in
     IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-demo")
     CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-demo")
     REDIRECT_URI=$(keyVaultRead "ccd-importer-redirect-uri-demo")
+  ;;
+  ithc)
+    IDAM_URI=https://idam-api.ithc.platform.hmcts.net
+    IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-ithc")
+    IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-ithc")
+    CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-ithc")
+    REDIRECT_URI=$(keyVaultRead "ccd-importer-redirect-uri-ithc")
   ;;
   prod)
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-prod")
@@ -103,7 +112,7 @@ docker run \
   -e "https_proxy=${PROXY}" \
   -e "VERBOSE=${VERBOSE:-false}" \
   -e "AUTH_PROVIDER_BASE_URL=${AUTH_PROVIDER_BASE_URL}" \
-  -e "MICROSERVICE=ccd_gateway" `# s2s` \
+  -e "MICROSERVICE=${MICROSERVICE}" `# s2s` \
   -e "IDAM_URI=${IDAM_URI}" \
   -e "IMPORTER_USERNAME=${IMPORTER_USERNAME}" \
   -e "IMPORTER_PASSWORD=${IMPORTER_PASSWORD}" \
