@@ -12,5 +12,15 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForDirections", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "stayed", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "open", "UserRole": "letter-holder", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "create", "UserRole": "letter-holder", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "create", "UserRole": "letter-holder", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderForJudgeReview", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderForLAReview", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderDrawn", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderForJudgeReview", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderForLAReview", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "referredMediation", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "referredMediation", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "transferred", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "approved", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "approved", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"}
 ]

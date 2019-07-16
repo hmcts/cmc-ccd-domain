@@ -4,5 +4,12 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "closed", "Name": "Closed", "Description": "Case is closed", "DisplayOrder": 3, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "settled", "Name": "Settled", "Description": "Claim is settled", "DisplayOrder": 4, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "readyForDirections", "Name": "Ready for directions", "Description": "Ready for directions", "DisplayOrder": 5, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "stayed", "Name": "Case on hold", "Description": "Case on hold", "DisplayOrder": 6, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "stayed", "Name": "Case on hold", "Description": "Case on hold", "DisplayOrder": 6, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "orderForJudgeReview", "Name": "Ready for judge's review", "Description": "Ready for judge review", "DisplayOrder": 8, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "orderForLAReview", "Name": "Ready for legal advisor's review", "Description": "Ready for legal advisor review", "DisplayOrder": 9, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "orderDrawn", "Name": "Directions", "Description": "Order drawn", "DisplayOrder": 10, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "referredMediation", "Name": "Mediation is referred", "Description": "Mediation is referred", "DisplayOrder": 11, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "transferred", "Name": "Case transferred", "Description": "Case transferred to other court", "DisplayOrder": 12, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "approved", "Name": "Order approved", "Description": "Order approved", "DisplayOrder": 13, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
+
 ]
