@@ -41,6 +41,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimantDirectionsQuestionnaireUpload", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefendantDirectionsQuestionnaireUpload", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetClaimSubmissionOperationIndicators", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueClaim", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefaultCCJRequested", "UserRole": "citizen", "CRUD": "CR"},
