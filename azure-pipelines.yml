@@ -42,10 +42,6 @@ jobs:
   #     echo '##vso[task.setvariable variable=imageTag]pr-$(System.PullRequest.PullRequestNumber)'
   #   displayName: 'Set Image Tag: Pull Request'
   #   condition: eq(variables['Build.Reason'], 'PullRequest')
-  - task: ACR Build 
+  - script: |
+        az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
     displayName: 'ACR Build'
-    enabled: true
-    inputs:
-      azureSubscription: azurerm-prod
-      scriptLocation: 'inlineScript'
-      inlineScript: az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
