@@ -1,5 +1,11 @@
 name: cmc-ccd-domain pipeline
 
+variables:
+  repository: cmc/ccd-definition-importer
+  acrName: hmctspublic
+  acrResourceGroup: rpe-acr-prod-rg
+  imageTag: TEST
+
 trigger:
   branches:
     include:
@@ -32,10 +38,14 @@ jobs:
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
+  # - script: |
+  #     echo '##vso[task.setvariable variable=imageTag]pr-$(System.PullRequest.PullRequestNumber)'
+  #   displayName: 'Set Image Tag: Pull Request'
+  #   condition: eq(variables['Build.Reason'], 'PullRequest')
   - task: ACR Build 
     displayName: 'ACR Build'
     enabled: true
     inputs:
       azureSubscription: azurerm-prod
       scriptLocation: 'inlineScript'
-      inlineScript: az acr build -r $(acrName) -t $(Build.Repository.Name):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
+      inlineScript: az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
