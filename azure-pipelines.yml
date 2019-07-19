@@ -8,14 +8,6 @@ pr:
   branches:
     include:
     - master
-
-resources:
-  repositories:
-  - repository: cnp-library
-    type: github
-    ref: master
-    name: hmcts/cnp-azuredevops-libraries
-    endpoint: 'hmcts'
     
 jobs:
 - job: Test
@@ -40,6 +32,10 @@ jobs:
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
-  - template: steps/acr-build.yaml@cnp-library
-    parameters:
-      serviceConnection: azurerm-prod
+  - task: ACR Build 
+    displayName: 'ACR Build'
+    enabled: true
+    inputs:
+      azureSubscription: azurerm-prod
+      scriptLocation: 'inlineScript'
+      inlineScript: az acr build -r $(acrName) -t $(Build.Repository.Name):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
