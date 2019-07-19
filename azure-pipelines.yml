@@ -40,6 +40,6 @@ jobs:
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
-  - template: steps/charts/acr-build.yaml@cnp-library
+  - template: steps/acr-build.yaml@cnp-library
     parameters:
       serviceConnection: azurerm-prod
