@@ -30,16 +30,16 @@ jobs:
     displayName: 'test'
 
 - job: Release
- # Make sure we have a tag to run this job
- condition: >
-   and(
-       succeeded(),
-       startsWith(variables['Build.SourceBranch'], 'refs/tags/')
-     )
- dependsOn: Test
- pool:
-   vmImage: 'Ubuntu 16.04'
- steps:
- - template: steps/charts/acr-build.yaml@cnp-library
-   parameters:
-     serviceConnection: hmctspublic
+  # Make sure we have a tag to run this job
+  condition: >
+    and(
+        succeeded(),
+        startsWith(variables['Build.SourceBranch'], 'refs/tags/')
+      )
+  dependsOn: Test
+  pool:
+    vmImage: 'Ubuntu 16.04'
+  steps:
+  - template: steps/charts/acr-build.yaml@cnp-library
+    parameters:
+      serviceConnection: azurerm-prod
