@@ -43,5 +43,6 @@ jobs:
   #   displayName: 'Set Image Tag: Pull Request'
   #   condition: eq(variables['Build.Reason'], 'PullRequest')
   - script: |
-        az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
+      az acr login --name $(acrName)
+      az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
     displayName: 'ACR Build'
