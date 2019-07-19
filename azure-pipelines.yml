@@ -8,6 +8,14 @@ pr:
   branches:
     include:
     - master
+
+resources:
+  repositories:
+  - repository: cnp-library
+    type: github
+    ref: master
+    name: hmcts/cnp-azuredevops-libraries
+    endpoint: 'hmcts'
     
 jobs:
 - job: Test
@@ -16,24 +24,22 @@ jobs:
   steps:
   - script: |
       ls ./definition
-      CCD_DEF_BASE_URL=http://localhost
+      CCD_DEF_CLAIM_STORE_BASE_URL=http://localhost
       docker build -f definition/Dockerfile -t test-image .
       docker run --rm test-image sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx"
     displayName: 'test'
 
-#- job: Release
-#  # Make sure we have a tag to run this job
-#  condition: >
-#    and(
-#        succeeded(),
-#        startsWith(variables['Build.SourceBranch'], 'refs/tags/')
-#      )
-#  dependsOn: Validate
-#  pool:
-#    vmImage: 'Ubuntu 16.04'
-#  steps:
-#  - template: steps/charts/release.yaml@cnp-library
-#    parameters:
-#      chartName: ccd
-#      chartReleaseName: chart-ccd
-#      chartNamespace: chart-tests
+- job: Release
+ # Make sure we have a tag to run this job
+ condition: >
+   and(
+       succeeded(),
+       startsWith(variables['Build.SourceBranch'], 'refs/tags/')
+     )
+ dependsOn: Test
+ pool:
+   vmImage: 'Ubuntu 16.04'
+ steps:
+ - template: steps/charts/acr-build.yaml@cnp-library
+   parameters:
+     serviceConnection: hmctspublic
