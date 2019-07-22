@@ -20,6 +20,8 @@ jobs:
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
+  - powershell: |
+      Write-Host ("##vso[task.setvariable variable=imageTag;]$((Get-Content VERSION.yaml))")
   - script: |
       ls ./definition
       CCD_DEF_CLAIM_STORE_BASE_URL=http://localhost
