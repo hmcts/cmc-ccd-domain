@@ -5,7 +5,7 @@
 - Docker: [![Build Status](https://dev.azure.com/hmcts/CNP/_apis/build/status/hmcts.cmc-ccd-domain?branchName=master)](https://dev.azure.com/hmcts/CNP/_build/latest?definitionId=176&branchName=master)
 - Java Jar: [![Build Status](https://travis-ci.com/hmcts/cmc-ccd-domain.svg?branch=master)](https://travis-ci.com/hmcts/cmc-ccd-domain) [![Download](https://api.bintray.com/packages/hmcts/hmcts-maven/cmc-ccd-domain/images/download.svg) ](https://bintray.com/hmcts/hmcts-maven/cmc-ccd-domain/_latestVersion)
 
-Contains:
+## Contents
 
 * CMC CCD model
 * CMC CCD JSON Definition (*note:* [definition/README.md](./definition/README.md) for how to handle definitions)
