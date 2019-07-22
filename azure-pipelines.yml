@@ -44,7 +44,7 @@ jobs:
   #   condition: eq(variables['Build.Reason'], 'PullRequest')
 
   - powershell: |
-      Write-Host ("##vso[task.setvariable variable=imageTag;]$((Get-Content VERSION.yaml))")
+      Write-Host ("##vso[task.setvariable variable=imageTag;]$((Get-Content VERSION.yaml -Raw) -replace 'TAG: ','')")
   - task: AzureCLI@1
     displayName: 'Build docker image'
     inputs:
