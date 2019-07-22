@@ -42,6 +42,7 @@ jobs:
   - task: AzureCLI@1
     displayName: 'Build docker image'
     inputs:
+      failOnStandardError: true
       azureSubscription: $(serviceConnection)
       scriptLocation: 'inlineScript'
       inlineScript: |
