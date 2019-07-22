@@ -10,18 +10,19 @@
 * CMC CCD model
 * CMC CCD JSON Definition (*note:* [definition/README.md](./definition/README.md) for how to handle definitions)
 * Tooling to release/manage CCD Definition
-* When merging into master:
-    * Release the Docker CCD Definition image
-    * Release new JAR
+* ToDo:
     * Exercise cmc-claim-store and cmc-claim-submit-api functional tests (and any other consumers)
 
 ## Release
 
 Version number is defined in file [VERSION.yaml](./VERSION.yaml), both artefacts use same version number.
 
-### Domain (Java Jar)
+On any tagged commit Travis and Azure DevOps will release both artefacts. 
 
-On any tagged commit Travis will build and push to bintray: http://dl.bintray.com/hmcts/hmcts-maven/uk/gov/hmcts/reform/cmc/ccd-domain/
+- Travis will build and push to bintray: http://dl.bintray.com/hmcts/hmcts-maven/uk/gov/hmcts/reform/cmc/ccd-domain/
+- Azure DevOps will build and push to ACR: hmctspublic.azurecr.io/cmc/ccd-definition-importer
+
+Both status's are refelected on README with build badges.
 
 #### To release:
 
@@ -33,9 +34,9 @@ On any tagged commit Travis will build and push to bintray: http://dl.bintray.co
 
 Please create a release in GitHub too.
 
-### Definitions (Docker image)
+### Definitions
 
-See definition [README.md](./definition/README.md#)
+Definitions have a separate release process for promotion to PROD. See definition [README.md](./definition/README.md#)
 
 ## Development (WIP)
 
