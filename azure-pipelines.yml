@@ -28,12 +28,7 @@ jobs:
     displayName: 'test'
 
 - job: Release
-  # Make sure we have a tag to run this job
-  # condition: >
-  #   and(
-  #       succeeded(),
-  #       startsWith(variables['Build.SourceBranch'], 'refs/tags/')
-  #     )
+  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/')) # TAGS ONLY
   dependsOn: Test
   pool:
     vmImage: 'Ubuntu 16.04'
@@ -42,7 +37,6 @@ jobs:
   #     echo '##vso[task.setvariable variable=imageTag]pr-$(System.PullRequest.PullRequestNumber)'
   #   displayName: 'Set Image Tag: Pull Request'
   #   condition: eq(variables['Build.Reason'], 'PullRequest')
-
   - powershell: |
       Write-Host ("##vso[task.setvariable variable=imageTag;]$((Get-Content VERSION.yaml -Raw) -replace 'TAG: ','')")
   - task: AzureCLI@1
