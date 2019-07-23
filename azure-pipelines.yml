@@ -21,7 +21,8 @@ jobs:
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
-  - powershell: Write-Host ("##vso[task.setvariable variable=imageTag;isOutput=true;]$((Get-Content VERSION.yaml -Raw) -replace 'TAG: ','')")
+  - powershell: |
+      Write-Host ("##vso[task.setvariable variable=imageTag;isOutput=true;]$((Get-Content VERSION.yaml -Raw) -replace 'TAG: ','')")
     name: version
   - script: |
       docker pull hmctspublic.azurecr.io/cmc/ccd-definition-importer:$(version.imageTag)
