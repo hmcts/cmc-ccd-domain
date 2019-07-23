@@ -24,6 +24,8 @@ On any tagged commit Travis and Azure DevOps will release both artefacts.
 
 Both status's are refelected on README with build badges.
 
+*NOTE:* Docker images are write and delete protected to stop overwriting tags. If you do need to delete an image then you will need to disable these flags, e.g.: `az acr repository update --name hmctspublic --image cmc/ccd-definition-importer:1.2.2 --delete-enabled true  --write-enabled true` 
+
 #### To release:
 
 1. Merge PR to master
