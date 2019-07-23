@@ -5,6 +5,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "settled", "Name": "Settled", "Description": "Claim is settled", "DisplayOrder": 4, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "readyForDirections", "Name": "Ready for directions", "Description": "Ready for directions", "DisplayOrder": 5, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "stayed", "Name": "Stayed", "Description": "Case stayed", "DisplayOrder": 6, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "orderDrawn", "Name": "Order drawn", "Description": "Order drawn", "DisplayOrder": 7, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "orderDrawn", "Name": "Directions", "Description": "Order drawn", "DisplayOrder": 7, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "transferred", "Name": "Case transferred", "Description": "Case transferred to other court", "DisplayOrder": 8, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
 ]
