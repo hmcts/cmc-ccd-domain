@@ -16,36 +16,48 @@ pr:
     - master
     
 jobs:
+- job: Validate
+  displayName: 'Check and fail if a Docker image with same VERSION exists'
+  pool:
+    vmImage: 'Ubuntu 16.04'
+  steps:
+  - powershell: |
+      name: version
+      Write-Host ("##vso[task.setvariable variable=imageTag;isOutput=true;]$((Get-Content VERSION.yaml -Raw) -replace 'TAG: ','')")
+  - script: |
+      docker pull hmctspublic.azurecr.io/cmc/ccd-definition-importer:$(version.imageTag)
+      test ! -z "$(docker images -q hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:$(version.imageTag))"
+
 - job: Test
+  displayName: 'Test the JSON will build successfully into an Excel definitions file'
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
   - script: |
-      ls ./definition
       CCD_DEF_CLAIM_STORE_BASE_URL=http://localhost
       docker build -f definition/Dockerfile -t test-image .
       docker run --rm test-image sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx"
-    displayName: 'test'
 
 - job: Release
+  displayName: 'Build and Push Docker Image to ACR'
   condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/')) # TAGS ONLY
-  dependsOn: Test
+  dependsOn: 
+  - Validate
+  - Test
   pool:
     vmImage: 'Ubuntu 16.04'
+  variables:
+    imageTag: $[ dependencies.Validate.outputs['version.imageTag'] ]
   steps:
   # - script: |
   #     echo '##vso[task.setvariable variable=imageTag]pr-$(System.PullRequest.PullRequestNumber)'
   #   displayName: 'Set Image Tag: Pull Request'
   #   condition: eq(variables['Build.Reason'], 'PullRequest')
-  - powershell: |
-      Write-Host ("##vso[task.setvariable variable=imageTag;]$((Get-Content VERSION.yaml -Raw) -replace 'TAG: ','')")
   - task: AzureCLI@1
-    displayName: 'Build docker image'
     inputs:
       failOnStandardError: true
       azureSubscription: $(serviceConnection)
       scriptLocation: 'inlineScript'
       inlineScript: |
         echo "Building $(repository):$(imageTag) ..."
-        az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile . 
-        az acr repository update --name $(acrName) --image $(repository):$(imageTag) --delete-enabled false --write-enabled false
+        az acr build --no-logs -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile . 
