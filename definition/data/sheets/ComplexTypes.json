@@ -119,6 +119,7 @@
   {"ID": "CaseDocument", "ListElementCode": "size", "FieldType": "Number", "ElementLabel": "Document size", "SecurityClassification": "Public"},
   {"ID": "CaseDocument", "ListElementCode": "createdDatetime", "FieldType": "DateTime", "ElementLabel": "Uploaded on", "SecurityClassification": "Public"},
   {"ID": "CaseDocument", "ListElementCode": "createdBy", "FieldType": "Text", "ElementLabel": "Uploaded by", "SecurityClassification": "Public"},
+  {"ID": "CaseDocument", "ListElementCode": "receivedDatetime", "FieldType": "DateTime", "ElementLabel": "Received on", "SecurityClassification": "Public"},
   {"ID": "ScannedDocument", "ListElementCode": "controlNumber", "FieldType": "Text", "ElementLabel": "Document control number", "SecurityClassification": "Public"},
   {"ID": "ScannedDocument", "ListElementCode": "fileName", "FieldType": "Text", "ElementLabel": "Document name", "SecurityClassification": "Public"},
   {"ID": "ScannedDocument", "ListElementCode": "type", "FieldType": "FixedList", "FieldTypeParameter": "ScannedDocumentType", "ElementLabel": "Document type", "SecurityClassification": "Public"},
