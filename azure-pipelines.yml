@@ -1,19 +1,50 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+name: cmc-ccd-domain pipeline
+
+variables:
+  serviceConnection: 'azurerm-prod'
+  repository: cmc/ccd-definition-importer
+  acrName: hmctspublic
+  acrResourceGroup: rpe-acr-prod-rg
 
 trigger:
-- master
+  branches:
+    include:
+    - refs/tags/*
+pr:
+  branches:
+    include:
+    - master
+    
+jobs:
+- job: Test
+  displayName: 'Test the JSON will build successfully into an Excel definitions file'
+  pool:
+    vmImage: 'Ubuntu 16.04'
+  steps:
+  - script: |
+      CCD_DEF_CLAIM_STORE_BASE_URL=http://localhost
+      docker build -f definition/Dockerfile -t test-image .
+      docker run --rm test-image sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx"
 
-pool:
-  vmImage: 'ubuntu-latest'
-
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- job: Release
+  displayName: 'Build and Push Docker Image to ACR'
+  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/')) # TAGS ONLY
+  dependsOn: Test
+  pool:
+    vmImage: 'Ubuntu 16.04'
+  steps:
+  # - script: |
+  #     echo '##vso[task.setvariable variable=imageTag]pr-$(System.PullRequest.PullRequestNumber)'
+  #   displayName: 'Set Image Tag: Pull Request'
+  #   condition: eq(variables['Build.Reason'], 'PullRequest')
+  - powershell: |
+      Write-Host ("##vso[task.setvariable variable=imageTag;]$((Get-Content VERSION.yaml -Raw) -replace 'TAG: ','')")
+  - task: AzureCLI@1
+    inputs:
+      failOnStandardError: true
+      azureSubscription: $(serviceConnection)
+      scriptLocation: 'inlineScript'
+      inlineScript: |
+        echo "Building $(repository):$(imageTag) ..."
+        az acr build --no-logs -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile . 
+        az acr repository update --name $(acrName) --image $(repository):$(imageTag) --delete-enabled false --write-enabled false
