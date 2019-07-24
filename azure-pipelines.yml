@@ -29,8 +29,12 @@ jobs:
 
 - job: Release
   displayName: 'Build and Push Docker Image to ACR'
+  condition: >
+    and(
+        succeeded(),
+        startsWith(variables['Build.SourceBranch'], 'refs/tags/')
+      )
   dependsOn: Test
-  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
