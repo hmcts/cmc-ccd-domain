@@ -10,6 +10,7 @@ trigger:
   branches:
     include:
     - refs/tags/*
+
 pr:
   branches:
     include:
@@ -28,8 +29,8 @@ jobs:
 
 - job: Release
   displayName: 'Build and Push Docker Image to ACR'
-  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/')) # TAGS ONLY
   dependsOn: Test
+  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
