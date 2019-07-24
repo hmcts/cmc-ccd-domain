@@ -18,7 +18,6 @@ pr:
     
 jobs:
 - job: Test
-  displayName: 'Test the JSON will build successfully into an Excel definitions file'
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
@@ -28,7 +27,6 @@ jobs:
       docker run --rm test-image sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx"
 
 - job: Release
-  displayName: 'Build and Push Docker Image to ACR'
   condition: >
     and(
         succeeded(),
@@ -38,10 +36,6 @@ jobs:
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
-  # - script: |
-  #     echo '##vso[task.setvariable variable=imageTag]pr-$(System.PullRequest.PullRequestNumber)'
-  #   displayName: 'Set Image Tag: Pull Request'
-  #   condition: eq(variables['Build.Reason'], 'PullRequest')
   - powershell: |
       Write-Host ("##vso[task.setvariable variable=imageTag;]$((Get-Content VERSION.yaml -Raw) -replace 'TAG: ','')")
   - task: AzureCLI@1
