@@ -21,17 +21,14 @@ case ${ENV} in
     exit 1 ;;
 esac
 
-echo "Logging into ACR..."
-az acr login --name hmcts --subscription 1c4f0704-a29e-403d-b719-b90c34ef14c9
-
 echo "Pulling definition version: ${VERSION}..."
-docker pull hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:${VERSION}
+docker pull hmctspublic.azurecr.io/cmc/ccd-definition-importer:${VERSION}
 
 echo "Generating definition file..."
 docker run --rm --name json2xlsx \
   -v $(pwd)/definition/releases:/tmp \
   -e "CCD_DEF_CLAIM_STORE_BASE_URL=${CLAIM_STORE_URL}" `# templated in definitions excel` \
-  hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:${VERSION} \
+  hmctspublic.azurecr.io/cmc/ccd-definition-importer:${VERSION} \
   sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /tmp/cmc-ccd.xlsx && yarn cache clean"
 
 echo "Versioning definition file..."

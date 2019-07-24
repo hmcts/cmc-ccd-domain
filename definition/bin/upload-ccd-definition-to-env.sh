@@ -123,6 +123,6 @@ docker run \
   -e "CCD_DEF_FILENAME=cmc-ccd.xlsx" \
   -e "CCD_DEF_CLAIM_STORE_BASE_URL=${CLAIM_STORE_URL}" `# templated in definitions excel` \
   -e "USER_ROLES=citizen, caseworker-cmc, caseworker-cmc-solicitor, caseworker-cmc-systemupdate, letter-holder, caseworker-autotest1, caseworker-cmc-anonymouscitizen, caseworker-cmc-judge, caseworker-cmc-legaladvisor" \
-  hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:${VERSION}
+  hmctspublic.azurecr.io/cmc/ccd-definition-importer:${VERSION}
 
 echo Finished
