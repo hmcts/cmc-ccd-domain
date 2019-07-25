@@ -151,5 +151,8 @@
   {"ID": "ExtraOrderDirectionType", "ListElementCode": "EXPERT_REPORT_PERMISSION", "ListElement": "Permission for expert report"},
   {"ID": "ExtraOrderDirectionType", "ListElementCode": "OTHER", "ListElement": "Other direction"},
   {"ID": "LAList", "ListElementCode": "J1", "ListElement": "Judge Bloggs"},
-  {"ID": "LAList", "ListElementCode": "J2", "ListElement": "Judge Bliss"}
+  {"ID": "LAList", "ListElementCode": "J2", "ListElement": "Judge Bliss"},
+  {"ID": "PaperResponseType", "ListElementCode": "NON_VIA_SERVICE", "ListElement": "Received not via service"},
+  {"ID": "ReviewOrderPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
+  {"ID": "ReviewOrderPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"}
 ]
