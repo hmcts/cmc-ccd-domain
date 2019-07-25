@@ -15,9 +15,10 @@ pr:
   branches:
     include:
     - master
-    
+
 jobs:
 - job: Test
+  displayName: 'Test the JSON will build successfully into an Excel definitions file'
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
@@ -27,7 +28,8 @@ jobs:
       docker run --rm test-image sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx"
 
 - job: Release
-  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/'))
+  displayName: 'Build and Push Docker Image to ACR'
+  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/')) # TAGS ONLY
   dependsOn: Test
   pool:
     vmImage: 'Ubuntu 16.04'
@@ -41,6 +43,6 @@ jobs:
       scriptLocation: 'inlineScript'
       inlineScript: |
         echo "Building $(repository):$(imageTag) ..."
-        az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile . 
+        az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
         az acr repository update --name $(acrName) --image $(repository):$(imageTag) --delete-enabled false --write-enabled false
         echo "Finished"
