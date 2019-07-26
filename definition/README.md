@@ -23,7 +23,7 @@ If you need to work with local definitions:
 
 1. Build a new cmc-ccd-definition-importer, tagged with `dev`. In root directory:
 ```bash
-$ docker build -t hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:dev -f definition/Dockerfile .
+$ docker build -t hmctspublic.azurecr.io/cmc/ccd-definition-importer:dev -f definition/Dockerfile .
 ```
 
 2. Upload to local environment:
@@ -34,7 +34,16 @@ $ ./definition/bin/upload-ccd-definition-to-env.sh local dev
 Note: if you want to make this semi-permanent also update docker-compose.yaml in cmc-integration-tests project to pin to your dev version:
 ```
     ccd-importer:
-      image: hmcts.azurecr.io/hmcts/cmc-ccd-definition-importer:dev
+      image: hmctspublic.azurecr.io/cmc/ccd-definition-importer:dev
+```
+
+## Extracting a local Excel definition
+
+```
+docker run --rm --name json2xlsx \
+  -v $(pwd)/releases:/tmp \
+  hmctspublic.azurecr.io/cmc/ccd-definition-importer:dev \
+  sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /tmp/cmc-ccd.xlsx"
 ```
 
 ## Upload to an environment
