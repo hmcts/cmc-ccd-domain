@@ -28,13 +28,15 @@ Both status's are refelected on README with build badges.
 
 #### To release:
 
+You can either tag in command line or manually release through GitHub.
+
+Command-line:
+
 1. Merge PR to master
 1. Checkout master: `git checkout master`
 1. Get last commit: `git log`
 1. Tag last commit with VERSION.yaml: `git tag -a $(cat VERSION.yaml | sed 's/TAG: //') COMMIT_HASH`
 1. Push tag: `git push origin $(cat VERSION.yaml | sed 's/TAG: //')`
-
-Please create a release in GitHub too.
 
 ### Definitions
 
