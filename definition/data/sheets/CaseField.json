@@ -79,5 +79,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "eyewitnessUploadForParty", "Label": "Apply 'Upload witness statements' direction to:","FieldType": "FixedRadioList", "FieldTypeParameter": "DirectionPartyType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "otherDirections", "Label": "Add new directions","FieldType": "Collection", "FieldTypeParameter": "OtherDirection", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "extraDocUploadList", "Label": "Document upload extra statements","FieldType": "Collection", "FieldTypeParameter": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "reviewOrder", "Label": "Review Order", "FieldType": "ReviewOrder", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "reviewOrder", "Label": "Review Order", "FieldType": "ReviewOrder", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "directionOrderCreatedOn", "Label": "Direction order created on", "FieldType": "DateTime", "SecurityClassification": "Public"}
 ]
