@@ -60,7 +60,7 @@ repositories {
 
 def fileVersion = new org.yaml.snakeyaml.Yaml().load(new File("VERSION.yaml").newInputStream())
 
-group = 'uk.gov.hmcts.reform.cmc'
+group = 'uk.gov.hmcts.reform'
 version = fileVersion.TAG
 
 sourceCompatibility = 1.8
@@ -131,7 +131,7 @@ publishing {
             artifact sourcesJar
             artifact javadocJar
             groupId project.group
-            artifactId 'ccd-domain'
+            artifactId project.name
             version project.version
 
             pom.withXml {
@@ -152,7 +152,7 @@ bintray {
     publish = true
     pkg {
         repo = 'hmcts-maven'
-        name = 'ccd-domain'
+        name = project.name
         userOrg = 'hmcts'
         licenses = ['MIT']
         vcsUrl = 'https://github.com/hmcts/cmc-ccd-domain'
