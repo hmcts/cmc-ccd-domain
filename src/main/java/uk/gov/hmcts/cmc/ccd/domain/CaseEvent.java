@@ -42,7 +42,10 @@ public enum CaseEvent {
     SUPPORT_UPDATE("SupportUpdate"),
     GENERATE_ORDER("GenerateOrder"),
     ACTION_REVIEW_COMMENTS("ActionReviewComments"),
-    DRAW_ORDER("DrawOrder");
+    ASSIGNING_FOR_DIRECTIONS("AssigningForDirections"),
+    REFERRED_TO_MEDIATION("ReferredToMediation"),
+    DRAW_ORDER("DrawOrder"),
+    ORDER_REVIEW_REQUESTED("OrderReviewRequested");
 
     private String value;
 
