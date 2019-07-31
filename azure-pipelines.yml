@@ -42,6 +42,7 @@ jobs:
       azureSubscription: $(serviceConnection)
       scriptLocation: 'inlineScript'
       inlineScript: |
+        set -e
         echo "Building $(repository):$(imageTag) ..."
         az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
         az acr repository update --name $(acrName) --image $(repository):$(imageTag) --delete-enabled false --write-enabled false
