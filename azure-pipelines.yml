@@ -38,10 +38,11 @@ jobs:
       Write-Host ("##vso[task.setvariable variable=imageTag;]$((Get-Content VERSION.yaml -Raw) -replace 'TAG: ','')")
   - task: AzureCLI@1
     inputs:
-      failOnStandardError: true
+      failOnStandardError: false  # does not work with AzureCLI task
       azureSubscription: $(serviceConnection)
       scriptLocation: 'inlineScript'
       inlineScript: |
+        set -e
         echo "Building $(repository):$(imageTag) ..."
         az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
         az acr repository update --name $(acrName) --image $(repository):$(imageTag) --delete-enabled false --write-enabled false
