@@ -136,5 +136,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DrawOrder", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ApproveOrder", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OrderReviewRequested", "UserRole": "citizen", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OrderReviewRequested", "UserRole": "caseworker-cmc", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OrderReviewRequested", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "WaitingTransfer", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "WaitingTransfer", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "WaitingTransfer", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "WaitingTransfer", "UserRole": "citizen", "CRUD": "CR"}
 ]
