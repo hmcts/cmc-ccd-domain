@@ -1,2 +1,2 @@
-rootProject.name = 'ccd-domain'
+rootProject.name = 'cmc-ccd-domain'
 enableFeaturePreview('STABLE_PUBLISHING')
