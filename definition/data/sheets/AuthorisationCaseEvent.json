@@ -26,7 +26,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "TestSupportUpdate", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DirectionsQuestionnaireDeadline", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SealedClaimUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewOrderUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimIssueReceiptUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefendantResponseReceiptUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SettlementAgreementUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
