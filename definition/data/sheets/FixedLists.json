@@ -121,6 +121,7 @@
   {"ID": "DocumentType", "ListElementCode": "DEFENDANT_RESPONSE_RECEIPT", "ListElement": "Defendant Response Receipt"},
   {"ID": "DocumentType", "ListElementCode": "CCJ_REQUEST", "ListElement": "County Court Judgment Request"},
   {"ID": "DocumentType", "ListElementCode": "SETTLEMENT_AGREEMENT", "ListElement": "Settlement Agreement"},
+  {"ID": "DocumentType", "ListElementCode": "REVIEW_ORDER", "ListElement": "Review Order"},
   {"ID": "DocumentType", "ListElementCode": "DEFENDANT_PIN_LETTER", "ListElement": "Defendant Pin Letter"},
   {"ID": "DocumentType", "ListElementCode": "CLAIMANT_DIRECTIONS_QUESTIONNAIRE", "ListElement": "Claimant directions Questionnaire"},
   {"ID": "ScannedDocumentType", "ListElementCode": "cherished", "ListElement": "Cherished"},
