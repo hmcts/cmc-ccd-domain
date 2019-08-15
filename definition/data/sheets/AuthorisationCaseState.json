@@ -28,6 +28,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForTransfer", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForTransfer", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForTransfer", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForTransfer", "UserRole": "citizen", "CRUD": "CRUD"}
-  
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForTransfer", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingCitizenPayment", "UserRole": "citizen", "CRUD": "CRUD"}
 ]
