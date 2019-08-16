@@ -229,11 +229,14 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueClaim", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingClaimantNotification", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LinkDefendant", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "TestSupportUpdate", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SealedClaimUpload", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimIssueReceiptUpload", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LinkLetterHolder", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingRPA", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SupportUpdate", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PinGenerationOperations", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SealedClaimUpload", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"}
-
-
-
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingClaimantNotification", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"}
 
 ]
