@@ -165,6 +165,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "TestSupportUpdate", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingClaimantNotification", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingRPA", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetClaimSubmissionOperationIndicators", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PinGenerationOperations", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MigrationFromClaimstoreCreate", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MigrationFromClaimstoreUpdate", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
