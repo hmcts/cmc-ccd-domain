@@ -164,7 +164,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferredToMediation", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LinkLetterHolder", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LinkLetterHolder", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LinkLetterHolder", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
