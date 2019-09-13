@@ -1,14 +1,5 @@
-# TODO
+# Bulk Scan Exception Records
 
-This will be moved to json and tooling updated to handle multiple definition sources:
+Managed by Bulk Scan team in confluence - to be moved to GitHub soon (according to Aliveni Choppa)
 
- - update ccd-docker-definition-importer: array of CCD_DEF_FILENAME - then loops and loads
- - update Dockerfile to handle multiple definitions source dirs
-
- # LOADING
-
- Manually load via CCD admin web ui for now, e.g. https://ccd-admin-web-aat.service.core-compute-aat.internal/
-
- # USER PROFILE
-
- Manually managed in each environment
+https://tools.hmcts.net/confluence/display/RBS/CCD+Exception+Record+definitions
