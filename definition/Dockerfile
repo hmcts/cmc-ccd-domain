@@ -1,5 +1,5 @@
 # ---- Base image - order important ----
-FROM hmcts/ccd-definition-processor:latest as base
+FROM hmcts/ccd-definition-processor:dev as base
 
 # ----        Runtime image         ----
 FROM hmcts/ccd-definition-importer:latest as runtime
