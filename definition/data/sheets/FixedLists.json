@@ -155,5 +155,7 @@
   {"ID": "LAList", "ListElementCode": "J1", "ListElement": "Judge Bloggs"},
   {"ID": "LAList", "ListElementCode": "J2", "ListElement": "Judge Bliss"},
   {"ID": "ReviewOrderPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
-  {"ID": "ReviewOrderPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"}
+  {"ID": "ReviewOrderPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"},
+  {"ID": "ChannelType", "ListElementCode": "CITIZEN", "ListElement": "Citizen case"},
+  {"ID": "ChannelType", "ListElementCode": "LEGAL_REP", "ListElement": "Legal representative case"}
 ]
