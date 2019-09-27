@@ -110,6 +110,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ComplexCase", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ComplexCase", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ComplexCase", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewComplexCase", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewComplexCase", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewOrder", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ActionReviewComments", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CR"},
