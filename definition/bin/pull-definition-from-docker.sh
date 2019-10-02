@@ -32,6 +32,6 @@ docker run --rm --name json2xlsx \
   sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /tmp/cmc-ccd.xlsx && yarn cache clean"
 
 echo "Versioning definition file..."
-mv ./definition/releases/cmc-ccd.xlsx ./definition/releases/cmc-ccd-v${VERSION}_$(echo $ENV | tr a-z A-Z).xlsx 
+mv ./definition/releases/cmc-ccd.xlsx ./definition/releases/cmc-ccd-v${VERSION}_$(echo $ENV | tr a-z A-Z).xlsx
 
 echo "Saved: ./definition/releases/cmc-ccd-v${VERSION}_$(echo $ENV | tr a-z A-Z).xlsx"
