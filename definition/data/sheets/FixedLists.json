@@ -170,5 +170,7 @@
   {"ID": "LAList", "ListElementCode": "J8", "ListElement": "Judge Stuart Hammond"},
   {"ID": "LAList", "ListElementCode": "J9", "ListElement": "Judge Marshall Phillips"},
   {"ID": "ReviewOrderPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
-  {"ID": "ReviewOrderPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"}
+  {"ID": "ReviewOrderPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"},
+  {"ID": "ChannelType", "ListElementCode": "CITIZEN", "ListElement": "Citizen case"},
+  {"ID": "ChannelType", "ListElementCode": "LEGAL_REP", "ListElement": "Legal representative case"}
 ]
