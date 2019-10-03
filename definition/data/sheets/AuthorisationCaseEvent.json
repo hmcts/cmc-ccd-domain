@@ -144,5 +144,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "WaitingTransfer", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimantDirectionsQuestionnaireUpload", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InitiateClaimPaymentCitizen", "UserRole": "citizen", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeClaimPaymentCitizen", "UserRole": "citizen", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InitiateClaimPaymentCitizen", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeClaimPaymentCitizen", "UserRole": "citizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeClaimPaymentCitizen", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaimCitizen", "UserRole": "citizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaimCitizen", "UserRole": "caseworker-cmc", "CRUD": "CR"}
 ]
