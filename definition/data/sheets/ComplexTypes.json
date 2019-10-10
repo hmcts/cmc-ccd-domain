@@ -21,6 +21,7 @@
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "otherSupportRequired", "FieldType": "Text", "ElementLabel": "Other support requested", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "expertReports", "FieldType": "Collection", "FieldTypeParameter": "ExpertReport", "ElementLabel": "Reports submitted by experts", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "expertRequired", "FieldType": "YesOrNo", "ElementLabel": "Using an expert", "SecurityClassification": "Public"},
+  {"ID": "DirectionsQuestionnaire", "ListElementCode": "permissionForExpert", "FieldType": "YesOrNo", "ElementLabel": "Court permission for Expert", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "expertEvidenceToExamine", "FieldType": "Text", "ElementLabel": "Evidence submitted by Expert to examine", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "reasonForExpertAdvice", "FieldType": "Text", "ElementLabel": "Reason why Expert advice is needed", "SecurityClassification": "Public"},
   {"ID": "Telephone", "ListElementCode": "telephoneNumber", "FieldType": "Text", "ElementLabel": "Contact Number", "SecurityClassification": "Public"},
