@@ -43,7 +43,7 @@ dependencyManagement {
 }
 
 dependencies {
-    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.6'
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.10'
 
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations'
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.6'
