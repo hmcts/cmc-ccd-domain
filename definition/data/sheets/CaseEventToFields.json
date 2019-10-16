@@ -38,5 +38,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ActionReviewComments", "CaseFieldID": "draftOrderDoc", "PageID": 2, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 17},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ActionReviewComments", "CaseFieldID": "assignedTo", "PageID": 2, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 18},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DrawOrder", "CaseFieldID": "draftOrderDoc", "PageID": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ApproveOrder", "CaseFieldID": "draftOrderDoc", "PageID": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ApproveOrder", "CaseFieldID": "draftOrderDoc", "PageID": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "respondents", "PageID": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "CaseFieldID": "respondents", "PageID": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1}
+  
 ]
