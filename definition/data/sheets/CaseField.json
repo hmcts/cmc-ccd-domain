@@ -81,5 +81,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "extraDocUploadList", "Label": "Extra instructions for document sending","FieldType": "Collection", "FieldTypeParameter": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "reviewOrder", "Label": "Review Order", "FieldType": "ReviewOrder", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "directionOrder", "Label": "Direction order", "FieldType": "DirectionOrder", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "channel", "Label": "Channel", "FieldType": "FixedList", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "channel", "Label": "Channel", "FieldType": "FixedList", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "intentionToProceedDeadline", "Label": "Intention To Proceed Deadline", "FieldType": "Date", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"}
 ]
