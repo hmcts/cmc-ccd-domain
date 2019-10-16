@@ -172,5 +172,10 @@
   {"ID": "ReviewOrderPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
   {"ID": "ReviewOrderPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"},
   {"ID": "ChannelType", "ListElementCode": "CITIZEN", "ListElement": "Citizen case"},
-  {"ID": "ChannelType", "ListElementCode": "LEGAL_REP", "ListElement": "Legal representative case"}
+  {"ID": "ChannelType", "ListElementCode": "LEGAL_REP", "ListElement": "Legal representative case"},
+  {"ID": "MediationFailReason", "ListElementCode": "NO_APPOINTMENT", "ListElement": "Appointment not assigned"},
+  {"ID": "MediationFailReason", "ListElementCode": "NO_AGREEMENT", "ListElement": "Appointment no agreement reached"},
+  {"ID": "MediationFailReason", "ListElementCode": "WITHDRAW", "ListElement": "Party withdraws from mediation"}
+
+  
 ]
