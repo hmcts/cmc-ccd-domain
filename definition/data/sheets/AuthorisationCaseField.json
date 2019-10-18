@@ -238,5 +238,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "channel", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "channel", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "intentionToProceedDeadline", "UserRole": "citizen", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "intentionToProceedDeadline", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "intentionToProceedDeadline", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+ {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "staffUploadedDocuments", "UserRole": "citizen", "CRUD": "CRUD"},
+ {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "staffUploadedDocuments", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+ {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "staffUploadedDocuments", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
+ {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "staffUploadedDocuments", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"}
 ]
