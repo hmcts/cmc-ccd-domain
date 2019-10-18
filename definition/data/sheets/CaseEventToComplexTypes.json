@@ -8,6 +8,10 @@
     {"ID": "ScannedDocument","CaseEventID": "ReviewedPaperResponse","CaseFieldID": "scannedDocuments","ListElementCode": "subtype","EventElementLabel": "Document Subtype","EventHintText": "","FieldDisplayOrder": 3,"DisplayContext": "MANDATORY"},
     {"ID": "Respondant","CaseEventID": "SuccessfulMediation","CaseFieldID": "respondents","ListElementCode": "partyName","EventElementLabel": "Defendant name","FieldDisplayOrder": "","DisplayContext": "READONLY"},
     {"ID": "Respondant","CaseEventID": "SuccessfulMediation","CaseFieldID": "respondents","ListElementCode": "mediationSettlementReachedAt","EventElementLabel": "Mediation settlement agreed on","FieldDisplayOrder": 1,"DisplayContext": "MANDATORY"},
+    {"ID": "Respondant","CaseEventID": "SuccessfulMediation","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentName","EventElementLabel": "Document name","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
+    {"ID": "Respondant","CaseEventID": "SuccessfulMediation","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentType","EventElementLabel": "Document type","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
+    {"ID": "Respondant","CaseEventID": "SuccessfulMediation","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentLink","EventElementLabel": "Mediation agreement link","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
+    {"ID": "Respondant","CaseEventID": "SuccessfulMediation","CaseFieldID": "staffUploadedDocuments","ListElementCode": "receivedDatetime","EventElementLabel": "Agreement received on","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
     {"ID": "Respondant","CaseEventID": "FailedMediation","CaseFieldID": "respondents","ListElementCode": "partyName","EventElementLabel": "Defendant name","FieldDisplayOrder": 2,"DisplayContext": "READONLY"},
     {"ID": "Respondant","CaseEventID": "FailedMediation","CaseFieldID": "respondents","ListElementCode": "mediationFailedReason","EventElementLabel": "Mediation failed reason","FieldDisplayOrder": 3,"DisplayContext": "MANDATORY"},
 
