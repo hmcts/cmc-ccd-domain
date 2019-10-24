@@ -13,6 +13,5 @@
     {"ID": "Respondant","CaseEventID": "SuccessfulMediation","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentLink","EventElementLabel": "Mediation agreement link","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
     {"ID": "Respondant","CaseEventID": "SuccessfulMediation","CaseFieldID": "staffUploadedDocuments","ListElementCode": "receivedDatetime","EventElementLabel": "Agreement received on","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
     {"ID": "Respondant","CaseEventID": "FailedMediation","CaseFieldID": "respondents","ListElementCode": "partyName","EventElementLabel": "Defendant name","FieldDisplayOrder": 2,"DisplayContext": "READONLY"},
-    {"ID": "Respondant","CaseEventID": "FailedMediation","CaseFieldID": "respondents","ListElementCode": "mediationFailedReason","EventElementLabel": "Mediation failed reason","FieldDisplayOrder": 3,"DisplayContext": "MANDATORY"},
-
+    {"ID": "Respondant","CaseEventID": "FailedMediation","CaseFieldID": "respondents","ListElementCode": "mediationFailedReason","EventElementLabel": "Mediation failed reason","FieldDisplayOrder": 3,"DisplayContext": "MANDATORY"}
 ]
