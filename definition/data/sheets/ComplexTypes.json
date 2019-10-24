@@ -1,5 +1,6 @@
 [
   {"ID": "DirectionOrder", "ListElementCode": "createdOn", "FieldType": "DateTime", "ElementLabel": "Direction order creation date", "SecurityClassification": "Public"},
+  {"ID": "DirectionOrder", "ListElementCode": "hearingCourtName", "FieldType": "Text", "ElementLabel": "Hearing court name", "SecurityClassification": "Public"},
   {"ID": "DirectionOrder", "ListElementCode": "hearingCourtAddress", "FieldType": "AddressUK", "ElementLabel": "Hearing court address", "SecurityClassification": "Public"},
   {"ID": "ReviewOrder", "ListElementCode": "requestedAt", "FieldType": "DateTime", "ElementLabel": "Review order date", "SecurityClassification": "Public"},
   {"ID": "ReviewOrder", "ListElementCode": "requestedBy", "FieldType": "FixedList", "FieldTypeParameter": "ReviewOrderPartyType", "ElementLabel": "Review order made by", "SecurityClassification": "Public"},
