@@ -12,6 +12,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "approved", "Name": "Order approved", "Description": "Order approved", "DisplayOrder": 13, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "readyForTransfer", "Name": "Ready for transfer", "Description": "Ready for transfer", "DisplayOrder": 14, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "reconsiderationRequested", "Name": "Reconsideration requested", "Description": "Reconsideration requested", "DisplayOrder": 15, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "referredMediation", "Name": "Mediation referred", "Description": "Mediation referred", "DisplayOrder": 16, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "referredMediation", "Name": "Referred to mediation", "Description": "Mediation referred", "DisplayOrder": 16, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
 
 ]
