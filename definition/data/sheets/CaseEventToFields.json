@@ -52,7 +52,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DrawOrder", "CaseFieldID": "draftOrderDoc", "PageID": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ApproveOrder", "CaseFieldID": "draftOrderDoc", "PageID": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "respondents", "PageID": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "staffUploadedDocuments", "PageID": 2, "DisplayContext": "COMPLEX", "PageLabel":"Upload mediation agreement","PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "staffUploadedDocuments", "PageID": 2, "DisplayContext": "COMPLEX", "PageLabel":"Upload mediation agreement","PageFieldDisplayOrder": 2},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "CaseFieldID": "respondents", "PageID": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1}
   
 ]
