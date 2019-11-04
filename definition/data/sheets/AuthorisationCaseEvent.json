@@ -217,7 +217,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferredToMediation", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AssigningForDirections", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "StayClaim", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SYSTEM_MAINTENANCE", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SYSTEM_MAINTENANCE", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LiftStay", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueClaim", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CR"},
