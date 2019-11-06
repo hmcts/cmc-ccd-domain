@@ -131,7 +131,7 @@
   {"ID": "DocumentType", "ListElementCode": "CLAIMANT_DIRECTIONS_QUESTIONNAIRE", "ListElement": "Claimant directions Questionnaire"},
   {"ID": "DocumentType", "ListElementCode": "PAPER_RESPONSE_FULL_ADMIT", "ListElement": "Paper response-Full admit"},
   {"ID": "DocumentType", "ListElementCode": "PAPER_RESPONSE_PART_ADMIT", "ListElement": "Paper response-Part admit"},
-  {"ID": "DocumentType", "ListElementCode": "PAPER_RESPONSE_STATES_PAID", "Paper response-States paid"},
+  {"ID": "DocumentType", "ListElementCode": "PAPER_RESPONSE_STATES_PAID", "ListElement": "Paper response-States paid"},
   {"ID": "DocumentType", "ListElementCode": "PAPER_RESPONSE_MORE_TIME", "ListElement": "Paper response-More time request"},
   {"ID": "DocumentType", "ListElementCode": "PAPER_RESPONSE_DISPUTES_ALL", "ListElement": "Paper response-Disputes all"},
   {"ID": "ScannedDocumentType", "ListElementCode": "cherished", "ListElement": "Cherished"},
