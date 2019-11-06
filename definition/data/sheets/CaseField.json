@@ -89,6 +89,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "directionOrder", "Label": "Direction order", "FieldType": "DirectionOrder", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "channel", "Label": "Channel", "FieldType": "FixedList", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "intentionToProceedDeadline", "Label": "Intention To Proceed Deadline", "FieldType": "Date", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "staffUploadedDocuments", "Label": "Staff uploaded documents", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "staffUploadedDocuments", "Label": "Documents uploaded by court", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public"}
 
 ]
