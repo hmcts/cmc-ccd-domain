@@ -68,6 +68,13 @@ case ${ENV} in
     CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-test")
     REDIRECT_URI=$(keyVaultRead "ccd-importer-redirect-uri-test")
   ;;
+  perftest)
+    IDAM_URI=https://idam-api.perftest.platform.hmcts.net
+    IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-perf")
+    IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-perf")
+    CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-perf")
+    REDIRECT_URI=$(keyVaultRead "ccd-importer-redirect-uri-perf")
+  ;;
   aat)
     IDAM_URI=https://idam-api.aat.platform.hmcts.net
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-preprod")
