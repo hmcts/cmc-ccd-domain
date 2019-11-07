@@ -184,6 +184,8 @@
   {"ID": "Respondent", "ListElementCode": "responseSubject", "FieldType": "FixedList", "FieldTypeParameter": "ResponseSubject", "ElementLabel": "Who is this response from?", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseDefenceType", "FieldType": "FixedList", "FieldTypeParameter": "DefenceType", "ElementLabel": "Defence type", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseDefence", "FieldType": "Text", "ElementLabel": "Defence", "SecurityClassification": "Public"},
+  {"ID": "Respondent", "ListElementCode": "mediationFailedReason", "FieldType": "FixedList", "FieldTypeParameter": "MediationFailReason","ElementLabel": "Mediation Failed Reason", "SecurityClassification": "Public"},
+  {"ID": "Respondent", "ListElementCode": "mediationSettlementReachedAt", "FieldType": "DateTime", "ElementLabel": "Mediation settlement agreed on", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseFreeMediationOption", "FieldType": "YesOrNo", "ElementLabel": "Free mediation requested", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseMediationPhoneNumber", "FieldType": "Telephone", "ElementLabel": "Free mediation phone number", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseMediationContactPerson", "FieldType": "Text", "ElementLabel": "Free mediation contact person", "SecurityClassification": "Public"},

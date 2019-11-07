@@ -116,6 +116,7 @@
   {"ID": "DisabilityStatus", "ListElementCode": "SEVERE", "ListElement": "Severe"},
   {"ID": "DocumentType", "ListElementCode": "ORDER_DIRECTIONS", "ListElement": "Directions order"},
   {"ID": "DocumentType", "ListElementCode": "ORDER_SANCTION", "ListElement": "Sanction order"},
+  {"ID": "DocumentType", "ListElementCode": "MEDIATION_AGREEMENT", "ListElement": "Mediation agreement"},
   {"ID": "DocumentType", "ListElementCode": "SEALED_CLAIM", "ListElement": "Sealed Claim"},
   {"ID": "DocumentType", "ListElementCode": "CLAIM_ISSUE_RECEIPT", "ListElement": "Claim Issue Receipt"},
   {"ID": "DocumentType", "ListElementCode": "DEFENDANT_RESPONSE_RECEIPT", "ListElement": "Defendant Response Receipt"},
@@ -176,5 +177,10 @@
   {"ID": "ReviewOrderPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
   {"ID": "ReviewOrderPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"},
   {"ID": "ChannelType", "ListElementCode": "CITIZEN", "ListElement": "Citizen case"},
-  {"ID": "ChannelType", "ListElementCode": "LEGAL_REP", "ListElement": "Legal representative case"}
+  {"ID": "ChannelType", "ListElementCode": "LEGAL_REP", "ListElement": "Legal representative case"},
+  {"ID": "MediationFailReason", "ListElementCode": "NO_APPOINTMENT", "ListElement": "Appointment not assigned"},
+  {"ID": "MediationFailReason", "ListElementCode": "NO_AGREEMENT", "ListElement": "Appointment no agreement reached"},
+  {"ID": "MediationFailReason", "ListElementCode": "WITHDRAW", "ListElement": "Party withdraws from mediation"}
+
+  
 ]

@@ -11,7 +11,7 @@ Currently the release process is two phases. Automated definition generation in 
 ## Step by Step Release:
 
 1. Make definition changes in a new PR (note: bump VERSION.yaml), get approval and merge to master
-1. Tag release - manually or with GitHub release (this will trigger Travis for domain Jar and Azure DevOps Pipeline for Docker image with definitions)
+1. Tag release with GitHub release (this will trigger Travis for domain Jar and Azure DevOps Pipeline for Docker image with definitions)
 1. Wait a few mins for pipeline to run and complete, check GitHub page for build status badges.
 1. Run `./definition/bin/pull-definition-from-docker.sh aat 1.2.2` to pull a local copy of the definitions for version 1.2.2 in Excel format. Will save to current directory in: `./definition/releases/`.
 1. Run `./definition/bin/pull-definition-from-docker.sh prod 1.2.2` as above for PROD.
