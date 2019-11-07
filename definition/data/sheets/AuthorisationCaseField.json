@@ -263,10 +263,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportPermissionPartyAskedByClaimant", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportPermissionPartyGivenToClaimant", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportInstructionDefendant", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportInstructionClaimant", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "staffUploadedDocuments", "UserRole": "citizen", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "staffUploadedDocuments", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "staffUploadedDocuments", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "staffUploadedDocuments", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportInstructionClaimant", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"}
 
 ]
