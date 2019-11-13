@@ -49,6 +49,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentAmount", "Label": "Payment Amount", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentReference", "Label": "Payment Reference", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentStatus", "Label": "Payment Status", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "paymentNextUrl", "Label": "Payment Next Url", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentDateCreated", "Label": "Payment Date created", "FieldType": "Date", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "migratedFromClaimStore", "Label": "Is Migrated", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "evidenceHandled", "Label": "Scanned document reviewed", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
