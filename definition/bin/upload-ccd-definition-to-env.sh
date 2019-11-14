@@ -61,13 +61,6 @@ case ${ENV} in
     CLAIM_STORE_URL=http://host.docker.internal:4400 # docker-compose service
     MICROSERVICE=ccd_gateway
   ;;
-  saat|sprod)
-    # INTERNAL IDAM URLS NOT WORK AS EXPECTED!!!
-    IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-test")
-    IMPORTER_PASSWORD=$(keyVaultRead "ccd-importer-password-test")
-    CLIENT_SECRET=$(keyVaultRead "ccd-importer-client-secret-test")
-    REDIRECT_URI=$(keyVaultRead "ccd-importer-redirect-uri-test")
-  ;;
   perftest)
     IDAM_URI=https://idam-api.perftest.platform.hmcts.net
     IMPORTER_USERNAME=$(keyVaultRead "ccd-importer-username-perf")
