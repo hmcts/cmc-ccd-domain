@@ -2,7 +2,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "paperResponseType", "PageID": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "staffUploadedDocuments", "PageID": 1, "DisplayContext": "COMPLEX", "FieldShowCondition":"paperResponseType=\"NON_VIA_SERVICE\"","PageFieldDisplayOrder": 2},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "scannedDocuments", "PageID": 1, "DisplayContext": "COMPLEX", "FieldShowCondition":"paperResponseType=\"BULK_SCAN\"", "PageFieldDisplayOrder": 2},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "evidenceHandled", "PageID": 2, "DisplayContext": "MANDATORY", "FieldShowCondition":"paperResponseType=\"BULK_SCAN\"", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewedPaperResponse", "CaseFieldID": "evidenceHandled", "PageID": 2, "DisplayContext": "MANDATORY", "FieldShowCondition":"paperResponseType=\"BULK_SCAN\"", "PageFieldDisplayOrder": 1, "PageShowCondition":"paperResponseType=\"BULK_SCAN\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "directionList", "PageID": 1, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 1, "CallBackURLMidEvent": "${CCD_DEF_CLAIM_STORE_BASE_URL}/cases/callbacks/mid", "RetriesTimeoutURLMidEvent": "5,10,15"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "extraDocUploadList", "PageID": 1, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 2, "FieldShowCondition": "directionList CONTAINS\"DOCUMENTS\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "GenerateOrder", "CaseFieldID": "docUploadDeadline", "PageID": 1, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 3, "FieldShowCondition": "directionList CONTAINS\"DOCUMENTS\""},
@@ -52,7 +52,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DrawOrder", "CaseFieldID": "draftOrderDoc", "PageID": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ApproveOrder", "CaseFieldID": "draftOrderDoc", "PageID": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "respondents", "PageID": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "staffUploadedDocuments", "PageID": 2, "DisplayContext": "COMPLEX", "PageLabel":"Upload mediation agreement","PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "staffUploadedDocuments", "PageID": 2, "DisplayContext": "COMPLEX", "PageLabel":"Upload mediation agreement","PageFieldDisplayOrder": 1,"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "CaseFieldID": "respondents", "PageID": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1}
   
 ]
