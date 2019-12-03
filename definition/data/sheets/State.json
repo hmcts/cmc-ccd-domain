@@ -4,7 +4,8 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "closed", "Name": "Closed", "Description": "Case is closed", "DisplayOrder": 3, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "settled", "Name": "Settled", "Description": "Claim is settled", "DisplayOrder": 4, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "readyForDirections", "Name": "Ready for directions", "Description": "Ready for directions", "DisplayOrder": 5, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "stayed", "Name": "Case stayed", "Description": "Case stayed", "DisplayOrder": 6, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "readyForJudgeDirections", "Name": "Ready for judge's directions", "Description": "Ready for directions by judge", "DisplayOrder": 6, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "stayed", "Name": "Case stayed", "Description": "Case stayed", "DisplayOrder": 7, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "orderForJudgeReview", "Name": "Ready for judge's review", "Description": "Ready for judge review", "DisplayOrder": 8, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "orderForLAReview", "Name": "Ready for legal advisor's review", "Description": "Ready for legal advisor review", "DisplayOrder": 9, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "orderDrawn", "Name": "Directions drawn", "Description": "Order drawn", "DisplayOrder": 10, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
@@ -14,7 +15,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "reconsiderationRequested", "Name": "Reconsideration requested", "Description": "Reconsideration requested", "DisplayOrder": 15, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "referredMediation", "Name": "Referred to mediation", "Description": "Mediation referred", "DisplayOrder": 16, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "proceedsInCaseman", "Name": "Proceeds in Caseman", "Description": "Rest of the journey will be proceeded in caseman", "DisplayOrder": 17, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "awaitingCitizenPayment", "Name": "Payment pending", "Description": "Payment pending", "DisplayOrder": 18, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "readyForDirectionsJudge", "Name": "Ready for Judge Directions", "Description": "Ready for Judge Directions", "DisplayOrder": 19, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "awaitingCitizenPayment", "Name": "Payment pending", "Description": "Payment pending", "DisplayOrder": 18, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
 
 ]
