@@ -4,7 +4,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "closed", "Name": "Closed", "Description": "Case is closed", "DisplayOrder": 3, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "settled", "Name": "Settled", "Description": "Claim is settled", "DisplayOrder": 4, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "readyForDirections", "Name": "Ready for directions", "Description": "Ready for directions", "DisplayOrder": 5, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "readyForJudgeDirections", "Name": "Ready for judge's directions", "Description": "Ready for directions by judge", "DisplayOrder": 6, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "readyForJudgeDirections", "Name": "Ready for Directions - Judge", "Description": "Ready for Directions - Judge", "DisplayOrder": 6, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "stayed", "Name": "Case stayed", "Description": "Case stayed", "DisplayOrder": 7, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "orderForJudgeReview", "Name": "Ready for judge's review", "Description": "Ready for judge review", "DisplayOrder": 8, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "orderForLAReview", "Name": "Ready for legal advisor's review", "Description": "Ready for legal advisor review", "DisplayOrder": 9, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
