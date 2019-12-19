@@ -245,7 +245,7 @@
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "sealedClaimUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of sealed claim successful", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "claimIssueReceiptUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of claim issue receipt successful", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "defendantPinLetterUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of defendant pin letter successful", "SecurityClassification": "Public"},
-  {"ID": "CaseNote", "ListElementCode": "CreatedAt", "FieldType": "Date", "ElementLabel": "Case Notes", "SecurityClassification": "Public"},
-  {"ID": "CaseNote", "ListElementCode": "EventName", "FieldType": "Text", "ElementLabel": "Case Notes", "SecurityClassification": "Public"},
-  {"ID": "CaseNote", "ListElementCode": "Comments", "FieldType": "Text", "ElementLabel": "Case Notes", "SecurityClassification": "Public"}
+  {"ID": "CaseNote", "ListElementCode": "createdAt", "FieldType": "Date", "ElementLabel": "Created At", "SecurityClassification": "Public"},
+  {"ID": "CaseNote", "ListElementCode": "eventName", "FieldType": "Text", "ElementLabel": "Event Name", "SecurityClassification": "Public"},
+  {"ID": "CaseNote", "ListElementCode": "comments", "FieldType": "Text", "ElementLabel": "Comments", "SecurityClassification": "Public"}
 ]
