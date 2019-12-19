@@ -266,5 +266,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportPermissionPartyAskedByClaimant", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportPermissionPartyGivenToClaimant", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportInstructionDefendant", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportInstructionClaimant", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportInstructionClaimant", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseNotes", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]

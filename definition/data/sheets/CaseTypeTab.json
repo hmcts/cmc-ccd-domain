@@ -40,6 +40,6 @@
   {"CaseTypeID": "MoneyClaimCase", "TabID": "DefendantDetails", "TabLabel": "Defendant Details", "TabDisplayOrder": 4, "CaseFieldID": "respondents", "TabFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "caseDocuments", "TabFieldDisplayOrder": 1, "DisplayContextParameter": "#TABLE(documentType, documentLink)"},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "scannedDocuments", "TabFieldDisplayOrder": 2, "DisplayContextParameter": "#TABLE(subtype, url, deliveryDate)"},
- {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "staffUploadedDocuments", "TabFieldDisplayOrder": 3, "DisplayContextParameter": "#TABLE(documentType, documentLink)"}
-
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "staffUploadedDocuments", "TabFieldDisplayOrder": 3, "DisplayContextParameter": "#TABLE(documentType, documentLink)"},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseNotes", "TabLabel": "Claim notes", "TabDisplayOrder": 6, "CaseFieldID": "caseNotes", "TabFieldDisplayOrder": 1}
 ]
