@@ -247,5 +247,5 @@
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "defendantPinLetterUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of defendant pin letter successful", "SecurityClassification": "Public"},
   {"ID": "CaseNote", "ListElementCode": "createdAt", "FieldType": "Date", "ElementLabel": "Created At", "SecurityClassification": "Public"},
   {"ID": "CaseNote", "ListElementCode": "eventName", "FieldType": "Text", "ElementLabel": "Event Name", "SecurityClassification": "Public"},
-  {"ID": "CaseNote", "ListElementCode": "comments", "FieldType": "Text", "ElementLabel": "Comments", "SecurityClassification": "Public"}
+  {"ID": "CaseNote", "ListElementCode": "eventSummary", "FieldType": "Text", "ElementLabel": "Event Summary", "SecurityClassification": "Public"}
 ]
