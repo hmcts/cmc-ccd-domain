@@ -1,6 +1,8 @@
 [
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "previousServiceCaseReference", "Label": "Claim number", "DisplayOrder": 1}, 
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterEmail", "Label": "Claimant Email", "DisplayOrder": 2}, 
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "previousServiceCaseReference", "Label": "Claim number", "DisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterEmail", "Label": "Claimant Email", "DisplayOrder": 2},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "issuedOn", "Label": "Issued date(dd-mm-yyyy)", "DisplayOrder": 3},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "evidenceHandled", "Label": "Scanned docs reviewed", "DisplayOrder": 4}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "evidenceHandled", "Label": "Scanned docs reviewed", "DisplayOrder": 4},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "solicitorRef", "Label": "Your reference", "DisplayOrder": 1},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "defendantRef", "Label": "Defendant's reference", "DisplayOrder": 2}
 ]

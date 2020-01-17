@@ -180,7 +180,20 @@
   {"ID": "ChannelType", "ListElementCode": "LEGAL_REP", "ListElement": "Legal representative case"},
   {"ID": "MediationFailReason", "ListElementCode": "NO_APPOINTMENT", "ListElement": "Appointment not assigned"},
   {"ID": "MediationFailReason", "ListElementCode": "NO_AGREEMENT", "ListElement": "Appointment no agreement reached"},
-  {"ID": "MediationFailReason", "ListElementCode": "WITHDRAW", "ListElement": "Party withdraws from mediation"}
-
-
+  {"ID": "MediationFailReason", "ListElementCode": "WITHDRAW", "ListElement": "Party withdraws from mediation"},
+  {"ID": "ServiceOptions", "ListElementCode": "DEFENDANT_ADDRESS", "ListElement": "Use the defendant's address", "DisplayOrder": 1},
+  {"ID": "ServiceOptions", "ListElementCode": "OTHER_ADDRESS", "ListElement": "Use another address", "DisplayOrder": 2},
+  {"ID": "UnderOver1k", "ListElementCode": "UNDER_1K", "ListElement": "£1,000 or less", "DisplayOrder": 1},
+  {"ID": "UnderOver1k", "ListElementCode": "OVER_1K", "ListElement": "More than £1,000", "DisplayOrder": 2},
+  {"ID": "UnderOverNA", "ListElementCode": "NA", "ListElement": "I'm not claiming for other damages", "DisplayOrder": 1},
+  {"ID": "UnderOverNA", "ListElementCode": "UNDER_1K", "ListElement": "£1,000 or less", "DisplayOrder": 2},
+  {"ID": "UnderOverNA", "ListElementCode": "OVER_1K", "ListElement": "More than £1,000", "DisplayOrder": 3},
+  {"ID": "UnknownValue", "ListElementCode": "TRUE", "ListElement": "I don't want to state the value of the claim", "DisplayOrder": 1},
+  {"ID": "DocumentsServed", "ListElementCode": "CLAIM_FORM", "ListElement": "Claim form", "DisplayOrder": 1},
+  {"ID": "DocumentsServed", "ListElementCode": "POC", "ListElement": "Particulars of claim", "DisplayOrder": 2},
+  {"ID": "DocumentsServed", "ListElementCode": "RESPONSE_PACK", "ListElement": "Response pack", "DisplayOrder": 3},
+  {"ID": "DocumentsServed", "ListElementCode": "MED_REPORTS", "ListElement": "Medical reports", "DisplayOrder": 4},
+  {"ID": "DocumentsServed", "ListElementCode": "SCHEDULE_LOSS", "ListElement": "Schedule of loss", "DisplayOrder": 5},
+  {"ID": "DocumentsServed", "ListElementCode": "CERT_SUITABILITY", "ListElement": "Certificate of suitability", "DisplayOrder": 6},
+  {"ID": "DocumentsServed", "ListElementCode": "OTHER_DOCS", "ListElement": "Other documents", "DisplayOrder": 7}
 ]

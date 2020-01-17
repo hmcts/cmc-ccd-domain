@@ -14,6 +14,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "reconsiderationRequested", "Name": "Reconsideration requested", "Description": "Reconsideration requested", "DisplayOrder": 15, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "referredMediation", "Name": "Referred to mediation", "Description": "Mediation referred", "DisplayOrder": 16, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "proceedsInCaseman", "Name": "Proceeds in Caseman", "Description": "Rest of the journey will be proceeded in caseman", "DisplayOrder": 17, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "awaitingCitizenPayment", "Name": "Payment pending", "Description": "Payment pending", "DisplayOrder": 18, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
-
+  {"CaseTypeID": "MoneyClaimCase", "ID": "awaitingCitizenPayment", "Name": "Payment pending", "Description": "Payment pending", "DisplayOrder": 18, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "LegalRepCase", "ID": "create", "Name": "Create", "Description": "Case is created", "DisplayOrder": 1},
+  {"CaseTypeID": "LegalRepCase", "ID": "confirm", "Name": "Service confirmed", "Description": "Case has been confirmed", "DisplayOrder": 1}
 ]

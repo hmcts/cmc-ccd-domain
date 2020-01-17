@@ -4,5 +4,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "issuedOn", "Label": "Issued date(dd-mm-yyyy)", "DisplayOrder": 3},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "evidenceHandled", "Label": "Scanned documents reviewed", "DisplayOrder": 5},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "[CASE_REFERENCE]", "Label": "CCD reference", "DisplayOrder": 6},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "assignedTo", "Label": "Assigned To", "DisplayOrder": 7}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "assignedTo", "Label": "Assigned To", "DisplayOrder": 7},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "solicitorRef", "Label": "Your reference", "DisplayOrder": 1},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "defendantRef", "Label": "Defendant's reference", "DisplayOrder": 2},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "[CASE_REFERENCE]", "Label": "CCD reference", "DisplayOrder": 4}
 ]

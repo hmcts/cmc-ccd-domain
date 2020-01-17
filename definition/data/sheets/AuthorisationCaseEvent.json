@@ -245,5 +245,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeClaimPaymentCitizen", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeClaimPaymentCitizen", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "citizen", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "LegalRepCase", "CaseEventID": "createClaim", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "LegalRepCase", "CaseEventID": "confirmService", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]

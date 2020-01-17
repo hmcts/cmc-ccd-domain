@@ -44,5 +44,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "proceedsInCaseman", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "proceedsInCaseman", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "proceedsInCaseman", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingCitizenPayment", "UserRole": "citizen", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingCitizenPayment", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "LegalRepCase", "CaseStateID": "create", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "LegalRepCase", "CaseStateID": "confirm", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]

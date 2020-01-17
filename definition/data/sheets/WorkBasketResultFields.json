@@ -4,5 +4,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseName", "Label": "Claimant Vs Defendant", "ListElementCode": "", "DisplayOrder": 3},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "[CASE_REFERENCE]", "Label": "Case ID", "ListElementCode": "", "DisplayOrder": 4},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "assignedTo", "Label": "Assigned to", "ListElementCode": "", "DisplayOrder": 5},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "directionOrder", "Label": "Direction order created on", "ListElementCode": "createdOn", "DisplayOrder": 6}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "directionOrder", "Label": "Direction order created on", "ListElementCode": "createdOn", "DisplayOrder": 6},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "[CASE_REFERENCE]", "Label": "Case ID", "DisplayOrder": 1},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "[STATE]", "Label": "Current state", "DisplayOrder": 2},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "[LAST_MODIFIED_DATE]", "Label": "Last updated on", "DisplayOrder": 3}
 ]
