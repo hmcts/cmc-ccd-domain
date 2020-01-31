@@ -180,7 +180,10 @@
   {"ID": "ChannelType", "ListElementCode": "LEGAL_REP", "ListElement": "Legal representative case"},
   {"ID": "MediationFailReason", "ListElementCode": "NO_APPOINTMENT", "ListElement": "Appointment not assigned"},
   {"ID": "MediationFailReason", "ListElementCode": "NO_AGREEMENT", "ListElement": "Appointment no agreement reached"},
-  {"ID": "MediationFailReason", "ListElementCode": "WITHDRAW", "ListElement": "Party withdraws from mediation"}
-
-
+  {"ID": "MediationFailReason", "ListElementCode": "WITHDRAW", "ListElement": "Party withdraws from mediation"},
+  {"ID": "RpaType", "ListElementCode": "CLAIM", "ListElement": "Claim"},
+  {"ID": "RpaType", "ListElementCode": "MORE_TIME", "ListElement": "More Time"},
+  {"ID": "RpaType", "ListElementCode": "CCJ", "ListElement": "CCJ"},
+  {"ID": "RpaType", "ListElementCode": "DEFENDANT_RESPONSE", "ListElement": "Defendant Response"},
+  {"ID": "RpaType", "ListElementCode": "PAID_IN_FULL", "ListElement": "Paid in Full"}
 ]
