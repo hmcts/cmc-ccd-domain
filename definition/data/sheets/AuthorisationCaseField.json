@@ -271,5 +271,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateReferredForDirections", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateReferredForDirections", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateReferredForDirections", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "RpaEventType", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "RPAEventType", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]

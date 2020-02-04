@@ -75,5 +75,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "respondents", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "staffUploadedDocuments", "PageID": 2, "PageDisplayOrder": 2,"DisplayContext": "COMPLEX", "PageLabel":"Upload mediation agreement","PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "CaseFieldID": "respondents", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetRpa", "CaseFieldID": "RpaEventType", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetRpa", "CaseFieldID": "RPAEventType", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
 ]
