@@ -93,5 +93,5 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "channel", "Label": "Channel", "FieldType": "FixedList", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "intentionToProceedDeadline", "Label": "Intention To Proceed Deadline", "FieldType": "Date", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "state", "Label": "state", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "RPAEventType", "Label": "Resend RPA", "FieldType": "FixedList", "FieldTypeParameter": "RPAType", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "RPAEventType", "Label": "Resend RPA", "FieldType": "FixedList", "FieldTypeParameter": "RpaType", "SecurityClassification": "Public"}
 ]
