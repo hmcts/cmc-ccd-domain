@@ -225,6 +225,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "preferredCourtObjectingParty", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "preferredCourtObjectingReason", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hearingCourtAddress", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hearingCourtName", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "newRequestedCourt", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "draftOrderDoc", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "finalOrderDoc", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
