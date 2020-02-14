@@ -31,5 +31,10 @@
     {"ID": "OtherDirection","CaseEventID": "DrawJudgesOrder","ListElementCode": "otherDirectionHeaders","CaseFieldID": "otherDirections","EventElementLabel": "Direction header","EventHintText": "e.g. Upload contracts /Confirm documents are original","FieldDisplayOrder": 2,"DisplayContext": "MANDATORY"},
     {"ID": "OtherDirection","CaseEventID": "DrawJudgesOrder","ListElementCode": "directionComment","CaseFieldID": "otherDirections","EventElementLabel": "Direction comment","EventHintText": "","FieldDisplayOrder": 3,"DisplayContext": "MANDATORY"},
     {"ID": "OtherDirection","CaseEventID": "DrawJudgesOrder","ListElementCode": "sendBy","CaseFieldID": "otherDirections","EventElementLabel": "Response deadline","EventHintText": "","FieldDisplayOrder": "","DisplayContext": "OPTIONAL"},
-    {"ID": "OtherDirection","CaseEventID": "DrawJudgesOrder","ListElementCode": "forParty","CaseFieldID": "otherDirections","EventElementLabel": "Direction is for","EventHintText": "","FieldDisplayOrder": "","DisplayContext": "MANDATORY"}
+    {"ID": "OtherDirection","CaseEventID": "DrawJudgesOrder","ListElementCode": "forParty","CaseFieldID": "otherDirections","EventElementLabel": "Direction is for","EventHintText": "","FieldDisplayOrder": "","DisplayContext": "MANDATORY"},
+    {"ID": "Respondant","CaseEventID": "ReferToJudge","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentName","EventElementLabel": "Document name","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
+    {"ID": "Respondant","CaseEventID": "ReferToJudge","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentType","EventElementLabel": "Document type","FieldDisplayOrder": 2,"DisplayContext": "MANDATORY"},
+    {"ID": "Respondant","CaseEventID": "ReferToJudge","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentLink","EventElementLabel": "Document link","FieldDisplayOrder": 3,"DisplayContext": "MANDATORY"},
+    {"ID": "Respondant","CaseEventID": "ReferToJudge","CaseFieldID": "staffUploadedDocuments","ListElementCode": "receivedDatetime","EventElementLabel": "Agreement received on","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"}
+
 ]
