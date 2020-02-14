@@ -165,6 +165,7 @@
   {"ID": "Party", "ListElementCode": "businessName", "FieldType": "Text", "ElementLabel": "Business Name", "SecurityClassification": "Public"},
   {"ID": "Party", "ListElementCode": "contactPerson", "FieldType": "Text", "ElementLabel": "Contact person", "SecurityClassification": "Public"},
   {"ID": "Party", "ListElementCode": "companiesHouseNumber", "FieldType": "Text", "ElementLabel": "Companies house number", "SecurityClassification": "Public"},
+  {"ID": "Party", "ListElementCode": "tradingAs", "FieldType": "Text", "ElementLabel": "Trading as", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "partyName", "FieldType": "Text", "ElementLabel": "Defendant Name", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "directionsQuestionnaireDeadline", "FieldType": "Date", "ElementLabel": "Directions Questionnaire deadline", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "defendantResponseLabel", "FieldType": "Label", "ElementLabel": "Defendant response", "SecurityClassification": "Public"},
