@@ -166,5 +166,10 @@
   {"CaseTypeID": "LegalRepCase", "ID": "uploadMedicalReports", "Label": "Medical reports", "FieldType": "Document", "SecurityClassification": "Public"},
   {"CaseTypeID": "LegalRepCase", "ID": "uploadScheduleOfLoss", "Label": "Schedule of loss", "FieldType": "Document", "SecurityClassification": "Public"},
   {"CaseTypeID": "LegalRepCase", "ID": "uploadCertOfSuit", "Label": "Certificate of suitability", "FieldType": "Document", "SecurityClassification": "Public"},
-  {"CaseTypeID": "LegalRepCase", "ID": "uploadOther", "Label": "Other documents", "FieldType": "Document", "SecurityClassification": "Public"}
+  {"CaseTypeID": "LegalRepCase", "ID": "uploadOther", "Label": "Other documents", "FieldType": "Document", "SecurityClassification": "Public"},
+  {"CaseTypeID": "LegalRepCase", "ID": "caseName", "Label": "Case name", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "LegalRepCase", "ID": "externalId", "Label": "External ID", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "LegalRepCase", "ID": "feeAmountInPennies", "Label": "Fee amount", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
+  {"CaseTypeID": "LegalRepCase", "ID": "previousServiceCaseReference", "Label": "Claim number", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "LegalRepCase", "ID": "reason", "Label": "Reason", "FieldType": "Text", "SecurityClassification": "Public"}
 ]

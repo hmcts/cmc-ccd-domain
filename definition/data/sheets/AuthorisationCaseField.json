@@ -319,5 +319,10 @@
   {"CaseTypeID": "LegalRepCase", "CaseFieldID": "uploadMedicalReports", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "LegalRepCase", "CaseFieldID": "uploadScheduleOfLoss", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "LegalRepCase", "CaseFieldID": "uploadCertOfSuit", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "uploadOther", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "uploadOther", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "caseName", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "externalId", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "feeAmountInPennies", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "previousServiceCaseReference", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "LegalRepCase", "CaseFieldID": "reason", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]
