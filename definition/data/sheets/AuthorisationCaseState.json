@@ -50,7 +50,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForJudgeDirections", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "citizen", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc-judge", "R": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc-legaladvisor", "R": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc-solicitor", "CRU": "CRUD"}
 ]
