@@ -261,8 +261,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ProvideDirections", "UserRole": "caseworker-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ProvideDirections", "UserRole": "caseworker-solicitor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ProvideDirections", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "caseworker-cmc", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "caseworker-cmc-judge", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "caseworker-cmc-legaladvisor", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "caseworker-cmc-solicitor", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc-judge", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc-legaladvisor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc-solicitor", "CRUD": "R"}
 ]
