@@ -255,5 +255,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetPin", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueGeneralLetter", "UserRole": "caseworker-cmc", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResendRpa", "UserRole": "caseworker-cmc", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResendRpa", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetPin", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CR"}
 ]
