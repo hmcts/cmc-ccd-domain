@@ -50,5 +50,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForJudgeDirections", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForPaperDQ", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForPaperDQ", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForPaperDQ", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForPaperDQ", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForPaperDQ", "UserRole": "citizen", "CRUD": "CRUD"}
 ]
