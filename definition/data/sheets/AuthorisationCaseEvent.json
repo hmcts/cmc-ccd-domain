@@ -254,5 +254,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetPin", "UserRole": "caseworker-cmc", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueGeneralLetter", "UserRole": "caseworker-cmc", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueGeneralLetter", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ChangeContactDetails", "UserRole": "caseworker-cmc", "CRUD": "CR"}
 ]

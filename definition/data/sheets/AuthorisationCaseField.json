@@ -37,8 +37,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "submitterEmail", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "id", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "features", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "respondents", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "applicants", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "respondents", "UserRole": "caseworker-cmc", "CRUD": "RU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "applicants", "UserRole": "caseworker-cmc", "CRUD": "RU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "subjectName", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "subjectType", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentId", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
@@ -270,5 +270,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateReferredForDirections", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "changeContactParty", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "letterContent", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "draftLetterDoc", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "draftLetterDoc", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "changeDetailsLabel", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "changeContactPartyForDetailsChange", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]
