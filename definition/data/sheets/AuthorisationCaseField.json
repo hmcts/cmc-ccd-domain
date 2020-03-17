@@ -274,5 +274,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "letterContentPrefixDefendant", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "letterContent", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "caseworkerName", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "letterContentSuffix", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "draftLetterDoc", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]

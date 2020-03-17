@@ -97,5 +97,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "letterContentPrefixDefendant", "Label": "Dear ${respondents.partyName},", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "letterContent", "Label": "Content for letter", "FieldType": "TextArea", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "caseworkerName", "Label": "Case worker name", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "letterContentSuffix", "Label": "Yours sincerely,\n\nHM Courts & Tribunals Service", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "draftLetterDoc", "Label": "Draft of letter to be sent", "FieldType": "Document", "SecurityClassification": "Public"}
 ]
