@@ -91,10 +91,13 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "channel", "Label": "Channel", "FieldType": "FixedList", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "intentionToProceedDeadline", "Label": "Intention To Proceed Deadline", "FieldType": "Date", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "state", "Label": "state", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "changeContactParty", "Label": "Claimant or Defendant?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactDetailsParty", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "IssueLetterContact", "Label": "Who is the letter to?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactDetailsParty", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "letterContentHeader", "Label": "## Enter the text of the letter", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "letterContentPrefixClaimant", "Label": "Dear ${applicants.partyName},", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "letterContentPrefixDefendant", "Label": "Dear ${respondents.partyName},", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "letterContent", "Label": "Content for letter", "FieldType": "TextArea", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "caseworkerName", "Label": "Case worker name", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "draftLetterDoc", "Label": "Draft of letter to be sent", "FieldType": "Document", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "changeContactPartyForDetailsChange", "Label": "Whose contact details are you changing?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactOrderParty", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "changeContactPreview", "Label": "## Check the text that informs the other party of the change This will be sent to them as a letter or email.", "FieldType": "Label", "SecurityClassification": "Public"}
-
+  {"CaseTypeID": "MoneyClaimCase", "ID": "changeContactParty", "Label": "Whose contact details are you changing?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactDetailsParty", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "changeDetailsLabel", "Label": "## Check the text that informs the other party of the change\n\nThis will be sent to them as a letter or email.\n", "FieldType": "Label", "SecurityClassification": "Public"}
 ]
