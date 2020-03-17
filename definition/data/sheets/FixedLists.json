@@ -130,6 +130,7 @@
   {"ID": "DocumentType", "ListElementCode": "PAPER_RESPONSE_STATES_PAID", "ListElement": "Paper response-States paid"},
   {"ID": "DocumentType", "ListElementCode": "PAPER_RESPONSE_MORE_TIME", "ListElement": "Paper response-More time request"},
   {"ID": "DocumentType", "ListElementCode": "PAPER_RESPONSE_DISPUTES_ALL", "ListElement": "Paper response-Disputes all"},
+  {"ID": "DocumentType", "ListElementCode": "GENERAL_LETTER", "ListElement": "General letter"},
   {"ID": "ScannedDocumentType", "ListElementCode": "cherished", "ListElement": "Cherished"},
   {"ID": "ScannedDocumentType", "ListElementCode": "other", "ListElement": "Other"},
   {"ID": "ScannedDocumentType", "ListElementCode": "form", "ListElement": "Form"},
