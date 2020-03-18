@@ -99,5 +99,5 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "caseworkerName", "Label": "Case worker name", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "draftLetterDoc", "Label": "Draft of letter to be sent", "FieldType": "Document", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "changeContactParty", "Label": "Whose contact details are you changing?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactDetailsParty", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "changeDetailsLabel", "Label": "## Check the text that informs the other party of the change\n\nThis will be sent to them as a letter or email.\n", "FieldType": "Label", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "contactChanges", "Label": "Check the text that informs the other party of the change\n\n\n This will be sent to them as a letter or email.\n", "FieldType": "Text", "SecurityClassification": "Public"}
 ]
