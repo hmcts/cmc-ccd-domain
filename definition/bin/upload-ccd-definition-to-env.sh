@@ -50,6 +50,7 @@ MICROSERVICE=ccd_gw
 
 case ${ENV} in
   local)
+    # Use claim-store-api running on the host
     PROXY=""
     IDAM_URI=http://host.docker.internal:5000
     IMPORTER_USERNAME=ccd-importer@server.net
@@ -59,6 +60,19 @@ case ${ENV} in
     CCD_STORE_BASE_URL=http://host.docker.internal:4451
     AUTH_PROVIDER_BASE_URL=http://host.docker.internal:4552
     CLAIM_STORE_URL=http://host.docker.internal:4400 # docker-compose service
+    MICROSERVICE=ccd_gateway
+  ;;
+  local-docker)
+    # Use claim-store-api running in a local docker container
+    PROXY=""
+    IDAM_URI=http://host.docker.internal:5000
+    IMPORTER_USERNAME=ccd-importer@server.net
+    IMPORTER_PASSWORD=Password12
+    CLIENT_SECRET=12345678
+    REDIRECT_URI=http://localhost:3451/oauth2redirect
+    CCD_STORE_BASE_URL=http://host.docker.internal:4451
+    AUTH_PROVIDER_BASE_URL=http://host.docker.internal:4552
+    CLAIM_STORE_URL=http://claim-store-api:4400 # docker-compose service
     MICROSERVICE=ccd_gateway
   ;;
   perftest)
