@@ -91,13 +91,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "channel", "Label": "Channel", "FieldType": "FixedList", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "intentionToProceedDeadline", "Label": "Intention To Proceed Deadline", "FieldType": "Date", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "state", "Label": "state", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "issueLetterContact", "Label": "Who is the letter to?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactDetailsParty", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "letterContentHeader", "Label": "## Enter the text of the letter", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "letterContentPrefixClaimant", "Label": "Dear ${applicants.partyName},", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "letterContentPrefixDefendant", "Label": "Dear ${respondents.claimantProvidedPartyName},", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "letterContent", "Label": "Content for letter", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "letterContentPrefix", "Label": "Yours sincerely,", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "caseworkerName", "Label": " ", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "letterContentSuffix", "Label": "HM Courts & Tribunals Service", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "generalLetterContent", "Label": "Who is the letter to?", "FieldType": "GeneralLetterContent", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "draftLetterDoc", "Label": "Draft of letter to be sent", "FieldType": "Document", "SecurityClassification": "Public"}
 ]
