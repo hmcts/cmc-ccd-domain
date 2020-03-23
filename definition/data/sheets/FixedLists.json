@@ -184,7 +184,5 @@
   {"ID": "MediationFailReason", "ListElementCode": "NO_AGREEMENT", "ListElement": "Appointment no agreement reached"},
   {"ID": "MediationFailReason", "ListElementCode": "WITHDRAW", "ListElement": "Party withdraws from mediation"},
   {"ID": "ChangeContactDetailsParty", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
-  {"ID": "ChangeContactDetailsParty", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"},
-  {"ID": "ChangeContactOrderParty", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
-  {"ID": "ChangeContactOrderParty", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"}
+  {"ID": "ChangeContactDetailsParty", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"}
 ]
