@@ -265,7 +265,7 @@
   {"ID": "ContactChangeContent", "ListElementCode": "claimantPhoneRemoved", "ElementLabel": "is Phone removed?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"ID": "ContactChangeContent", "ListElementCode": "claimantEmailRemoved", "ElementLabel": "is email removed", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"ID": "ContactChangeContent", "ListElementCode": "claimantContactAddressRemoved", "ElementLabel": "is contact address removed?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"ID": "ContactChangeContent", "ListElementCode": "claimantPhoneRemovedPrefix", "ElementLabel": "This will be sent to them as a letter or email.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"ID": "ContactChangeContent", "ListElementCode": "claimantEmailRemovedPrefix", "ElementLabel": "This will be sent to them as a letter or email.", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"ID": "ContactChangeContent", "ListElementCode": "claimantContactAddressRemovedPrefix", "ElementLabel": "This will be sent to them as a letter or email.", "FieldType": "Label", "SecurityClassification": "Public"}
+  {"ID": "ContactChangeContent", "ListElementCode": "claimantPhoneRemovedPrefix", "ElementLabel": "They’ve removed their phone number.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "claimantPhoneRemoved=\"Yes\""},
+  {"ID": "ContactChangeContent", "ListElementCode": "claimantEmailRemovedPrefix", "ElementLabel": "They’ve removed their email address.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "claimantEmailRemoved=\"Yes\""},
+  {"ID": "ContactChangeContent", "ListElementCode": "claimantContactAddressRemovedPrefix", "ElementLabel": "They’ve removed the address they want to use for post about the claim.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "claimantContactAddressRemoved=\"Yes\""}
 ]
