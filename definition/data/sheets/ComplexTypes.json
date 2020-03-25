@@ -264,6 +264,7 @@
   {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddress", "ElementLabel": "The address they want to use for post about the claim is now:", "FieldType": "AddressUK", "SecurityClassification": "Public", "FieldShowCondition": "isCorrespondenceAddressModified=\"Yes\""},
   {"ID": "ContactChangeContent", "ListElementCode": "telephoneRemoved", "ElementLabel": "is Phone removed?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"ID": "ContactChangeContent", "ListElementCode": "primaryEmailRemoved", "ElementLabel": "is email removed", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
+  {"ID": "ContactChangeContent", "ListElementCode": "letterNeededForDefendant", "ElementLabel": "Letter needed fro defendant", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemoved", "ElementLabel": "is contact address removed?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"ID": "ContactChangeContent", "ListElementCode": "telephoneRemovedPrefix", "ElementLabel": "They’ve removed their phone number.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "telephoneRemoved=\"Yes\""},
   {"ID": "ContactChangeContent", "ListElementCode": "primaryEmailRemovedPrefix", "ElementLabel": "They’ve removed their email address.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "primaryEmailRemoved=\"Yes\""},
