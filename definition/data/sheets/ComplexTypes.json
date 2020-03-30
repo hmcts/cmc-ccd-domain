@@ -244,5 +244,13 @@
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "staffNotification", "FieldType": "YesOrNo", "ElementLabel": "Staff notification successful", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "sealedClaimUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of sealed claim successful", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "claimIssueReceiptUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of claim issue receipt successful", "SecurityClassification": "Public"},
-  {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "defendantPinLetterUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of defendant pin letter successful", "SecurityClassification": "Public"}
+  {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "defendantPinLetterUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of defendant pin letter successful", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "issueLetterContact", "ElementLabel": " ", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactDetailsParty", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContentHeader", "ElementLabel": "## Enter the text of the letter", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContentPrefixClaimant", "ElementLabel": "Dear ${applicants.partyName},", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContentPrefixDefendant", "ElementLabel": "Dear ${respondents.claimantProvidedPartyName},", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContent", "ElementLabel": "Content for letter", "FieldType": "TextArea", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContentPrefix", "ElementLabel": "Yours sincerely,", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "caseworkerName", "ElementLabel": " ", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContentSuffix", "ElementLabel": "HM Courts & Tribunals Service", "FieldType": "Label", "SecurityClassification": "Public"}
 ]
