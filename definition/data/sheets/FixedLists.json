@@ -120,6 +120,7 @@
   {"ID": "DocumentType", "ListElementCode": "SEALED_CLAIM", "ListElement": "Sealed Claim"},
   {"ID": "DocumentType", "ListElementCode": "CLAIM_ISSUE_RECEIPT", "ListElement": "Claim Issue Receipt"},
   {"ID": "DocumentType", "ListElementCode": "DEFENDANT_RESPONSE_RECEIPT", "ListElement": "Defendant Response Receipt"},
+  {"ID": "DocumentType", "ListElementCode": "CLAIMANT_RESPONSE_RECEIPT", "ListElement": "Claimant Response Receipt"},
   {"ID": "DocumentType", "ListElementCode": "CCJ_REQUEST", "ListElement": "County Court Judgment Request"},
   {"ID": "DocumentType", "ListElementCode": "SETTLEMENT_AGREEMENT", "ListElement": "Settlement Agreement"},
   {"ID": "DocumentType", "ListElementCode": "REVIEW_ORDER", "ListElement": "Review Order Request"},
