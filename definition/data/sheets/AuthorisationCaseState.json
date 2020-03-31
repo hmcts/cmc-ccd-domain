@@ -52,5 +52,11 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentDecideAmount", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentDecideAmount", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentDecideAmount", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentDecideAmount", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentDecideAmount", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CRUD"}
+
 ]
