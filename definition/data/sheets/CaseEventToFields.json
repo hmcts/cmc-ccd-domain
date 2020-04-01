@@ -75,6 +75,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "respondents", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "staffUploadedDocuments", "PageID": 2, "PageDisplayOrder": 2,"DisplayContext": "COMPLEX", "PageLabel":"Upload mediation agreement","PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "CaseFieldID": "respondents", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferToJudge", "CaseFieldID": "staffUploadedDocuments", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferToJudge", "CaseFieldID": "staffUploadedDocuments", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "CaseFieldID": "staffUploadedDocuments", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1, "CallBackURLMidEvent": "${CCD_DEF_CLAIM_STORE_BASE_URL}/cases/callbacks/mid"}
 
 ]

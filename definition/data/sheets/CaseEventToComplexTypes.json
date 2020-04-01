@@ -35,6 +35,11 @@
     {"ID": "StaffDocument","CaseEventID": "ReferToJudge","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentName","EventElementLabel": "Name","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
     {"ID": "StaffDocument","CaseEventID": "ReferToJudge","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentType","EventElementLabel": "Type","FieldDisplayOrder": 2,"DisplayContext": "MANDATORY"},
     {"ID": "StaffDocument","CaseEventID": "ReferToJudge","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentLink","EventElementLabel": "Link","FieldDisplayOrder": 3,"DisplayContext": "MANDATORY"},
-    {"ID": "StaffDocument","CaseEventID": "ReferToJudge","CaseFieldID": "staffUploadedDocuments","ListElementCode": "receivedDatetime","EventElementLabel": "Document received on","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"}
+    {"ID": "StaffDocument","CaseEventID": "ReferToJudge","CaseFieldID": "staffUploadedDocuments","ListElementCode": "receivedDatetime","EventElementLabel": "Document received on","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
+    {"ID": "StaffDocument","CaseEventID": "ManageDocuments","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentName","EventElementLabel": "Name","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"},
+    {"ID": "StaffDocument","CaseEventID": "ManageDocuments","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentType","EventElementLabel": "Type","FieldDisplayOrder": 2,"DisplayContext": "MANDATORY"},
+    {"ID": "StaffDocument","CaseEventID": "ManageDocuments","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentTypeOther","EventElementLabel": "What type of document is it?","FieldDisplayOrder": 2,"DisplayContext": "OPTIONAL"},
+    {"ID": "StaffDocument","CaseEventID": "ManageDocuments","CaseFieldID": "staffUploadedDocuments","ListElementCode": "documentLink","EventElementLabel": "Upload essential document","FieldDisplayOrder": 3,"DisplayContext": "MANDATORY"},
+    {"ID": "StaffDocument","CaseEventID": "ManageDocuments","CaseFieldID": "staffUploadedDocuments","ListElementCode": "receivedDatetime","EventElementLabel": "Document received on","FieldDisplayOrder": 1,"DisplayContext": "OPTIONAL"}
 
 ]
