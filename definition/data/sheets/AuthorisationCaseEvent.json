@@ -256,10 +256,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeClaimPaymentCitizen", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetPin", "UserRole": "caseworker-cmc", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RedeterminationReceiptUpload", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RedeterminationReceiptUpload", "UserRole": "citizen", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RedeterminationReceiptUpload", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RedeterminationReceiptUpload", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RedeterminationReceiptUpload", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetPin", "UserRole": "caseworker-cmc", "CRUD": "CR"}
 ]
