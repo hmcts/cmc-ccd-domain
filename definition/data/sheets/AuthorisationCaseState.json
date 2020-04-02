@@ -52,7 +52,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentDecideAmount", "UserRole": "caseworker-cmc", "CRUD": "CUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentDecideAmount", "UserRole": "citizen", "CRUD": "CUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentDecideAmount", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForJudgeDirections", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc", "CRUD": "CUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "citizen", "CRUD": "CUD"}
