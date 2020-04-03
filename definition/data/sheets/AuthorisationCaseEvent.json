@@ -54,6 +54,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RejectOrganisationPaymentPlan", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementRejectedByDefendant", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementCounterSignedByDefendant", "UserRole": "citizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementSignedByBoth", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OfferMadeByDefendant", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OfferSignedByClaimant", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OfferRejectedByClaimant", "UserRole": "citizen", "CRUD": "CR"},
