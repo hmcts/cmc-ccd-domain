@@ -110,6 +110,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementRejectedByDefendant", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementCounterSignedByDefendant", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementSignedByBoth", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementSignedByBoth", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OfferMadeByDefendant", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OfferSignedByClaimant", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OfferRejectedByClaimant", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
