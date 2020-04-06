@@ -92,5 +92,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "intentionToProceedDeadline", "Label": "Intention To Proceed Deadline", "FieldType": "Date", "FieldTypeParameter": "ChannelType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "state", "Label": "state", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "generalLetterContent", "Label": "Who is the letter to?", "FieldType": "GeneralLetterContent", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "draftLetterDoc", "Label": "Draft of letter to be sent", "FieldType": "Document", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "draftLetterDoc", "Label": "Draft of letter to be sent", "FieldType": "Document", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "RPAEventType", "Label": "Resend RPA", "FieldType": "FixedList", "FieldTypeParameter": "RpaType", "SecurityClassification": "Public"}
 ]
