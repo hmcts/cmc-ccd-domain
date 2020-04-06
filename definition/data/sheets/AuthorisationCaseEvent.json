@@ -254,7 +254,10 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetPin", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+<<<<<<< HEAD
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueGeneralLetter", "UserRole": "caseworker-cmc", "CRUD": "R"},
+=======
+>>>>>>> 9a9f53379ea2efa598cfa9e1cddb2a3b36d02bbf
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
