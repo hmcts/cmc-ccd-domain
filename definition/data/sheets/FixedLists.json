@@ -120,6 +120,7 @@
   {"ID": "DocumentType", "ListElementCode": "SEALED_CLAIM", "ListElement": "Sealed Claim"},
   {"ID": "DocumentType", "ListElementCode": "CLAIM_ISSUE_RECEIPT", "ListElement": "Claim Issue Receipt"},
   {"ID": "DocumentType", "ListElementCode": "DEFENDANT_RESPONSE_RECEIPT", "ListElement": "Defendant Response Receipt"},
+  {"ID": "DocumentType", "ListElementCode": "CLAIMANT_RESPONSE_RECEIPT", "ListElement": "Claimant Response Receipt"},
   {"ID": "DocumentType", "ListElementCode": "CCJ_REQUEST", "ListElement": "County Court Judgment Request"},
   {"ID": "DocumentType", "ListElementCode": "SETTLEMENT_AGREEMENT", "ListElement": "Settlement Agreement"},
   {"ID": "DocumentType", "ListElementCode": "REVIEW_ORDER", "ListElement": "Review Order Request"},
@@ -185,5 +186,10 @@
   {"ID": "MediationFailReason", "ListElementCode": "NO_AGREEMENT", "ListElement": "Appointment no agreement reached"},
   {"ID": "MediationFailReason", "ListElementCode": "WITHDRAW", "ListElement": "Party withdraws from mediation"},
   {"ID": "ChangeContactDetailsParty", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
-  {"ID": "ChangeContactDetailsParty", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"}
+  {"ID": "ChangeContactDetailsParty", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"},
+  {"ID": "RpaType", "ListElementCode": "CLAIM", "ListElement": "Claim"},
+  {"ID": "RpaType", "ListElementCode": "MORE_TIME", "ListElement": "More Time"},
+  {"ID": "RpaType", "ListElementCode": "CCJ", "ListElement": "CCJ"},
+  {"ID": "RpaType", "ListElementCode": "DEFENDANT_RESPONSE", "ListElement": "Defendant Response"},
+  {"ID": "RpaType", "ListElementCode": "PAID_IN_FULL", "ListElement": "Paid in Full"}
 ]
