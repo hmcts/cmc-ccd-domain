@@ -259,9 +259,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "citizen", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"}
 ]
