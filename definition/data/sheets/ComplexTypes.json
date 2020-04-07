@@ -254,5 +254,5 @@
   {"ID": "StaffDocument", "ListElementCode": "receivedDatetime", "FieldType": "DateTime", "ElementLabel": "Received on", "SecurityClassification": "Public"},
   {"ID": "StaffDocument", "ListElementCode": "handled", "FieldType": "YesOrNo", "ElementLabel": "Already handled", "SecurityClassification": "Public"},
   {"ID": "StaffDocument", "ListElementCode": "documentType", "FieldType": "FixedList", "FieldTypeParameter": "StaffDocumentType", "ElementLabel": "Type", "SecurityClassification": "Public"},
-  {"ID": "StaffDocument", "ListElementCode": "documentTypeOther", "FieldType": "Text", "ElementLabel": "Document type name", "FieldShowCondition": "documentType=\"Other\"" ,"SecurityClassification": "Public"}
+  {"ID": "StaffDocument", "ListElementCode": "documentTypeOther", "FieldType": "Text", "ElementLabel": "Document type name", "FieldShowCondition": "documentType=\"OTHER\"" ,"SecurityClassification": "Public"}
 ]
