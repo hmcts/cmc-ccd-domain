@@ -64,7 +64,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "submitterLabel", "Label": "**Submitter details**", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "draftOrderDoc", "Label": "Draft Order", "FieldType": "Document", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "finalOrderDoc", "Label": "Final Order", "FieldType": "Document", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "assignedTo", "Label": "Assign to", "FieldType": "FixedList", "FieldTypeParameter": "LAList", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "assignedTo", "Label": "Assign to", "FieldType": "FixedList", "FieldTypeParameter": "Assignee", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "directionList", "Label": "Directions", "FieldType": "MultiSelectList", "FieldTypeParameter": "OrderDirectionType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "docUploadDeadline", "Label": "Send documents before 4PM", "FieldType": "Date", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "eyewitnessUploadDeadline", "Label": "Send witness statements before 4 PM", "FieldType": "Date", "SecurityClassification": "Public"},
