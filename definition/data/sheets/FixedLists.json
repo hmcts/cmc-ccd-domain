@@ -186,5 +186,10 @@
   {"ID": "MediationFailReason", "ListElementCode": "NO_AGREEMENT", "ListElement": "Appointment no agreement reached"},
   {"ID": "MediationFailReason", "ListElementCode": "WITHDRAW", "ListElement": "Party withdraws from mediation"},
   {"ID": "ChangeContactDetailsParty", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
-  {"ID": "ChangeContactDetailsParty", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"}
+  {"ID": "ChangeContactDetailsParty", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"},
+  {"ID": "RpaType", "ListElementCode": "CLAIM", "ListElement": "Claim"},
+  {"ID": "RpaType", "ListElementCode": "MORE_TIME", "ListElement": "More Time"},
+  {"ID": "RpaType", "ListElementCode": "CCJ", "ListElement": "CCJ"},
+  {"ID": "RpaType", "ListElementCode": "DEFENDANT_RESPONSE", "ListElement": "Defendant Response"},
+  {"ID": "RpaType", "ListElementCode": "PAID_IN_FULL", "ListElement": "Paid in Full"}
 ]
