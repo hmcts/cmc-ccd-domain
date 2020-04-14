@@ -65,6 +65,4 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc", "CRUD": "CUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "citizen", "CRUD": "CUD"}
-
-
 ]
