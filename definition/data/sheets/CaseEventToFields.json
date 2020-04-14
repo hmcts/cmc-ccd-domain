@@ -73,5 +73,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "CaseFieldID": "respondents", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueGeneralLetter", "CaseFieldID": "generalLetterContent", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1, "CallBackURLMidEvent": "${CCD_DEF_CLAIM_STORE_BASE_URL}/cases/callbacks/mid", "RetriesTimeoutURLMidEvent": 0},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueGeneralLetter", "CaseFieldID": "draftLetterDoc", "PageID": 2, "PageDisplayOrder": 2,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResendRpa", "CaseFieldID": "RPAEventType", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResendRpa", "CaseFieldID": "RPAEventType", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferToJudge", "CaseFieldID": "staffUploadedDocuments", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1}
+
 ]
