@@ -37,7 +37,9 @@ Note: if you want to make this semi-permanent also update docker-compose.yaml in
       image: hmctspublic.azurecr.io/cmc/ccd-definition-importer:dev
 ```
 
-## Extracting a local Excel definition
+## Extracting a local Excel definition 
+
+Outputs file into {Current Directory}/releases/cmc-ccd.xlsx
 
 ```
 docker run --rm --name json2xlsx \
