@@ -181,6 +181,7 @@
   {"ID": "Assignee", "ListElementCode": "J7", "ListElement": "Judge Lynda Nightingale"},
   {"ID": "Assignee", "ListElementCode": "J8", "ListElement": "Judge Stuart Hammond"},
   {"ID": "Assignee", "ListElementCode": "J9", "ListElement": "Judge Marshall Phillips"},
+  {"ID": "Assignee", "ListElementCode": "FROM_JUDGE_WITH_DIRECTION", "ListElement": "From Judge with direction"},
   {"ID": "ReviewOrderPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
   {"ID": "ReviewOrderPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"},
   {"ID": "ChannelType", "ListElementCode": "CITIZEN", "ListElement": "Citizen case"},
