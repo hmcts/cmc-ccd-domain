@@ -272,7 +272,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "generalLetterContent", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "draftLetterDoc", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "RPAEventType", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "assignedTo", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "contactChangeParty", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "contactChangeContent", "UserRole": "caseworker-cmc", "CRUD": "R"}
 ]
