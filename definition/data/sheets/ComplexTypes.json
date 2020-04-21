@@ -244,5 +244,24 @@
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "staffNotification", "FieldType": "YesOrNo", "ElementLabel": "Staff notification successful", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "sealedClaimUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of sealed claim successful", "SecurityClassification": "Public"},
   {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "claimIssueReceiptUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of claim issue receipt successful", "SecurityClassification": "Public"},
-  {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "defendantPinLetterUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of defendant pin letter successful", "SecurityClassification": "Public"}
+  {"ID": "ClaimSubmissionOperationIndicators", "ListElementCode": "defendantPinLetterUpload", "FieldType": "YesOrNo", "ElementLabel": "Upload of defendant pin letter successful", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "issueLetterContact", "ElementLabel": " ", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactDetailsParty", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContentHeader", "ElementLabel": "## Enter the text of the letter", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContentPrefixClaimant", "ElementLabel": "Dear ${applicants.partyName},", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContentPrefixDefendant", "ElementLabel": "Dear ${respondents.claimantProvidedPartyName},", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContent", "ElementLabel": "Content for letter", "FieldType": "TextArea", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContentPrefix", "ElementLabel": "Yours sincerely,", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "caseworkerName", "ElementLabel": " ", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"ID": "GeneralLetterContent", "ListElementCode": "letterContentSuffix", "ElementLabel": "HM Courts & Tribunals Service", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"ID": "StaffDocument", "ListElementCode": "documentName", "FieldType": "Text", "ElementLabel": "Name", "SecurityClassification": "Public"},
+  {"ID": "StaffDocument", "ListElementCode": "documentLink", "FieldType": "Document", "ElementLabel": "Document URL", "SecurityClassification": "Public"},
+  {"ID": "StaffDocument", "ListElementCode": "authoredDatetime", "FieldType": "DateTime", "ElementLabel": "Reviewed on", "SecurityClassification": "Public"},
+  {"ID": "StaffDocument", "ListElementCode": "size", "FieldType": "Number", "ElementLabel": "Document size", "SecurityClassification": "Public"},
+  {"ID": "StaffDocument", "ListElementCode": "createdDatetime", "FieldType": "DateTime", "ElementLabel": "Uploaded on", "SecurityClassification": "Public"},
+  {"ID": "StaffDocument", "ListElementCode": "createdBy", "FieldType": "Text", "ElementLabel": "Uploaded by", "SecurityClassification": "Public"},
+  {"ID": "StaffDocument", "ListElementCode": "receivedDatetime", "FieldType": "DateTime", "ElementLabel": "Received on", "SecurityClassification": "Public"},
+  {"ID": "StaffDocument", "ListElementCode": "handled", "FieldType": "YesOrNo", "ElementLabel": "Already handled", "SecurityClassification": "Public"},
+  {"ID": "StaffDocument", "ListElementCode": "documentType", "FieldType": "FixedList", "FieldTypeParameter": "StaffDocumentType", "ElementLabel": "Type", "SecurityClassification": "Public"},
+  {"ID": "StaffDocument", "ListElementCode": "documentTypeOther", "FieldType": "Text", "ElementLabel": "Document type name", "FieldShowCondition": "documentType=\"OTHER\"" ,"SecurityClassification": "Public"}
+
 ]
