@@ -133,6 +133,7 @@
   {"ID": "StaffDocumentType", "ListElementCode": "PAPER_RESPONSE_STATES_PAID", "ListElement": "Paper response-States paid"},
   {"ID": "StaffDocumentType", "ListElementCode": "PAPER_RESPONSE_MORE_TIME", "ListElement": "Paper response-More time request"},
   {"ID": "StaffDocumentType", "ListElementCode": "PAPER_RESPONSE_DISPUTES_ALL", "ListElement": "Paper response-Disputes all"},
+  {"ID": "StaffDocumentType", "ListElementCode": "PAPER_RESPONSE_COUNTER_CLAIM", "ListElement": "Paper response-Counter claim"},
   {"ID": "StaffDocumentType", "ListElementCode": "OTHER", "ListElement": "Other"},
   {"ID": "ScannedDocumentType", "ListElementCode": "cherished", "ListElement": "Cherished"},
   {"ID": "ScannedDocumentType", "ListElementCode": "other", "ListElement": "Other"},
