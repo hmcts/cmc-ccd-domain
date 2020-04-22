@@ -210,6 +210,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "evidenceHandled", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paperResponseType", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paperResponseType", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "state", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "state", "UserRole": "caseworker-cmc", "CRUD": "CU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "finalOrderDoc", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "draftOrderDoc", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
@@ -270,5 +271,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "expertReportInstruction", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateReferredForDirections", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateReferredForDirections", "UserRole": "citizen", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateReferredForDirections", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateReferredForDirections", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "generalLetterContent", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "draftLetterDoc", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "RPAEventType", "UserRole": "caseworker-cmc", "CRUD": "R"}
 ]
