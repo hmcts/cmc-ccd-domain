@@ -272,6 +272,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CCJRequestUpload", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResponseMoreTime", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResendRpa", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferToJudge", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferToJudge", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
