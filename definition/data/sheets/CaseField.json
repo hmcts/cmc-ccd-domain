@@ -80,6 +80,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "paperDetermination", "Label": "Determination on paper", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "preferredCourtObjectingParty", "Label": "Preferred court objected by", "FieldType": "FixedList", "FieldTypeParameter":"ResponseSubject", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "preferredCourtObjectingReason", "Label": "Objection reason", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "responseDeadlinePreview", "Label": "    ", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "newRequestedCourt", "Label": "Objecting party's requested court", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "preferredDQCourt", "Label": "Preferred court", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "dateReferredForDirections", "Label": "Date referred for directions", "FieldType": "DateTime", "SecurityClassification": "Public"},
