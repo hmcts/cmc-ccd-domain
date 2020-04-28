@@ -82,5 +82,4 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ChangeContactDetails", "CaseFieldID": "respondents", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 2, "FieldShowCondition": "contactChangeParty=\"DEFENDANT\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ChangeContactDetails", "CaseFieldID": "contactChangeContent", "PageID": 2, "PageDisplayOrder": 2,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ChangeContactDetails", "CaseFieldID": "draftLetterDoc", "PageID": 2, "PageDisplayOrder": 2,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 5, "FieldShowCondition": "contactChangeContent.letterNeededForDefendant=\"Yes\""}
-
 ]
