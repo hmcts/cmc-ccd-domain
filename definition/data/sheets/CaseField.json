@@ -54,7 +54,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentTransactionId", "Label": "Payment Transaction Id", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentFeeId", "Label": "Payment Fee Id", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentReturnUrl", "Label": "Payment Return Url", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "paymentDateCreated", "Label": "Payment Date created", "FieldType": "Date", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "migratedFromClaimStore", "Label": "Is Migrated", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "evidenceHandled", "Label": "Scanned document reviewed", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "claimSubmissionOperationIndicators", "Label": "Claim Submission Operation Indicators", "FieldType": "ClaimSubmissionOperationIndicators", "SecurityClassification": "Public"},
