@@ -278,5 +278,6 @@
   {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemoved", "ElementLabel": "Is contact address removed?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"ID": "ContactChangeContent", "ListElementCode": "telephoneRemovedPrefix", "ElementLabel": "They’ve removed their phone number.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "telephoneRemoved=\"Yes\""},
   {"ID": "ContactChangeContent", "ListElementCode": "primaryEmailRemovedPrefix", "ElementLabel": "They’ve removed their email address.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "primaryEmailRemoved=\"Yes\""},
-  {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemovedPrefix", "ElementLabel": "They’ve removed the address they want to use for post about the claim.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "correspondenceAddressRemoved=\"Yes\""}
+  {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemovedPrefix", "ElementLabel": "They’ve removed the address they want to use for post about the claim.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "correspondenceAddressRemoved=\"Yes\""},
+  {"ID": "CalculatedResponseDeadlineContent", "ListElementCode": "calculatedResponseDeadline", "ElementLabel": " ", "FieldType": "Text", "SecurityClassification": "Public"}
 ]
