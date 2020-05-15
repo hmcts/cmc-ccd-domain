@@ -163,7 +163,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RejectOrganisationPaymentPlan", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementRejectedByDefendant", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementCounterSignedByDefendant", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementSignedByBoth", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "AgreementSignedByBoth", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OfferMadeByDefendant", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OfferSignedByClaimant", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "OfferRejectedByClaimant", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CR"},
