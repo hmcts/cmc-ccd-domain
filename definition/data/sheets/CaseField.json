@@ -67,10 +67,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "submitterLabel", "Label": "**Submitter details**", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "draftOrderDoc", "Label": "Draft Order", "FieldType": "Document", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "finalOrderDoc", "Label": "Final Order", "FieldType": "Document", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "dateOfTransfer", "Label": "Date the case is transferred out.", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "reasonForTransfer", "Label": "Why the case is being transferred out.", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "nameOfTransferCourt", "Label": "Name of the court the case is transferred to.", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "addressOfTransferCourt", "Label": "Address of the court the case is transferred to.", "FieldType": "AddressUK", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "assignedTo", "Label": "Assign to", "FieldType": "FixedList", "FieldTypeParameter": "Assignee", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "directionList", "Label": "Directions", "FieldType": "MultiSelectList", "FieldTypeParameter": "OrderDirectionType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "docUploadDeadline", "Label": "Send documents before 4PM", "FieldType": "Date", "SecurityClassification": "Public"},
@@ -104,5 +100,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "draftLetterDoc", "Label": "Draft of letter to be sent", "FieldType": "Document", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "RPAEventType", "Label": "Resend RPA", "FieldType": "FixedList", "FieldTypeParameter": "RpaType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "contactChangeParty", "Label": "Whose contact details are you changing?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactDetailsParty", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "contactChangeContent", "Label": "Check the text that informs the other party of the change.", "FieldType": "ContactChangeContent", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "contactChangeContent", "Label": "Check the text that informs the other party of the change.", "FieldType": "ContactChangeContent", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "transferContent", "Label": "Transfer information", "FieldType": "TransferContent", "SecurityClassification": "Public"}
 ]

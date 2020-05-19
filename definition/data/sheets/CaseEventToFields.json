@@ -67,9 +67,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DrawJudgesOrder", "CaseFieldID": "hearingCourtAddress", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "MANDATORY","PageFieldDisplayOrder": 19, "FieldShowCondition": "hearingCourt=\"OTHER\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DrawJudgesOrder", "CaseFieldID": "estimatedHearingDuration", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 20, "FieldShowCondition": "paperDetermination=\"NO\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DrawJudgesOrder", "CaseFieldID": "draftOrderDoc", "PageID": 2, "PageDisplayOrder": 2, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 21},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "Transfer", "CaseFieldID": "nameOfTransferCourt", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "Transfer", "CaseFieldID": "addressOfTransferCourt", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 2},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "Transfer", "CaseFieldID": "reasonForTransfer", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 3},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ApproveOrder", "CaseFieldID": "draftOrderDoc", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "respondents", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SuccessfulMediation", "CaseFieldID": "staffUploadedDocuments", "PageID": 2, "PageDisplayOrder": 2,"DisplayContext": "COMPLEX", "PageLabel":"Upload mediation agreement","PageFieldDisplayOrder": 1},
@@ -86,5 +83,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ChangeContactDetails", "CaseFieldID": "draftLetterDoc", "PageID": 2, "PageDisplayOrder": 2,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 5, "FieldShowCondition": "contactChangeContent.letterNeededForDefendant=\"Yes\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResponseMoreTime", "CaseFieldID": "responseDeadlinePreview", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 1, "CallBackURLMidEvent": "${CCD_DEF_CLAIM_STORE_BASE_URL}/cases/callbacks/mid", "RetriesTimeoutURLMidEvent": 0},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResponseMoreTime", "CaseFieldID": "calculatedResponseDeadline", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 2, "FieldShowCondition": "responseDeadlinePreview=\"\""},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResponseMoreTime", "CaseFieldID": "draftLetterDoc", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 3, "FieldShowCondition": "responseDeadlinePreview=\"\""}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResponseMoreTime", "CaseFieldID": "draftLetterDoc", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 3, "FieldShowCondition": "responseDeadlinePreview=\"\""},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "Transfer", "CaseFieldID": "transferContent", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1}
 ]
