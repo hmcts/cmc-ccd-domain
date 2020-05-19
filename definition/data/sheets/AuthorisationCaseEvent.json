@@ -291,5 +291,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-solicitor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ChangeContactDetails", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssuePaperDefenceForms", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssuePaperDefenceForms", "UserRole": "caseworker-cmc", "CRUD": "R"}
 ]
