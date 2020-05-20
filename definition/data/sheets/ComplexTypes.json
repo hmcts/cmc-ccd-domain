@@ -280,7 +280,7 @@
   {"ID": "ContactChangeContent", "ListElementCode": "primaryEmailRemovedPrefix", "ElementLabel": "They’ve removed their email address.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "primaryEmailRemoved=\"Yes\""},
   {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemovedPrefix", "ElementLabel": "They’ve removed the address they want to use for post about the claim.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "correspondenceAddressRemoved=\"Yes\""},
   {"ID": "TransferContent", "ListElementCode": "dateOfTransfer", "ElementLabel": "Date the case is transferred out.", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"ID": "TransferContent", "ListElementCode": "reasonForTransfer", "ElementLabel": "Why the case is being transferred out.", "FieldType": "TextArea", "SecurityClassification": "Public"},
   {"ID": "TransferContent", "ListElementCode": "nameOfTransferCourt", "ElementLabel": "Name of the court the case is transferred to.", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"ID": "TransferContent", "ListElementCode": "addressOfTransferCourt", "ElementLabel": "Address of the court the case is transferred to.", "FieldType": "AddressUK", "SecurityClassification": "Public"}
+  {"ID": "TransferContent", "ListElementCode": "addressOfTransferCourt", "ElementLabel": "Address of the court the case is transferred to.", "FieldType": "AddressUK", "SecurityClassification": "Public"},
+  {"ID": "TransferContent", "ListElementCode": "reasonForTransfer", "ElementLabel": "Why the case is being transferred out.", "FieldType": "TextArea", "SecurityClassification": "Public"}
 ]
