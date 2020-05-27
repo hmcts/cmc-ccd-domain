@@ -290,6 +290,16 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "contactChangeParty", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "contactChangeContent", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "assignedTo", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "letter-holder", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "letter-holder", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "transferContent", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "coverLetterDoc", "UserRole": "caseworker-cmc", "CRUD": "R"}
 ]
