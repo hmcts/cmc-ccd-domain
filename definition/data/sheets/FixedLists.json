@@ -204,6 +204,6 @@
   {"ID": "TransferReason", "ListElementCode": "HEARING", "ListElement": "For a hearing", "DisplayOrder":5},
   {"ID": "TransferReason", "ListElementCode": "JUDGES_ORDER", "ListElement": "Judge's order", "DisplayOrder":6},
   {"ID": "TransferReason", "ListElementCode": "LA_ORDER", "ListElement": "Legal Advisor's order", "DisplayOrder":7},
-  {"ID": "TransferReason", "ListElementCode": "RE_DETERMINATION", "ListElement": "Redetermination", "DisplayOrder":8},
+  {"ID": "TransferReason", "ListElementCode": "REDETERMINATION", "ListElement": "Redetermination", "DisplayOrder":8},
   {"ID": "TransferReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":9}
 ]
