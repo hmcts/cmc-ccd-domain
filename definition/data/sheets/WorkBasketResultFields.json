@@ -6,5 +6,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "assignedTo", "Label": "Assigned to", "ListElementCode": "", "DisplayOrder": 5},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateReferredForDirections", "Label": "Date referred for directions", "DisplayOrder": 6, "UserRole":  "caseworker-cmc-judge"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "directionOrder", "Label": "Direction order created on", "ListElementCode": "createdOn", "DisplayOrder": 7},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "preferredDQCourt", "Label": "Preferred Court", "DisplayOrder": 8}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "preferredDQCourt", "Label": "Preferred Court", "DisplayOrder": 8, "UserRole":  "caseworker-cmc-judge"}
 ]
