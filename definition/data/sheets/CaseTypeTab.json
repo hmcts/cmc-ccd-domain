@@ -1,5 +1,5 @@
 [ {"CaseTypeID": "MoneyClaimCase", "TabID": "EventHistory", "TabLabel": "Claim Event History", "TabDisplayOrder": 1, "CaseFieldID": "caseHistoryTab", "TabFieldDisplayOrder": 1},
-   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "previousServiceCaseReference", "TabFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "previousServiceCaseReference", "TabFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "features", "TabFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "issuedOn", "TabFieldDisplayOrder": 2},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "submittedOn", "TabFieldDisplayOrder": 3},
@@ -42,6 +42,6 @@
   {"CaseTypeID": "MoneyClaimCase", "TabID": "DefendantDetails", "TabLabel": "Defendant Details", "TabDisplayOrder": 4, "CaseFieldID": "respondents", "TabFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "caseDocuments", "TabFieldDisplayOrder": 1, "DisplayContextParameter": "#TABLE(documentType, documentLink)"},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "scannedDocuments", "TabFieldDisplayOrder": 2, "DisplayContextParameter": "#TABLE(subtype, url, deliveryDate)"},
- {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "staffUploadedDocuments", "TabFieldDisplayOrder": 3, "DisplayContextParameter": "#TABLE(documentType, documentLink)"}
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "staffUploadedDocuments", "TabFieldDisplayOrder": 3, "DisplayContextParameter": "#TABLE(documentType, documentLink)"}
 
 ]
