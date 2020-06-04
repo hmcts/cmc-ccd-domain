@@ -199,5 +199,9 @@
   {"ID": "RpaType", "ListElementCode": "MORE_TIME", "ListElement": "More Time"},
   {"ID": "RpaType", "ListElementCode": "CCJ", "ListElement": "CCJ"},
   {"ID": "RpaType", "ListElementCode": "DEFENDANT_RESPONSE", "ListElement": "Defendant Response"},
-  {"ID": "RpaType", "ListElementCode": "PAID_IN_FULL", "ListElement": "Paid in Full"}
+  {"ID": "RpaType", "ListElementCode": "PAID_IN_FULL", "ListElement": "Paid in Full"},
+  {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_CLAIMANT", "ListElement": "Application by Claimant", "DisplayOrder":1},
+  {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_DEFENDANT", "ListElement": "Application by Defendant", "DisplayOrder":2},
+  {"ID": "ProceedOnPaperReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":3}
+
 ]
