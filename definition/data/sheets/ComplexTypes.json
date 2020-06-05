@@ -221,6 +221,7 @@
   {"ID": "Respondent", "ListElementCode": "claimantProvidedRepresentativeOrganisationDxAddress", "FieldType": "Text", "ElementLabel": "Organisation DxAddress", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "claimantProvidedRepresentativeOrganisationEmail", "FieldType": "Email", "ElementLabel": "Organisation Email", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "directionsQuestionnaire", "FieldType": "DirectionsQuestionnaire", "ElementLabel": "Respondent Directions Questionnaire", "SecurityClassification": "Public"},
+  {"ID": "Respondent", "ListElementCode": "responseMethod", "FieldType": "FixedList",  "FieldTypeParameter": "ResponseMethod", "ElementLabel": "Defendant's Response Method", "SecurityClassification": "Public"},
   {"ID": "Applicant", "ListElementCode": "partyName", "FieldType": "Text", "ElementLabel": "Applicant name", "SecurityClassification": "Public"},
   {"ID": "Applicant", "ListElementCode": "partyDetailsLabel", "FieldType": "Label", "ElementLabel": "**Claimant details**", "SecurityClassification": "Public"},
   {"ID": "Applicant", "ListElementCode": "partyDetail", "FieldType": "Party", "ElementLabel": "Claimant details", "SecurityClassification": "Public"},
