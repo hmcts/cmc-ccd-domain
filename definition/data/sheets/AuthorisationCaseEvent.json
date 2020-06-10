@@ -254,7 +254,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SYSTEM_MAINTENANCE", "UserRole": "caseworker-cmc-solicitor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SYSTEM_MAINTENANCE", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SYSTEM_MAINTENANCE", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseFullDefence", "UserRole": "caseworker-cmc", "CRUD": "RUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseFullDefence", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SupportUpdate", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SupportUpdate", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InitiateClaimPaymentCitizen", "UserRole": "citizen", "CRUD": "CR"},
