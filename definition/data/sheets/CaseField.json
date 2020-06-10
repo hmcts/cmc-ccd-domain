@@ -39,7 +39,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "id", "Label": "id", "HintText": "Claim store id", "FieldType": "Number", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "caseDocuments", "Label": "Claim documents", "FieldType": "Collection", "FieldTypeParameter": "CaseDocument", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "scannedDocuments", "Label": "Bulk scanned documents", "FieldType": "Collection", "FieldTypeParameter": "ScannedDocument", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "filteredScannedDocuments", "Label": "Bulk scanned documents", "FieldType": "Collection", "FieldTypeParameter": "ScannedDocument", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "temporaryScannedDocuments", "Label": "Bulk scanned documents", "FieldType": "Collection", "FieldTypeParameter": "ScannedDocument", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "ocon9xForm", "Label": "Which document is the OCON9X?", "FieldType": "DynamicList", "FieldTypeParameter": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paperFormHeader", "Label": "Review scanned documents to find OCON9X:", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "staffUploadedDocuments", "Label": "Staff uploaded documents", "FieldType": "Collection", "FieldTypeParameter": "StaffDocument", "SecurityClassification": "Public"},
