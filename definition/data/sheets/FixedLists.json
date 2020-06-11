@@ -199,6 +199,7 @@
   {"ID": "RpaType", "ListElementCode": "PAID_IN_FULL", "ListElement": "Paid in Full"},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_CLAIMANT", "ListElement": "Application by Claimant", "DisplayOrder":1},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_DEFENDANT", "ListElement": "Application by Defendant", "DisplayOrder":2},
-  {"ID": "ProceedOnPaperReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":3}
-
+  {"ID": "ProceedOnPaperReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":3},
+  {"ID": "AdmissionType", "ListElementCode": "PART_ADMISSION", "ListElement": "Part admit", "DisplayOrder":1},
+  {"ID": "AdmissionType", "ListElementCode": "FULL_ADMISSION", "ListElement": "Full admit", "DisplayOrder":2}
 ]
