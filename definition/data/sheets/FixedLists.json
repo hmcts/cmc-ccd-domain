@@ -199,6 +199,14 @@
   {"ID": "RpaType", "ListElementCode": "PAID_IN_FULL", "ListElement": "Paid in Full"},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_CLAIMANT", "ListElement": "Application by Claimant", "DisplayOrder":1},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_DEFENDANT", "ListElement": "Application by Defendant", "DisplayOrder":2},
-  {"ID": "ProceedOnPaperReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":3}
-
+  {"ID": "ProceedOnPaperReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":3},
+  {"ID": "TransferReason", "ListElementCode": "APPLICATION_GENERAL", "ListElement": "General application", "DisplayOrder":1},
+  {"ID": "TransferReason", "ListElementCode": "APPLICATION_SET_ASIDE  ", "ListElement": "Application to set aside judgment", "DisplayOrder":2},
+  {"ID": "TransferReason", "ListElementCode": "ENFORCEMENT", "ListElement": "Enforcement", "DisplayOrder":3},
+  {"ID": "TransferReason", "ListElementCode": "DIRECTIONS", "ListElement": "For directions", "DisplayOrder":4},
+  {"ID": "TransferReason", "ListElementCode": "HEARING", "ListElement": "For a hearing", "DisplayOrder":5},
+  {"ID": "TransferReason", "ListElementCode": "JUDGES_ORDER", "ListElement": "Judge's order", "DisplayOrder":6},
+  {"ID": "TransferReason", "ListElementCode": "LA_ORDER", "ListElement": "Legal Advisor's order", "DisplayOrder":7},
+  {"ID": "TransferReason", "ListElementCode": "REDETERMINATION", "ListElement": "Redetermination", "DisplayOrder":8},
+  {"ID": "TransferReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":9}
 ]
