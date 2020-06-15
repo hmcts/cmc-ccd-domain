@@ -279,6 +279,11 @@
   {"ID": "ContactChangeContent", "ListElementCode": "telephoneRemovedPrefix", "ElementLabel": "They’ve removed their phone number.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "telephoneRemoved=\"Yes\""},
   {"ID": "ContactChangeContent", "ListElementCode": "primaryEmailRemovedPrefix", "ElementLabel": "They’ve removed their email address.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "primaryEmailRemoved=\"Yes\""},
   {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemovedPrefix", "ElementLabel": "They’ve removed the address they want to use for post about the claim.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "correspondenceAddressRemoved=\"Yes\""},
+  {"ID": "TransferContent", "ListElementCode": "dateOfTransfer", "ElementLabel": "Date the case is transferred out.", "FieldType": "Date", "SecurityClassification": "Public"},
+  {"ID": "TransferContent", "ListElementCode": "transferCourtName", "ElementLabel": "Full name of the county court the case is transferred to.", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"ID": "TransferContent", "ListElementCode": "transferCourtAddress", "ElementLabel": "Court address", "FieldType": "AddressUK", "SecurityClassification": "Public"},
+  {"ID": "TransferContent", "ListElementCode": "transferReason", "ElementLabel": "Explain why the case is being transferred:", "FieldType": "FixedRadioList", "FieldTypeParameter": "TransferReason", "SecurityClassification": "Public"},
+  {"ID": "TransferContent", "ListElementCode": "transferReasonOther", "ElementLabel": "Reason", "FieldType": "TextArea", "SecurityClassification": "Public", "FieldShowCondition": "transferReason=\"OTHER\""}
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestId", "FieldType": "Text", "ElementLabel": "Bulk print request id", "SecurityClassification": "Public"},
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestType","FieldType": "FixedList", "FieldTypeParameter": "BulkPrintRequestType", "ElementLabel": "Bulk print request type", "SecurityClassification": "Public"},
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestedAt", "FieldType": "Date", "ElementLabel": "Bulk print requested at", "SecurityClassification": "Public"}
