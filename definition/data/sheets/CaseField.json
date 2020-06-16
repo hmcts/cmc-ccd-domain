@@ -102,5 +102,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "contactChangeParty", "Label": "Whose contact details are you changing?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactDetailsParty", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "contactChangeContent", "Label": "Check the text that informs the other party of the change.", "FieldType": "ContactChangeContent", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperReason", "Label": "Reason for proceeding on paper", "FieldType": "FixedList","FieldTypeParameter":"ProceedOnPaperReason", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperOtherReason", "Label": "Other reason", "FieldType": "Text", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperOtherReason", "Label": "Other reason", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "dateOfHandoff", "Label": "Date the case was handed off.", "FieldType": "Date", "SecurityClassification": "Public"}
 ]
