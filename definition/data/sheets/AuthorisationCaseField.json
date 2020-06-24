@@ -215,6 +215,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "scannedDocuments", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "evidenceHandled", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "scannedDocuments", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "temporaryScannedDocuments", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "ocon9xForm", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "evidenceHandled", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paperResponseType", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paperResponseType", "UserRole": "citizen", "CRUD": "CRUD"},
@@ -297,7 +299,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "transferContent", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "transferContent", "UserRole": "citizen", "CRUD": "R"}
 ]
