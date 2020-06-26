@@ -294,5 +294,10 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-solicitor", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ChangeContactDetails", "UserRole": "caseworker-cmc", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ChangeContactDetails", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-judge", "CRUD": "CU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRU"}
 ]
