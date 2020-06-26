@@ -301,5 +301,10 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "transferContent", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "transferContent", "UserRole": "citizen", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "transferContent", "UserRole": "citizen", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"}
 ]
