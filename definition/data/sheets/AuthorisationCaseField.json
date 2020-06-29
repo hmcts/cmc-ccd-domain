@@ -300,6 +300,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paperAdmissionType", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "transferContent", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "transferContent", "UserRole": "citizen", "CRUD": "R"},
