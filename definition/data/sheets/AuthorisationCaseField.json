@@ -215,6 +215,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "scannedDocuments", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "evidenceHandled", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "scannedDocuments", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "temporaryScannedDocuments", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "ocon9xForm", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "evidenceHandled", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paperResponseType", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paperResponseType", "UserRole": "citizen", "CRUD": "CRUD"},
@@ -264,6 +266,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "channel", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "channel", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "responseDeadlinePreview", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "defenceType", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "calculatedResponseDeadline", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "intentionToProceedDeadline", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "intentionToProceedDeadline", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
@@ -298,5 +301,10 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "proceedOnPaperOtherReason", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paperAdmissionType", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paperAdmissionType", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"}
 ]

@@ -254,6 +254,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SYSTEM_MAINTENANCE", "UserRole": "caseworker-cmc-solicitor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SYSTEM_MAINTENANCE", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SYSTEM_MAINTENANCE", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseFullDefence", "UserRole": "caseworker-cmc", "CRUD": "RUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SupportUpdate", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SupportUpdate", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InitiateClaimPaymentCitizen", "UserRole": "citizen", "CRUD": "CR"},
@@ -286,10 +287,19 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc-solicitor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseOCON9xForm", "UserRole":"caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimNotes", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimNotes", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimNotes", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-solicitor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ChangeContactDetails", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseAdmission", "UserRole": "caseworker-cmc", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseAdmission", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-judge", "CRUD": "CU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRU"}
 ]
