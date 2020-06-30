@@ -191,6 +191,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "applicants", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "subjectName", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "subjectType", "UserRole": "letter-holder", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "helpWithFeesNumber", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentId", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentAmount", "UserRole": "letter-holder", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentReference", "UserRole": "letter-holder", "CRUD": "CRUD"},

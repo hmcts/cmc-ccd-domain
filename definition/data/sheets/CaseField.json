@@ -48,6 +48,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "applicants", "Label": "Claimants", "FieldType": "Collection", "FieldTypeParameter": "Applicant", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "subjectName", "Label": "Subject Name", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "subjectType", "Label": "Subject Type", "FieldType": "FixedList", "FieldTypeParameter": "MadeBy", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesNumber", "Label": "Reference number", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentId", "Label": "Payment Id", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentAmount", "Label": "Payment Amount", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paymentReference", "Label": "Payment Reference", "FieldType": "Text", "SecurityClassification": "Public"},

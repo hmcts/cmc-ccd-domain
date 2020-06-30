@@ -1,5 +1,6 @@
 [
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MiscHWF", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefaultCCJRequested", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MoreTimeRequestedOnline", "UserRole": "caseworker-cmc", "CRUD": "R"},
