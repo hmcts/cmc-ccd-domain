@@ -108,5 +108,8 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperReason", "Label": "Reason for proceeding on paper", "FieldType": "FixedList","FieldTypeParameter":"ProceedOnPaperReason", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperOtherReason", "Label": "Other reason", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paperAdmissionType", "Label": "Admission Type", "FieldType": "FixedRadioList", "SecurityClassification": "Public", "FieldTypeParameter": "PaperAdmissionType"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "bulkPrintDetails", "Label": "Bulk print transfers details","FieldType": "Collection", "FieldTypeParameter": "BulkPrintDetails", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "bulkPrintDetails", "Label": "Bulk print transfers details","FieldType": "Collection", "FieldTypeParameter": "BulkPrintDetails", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "HelpWithFeeLabel", "Label": "**HWF Details**", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesNumber", "Label": "HWF reference number", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesType", "Label": "Type", "FieldType": "Text", "SecurityClassification": "Public"}
 ]
