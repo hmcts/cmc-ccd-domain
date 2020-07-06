@@ -64,5 +64,10 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc", "CRUD": "CUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "citizen", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "citizen", "CRUD": "CRUD"}
 ]
