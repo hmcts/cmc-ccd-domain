@@ -73,6 +73,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FailedMediation", "CaseFieldID": "respondents", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueGeneralLetter", "CaseFieldID": "generalLetterContent", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1, "CallBackURLMidEvent": "${CCD_DEF_CLAIM_STORE_BASE_URL}/cases/callbacks/mid", "RetriesTimeoutURLMidEvent": 0},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueGeneralLetter", "CaseFieldID": "draftLetterDoc", "PageID": 2, "PageDisplayOrder": 2,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseFullDefence", "CaseFieldID": "defenceType", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseFullDefence", "CaseFieldID": "respondents", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 2},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseFullDefence", "CaseFieldID": "preferredDQCourt", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 3},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResendRpa", "CaseFieldID": "RPAEventType", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReferToJudge", "CaseFieldID": "staffUploadedDocuments", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseOCON9xForm", "CaseFieldID": "paperFormHeader", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 1, "CallBackURLMidEvent": "${CCD_DEF_CLAIM_STORE_BASE_URL}/cases/callbacks/mid"},
@@ -89,5 +92,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResponseMoreTime", "CaseFieldID": "draftLetterDoc", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 3, "FieldShowCondition": "responseDeadlinePreview=\"\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "CaseFieldID": "proceedOnPaperReason", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 24},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "CaseFieldID": "proceedOnPaperOtherReason", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 25, "FieldShowCondition": "proceedOnPaperReason=\"OTHER\""},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseAdmission", "CaseFieldID": "paperAdmissionType", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "Transfer", "CaseFieldID": "transferContent", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1}
 ]
