@@ -107,5 +107,5 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperReason", "Label": "Reason for proceeding on paper", "FieldType": "FixedList","FieldTypeParameter":"ProceedOnPaperReason", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperOtherReason", "Label": "Other reason", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfDetails", "Label": "HWF details", "FieldType": "HWFDetails", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "feeRemitted", "Label": "Remitted fee amount", "FieldType": "Text", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "feeRemitted", "Label": "Remitted fee amount", "FieldType": "MoneyGBP", "SecurityClassification": "Public"}
 ]
