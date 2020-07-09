@@ -141,7 +141,6 @@
     {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferCourtAddress.PostCode", "CaseFieldID": "transferContent", "EventElementLabel": "Postcode", "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 9},
     {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferReason", "CaseFieldID": "transferContent", "EventElementLabel": "Explain why the case is being transferred:", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 10},
     {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferReasonOther", "CaseFieldID": "transferContent", "EventElementLabel": "Reason", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 11},
-    {"ID": "ContactChangeContent", "CaseEventID": "InvalidHWFReference", "ListElementCode": "helpWithFeeLabelCode","CaseFieldID": "hwfFields","EventElementLabel": "HWF Details", "DisplayContext": "READONLY", "FieldDisplayOrder": 1},
     {"ID": "ContactChangeContent", "CaseEventID": "InvalidHWFReference", "ListElementCode": "helpWithFeesNumberCode","CaseFieldID": "hwfFields","EventElementLabel": "HWF reference number", "DisplayContext": "READONLY", "FieldDisplayOrder": 2},
     {"ID": "ContactChangeContent", "CaseEventID": "InvalidHWFReference", "ListElementCode": "helpWithFeesTypeCode","CaseFieldID": "hwfFields","EventElementLabel": "Type", "DisplayContext": "READONLY", "FieldDisplayOrder": 3}
 ]
