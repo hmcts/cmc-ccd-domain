@@ -140,5 +140,32 @@
     {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferCourtAddress.Country", "CaseFieldID": "transferContent", "EventElementLabel": "Country", "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 8},
     {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferCourtAddress.PostCode", "CaseFieldID": "transferContent", "EventElementLabel": "Postcode", "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 9},
     {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferReason", "CaseFieldID": "transferContent", "EventElementLabel": "Explain why the case is being transferred:", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 10},
-    {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferReasonOther", "CaseFieldID": "transferContent", "EventElementLabel": "Reason", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 11}
+    {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferReasonOther", "CaseFieldID": "transferContent", "EventElementLabel": "Reason", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 11},
+    {
+        "ID": "HWFFields",
+        "CaseEventID": "InvalidHWFReference",
+        "CaseFieldID": "hwfFields",
+        "ListElementCode": "helpWithFeeLabelCode",
+        "EventElementLabel": "**HWF Details**",
+        "FieldDisplayOrder": 1,
+        "DisplayContext": "READONLY"
+    },
+    {
+        "ID": "HWFFields",
+        "CaseEventID": "InvalidHWFReference",
+        "CaseFieldID": "hwfFields",
+        "ListElementCode": "helpWithFeesNumberCode",
+        "EventElementLabel": "HWF reference number",
+        "FieldDisplayOrder": 2,
+        "DisplayContext": "MANDATORY"
+    },
+    {
+        "ID": "HWFFields",
+        "CaseEventID": "InvalidHWFReference",
+        "CaseFieldID": "hwfFields",
+        "ListElementCode": "helpWithFeesTypeCode",
+        "EventElementLabel": "Type",
+        "FieldDisplayOrder": 3,
+        "DisplayContext": "MANDATORY"
+    }
 ]
