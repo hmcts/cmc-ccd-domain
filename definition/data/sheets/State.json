@@ -21,5 +21,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "judgmentDecideAmount", "Name": "Decide amount by judgment", "Description": "Decide repayment amount by judgment", "DisplayOrder": 20, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "settlementAgreementMade", "Name": "Settlement agreement made", "Description": "Settlement Agreement confirmed", "DisplayOrder": 21, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "redeterminationRequested", "Name": "Redetermination requested", "Description": "Redetermination requested", "DisplayOrder": 22, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "businessQueue", "Name": "Handoff to Business", "Description": "Handoff to Business", "DisplayOrder": 23, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "businessQueue", "Name": "Handoff to Business", "Description": "Handoff to Business", "DisplayOrder": 23, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "awaitingResponseHWF", "Name": "Awaiting response HWF", "Description": "Awaiting response HWF", "DisplayOrder": 1, "TitleDisplay": "# ${helpWithFeesNumber} ${caseName}"}
 ]

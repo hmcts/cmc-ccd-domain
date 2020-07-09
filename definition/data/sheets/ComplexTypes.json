@@ -282,5 +282,8 @@
   {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemovedPrefix", "ElementLabel": "They’ve removed the address they want to use for post about the claim.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "correspondenceAddressRemoved=\"Yes\""},
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestId", "FieldType": "Text", "ElementLabel": "Bulk print request id", "SecurityClassification": "Public"},
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestType","FieldType": "FixedList", "FieldTypeParameter": "BulkPrintRequestType", "ElementLabel": "Bulk print request type", "SecurityClassification": "Public"},
-  {"ID": "BulkPrintDetails", "ListElementCode": "printRequestedAt", "FieldType": "Date", "ElementLabel": "Bulk print requested at", "SecurityClassification": "Public"}
+  {"ID": "BulkPrintDetails", "ListElementCode": "printRequestedAt", "FieldType": "Date", "ElementLabel": "Bulk print requested at", "SecurityClassification": "Public"},
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeeLabelCode", "FieldType": "Label", "ElementLabel": "Help With Fees Label", "SecurityClassification": "Public"},
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeesNumberCode", "FieldType": "Text", "ElementLabel": "Help With Fees Number", "SecurityClassification": "Public"},
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeesTypeCode", "FieldType": "Text", "ElementLabel": "Help With Fees Type Code", "SecurityClassification": "Public"}
 ]

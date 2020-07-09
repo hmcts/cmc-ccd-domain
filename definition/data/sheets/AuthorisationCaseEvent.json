@@ -304,5 +304,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-judge", "CRUD": "CU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CU"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRU"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InvalidHWFReference", "UserRole": "caseworker-cmc", "CRUD": "R"}
 ]

@@ -92,5 +92,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResponseMoreTime", "CaseFieldID": "draftLetterDoc", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 3, "FieldShowCondition": "responseDeadlinePreview=\"\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "CaseFieldID": "proceedOnPaperReason", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 24},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "CaseFieldID": "proceedOnPaperOtherReason", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 25, "FieldShowCondition": "proceedOnPaperReason=\"OTHER\""},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseAdmission", "CaseFieldID": "paperAdmissionType", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseAdmission", "CaseFieldID": "paperAdmissionType", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InvalidHWFReference", "CaseFieldID": "hwfFields", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1}
 ]
