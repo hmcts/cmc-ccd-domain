@@ -94,13 +94,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "CaseFieldID": "proceedOnPaperOtherReason", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 25, "FieldShowCondition": "proceedOnPaperReason=\"OTHER\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseAdmission", "CaseFieldID": "paperAdmissionType", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "Transfer", "CaseFieldID": "transferContent", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
-  {
-    "CaseTypeID": "MoneyClaimCase",
-    "CaseEventID": "InvalidHWFReference",
-    "CaseFieldID": "hwfFields",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "DisplayContext": "COMPLEX",
-    "PageFieldDisplayOrder": 1
-  }
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InvalidHWFReference", "CaseFieldID": "hwfFields", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1}
 ]
