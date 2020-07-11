@@ -183,6 +183,9 @@
   {"ID": "Assignee", "ListElementCode": "J8", "ListElement": "Judge Stuart Hammond"},
   {"ID": "Assignee", "ListElementCode": "J9", "ListElement": "Judge Marshall Phillips"},
   {"ID": "Assignee", "ListElementCode": "FROM_JUDGE_WITH_DIRECTION", "ListElement": "From Judge with direction"},
+  {"ID": "ResponseMethod", "ListElementCode": "DIGITAL", "ListElement": "Online response"},
+  {"ID": "ResponseMethod", "ListElementCode": "OFFLINE", "ListElement": "Fully offline response"},
+  {"ID": "ResponseMethod", "ListElementCode": "OCON_FORM", "ListElement": "Paper response on OCON form"},
   {"ID": "ReviewOrderPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
   {"ID": "ReviewOrderPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant"},
   {"ID": "ChannelType", "ListElementCode": "CITIZEN", "ListElement": "Citizen case"},
@@ -199,6 +202,11 @@
   {"ID": "RpaType", "ListElementCode": "PAID_IN_FULL", "ListElement": "Paid in Full"},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_CLAIMANT", "ListElement": "Application by Claimant", "DisplayOrder":1},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_DEFENDANT", "ListElement": "Application by Defendant", "DisplayOrder":2},
-  {"ID": "ProceedOnPaperReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":3}
-
+  {"ID": "ProceedOnPaperReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":3},
+  {"ID": "PaperAdmissionType", "ListElementCode": "FULL_ADMISSION", "ListElement": "Full admit", "DisplayOrder":1},
+  {"ID": "PaperAdmissionType", "ListElementCode": "PART_ADMISSION", "ListElement": "Part admit", "DisplayOrder":2},
+  {"ID": "BulkPrintRequestType", "ListElementCode": "PIN_LETTER_TO_DEFENDANT", "ListElement": "Pin Letter to Defendant", "DisplayOrder":1},
+  {"ID": "BulkPrintRequestType", "ListElementCode": "LEGAL_ORDER", "ListElement": "Legal order to parties", "DisplayOrder":2},
+  {"ID": "BulkPrintRequestType", "ListElementCode": "GENERAL_LETTER", "ListElement": "General letter", "DisplayOrder":3},
+  {"ID": "BulkPrintRequestType", "ListElementCode": "BULK_PRINT_TRANSFER", "ListElement": "Bulk print transfer of case", "DisplayOrder":4}
 ]

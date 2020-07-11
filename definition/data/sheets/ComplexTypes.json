@@ -132,7 +132,7 @@
   {"ID": "ScannedDocument", "ListElementCode": "controlNumber", "FieldType": "Text", "ElementLabel": "Document control number", "SecurityClassification": "Public"},
   {"ID": "ScannedDocument", "ListElementCode": "fileName", "FieldType": "Text", "ElementLabel": "Document name", "SecurityClassification": "Public"},
   {"ID": "ScannedDocument", "ListElementCode": "type", "FieldType": "FixedList", "FieldTypeParameter": "ScannedDocumentType", "ElementLabel": "Document type", "SecurityClassification": "Public"},
-  {"ID": "ScannedDocument", "ListElementCode": "subtype", "FieldType": "Text", "ElementLabel": "Document Subtype", "HintText":"Valid values: N9,N9a,N9b,N11,N180,N225,EX160,Non prescribed documents","SecurityClassification": "Public"},
+  {"ID": "ScannedDocument", "ListElementCode": "subtype", "FieldType": "Text", "ElementLabel": "Document Subtype", "HintText":"Valid values: OCON9x,N9,N9a,N9b,N11,N180,N225,EX160,Non prescribed documents","SecurityClassification": "Public"},
   {"ID": "ScannedDocument", "ListElementCode": "scannedDate", "FieldType": "DateTime", "ElementLabel": "Scanned date", "SecurityClassification": "Public"},
   {"ID": "ScannedDocument", "ListElementCode": "deliveryDate", "FieldType": "DateTime", "ElementLabel": "Received on", "SecurityClassification": "Public"},
   {"ID": "ScannedDocument", "ListElementCode": "url", "FieldType": "Document", "ElementLabel": "Document Url", "SecurityClassification": "Public"},
@@ -221,6 +221,7 @@
   {"ID": "Respondent", "ListElementCode": "claimantProvidedRepresentativeOrganisationDxAddress", "FieldType": "Text", "ElementLabel": "Organisation DxAddress", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "claimantProvidedRepresentativeOrganisationEmail", "FieldType": "Email", "ElementLabel": "Organisation Email", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "directionsQuestionnaire", "FieldType": "DirectionsQuestionnaire", "ElementLabel": "Respondent Directions Questionnaire", "SecurityClassification": "Public"},
+  {"ID": "Respondent", "ListElementCode": "responseMethod", "FieldType": "FixedList",  "FieldTypeParameter": "ResponseMethod", "ElementLabel": "Defendant's Response Method", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "pcqId", "FieldType": "Text", "ElementLabel": "PCQ ID", "SecurityClassification": "Public"},
   {"ID": "Applicant", "ListElementCode": "partyName", "FieldType": "Text", "ElementLabel": "Applicant name", "SecurityClassification": "Public"},
   {"ID": "Applicant", "ListElementCode": "partyDetailsLabel", "FieldType": "Label", "ElementLabel": "**Claimant details**", "SecurityClassification": "Public"},
@@ -280,5 +281,8 @@
   {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemoved", "ElementLabel": "Is contact address removed?", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
   {"ID": "ContactChangeContent", "ListElementCode": "telephoneRemovedPrefix", "ElementLabel": "They’ve removed their phone number.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "telephoneRemoved=\"Yes\""},
   {"ID": "ContactChangeContent", "ListElementCode": "primaryEmailRemovedPrefix", "ElementLabel": "They’ve removed their email address.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "primaryEmailRemoved=\"Yes\""},
-  {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemovedPrefix", "ElementLabel": "They’ve removed the address they want to use for post about the claim.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "correspondenceAddressRemoved=\"Yes\""}
+  {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemovedPrefix", "ElementLabel": "They’ve removed the address they want to use for post about the claim.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "correspondenceAddressRemoved=\"Yes\""},
+  {"ID": "BulkPrintDetails", "ListElementCode": "printRequestId", "FieldType": "Text", "ElementLabel": "Bulk print request id", "SecurityClassification": "Public"},
+  {"ID": "BulkPrintDetails", "ListElementCode": "printRequestType","FieldType": "FixedList", "FieldTypeParameter": "BulkPrintRequestType", "ElementLabel": "Bulk print request type", "SecurityClassification": "Public"},
+  {"ID": "BulkPrintDetails", "ListElementCode": "printRequestedAt", "FieldType": "Date", "ElementLabel": "Bulk print requested at", "SecurityClassification": "Public"}
 ]
