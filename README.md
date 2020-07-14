@@ -13,7 +13,7 @@
 * ToDo:
     * Exercise cmc-claim-store and cmc-claim-submit-api functional tests (and any other consumers)
 
-## Release
+## Release ##
 
 Version number is defined in file [VERSION.yaml](./VERSION.yaml), both artefacts use same version number.
 
