@@ -306,7 +306,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateOfHandoff", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateOfHandoff", "UserRole": "citizen", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"}
 ]
