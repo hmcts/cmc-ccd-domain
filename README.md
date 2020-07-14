@@ -34,7 +34,7 @@ Manually release through GitHub: https://github.com/hmcts/cmc-ccd-domain/release
 
 Definitions have a separate release process for promotion to PROD. See definition [README.md](./definition/README.md#)
 
-## Development (WIP)
+### Development (WIP)
 
 1. Open PR here, bumping up /definitions/VERSION.yaml to 1.2.1 (no functional test running at this stage)
     * cmc-ccd-domain - master 1.2.0
