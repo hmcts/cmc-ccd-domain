@@ -265,6 +265,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InitiateClaimPaymentCitizen", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeClaimPaymentCitizen", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeClaimPaymentCitizen", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeHelpWithFeeClaimSubmission", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeHelpWithFeeClaimSubmission", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetPin", "UserRole": "caseworker-cmc", "CRUD": "CR"},
