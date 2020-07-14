@@ -290,9 +290,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc-solicitor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseOCON9xForm", "UserRole":"caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimNotes", "UserRole": "caseworker-cmc", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimNotes", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimNotes", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimNotes", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimNotes", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimNotes", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-legaladvisor", "CRUD": "R"},
@@ -304,7 +304,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-judge", "CRUD": "CU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CU"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRU"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseMovedOffline", "UserRole": "caseworker-cmc", "CRUD": "RUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseMovedOffline", "UserRole": "citizen", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRU"}
 ]
