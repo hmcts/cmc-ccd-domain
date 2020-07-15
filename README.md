@@ -13,7 +13,7 @@
 * ToDo:
     * Exercise cmc-claim-store and cmc-claim-submit-api functional tests (and any other consumers)
 
-## Release
+## Release ##
 
 Version number is defined in file [VERSION.yaml](./VERSION.yaml), both artefacts use same version number.
 
@@ -34,7 +34,7 @@ Manually release through GitHub: https://github.com/hmcts/cmc-ccd-domain/release
 
 Definitions have a separate release process for promotion to PROD. See definition [README.md](./definition/README.md#)
 
-## Development (WIP)
+### Development (WIP)
 
 1. Open PR here, bumping up /definitions/VERSION.yaml to 1.2.1 (no functional test running at this stage)
     * cmc-ccd-domain - master 1.2.0
