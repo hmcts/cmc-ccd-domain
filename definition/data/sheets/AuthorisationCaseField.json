@@ -310,5 +310,11 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-judge", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bulkPrintDetails", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateOfHandoff", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateOfHandoff", "UserRole": "citizen", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateOfHandoff", "UserRole": "citizen", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "helpWithFeesNumber", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "helpWithFeesNumber", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "HelpWithFeeLabel", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "HelpWithFeeLabel", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "helpWithFeesType", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "helpWithFeesType", "UserRole": "caseworker-cmc", "CRUD": "CRU"}
 ]

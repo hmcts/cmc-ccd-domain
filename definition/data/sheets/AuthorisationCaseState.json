@@ -66,5 +66,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc", "CRUD": "CUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "businessQueue", "UserRole": "citizen", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "businessQueue", "UserRole": "caseworker-cmc", "CRUD": "CRU"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "businessQueue", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "citizen", "CRUD": "CRUD"}
 ]
