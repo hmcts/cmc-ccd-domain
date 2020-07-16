@@ -310,5 +310,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateHelpWithFeesClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateHelpWithFeesClaim", "UserRole": "citizen", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeHelpWithFeeClaimSubmission", "UserRole": "caseworker-cmc", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeHelpWithFeeClaimSubmission", "UserRole": "citizen", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeHelpWithFeeClaimSubmission", "UserRole": "citizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InvalidHWFReference", "UserRole": "caseworker-cmc", "CRUD": "CRU"}
 ]

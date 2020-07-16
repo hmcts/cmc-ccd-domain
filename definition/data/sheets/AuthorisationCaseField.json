@@ -316,5 +316,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "HelpWithFeeLabel", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "HelpWithFeeLabel", "UserRole": "citizen", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "helpWithFeesType", "UserRole": "citizen", "CRUD": "CRU"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "helpWithFeesType", "UserRole": "caseworker-cmc", "CRUD": "CRU"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "helpWithFeesType", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "helpWithFeesComplex", "UserRole": "caseworker-cmc", "CRUD": "CRU"}
 ]
