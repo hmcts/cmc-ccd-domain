@@ -295,6 +295,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "UserRole": "caseworker-cmc-judge", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "UserRole": "citizen", "CRUD": "CR"}
-
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "UserRole": "citizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "NoRemissionHWF", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "NoRemissionHWF", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "NoRemissionHWF", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "NoRemissionHWF", "UserRole": "citizen", "CRUD": "CRUD"}
 ]
