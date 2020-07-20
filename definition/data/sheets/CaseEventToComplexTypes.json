@@ -130,5 +130,6 @@
     {"ID": "ContactChangeContent", "CaseEventID": "ChangeContactDetails", "ListElementCode": "telephoneRemovedPrefix","CaseFieldID": "contactChangeContent","EventElementLabel": "They’ve removed their phone number.", "DisplayContext": "READONLY", "FieldDisplayOrder": 20},
     {"ID": "ContactChangeContent", "CaseEventID": "ChangeContactDetails", "ListElementCode": "primaryEmailRemovedPrefix","CaseFieldID": "contactChangeContent","EventElementLabel": "They’ve removed their email address.", "DisplayContext": "READONLY", "FieldDisplayOrder": 21},
     {"ID": "ContactChangeContent", "CaseEventID": "ChangeContactDetails", "ListElementCode": "correspondenceAddressRemovedPrefix","CaseFieldID": "contactChangeContent","EventElementLabel": "They’ve removed the address they want to use for post about the claim.", "DisplayContext": "READONLY", "FieldDisplayOrder": 22},
-    {"ID": "HWFFields", "CaseEventID": "InvalidHWFReference", "ListElementCode": "helpWithFeesNumber", "CaseFieldID": "helpWithFeesComplex", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
+    {"ID": "HWFFields", "CaseEventID": "InvalidHWFReference", "ListElementCode": "helpWithFeesNumber", "CaseFieldID": "helpWithFeesComplex", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
+    {"ID": "HWFDetails", "CaseEventID": "HWFPartRemission", "ListElementCode": "HWF Details","CaseFieldID": "hwfDetails","EventElementLabel": "RefNumber", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
 ]
