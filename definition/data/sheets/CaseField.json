@@ -111,5 +111,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "bulkPrintDetails", "Label": "Bulk print transfers details","FieldType": "Collection", "FieldTypeParameter": "BulkPrintDetails", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "HelpWithFeeLabel", "Label": "**HWF Details**", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesNumber", "Label": "HWF reference number", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesType", "Label": "Type", "FieldType": "Text", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesType", "Label": "Type", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "dateOfHandoff", "Label": "Date the case was handed off.", "FieldType": "Date", "SecurityClassification": "Public"}
 ]
