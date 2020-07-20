@@ -310,5 +310,10 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseMovedOffline", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseMovedOffline", "UserRole": "citizen", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseMovedOffline", "UserRole": "citizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateHelpWithFeesClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateHelpWithFeesClaim", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeHelpWithFeeClaimSubmission", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeHelpWithFeeClaimSubmission", "UserRole": "citizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InvalidHWFReference", "UserRole": "caseworker-cmc", "CRUD": "CRU"}
 ]

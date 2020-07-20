@@ -289,5 +289,7 @@
   {"ID": "TransferContent", "ListElementCode": "transferReasonOther", "ElementLabel": "Reason", "FieldType": "TextArea", "SecurityClassification": "Public", "FieldShowCondition": "transferReason=\"OTHER\""},
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestId", "FieldType": "Text", "ElementLabel": "Bulk print request id", "SecurityClassification": "Public"},
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestType","FieldType": "FixedList", "FieldTypeParameter": "BulkPrintRequestType", "ElementLabel": "Bulk print request type", "SecurityClassification": "Public"},
-  {"ID": "BulkPrintDetails", "ListElementCode": "printRequestedAt", "FieldType": "Date", "ElementLabel": "Bulk print requested at", "SecurityClassification": "Public"}
+  {"ID": "BulkPrintDetails", "ListElementCode": "printRequestedAt", "FieldType": "Date", "ElementLabel": "Bulk print requested at", "SecurityClassification": "Public"},
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeesNumber", "FieldType": "Label", "ElementLabel": " ", "SecurityClassification": "Public"},
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeesType", "FieldType": "Text", "ElementLabel": "HWF Type", "SecurityClassification": "Public"}
 ]
