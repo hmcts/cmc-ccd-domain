@@ -90,6 +90,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "CaseFieldID": "proceedOnPaperReason", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 24},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CaseProceedsInCaseman", "CaseFieldID": "proceedOnPaperOtherReason", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 25, "FieldShowCondition": "proceedOnPaperReason=\"OTHER\""},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "CaseFieldID": "hwfDetails", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 25},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "CaseFieldID": "feeRemitted", "PageID": 2, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 25}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "CaseFieldID": "feeRemitted", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 25}
 
 ]

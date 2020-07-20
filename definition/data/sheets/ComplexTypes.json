@@ -280,6 +280,5 @@
   {"ID": "ContactChangeContent", "ListElementCode": "telephoneRemovedPrefix", "ElementLabel": "They’ve removed their phone number.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "telephoneRemoved=\"Yes\""},
   {"ID": "ContactChangeContent", "ListElementCode": "primaryEmailRemovedPrefix", "ElementLabel": "They’ve removed their email address.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "primaryEmailRemoved=\"Yes\""},
   {"ID": "ContactChangeContent", "ListElementCode": "correspondenceAddressRemovedPrefix", "ElementLabel": "They’ve removed the address they want to use for post about the claim.", "FieldType": "Label", "SecurityClassification": "Public", "FieldShowCondition": "correspondenceAddressRemoved=\"Yes\""},
-  {"ID": "HWFDetails", "ListElementCode": "referenceNumber", "ElementLabel": "HWF reference number", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"ID": "HWFDetails", "ListElementCode": "hwfType", "FieldType": "FixedList",  "FieldTypeParameter": "HWFFeesType", "ElementLabel": "Help with fees type", "SecurityClassification": "Public"}
+  {"ID": "HWFDetails", "ListElementCode": "referenceNumber", "ElementLabel": "Reference number", "FieldType": "Text", "SecurityClassification": "Public"}
 ]
