@@ -115,5 +115,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "bulkPrintDetails", "Label": "Bulk print transfers details","FieldType": "Collection", "FieldTypeParameter": "BulkPrintDetails", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "dateOfHandoff", "Label": "Date the case was handed off.", "FieldType": "Date", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesDetailsLabel", "Label": "Details", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesComplex", "Label": "HWF Details","FieldType": "HWFFields","SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesComplex", "Label": "HWF Details","FieldType": "HWFFields","SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "feeRemitted", "Label": "Remitted fee amount", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "moreInfoDetails", "Label": "Details", "FieldType": "TextArea", "SecurityClassification": "Public"}
 ]
