@@ -1,5 +1,6 @@
 [
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateHelpWithFeesClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefaultCCJRequested", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MoreTimeRequestedOnline", "UserRole": "caseworker-cmc", "CRUD": "R"},
@@ -35,6 +36,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "LiftStay", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SYSTEM_MAINTENANCE", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateClaim", "UserRole": "citizen", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateHelpWithFeesClaim", "UserRole": "citizen", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueClaim", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "DefaultCCJRequested", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MoreTimeRequestedOnline", "UserRole": "citizen", "CRUD": "CR"},
@@ -263,6 +265,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InitiateClaimPaymentCitizen", "UserRole": "caseworker-cmc", "CRUD": "C"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeClaimPaymentCitizen", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeClaimPaymentCitizen", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeHelpWithFeeClaimSubmission", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResumeHelpWithFeeClaimSubmission", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CreateCitizenClaim", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ResetPin", "UserRole": "caseworker-cmc", "CRUD": "CR"},
