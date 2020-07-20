@@ -93,5 +93,11 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "CaseFieldID": "feeRemitted", "PageID": 2, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 25},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "NoRemissionHWF", "CaseFieldID": "hwfFeeDetailsSummary", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 2},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "NoRemissionHWF", "CaseFieldID": "hwfReferenceNumber", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "NoRemissionHWF", "CaseFieldID": "hwfMandatoryDetails", "PageID": 1, "PageDisplayOrder": 3,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 3}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "NoRemissionHWF", "CaseFieldID": "hwfMandatoryDetails", "PageID": 1, "PageDisplayOrder": 3,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 3},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FullRemissionHWFRejected", "CaseFieldID": "hwfFeeDetailsSummary", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 2},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FullRemissionHWFRejected", "CaseFieldID": "hwfReferenceNumber", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "FullRemissionHWFRejected", "CaseFieldID": "hwfMandatoryDetails", "PageID": 1, "PageDisplayOrder": 3,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 3},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PartRemissionHWFRejected", "CaseFieldID": "hwfFeeDetailsSummary", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 2},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PartRemissionHWFRejected", "CaseFieldID": "hwfReferenceNumber", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PartRemissionHWFRejected", "CaseFieldID": "hwfMandatoryDetails", "PageID": 1, "PageDisplayOrder": 3,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 3}
 ]
