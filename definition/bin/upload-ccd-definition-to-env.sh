@@ -6,10 +6,7 @@ cd "$( dirname "${BASH_SOURCE[0]}" )"
 function require () {
   local command=${1}
   local installMessage=${2}
-  hash ${command} 2>/dev/null || {
-    logError "${command} is not installed. ${installMessage}. Aborting."
-    exit 1
-  }
+
 }
 
 function keyVaultRead() {
