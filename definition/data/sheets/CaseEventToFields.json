@@ -95,5 +95,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InvalidHWFReference", "CaseFieldID": "helpWithFeesComplex", "PageID": 1, "PageDisplayOrder": 1, "DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "InvalidHWFReference", "CaseFieldID": "helpWithFeesNumber", "PageID": 1, "PageDisplayOrder": 2, "DisplayContext": "READONLY", "PageFieldDisplayOrder": 2},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "CaseFieldID": "helpWithFeesNumber", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "CaseFieldID": "feeRemitted", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 2}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "CaseFieldID": "feeRemitted", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 2},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MoreInfoRequiredForHWF", "CaseFieldID": "helpWithFeesNumber", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MoreInfoRequiredForHWF", "CaseFieldID": "moreInfoDetails", "PageID": 1, "PageDisplayOrder": 2,"DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 2}
 ]

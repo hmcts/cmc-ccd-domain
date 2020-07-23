@@ -114,5 +114,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesType", "Label": "Type", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "dateOfHandoff", "Label": "Date the case was handed off.", "FieldType": "Date", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesComplex", "Label": "HWF Details","FieldType": "HWFFields","SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "feeRemitted", "Label": "Remitted fee amount", "FieldType": "MoneyGBP", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "feeRemitted", "Label": "Remitted fee amount", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "moreInfoDetails", "Label": "Details", "FieldType": "TextArea", "SecurityClassification": "Public"}
 ]
