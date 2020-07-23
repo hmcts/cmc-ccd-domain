@@ -328,5 +328,10 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfFeeDetailsSummary", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfFeeDetailsSummary", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfFeeDetailsSummary", "UserRole": "citizen", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfMandatoryDetails", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfMandatoryDetails", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "feeRemitted", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "feeRemitted", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "feeRemitted", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "feeRemitted", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "feeRemitted", "UserRole": "citizen", "CRUD": "CRUD"}
 ]
