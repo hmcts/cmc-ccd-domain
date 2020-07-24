@@ -11,7 +11,7 @@
 * CMC CCD JSON Definition (*note:* [definition/README.md](./definition/README.md) for how to handle definitions)
 * Tooling to release/manage CCD Definition
 * ToDo:
-    * Exercise cmc-claim-store and cmc-claim-submit-api functional tests (and any other consumers)
+    *  Exercise cmc-claim-store and cmc-claim-submit-api functional tests (and any other consumers)
 
 ## Release ##
 
