@@ -312,5 +312,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateOfHandoff", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateOfHandoff", "UserRole": "citizen", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "respondents", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "applicants", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "applicants", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "directionOrderType", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"}
 ]
