@@ -111,5 +111,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "transferContent", "Label": " ", "FieldType": "TransferContent", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "bulkPrintDetails", "Label": "Bulk print transfers details","FieldType": "Collection", "FieldTypeParameter": "BulkPrintDetails", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "dateOfHandoff", "Label": "Date the case was handed off.", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "directionOrderType", "Label": "What kind of directions order do you want to draw?", "FieldType": "FixedRadioList", "FieldTypeParameter": "DirectionOrderType", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "directionOrderType", "Label": "What kind of directions order do you want to draw?", "FieldType": "FixedRadioList", "FieldTypeParameter": "DirectionOrderType", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "bespokeDirectionsInstruction", "Label": "Add a new direction","FieldType": "Collection", "FieldTypeParameter": "BespokeDirections", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "drawBespokeDirectionOrder", "Label": "**Draw a bespoke order**","FieldType": "Label", "SecurityClassification": "Public"}
 ]
