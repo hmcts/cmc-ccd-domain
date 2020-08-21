@@ -7,6 +7,7 @@
   {"CaseTypeID": "MoneyClaimCase", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "UserRole": "payments", "CRUD": "R"}
 
 ]
