@@ -314,7 +314,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "respondents", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "applicants", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "directionOrderType", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bespokeDirectionsInstruction", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bespokeDirectionList", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "drawBespokeDirectionOrder", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "drawBespokeDirectionOrderWarning", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"}
 ]
