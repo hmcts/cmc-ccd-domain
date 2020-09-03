@@ -10,6 +10,7 @@
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "selfWitness", "FieldType": "YesOrNo", "ElementLabel": "Self Witness", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "numberOfOtherWitnesses", "FieldType": "Number", "ElementLabel": "How many other witness in case", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "hearingLocation", "FieldType": "Text", "ElementLabel": "Hearing location selected by Party", "SecurityClassification": "Public"},
+  {"ID": "DirectionsQuestionnaire", "ListElementCode": "hearingLocationSlug", "FieldType": "Text", "ElementLabel": "Hearing slug location selected by Party", "SecurityClassification": "Public","FieldShowCondition":"hearingLocation=\"NEVER\""},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "hearingLocationOption", "FieldType": "Text", "ElementLabel": "Hearing location option selected by Party", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "hearingCourtAddress", "FieldType": "AddressUK", "ElementLabel": "Court hearing location address by Party", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "exceptionalCircumstancesReason", "FieldType": "Text", "ElementLabel": "Reason for exceptional circumstances", "SecurityClassification": "Public"},
