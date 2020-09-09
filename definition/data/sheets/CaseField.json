@@ -110,5 +110,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "paperAdmissionType", "Label": "Admission Type", "FieldType": "FixedRadioList", "SecurityClassification": "Public", "FieldTypeParameter": "PaperAdmissionType"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "transferContent", "Label": " ", "FieldType": "TransferContent", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "bulkPrintDetails", "Label": "Bulk print transfers details","FieldType": "Collection", "FieldTypeParameter": "BulkPrintDetails", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "dateOfHandoff", "Label": "Date the case was handed off.", "FieldType": "Date", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "dateOfHandoff", "Label": "Date the case was handed off.", "FieldType": "Date", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "PaymentHistory", "Label": "A history of payments associated with a the case", "FieldType": "CasePaymentHistoryViewer", "SecurityClassification": "Public"}
 ]
