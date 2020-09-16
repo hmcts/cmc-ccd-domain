@@ -89,6 +89,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentRequested", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "businessQueue", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"}
-
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "businessQueue", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "SettlementAgreementSigned", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "SettlementAgreementSigned", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "SettlementAgreementSigned", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"}
 ]
