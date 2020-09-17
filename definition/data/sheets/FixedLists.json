@@ -223,5 +223,5 @@
   {"ID": "BespokeDirectionPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant","DisplayOrder":1},
   {"ID": "BespokeDirectionPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant","DisplayOrder":2},
   {"ID": "BespokeDirectionPartyType", "ListElementCode": "BOTH", "ListElement": "Both parties","DisplayOrder":3},
-  {"ID": "BespokeDirectionWarning", "ListElementCode": "WARNING", "ListElement": "Include warningg","DisplayOrder":1}
+  {"ID": "BespokeDirectionWarning", "ListElementCode": "WARNING", "ListElement": "Include warning","DisplayOrder":1}
 ]
