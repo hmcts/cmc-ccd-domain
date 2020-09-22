@@ -170,6 +170,8 @@
   {"ID": "Respondent", "ListElementCode": "defendantResponseLabel", "FieldType": "Label", "ElementLabel": "Defendant response", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseSubmittedOn", "FieldType": "DateTime", "ElementLabel": "Response received date and time", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "servedDate", "FieldType": "Date", "ElementLabel": "Served date", "SecurityClassification": "Public"},
+  {"ID": "Respondent", "ListElementCode": "paperFormIssueDate", "FieldType": "Date", "ElementLabel": "Date Paper defence form issued", "SecurityClassification": "Public"},
+  {"ID": "Respondent", "ListElementCode": "paperFormServedDate", "FieldType": "Date", "ElementLabel": "Date Paper response form served", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseDeadline", "FieldType": "Date", "ElementLabel": "Response deadline", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "courtDetermination", "FieldType": "CourtDetermination", "ElementLabel": "Court Determination", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseType", "FieldType": "FixedList", "FieldTypeParameter": "ResponseType", "ElementLabel": "Response type", "SecurityClassification": "Public"},
