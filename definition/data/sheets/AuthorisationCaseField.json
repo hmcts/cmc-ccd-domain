@@ -313,5 +313,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateOfHandoff", "UserRole": "citizen", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "respondents", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "applicants", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "PaymentHistory", "UserRole": "payments", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "PaymentHistory", "UserRole": "payments", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "extendedResponseDeadline", "UserRole": "caseworker-cmc", "CRUD": "R"}
 ]
