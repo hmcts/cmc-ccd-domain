@@ -114,6 +114,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "directionOrderType", "Label": "What kind of directions order do you want to draw?", "FieldType": "FixedRadioList", "FieldTypeParameter": "DirectionOrderType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "bespokeDirectionList", "Label": "Add a new direction","FieldType": "Collection", "FieldTypeParameter": "BespokeDirections", "SecurityClassification": "Public","Min":  1},
   {"CaseTypeID": "MoneyClaimCase", "ID": "drawBespokeDirectionOrder", "Label": "**Draw a bespoke order**","FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "drawBespokeDirectionOrderWarning", "Label": " ","FieldType": "MultiSelectList","FieldTypeParameter": "BespokeDirectionWarning", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "drawBespokeDirectionOrderWarning", "Label": " ","FieldType": "MultiSelectList","FieldTypeParameter": "BespokeDirectionWarning", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "PaymentHistory", "Label": "A history of payments associated with a the case", "FieldType": "CasePaymentHistoryViewer", "SecurityClassification": "Public"}
 ]
