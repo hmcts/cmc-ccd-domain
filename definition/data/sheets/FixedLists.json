@@ -94,6 +94,7 @@
   {"ID": "FormalisedOption", "ListElementCode": "REFER_TO_JUDGE", "ListElement": "Requested for judge Counciling"},
   {"ID": "ResponseSubject", "ListElementCode": "Res_CLAIMANT", "ListElement": "Claimant response"},
   {"ID": "ResponseSubject", "ListElementCode": "Res_DEFENDANT", "ListElement": "Defendant response"},
+  {"ID": "ResponseSubject", "ListElementCode": "None", "ListElement": "Court not objected"},
   {"ID": "CountyCourtJudgmentType", "ListElementCode": "DEFAULT", "ListElement": "Default"},
   {"ID": "CountyCourtJudgmentType", "ListElementCode": "ADMISSIONS", "ListElement": "Admissions"},
   {"ID": "CountyCourtJudgmentType", "ListElementCode": "DETERMINATION", "ListElement": "Determination"},
