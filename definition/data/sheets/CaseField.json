@@ -111,5 +111,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "transferContent", "Label": " ", "FieldType": "TransferContent", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "bulkPrintDetails", "Label": "Bulk print transfers details","FieldType": "Collection", "FieldTypeParameter": "BulkPrintDetails", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "dateOfHandoff", "Label": "Date the case was handed off.", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "PaymentHistory", "Label": "A history of payments associated with a the case", "FieldType": "CasePaymentHistoryViewer", "SecurityClassification": "Public"}
-]
+  {"CaseTypeID": "MoneyClaimCase", "ID": "PaymentHistory", "Label": "A history of payments associated with a the case", "FieldType": "CasePaymentHistoryViewer", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "extendedResponseDeadline", "Label": "Extended Response Deadline", "FieldType": "Date", "SecurityClassification": "Public"}
+ ]
