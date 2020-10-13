@@ -106,6 +106,8 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "contactChangeParty", "Label": "Whose contact details are you changing?", "FieldType": "FixedRadioList", "FieldTypeParameter": "ChangeContactDetailsParty", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "contactChangeContent", "Label": "Check the text that informs the other party of the change.", "FieldType": "ContactChangeContent", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperReason", "Label": "Reason for proceeding on paper", "FieldType": "FixedList","FieldTypeParameter":"ProceedOnPaperReason", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperReasonContent1", "Label": "1. The case will now proceed on paper (offline). \n 1. If you have:", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperReasonContent2", "Label": "* received an application from the claimant or defendant choose the appropriate value \n * not received a claimant or defendant application choose 'Other' and explain the reason" , "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "proceedOnPaperOtherReason", "Label": "Other reason", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "paperAdmissionType", "Label": "Admission Type", "FieldType": "FixedRadioList", "SecurityClassification": "Public", "FieldTypeParameter": "PaperAdmissionType"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "transferContent", "Label": " ", "FieldType": "TransferContent", "SecurityClassification": "Public"},
@@ -115,5 +117,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "bespokeDirectionList", "Label": "Add a new direction","FieldType": "Collection", "FieldTypeParameter": "BespokeDirections", "SecurityClassification": "Public","Min":  1},
   {"CaseTypeID": "MoneyClaimCase", "ID": "drawBespokeDirectionOrder", "Label": "**Draw a bespoke order**","FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "drawBespokeDirectionOrderWarning", "Label": " ","FieldType": "MultiSelectList","FieldTypeParameter": "BespokeDirectionWarning", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "PaymentHistory", "Label": "A history of payments associated with a the case", "FieldType": "CasePaymentHistoryViewer", "SecurityClassification": "Public"}
-]
+  {"CaseTypeID": "MoneyClaimCase", "ID": "PaymentHistory", "Label": "A history of payments associated with a the case", "FieldType": "CasePaymentHistoryViewer", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "extendedResponseDeadline", "Label": "Extended Response Deadline", "FieldType": "Date", "SecurityClassification": "Public"}
+ ]
+

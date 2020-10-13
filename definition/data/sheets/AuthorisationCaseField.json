@@ -321,5 +321,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bespokeDirectionList", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "drawBespokeDirectionOrder", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "drawBespokeDirectionOrderWarning", "UserRole": "citizen", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "PaymentHistory", "UserRole": "payments", "CRUD": "CRU"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "PaymentHistory", "UserRole": "payments", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "extendedResponseDeadline", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]
