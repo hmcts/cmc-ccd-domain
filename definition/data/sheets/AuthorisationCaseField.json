@@ -313,6 +313,14 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "dateOfHandoff", "UserRole": "citizen", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "respondents", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "applicants", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "directionOrderType", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bespokeDirectionList", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "drawBespokeDirectionOrder", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "drawBespokeDirectionOrderWarning", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "directionOrderType", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "bespokeDirectionList", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "drawBespokeDirectionOrder", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "drawBespokeDirectionOrderWarning", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "PaymentHistory", "UserRole": "payments", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "extendedResponseDeadline", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]
