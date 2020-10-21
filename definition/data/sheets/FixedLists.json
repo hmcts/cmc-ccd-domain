@@ -222,6 +222,8 @@
   {"ID": "BulkPrintRequestType", "ListElementCode": "BULK_PRINT_TRANSFER", "ListElement": "Bulk print transfer of case", "DisplayOrder":4},
   {"ID": "ScannedDocumentSubType", "ListElementCode": "EX160", "ListElement": "EX160"},
   {"ID": "ScannedDocumentSubType", "ListElementCode": "Non_prescribed_documents", "ListElement": "Non prescribed documents"},
+  {"ID": "ScannedDocumentSubType", "ListElementCode": "N245", "ListElement": "N245"},
+  {"ID": "ScannedDocumentSubType", "ListElementCode": "N244", "ListElement": "N244"},
   {"ID": "ScannedDocumentSubType", "ListElementCode": "N225", "ListElement": "N225"},
   {"ID": "ScannedDocumentSubType", "ListElementCode": "N180", "ListElement": "N180"},
   {"ID": "ScannedDocumentSubType", "ListElementCode": "N11", "ListElement": "N11"},
