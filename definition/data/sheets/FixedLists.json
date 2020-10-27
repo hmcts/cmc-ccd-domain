@@ -229,5 +229,7 @@
   {"ID": "ScannedDocumentSubType", "ListElementCode": "N11", "ListElement": "N11"},
   {"ID": "ScannedDocumentSubType", "ListElementCode": "N9b", "ListElement": "N9b"},
   {"ID": "ScannedDocumentSubType", "ListElementCode": "N9a", "ListElement": "N9a"},
-  {"ID": "ScannedDocumentSubType", "ListElementCode": "N9", "ListElement": "N9"}
+  {"ID": "ScannedDocumentSubType", "ListElementCode": "N9", "ListElement": "N9"},
+  {"ID": "PaperResponseSubmittingParty", "ListElementCode": "claimant", "ListElement": "Claimant"},
+  {"ID": "PaperResponseSubmittingParty", "ListElementCode": "defendant", "ListElement": "Defendant"}
 ]
