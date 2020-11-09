@@ -119,6 +119,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesNumber", "Label": "HWF reference number", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesType", "Label": "Type", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesComplex", "Label": "HWF Details","FieldType": "HWFFields","SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "hwfFields", "Label": "HWF Fields","FieldType": "HWFFields","SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "feeRemitted", "Label": "Remitted fee amount", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfDetails", "Label": "HWF details", "FieldType": "HWFDetails", "SecurityClassification": "Public"}
 ]
