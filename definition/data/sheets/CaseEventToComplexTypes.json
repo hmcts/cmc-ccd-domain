@@ -141,5 +141,6 @@
     {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferCourtAddress.PostCode", "CaseFieldID": "transferContent", "EventElementLabel": "Postcode", "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 9},
     {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferReason", "CaseFieldID": "transferContent", "EventElementLabel": "Explain why the case is being transferred:", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 10},
     {"ID": "TransferContent", "CaseEventID": "Transfer", "ListElementCode": "transferReasonOther", "CaseFieldID": "transferContent", "EventElementLabel": "Reason", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 11},
-    {"ID": "HWFFields", "CaseEventID": "InvalidHWFReference", "ListElementCode": "helpWithFeesNumber", "CaseFieldID": "helpWithFeesComplex", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
+    {"ID": "HWFFields", "CaseEventID": "InvalidHWFReference", "ListElementCode": "helpWithFeesNumber", "CaseFieldID": "helpWithFeesComplex", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
+    {"ID": "HWFDetails", "CaseEventID": "HWFPartRemission", "ListElementCode": "HWF Details","CaseFieldID": "hwfDetails","EventElementLabel": "RefNumber", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1}
 ]

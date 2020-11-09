@@ -292,5 +292,6 @@
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestId", "FieldType": "Text", "ElementLabel": "Bulk print request id", "SecurityClassification": "Public"},
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestType","FieldType": "FixedList", "FieldTypeParameter": "BulkPrintRequestType", "ElementLabel": "Bulk print request type", "SecurityClassification": "Public"},
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestedAt", "FieldType": "Date", "ElementLabel": "Bulk print requested at", "SecurityClassification": "Public"},
-  {"ID": "HWFFields", "ListElementCode": "helpWithFeesNumber", "FieldType": "Label", "ElementLabel": " ", "SecurityClassification": "Public"}
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeesNumber", "FieldType": "Label", "ElementLabel": " ", "SecurityClassification": "Public"},
+  {"ID": "HWFDetails", "ListElementCode": "referenceNumber", "ElementLabel": "Reference number", "FieldType": "Text", "SecurityClassification": "Public"}
 ]
