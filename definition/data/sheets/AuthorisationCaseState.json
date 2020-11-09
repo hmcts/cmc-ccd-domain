@@ -93,6 +93,8 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "businessQueue", "UserRole": "caseworker-cmc-pcqextractor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "citizen", "CRUD": "CRUD"}
-
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"}
 ]
