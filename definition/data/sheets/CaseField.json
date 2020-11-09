@@ -124,6 +124,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "extendedResponseDeadline", "Label": "Extended Response Deadline", "FieldType": "Date", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesDetailsLabel", "Label": "Details", "FieldType": "TextArea", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "helpWithFeesComplex", "Label": "HWF Details","FieldType": "HWFFields","SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "hwfFields", "Label": "HWF Fields","FieldType": "HWFFields","SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "moreInfoDetails", "Label": "Details", "FieldType": "TextArea", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfFeeDetailsSummary", "Label": "Summary", "FieldType": "FixedList", "FieldTypeParameter": "HWFFeesSummaryType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfMandatoryDetails", "Label": "Details ", "FieldType": "TextArea", "SecurityClassification": "Public"},

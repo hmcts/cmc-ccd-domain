@@ -297,5 +297,8 @@
   {"ID": "BespokeDirections", "ListElementCode": "beSpokeDirectionDatetime", "FieldType": "Date", "ElementLabel": "What is the deadline for response", "SecurityClassification": "Public"},
   {"ID": "HWFFields", "ListElementCode": "helpWithFeesNumber", "FieldType": "Label", "ElementLabel": " ", "SecurityClassification": "Public"},
   {"ID": "HWFFields", "ListElementCode": "helpWithFeesType", "FieldType": "Text", "ElementLabel": "HWF Type", "SecurityClassification": "Public"},
-  {"ID": "HWFDetails", "ListElementCode": "referenceNumber", "ElementLabel": "Reference number", "FieldType": "Text", "SecurityClassification": "Public"}
+  {"ID": "HWFDetails", "ListElementCode": "referenceNumber", "ElementLabel": "Reference number", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeeLabelCode", "FieldType": "Label", "ElementLabel": "Help With Fees Label", "SecurityClassification": "Public"},
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeesNumberCode", "FieldType": "Text", "ElementLabel": "Help With Fees Number", "SecurityClassification": "Public"},
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeesTypeCode", "FieldType": "Text", "ElementLabel": "Help With Fees Type Code", "SecurityClassification": "Public"}
 ]
