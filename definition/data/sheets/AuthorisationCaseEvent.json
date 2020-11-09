@@ -319,4 +319,4 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFPartRemission", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MiscHWF", "UserRole": "caseworker-cmc", "CRUD": "R"}
 ]
-]
+
