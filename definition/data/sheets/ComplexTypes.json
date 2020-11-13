@@ -291,5 +291,8 @@
   {"ID": "TransferContent", "ListElementCode": "transferReasonOther", "ElementLabel": "Reason", "FieldType": "TextArea", "SecurityClassification": "Public", "FieldShowCondition": "transferReason=\"OTHER\""},
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestId", "FieldType": "Text", "ElementLabel": "Bulk print request id", "SecurityClassification": "Public"},
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestType","FieldType": "FixedList", "FieldTypeParameter": "BulkPrintRequestType", "ElementLabel": "Bulk print request type", "SecurityClassification": "Public"},
-  {"ID": "BulkPrintDetails", "ListElementCode": "printRequestedAt", "FieldType": "Date", "ElementLabel": "Bulk print requested at", "SecurityClassification": "Public"}
+  {"ID": "BulkPrintDetails", "ListElementCode": "printRequestedAt", "FieldType": "Date", "ElementLabel": "Bulk print requested at", "SecurityClassification": "Public"},
+  {"ID": "BespokeDirections", "ListElementCode": "beSpokeDirectionFor", "FieldType": "FixedList", "FieldTypeParameter": "BespokeDirectionPartyType", "ElementLabel": "Who is the direction for", "SecurityClassification": "Public"},
+  {"ID": "BespokeDirections", "ListElementCode": "beSpokeDirectionExplain", "FieldType": "TextArea", "ElementLabel": "Explain the direction", "SecurityClassification": "Public"},
+  {"ID": "BespokeDirections", "ListElementCode": "beSpokeDirectionDatetime", "FieldType": "Date", "ElementLabel": "What is the deadline for response", "SecurityClassification": "Public"}
 ]
