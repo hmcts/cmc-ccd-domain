@@ -1,5 +1,6 @@
 [
   {"CaseTypeID": "MoneyClaimCase", "ID": "create", "Name": "Create", "Description": "Case is created", "DisplayOrder": 1, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "hwfApplicationPending", "Name": "HWF Application Pending", "Description": "Help With Fees application pending", "DisplayOrder": 1, "TitleDisplay": "# ${helpWithFeesNumber} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "open", "Name": "Open", "Description": "Case is open", "DisplayOrder": 2, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "closed", "Name": "Closed", "Description": "Case is closed", "DisplayOrder": 3, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "settled", "Name": "Settled", "Description": "Claim is settled", "DisplayOrder": 4, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
@@ -21,5 +22,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "judgmentDecideAmount", "Name": "Decide amount by judgment", "Description": "Decide repayment amount by judgment", "DisplayOrder": 20, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "settlementAgreementMade", "Name": "Settlement agreement made", "Description": "Settlement Agreement confirmed", "DisplayOrder": 21, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "redeterminationRequested", "Name": "Redetermination requested", "Description": "Redetermination requested", "DisplayOrder": 22, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "hwfApplicationPending", "Name": "HWF Application Pending", "Description": "Help With Fees application pending", "DisplayOrder": 1, "TitleDisplay": "# ${helpWithFeesNumber} ${caseName}"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "businessQueue", "Name": "Handoff to Business", "Description": "Handoff to Business", "DisplayOrder": 23, "TitleDisplay": "# ${previousServiceCaseReference} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "awaitingResponseHWF", "Name": "Awaiting Response HWF", "Description": "Awaiting response HWF", "DisplayOrder": 1, "TitleDisplay": "# ${helpWithFeesNumber} ${caseName}"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "closedDraftNotIssued", "Name": "Closed draft-Not issued", "Description": "Closed draft-Not issued", "DisplayOrder": 1, "TitleDisplay": "# ${helpWithFeesNumber} ${caseName}"}
 ]
