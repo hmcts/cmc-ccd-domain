@@ -341,5 +341,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFFullRemision", "UserRole": "citizen", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MiscHWF", "UserRole": "caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CloseAwaitingResponseHWF", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CR"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CloseAwaitingResponseHWF", "UserRole": "caseworker-cmc", "CRUD": "CR"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CloseAwaitingResponseHWF", "UserRole": "caseworker-cmc", "CRUD": "CR"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RecalculateInterest", "UserRole": "caseworker-cmc", "CRUD": "CR"}
 ]

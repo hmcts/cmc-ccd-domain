@@ -27,6 +27,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "interestStartDateReason", "Label": "Reason for selecting the start date", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "interestEndDateType", "Label": "Interest claim end date", "FieldType": "FixedList", "FieldTypeParameter": "InterestEndDateType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "currentInterestAmount", "Label": "Current claimed interest", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "lastInterestCalculationDate", "Label": "Interest re-calculated on", "FieldType": "DateTime", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "totalAmount", "Label": "Total claimed amount including fee", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "timeline", "Label": "Timeline", "FieldType": "Collection", "FieldTypeParameter": "TimelineEvent", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "evidence", "Label": "Evidence", "FieldType": "Collection", "FieldTypeParameter": "EvidenceRow", "SecurityClassification": "Public"},
