@@ -232,5 +232,11 @@
   {"ID": "ScannedDocumentSubType", "ListElementCode": "N9a", "ListElement": "N9a (Paper Admission - Full or Part)"},
   {"ID": "ScannedDocumentSubType", "ListElementCode": "N9", "ListElement": "N9 (Request more time)"},
   {"ID": "PaperResponseSubmittingParty", "ListElementCode": "claimant", "ListElement": "Claimant"},
-  {"ID": "PaperResponseSubmittingParty", "ListElementCode": "defendant", "ListElement": "Defendant"}
+  {"ID": "PaperResponseSubmittingParty", "ListElementCode": "defendant", "ListElement": "Defendant"},
+  {"ID": "DirectionOrderType", "ListElementCode": "STANDARD", "ListElement": "Standard directions order", "DisplayOrder":1},
+  {"ID": "DirectionOrderType", "ListElementCode": "BESPOKE", "ListElement": "Bespoke order", "DisplayOrder":2},
+  {"ID": "BespokeDirectionPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant","DisplayOrder":1},
+  {"ID": "BespokeDirectionPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant","DisplayOrder":2},
+  {"ID": "BespokeDirectionPartyType", "ListElementCode": "BOTH", "ListElement": "Both parties","DisplayOrder":3},
+  {"ID": "BespokeDirectionWarning", "ListElementCode": "WARNING", "ListElement": "Include warning","DisplayOrder":1}
 ]
