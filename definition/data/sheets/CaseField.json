@@ -29,6 +29,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "currentInterestAmount", "Label": "Current claimed interest", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "lastInterestCalculationDate", "Label": "Interest re-calculated on", "FieldType": "DateTime", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "totalAmount", "Label": "Total claimed amount including fee", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "feeAmountAfterRemission", "Label": "Fee Amount After Remission", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "timeline", "Label": "Timeline", "FieldType": "Collection", "FieldTypeParameter": "TimelineEvent", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "evidence", "Label": "Evidence", "FieldType": "Collection", "FieldTypeParameter": "EvidenceRow", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "housingDisrepairOtherDamages", "Label": "Other damages", "FieldType": "Text", "SecurityClassification": "Public"},
