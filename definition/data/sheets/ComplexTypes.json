@@ -296,5 +296,9 @@
   {"ID": "BulkPrintDetails", "ListElementCode": "printRequestedAt", "FieldType": "Date", "ElementLabel": "Bulk print requested at", "SecurityClassification": "Public"},
   {"ID": "BespokeDirections", "ListElementCode": "beSpokeDirectionFor", "FieldType": "FixedList", "FieldTypeParameter": "BespokeDirectionPartyType", "ElementLabel": "Who is the direction for", "SecurityClassification": "Public"},
   {"ID": "BespokeDirections", "ListElementCode": "beSpokeDirectionExplain", "FieldType": "TextArea", "ElementLabel": "Explain the direction", "SecurityClassification": "Public"},
-  {"ID": "BespokeDirections", "ListElementCode": "beSpokeDirectionDatetime", "FieldType": "Date", "ElementLabel": "What is the deadline for response", "SecurityClassification": "Public"}
+  {"ID": "BespokeDirections", "ListElementCode": "beSpokeDirectionDatetime", "FieldType": "Date", "ElementLabel": "What is the deadline for response", "SecurityClassification": "Public"},
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeesNumber", "FieldType": "Label", "ElementLabel": " ", "SecurityClassification": "Public"},
+  {"ID": "HWFFields", "ListElementCode": "helpWithFeesType", "FieldType": "Text", "ElementLabel": "HWF Type", "SecurityClassification": "Public"},
+  {"ID": "HWFDetails", "ListElementCode": "referenceNumber", "ElementLabel": "Reference number", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"ID": "HWFDetails", "ListElementCode": "hwfType", "FieldType": "FixedList",  "FieldTypeParameter": "HWFFeesType", "ElementLabel": "Help with fees type", "SecurityClassification": "Public"}
 ]
