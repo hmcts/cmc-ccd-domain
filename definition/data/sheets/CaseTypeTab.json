@@ -27,7 +27,7 @@
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "preferredCourt", "TabFieldDisplayOrder": 23},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "proceedOnPaperReason", "TabFieldDisplayOrder": 24},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "proceedOnPaperOtherReason", "TabFieldDisplayOrder": 25},
-  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "paymentLabel", "TabFieldDisplayOrder": 26},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "paymentLabel", "TabFieldDisplayOrder": 26, "FieldShowCondition": "paymentReference!=\"\""},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "feeAmountInPennies", "TabFieldDisplayOrder": 27},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "feeAccountNumber", "TabFieldDisplayOrder": 28},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "feeCode", "TabFieldDisplayOrder": 29},
@@ -49,7 +49,7 @@
   {"CaseTypeID": "MoneyClaimCase", "TabID": "CasePaymentHistory", "TabLabel": "Payment History", "TabDisplayOrder": 6, "CaseFieldID": "PaymentHistory", "TabFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "lastInterestCalculationDate", "TabFieldDisplayOrder": 18},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "feeAmountAfterRemission", "TabFieldDisplayOrder": 44},
-  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "HelpWithFeeLabel", "TabFieldDisplayOrder": 26},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "HelpWithFeeLabel", "TabFieldDisplayOrder": 26, "FieldShowCondition": "helpWithFeesNumber!=\"\""},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "helpWithFeesNumber", "TabFieldDisplayOrder": 27},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "helpWithFeesType", "TabFieldDisplayOrder": 28},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "feeRemitted", "TabFieldDisplayOrder": 43}
