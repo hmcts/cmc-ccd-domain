@@ -239,6 +239,7 @@
   {"ID": "BespokeDirectionPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant","DisplayOrder":1},
   {"ID": "BespokeDirectionPartyType", "ListElementCode": "DEFENDANT", "ListElement": "Defendant","DisplayOrder":2},
   {"ID": "BespokeDirectionPartyType", "ListElementCode": "BOTH", "ListElement": "Both parties","DisplayOrder":3},
+  {"ID": "BespokeDirectionPartyType", "ListElementCode": "NOT_EITHER", "ListElement": "Not Addressed to either party","DisplayOrder":4},
   {"ID": "BespokeDirectionWarning", "ListElementCode": "WARNING", "ListElement": "Include warning","DisplayOrder":1},
   {"ID": "HWFFeesSummaryType", "ListElementCode": "NOT_QUALIFY_FEE_ASSISTANCE", "ListElement": "Does not qualify for Help with Fees assistance", "DisplayOrder":1},
   {"ID": "HWFFeesSummaryType", "ListElementCode": "INCORRECT_EVIDENCE", "ListElement": "Incorrect evidence supplied", "DisplayOrder":2},
