@@ -46,5 +46,11 @@
   {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "caseDocuments", "TabFieldDisplayOrder": 1, "DisplayContextParameter": "#TABLE(documentType, documentLink)"},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "scannedDocuments", "TabFieldDisplayOrder": 2, "DisplayContextParameter": "#TABLE(subtype, url, deliveryDate)"},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "staffUploadedDocuments", "TabFieldDisplayOrder": 3, "DisplayContextParameter": "#TABLE(documentType, documentLink)"},
-  {"CaseTypeID": "MoneyClaimCase", "TabID": "CasePaymentHistory", "TabLabel": "Payment History", "TabDisplayOrder": 6, "CaseFieldID": "PaymentHistory", "TabFieldDisplayOrder": 1}
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "CasePaymentHistory", "TabLabel": "Payment History", "TabDisplayOrder": 6, "CaseFieldID": "PaymentHistory", "TabFieldDisplayOrder": 1},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "lastInterestCalculationDate", "TabFieldDisplayOrder": 18},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "feeAmountAfterRemission", "TabFieldDisplayOrder": 44},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "HelpWithFeeLabel", "TabFieldDisplayOrder": 26},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "helpWithFeesNumber", "TabFieldDisplayOrder": 27},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "helpWithFeesType", "TabFieldDisplayOrder": 28},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "feeRemitted", "TabFieldDisplayOrder": 43}
 ]
