@@ -130,6 +130,10 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfFeeDetailsSummary", "Label": "Summary", "FieldType": "FixedList", "FieldTypeParameter": "HWFFeesSummaryType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfMandatoryDetails", "Label": "Details ", "FieldType": "TextArea", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "feeRemitted", "Label": "Remitted fee amount", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "hwfDetails", "Label": "HWF details", "FieldType": "HWFDetails", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "hwfDetails", "Label": "HWF details", "FieldType": "HWFDetails", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "hwfMoreInfoNeededDocuments", "Label": "Proof of the following needed (Select one or more)", "FieldType": "MultiSelectList", "FieldTypeParameter": "moreInfoNeededDocumentList", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "hwfProvideDocumentName", "Label": "Provide Document Name ", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "hwfDocumentsToBeSentBeforeLabel", "Label": "Documents to be sent before 4pm", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "hwfDocumentsToBeSentBefore", "Label": "Documents to be sent before 4pm", "FieldType": "Date", "SecurityClassification": "Public"}
 ]
 
