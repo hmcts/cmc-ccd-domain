@@ -136,6 +136,7 @@
   {"ID": "StaffDocumentType", "ListElementCode": "PAPER_RESPONSE_DISPUTES_ALL", "ListElement": "Paper response-Disputes all"},
   {"ID": "StaffDocumentType", "ListElementCode": "PAPER_RESPONSE_COUNTER_CLAIM", "ListElement": "Paper response-Counter claim"},
   {"ID": "StaffDocumentType", "ListElementCode": "OTHER", "ListElement": "Other"},
+  {"ID": "ScannedDocumentType", "ListElementCode": "cherished", "ListElement": "Cherished"},
   {"ID": "ScannedDocumentType", "ListElementCode": "other", "ListElement": "Other"},
   {"ID": "ScannedDocumentType", "ListElementCode": "letter", "ListElement": "Letter"},
   {"ID": "ScannedDocumentType", "ListElementCode": "form", "ListElement": "Form"},
