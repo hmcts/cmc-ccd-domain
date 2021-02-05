@@ -354,5 +354,12 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfDetails", "UserRole": "citizen", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrGenerateOrder", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrGenerateOrder", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrGenerateOrder", "UserRole": "citizen", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrGenerateOrder", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfProvideDocumentName", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfProvideDocumentName", "UserRole": "citizen", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfMoreInfoNeededDocuments", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfMoreInfoNeededDocuments", "UserRole": "citizen", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfDocumentsToBeSentBeforeLabel", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfDocumentsToBeSentBefore", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfDocumentsToBeSentBefore", "UserRole": "citizen", "CRUD": "R"}
 ]
