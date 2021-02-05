@@ -245,5 +245,7 @@
   {"ID": "HWFFeesSummaryType", "ListElementCode": "INSUFFICIENT_EVIDENCE", "ListElement": "Insufficient evidence supplied", "DisplayOrder":3},
   {"ID": "HWFFeesSummaryType", "ListElementCode": "FEES_REQUIREMENT_NOT_MET", "ListElement": "Income / outgoings calculation determines Help with Fees requirement not met", "DisplayOrder":4},
   {"ID": "HWFFeesType", "ListElementCode": "CLAIM_ISSUE", "ListElement": "Claim Issue", "DisplayOrder":1},
-  {"ID": "HWFFeesType", "ListElementCode": "HEARING", "ListElement": "Hearing", "DisplayOrder":2}
+  {"ID": "HWFFeesType", "ListElementCode": "HEARING", "ListElement": "Hearing", "DisplayOrder":2},
+  {"ID": "ReviewOrderCheck", "ListElementCode": "GENERATE", "ListElement": "Yes, I want to generate the order.", "DisplayOrder":1},
+  {"ID": "ReviewOrderCheck", "ListElementCode": "REVIEW", "ListElement": "No, I want a Judge to review the order first.", "DisplayOrder":2}
 ]
