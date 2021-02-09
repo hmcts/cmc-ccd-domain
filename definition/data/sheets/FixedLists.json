@@ -247,5 +247,14 @@
   {"ID": "HWFFeesType", "ListElementCode": "CLAIM_ISSUE", "ListElement": "Claim Issue", "DisplayOrder":1},
   {"ID": "HWFFeesType", "ListElementCode": "HEARING", "ListElement": "Hearing", "DisplayOrder":2},
   {"ID": "ReviewOrderCheck", "ListElementCode": "LA_DRAW_ORDER", "ListElement": "Yes, I want to generate the order.", "DisplayOrder":1},
-  {"ID": "ReviewOrderCheck", "ListElementCode": "LA_REQUESTS_REVIEW_BY_JUDGE", "ListElement": "No, I want a Judge to review the order first.", "DisplayOrder":2}
+  {"ID": "ReviewOrderCheck", "ListElementCode": "LA_REQUESTS_REVIEW_BY_JUDGE", "ListElement": "No, I want a Judge to review the order first.", "DisplayOrder":2},
+  {"ID": "moreInfoNeededDocumentList", "ListElementCode": "BANK_STATEMENTS", "ListElement": "Bank Statements", "DisplayOrder":1},
+  {"ID": "moreInfoNeededDocumentList", "ListElementCode": "WAGE_SLIPS", "ListElement": "Wage Slips", "DisplayOrder":2},
+  {"ID": "moreInfoNeededDocumentList", "ListElementCode": "CHILD_MAINTENANCE", "ListElement": "Child Maintenance", "DisplayOrder":3},
+  {"ID": "moreInfoNeededDocumentList", "ListElementCode": "BENEFITS_AND_TAX_CREDITS", "ListElement": "Benefits and Tax Credits", "DisplayOrder":4},
+  {"ID": "moreInfoNeededDocumentList", "ListElementCode": "PENSIONS", "ListElement": "Pensions", "DisplayOrder":5},
+  {"ID": "moreInfoNeededDocumentList", "ListElementCode": "RENTAL_INCOME", "ListElement": "Rental Income", "DisplayOrder":6},
+  {"ID": "moreInfoNeededDocumentList", "ListElementCode": "INCOME_FROM_SELLING_GOODS", "ListElement": "Income From Selling Goods", "DisplayOrder":7},
+  {"ID": "moreInfoNeededDocumentList", "ListElementCode": "PRISONERS_INCOME", "ListElement": "Prisoners Income", "DisplayOrder":8},
+  {"ID": "moreInfoNeededDocumentList", "ListElementCode": "ANY_OTHER_INCOME", "ListElement": "Any Other Income", "DisplayOrder":9}
 ]
