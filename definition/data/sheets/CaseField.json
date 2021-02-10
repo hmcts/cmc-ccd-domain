@@ -135,6 +135,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfProvideDocumentName", "Label": "Provide Document Name ", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfDocumentsToBeSentBeforeLabel", "Label": "Documents to be sent before 4pm", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfDocumentsToBeSentBefore", "Label": "Documents to be sent before 4pm", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "reviewOrDrawOrder", "Label": "Do you want to generate this Order", "FieldType": "FixedRadioList", "FieldTypeParameter": "ReviewOrderCheck", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "reviewOrDrawOrder", "Label": "Do you want to generate and draw this Order", "FieldType": "FixedRadioList", "FieldTypeParameter": "ReviewOrderCheck", "SecurityClassification": "Public"}
 ]
 
