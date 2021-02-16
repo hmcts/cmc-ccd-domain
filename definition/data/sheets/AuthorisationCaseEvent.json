@@ -329,7 +329,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFFullRemision", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFFullRemision", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "HWFFullRemision", "UserRole": "citizen", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "MiscHWF", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateHWFNumber", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CloseAwaitingResponseHWF", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CloseAwaitingResponseHWF", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RecalculateInterest", "UserRole": "caseworker-cmc", "CRUD": "R"}
