@@ -192,7 +192,7 @@
   {"ID": "Respondent", "ListElementCode": "mediationFailedReason", "FieldType": "FixedList", "FieldTypeParameter": "MediationFailReason","ElementLabel": "Mediation Failed Reason", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "mediationSettlementReachedAt", "FieldType": "DateTime", "ElementLabel": "Mediation settlement agreed on", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseFreeMediationOption", "FieldType": "YesOrNo", "ElementLabel": "Free mediation requested", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "responseMediationPhoneNumber", "FieldType": "Telephone", "ElementLabel": "Free mediation phone number", "SecurityClassification": "Public"},
+  {"ID": "Respondent", "ListElementCode": "responseMediationPhoneNumber", "FieldType": "Telephone", "ElementLabel": "Free mediation phone number (Optional)", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseMediationContactPerson", "FieldType": "Text", "ElementLabel": "Free mediation contact person", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseMoreTimeNeededOption", "FieldType": "YesOrNo", "ElementLabel": "More time requested", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "responseDefendantSOTSignerName", "FieldType": "Text", "ElementLabel": "Statement of truth Signer Name", "SecurityClassification": "Public"},
