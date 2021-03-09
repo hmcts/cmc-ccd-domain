@@ -40,7 +40,7 @@
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "paymentFeeId", "TabFieldDisplayOrder": 36},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "reviewOrder", "TabFieldDisplayOrder": 37},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "directionOrder", "TabFieldDisplayOrder": 38},
-  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "bulkPrintDetails", "TabFieldDisplayOrder": 39},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "bulkPrintDetails", "TabFieldDisplayOrder": 25},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimantDetails", "TabLabel": "Claimant Details", "TabDisplayOrder": 3, "CaseFieldID": "applicants", "TabFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "DefendantDetails", "TabLabel": "Defendant Details", "TabDisplayOrder": 4, "CaseFieldID": "respondents", "TabFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "CaseDocuments", "TabLabel": "Claim documents", "TabDisplayOrder": 5, "CaseFieldID": "caseDocuments", "TabFieldDisplayOrder": 1, "DisplayContextParameter": "#TABLE(documentType, documentLink)"},
