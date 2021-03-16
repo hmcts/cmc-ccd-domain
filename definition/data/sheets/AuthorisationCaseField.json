@@ -363,4 +363,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrDrawOrder", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrDrawOrder", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrDrawOrder", "UserRole": "citizen", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "lastEventTriggeredForHwfCase", "UserRole": "citizen", "CRUD": "CRUD"}
 ]
