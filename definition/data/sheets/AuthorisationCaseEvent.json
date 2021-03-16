@@ -334,5 +334,12 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateHWFNumber", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CloseAwaitingResponseHWF", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CloseAwaitingResponseHWF", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RecalculateInterest", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RecalculateInterest", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingClaimantNotification", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SendingRPA", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PinGenerationOperations", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "SealedClaimUpload", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ClaimIssueReceiptUpload", "UserRole": "caseworker-cmc", "CRUD": "C"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "UpdateBulkPrintDetails", "UserRole": "caseworker-cmc", "CRUD": "CU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueHelpWithFeesClaim", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]
