@@ -209,7 +209,7 @@
   {"ID": "Respondent", "ListElementCode": "defendantId", "FieldType": "Text", "ElementLabel": "Defendant linking ID", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "letterHolderId", "FieldType": "Text", "ElementLabel": "Letter Holder Id", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "partyDetailsLabel", "FieldType": "Label", "ElementLabel": "**Defendant details**", "SecurityClassification": "Public"},
-  {"ID": "Respondent", "ListElementCode": "partyDetail", "FieldType": "Party", "ElementLabel": "Defendant detailss - Latest", "SecurityClassification": "Public"},
+  {"ID": "Respondent", "ListElementCode": "partyDetail", "FieldType": "Party", "ElementLabel": "Defendant details - Latest", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "representativeLabel", "FieldType": "Label", "ElementLabel": "**Representative details**", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "representativeOrganisationName", "FieldType": "Text", "ElementLabel": "Organisation name", "SecurityClassification": "Public"},
   {"ID": "Respondent", "ListElementCode": "representativeOrganisationAddress", "FieldType": "AddressUK", "ElementLabel": "Organisation address", "SecurityClassification": "Public"},
