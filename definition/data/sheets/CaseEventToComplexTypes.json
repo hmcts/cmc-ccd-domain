@@ -150,7 +150,7 @@
     {"ID": "HWFDetails", "CaseEventID": "HWFFullRemision", "ListElementCode": "referenceNumber","CaseFieldID": "hwfDetails","EventElementLabel": "They’ve removed the address they want to use for post about the claim.", "DisplayContext": "READONLY", "PageFieldDisplayOrder": 22},
     {"ID": "InvalidHWFReference", "CaseEventID": "InvalidHWFReference", "ListElementCode": "helpWithFeesNumber", "CaseFieldID": "helpWithFeesComplex", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 1},
     {"ID": "BreathingSpaceDetails", "CaseEventID": "BreathingSpaceEntered", "ListElementCode": "bsReferenceNumber", "CaseFieldID": "breathingSpace", "EventElementLabel": "Reference Number", "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 1},
-    {"ID": "BreathingSpaceDetails", "CaseEventID": "BreathingSpaceEntered", "ListElementCode": "bsEnteredDateByInsolvencyTeam", "CaseFieldID": "breathingSpace", "EventElementLabel": "Reference Number", "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 2},
+    {"ID": "BreathingSpaceDetails", "CaseEventID": "BreathingSpaceEntered", "ListElementCode": "bsEnteredDateByInsolvencyTeam", "CaseFieldID": "breathingSpace", "EventElementLabel": "When did it start?", "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 2},
     {"ID": "BreathingSpaceDetails", "CaseEventID": "BreathingSpaceEntered", "ListElementCode": "bsType", "CaseFieldID": "breathingSpace", "EventElementLabel": "What type is it?", "DisplayContext": "MANDATORY", "PageFieldDisplayOrder": 3},
     {"ID": "BreathingSpaceDetails", "CaseEventID": "BreathingSpaceEntered", "ListElementCode": "bsExpectedEndDate", "CaseFieldID": "breathingSpace", "EventElementLabel": "Expected end date", "DisplayContext": "OPTIONAL", "PageFieldDisplayOrder": 4}
 ]
