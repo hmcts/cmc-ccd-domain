@@ -203,7 +203,6 @@
   {"ID": "CourtList", "ListElementCode": "Stafford Combined Court Centre", "ListElement": "Stafford Combined Court Centre"},
   {"ID": "CourtList", "ListElementCode": "Stoke-on-Trent Combined Court", "ListElement": "Stoke-on-Trent Combined Court"},
   {"ID": "CourtList", "ListElementCode": "Telford County Court and Family Court", "ListElement": "Telford County Court and Family Court"},
-  {"ID": "CourtList", "ListElementCode": "Truro Combined Court", "ListElement": "Truro Combined Court"},
   {"ID": "CourtList", "ListElementCode": "Watford County Court and Family Court", "ListElement": "Watford County Court and Family Court"},
   {"ID": "ResponseMethod", "ListElementCode": "DIGITAL", "ListElement": "Online response"},
   {"ID": "ResponseMethod", "ListElementCode": "OFFLINE", "ListElement": "Fully offline response"},

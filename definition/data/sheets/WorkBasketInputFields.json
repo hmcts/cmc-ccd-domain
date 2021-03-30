@@ -5,5 +5,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "evidenceHandled", "Label": "Scanned documents reviewed", "DisplayOrder": 5},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "[CASE_REFERENCE]", "Label": "CCD reference", "DisplayOrder": 6},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "assignedTo", "Label": "Assigned To", "DisplayOrder": 7},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "preferredDQCourt", "Label": "Preferred Court", "DisplayOrder": 8}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "preferredDQPilotCourt", "Label": "Preferred Court", "DisplayOrder": 8}
 ]
