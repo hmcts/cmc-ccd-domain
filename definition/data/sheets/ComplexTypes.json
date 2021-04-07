@@ -307,6 +307,6 @@
   {"ID": "BreathingSpaceDetails", "ListElementCode": "bsType", "ElementLabel": "What type is it?", "FieldType": "FixedRadioList","FieldTypeParameter": "BsTypeList", "SecurityClassification": "Public","FieldShowCondition": "bsLiftedFlag!=\"NO\""},
   {"ID": "BreathingSpaceDetails", "ListElementCode": "bsExpectedEndDate", "ElementLabel": "Expected end date", "FieldType": "Date", "SecurityClassification": "Public","FieldShowCondition": "bsLiftedFlag!=\"NO\""},
   {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedFlag", "ElementLabel": "BS lifted flag", "FieldType": "Text", "SecurityClassification": "Public","FieldShowCondition": "bsLiftedFlag=\"NO\""},
-  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedDateByInsolvencyTeam", "ElementLabel": "When did it end?", "HintText":"dfafdfaf","FieldType": "Date", "SecurityClassification": "Public", "FieldShowCondition": "bsLiftedFlag=\"NO\""},
-  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedDateByInsolvencyTeamTemp", "ElementLabel": "When did it end?", "FieldType": "Text", "SecurityClassification": "Public", "FieldShowCondition": "bsLiftedDateByInsolvencyTeamTemp!=\"\""}
+  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedDateByInsolvencyTeam", "ElementLabel": "When did it end?", "HintText":"dfafdfaf","FieldType": "Date", "SecurityClassification": "Public"},
+  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedDateByInsolvencyTeamTemp", "ElementLabel": "When did it end?", "FieldType": "Text", "SecurityClassification": "Public"}
 ]
