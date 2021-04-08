@@ -369,5 +369,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrDrawOrder", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "breathingSpace", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "breathingSpace", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "breathingSpaceSummary", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "breathingSpaceSummary", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "breathingSpaceLiftSummary", "UserRole": "caseworker-cmc", "CRUD": "CRUD"}
 ]

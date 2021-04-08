@@ -139,5 +139,6 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "reviewOrDrawOrder", "Label": "Do you want to generate and draw this Order", "FieldType": "FixedRadioList", "FieldTypeParameter": "ReviewOrderCheck", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "lastEventTriggeredForHwfCase", "Label": "last event Triggered for HWF case", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "breathingSpace", "Label": "  ", "FieldType": "BreathingSpaceDetails", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "breathingSpaceSummary", "Label": "Check the details", "FieldType": "BreathingSpaceDetails", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "breathingSpaceSummary", "Label": "Check the details", "FieldType": "BreathingSpaceDetails", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "breathingSpaceLiftSummary", "Label": "Check the details...", "FieldType": "BreathingSpaceLiftDetails", "SecurityClassification": "Public"}
 ]

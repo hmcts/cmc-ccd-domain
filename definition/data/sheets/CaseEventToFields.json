@@ -119,5 +119,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceEntered", "CaseFieldID": "breathingSpace", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1,  "CallBackURLMidEvent": "${CCD_DEF_CLAIM_STORE_BASE_URL}/cases/callbacks/mid", "RetriesTimeoutURLMidEvent": 0},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceEntered", "CaseFieldID": "breathingSpaceSummary", "PageID": 2, "PageDisplayOrder": 1,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceLifted", "CaseFieldID": "breathingSpace", "PageID": 1, "PageDisplayOrder": 1,"DisplayContext": "COMPLEX", "PageFieldDisplayOrder": 1,  "CallBackURLMidEvent": "${CCD_DEF_CLAIM_STORE_BASE_URL}/cases/callbacks/mid", "RetriesTimeoutURLMidEvent": 0},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceLifted", "CaseFieldID": "breathingSpaceSummary", "PageID": 2, "PageDisplayOrder": 1,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 1}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceLifted", "CaseFieldID": "breathingSpaceLiftSummary", "PageID": 2, "PageDisplayOrder": 1,"DisplayContext": "READONLY", "PageFieldDisplayOrder": 1}
 ]
