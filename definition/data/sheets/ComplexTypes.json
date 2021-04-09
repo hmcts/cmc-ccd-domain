@@ -301,9 +301,13 @@
   {"ID": "HWFFields", "ListElementCode": "helpWithFeesType", "FieldType": "Text", "ElementLabel": "HWF Type", "SecurityClassification": "Public"},
   {"ID": "HWFDetails", "ListElementCode": "referenceNumber", "ElementLabel": "Reference number", "FieldType": "Text", "SecurityClassification": "Public"},
   {"ID": "HWFDetails", "ListElementCode": "hwfType", "FieldType": "FixedList",  "FieldTypeParameter": "HWFFeesType", "ElementLabel": "Help with fees type", "SecurityClassification": "Public"},
-  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsReferenceNumber", "ElementLabel": "Reference Number", "FieldType": "Text", "SecurityClassification": "Public"},
-  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsEnteredDateByInsolvencyTeam", "ElementLabel": "When did it start?", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsEnteredDate", "ElementLabel": "Breathing Space Entered Date", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsType", "ElementLabel": "What type is it?", "FieldType": "FixedRadioList","FieldTypeParameter": "BsTypeList", "SecurityClassification": "Public"},
-  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsExpectedEndDate", "ElementLabel": "Expected end date", "FieldType": "Date", "SecurityClassification": "Public"}
+  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsEnteredDate", "ElementLabel": "Date entered", "FieldType": "Date", "SecurityClassification": "Public"},
+  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsReferenceNumber", "ElementLabel": "Reference number", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsEnteredDateByInsolvencyTeam", "ElementLabel": "When did it start", "FieldType": "Date", "SecurityClassification": "Public"},
+  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsType", "ElementLabel": "What type is it", "FieldType": "FixedRadioList","FieldTypeParameter": "BsTypeList", "SecurityClassification": "Public"},
+  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsExpectedEndDate", "ElementLabel": "Expected end date", "FieldType": "Date", "SecurityClassification": "Public"},
+  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedFlag", "ElementLabel": "Breathing space lifted", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedDate", "ElementLabel": "Date lifted", "FieldType": "Date", "SecurityClassification": "Public"},
+  {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedDateByInsolvencyTeam", "ElementLabel": "When did it end", "FieldType": "Date", "SecurityClassification": "Public"},
+  {"ID": "BreathingSpaceLiftDetails", "ListElementCode": "bsLiftedDateByInsolvencyTeamTemp", "ElementLabel": "When did it end?", "FieldType": "Text", "SecurityClassification": "Public"}
 ]
