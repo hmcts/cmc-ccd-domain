@@ -309,5 +309,5 @@
   {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedFlag", "ElementLabel": "Breathing space lifted", "FieldType": "Text", "SecurityClassification": "Public"},
   {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedDate", "ElementLabel": "Date lifted", "FieldType": "Date", "SecurityClassification": "Public"},
   {"ID": "BreathingSpaceDetails", "ListElementCode": "bsLiftedDateByInsolvencyTeam", "ElementLabel": "When did it end", "FieldType": "Date", "SecurityClassification": "Public"},
-  {"ID": "BreathingSpaceLiftDetails", "ListElementCode": "bsLiftedDateByInsolvencyTeamTemp", "ElementLabel": "When did it end?", "FieldType": "Text", "SecurityClassification": "Public"}
+  {"ID": "BreathingSpaceLiftDetails", "ListElementCode": "bsLiftedDateByInsolvencyTeamTemp", "ElementLabel": "When did it end", "FieldType": "Text", "SecurityClassification": "Public"}
 ]
