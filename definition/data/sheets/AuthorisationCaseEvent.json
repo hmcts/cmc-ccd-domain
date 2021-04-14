@@ -333,5 +333,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CloseAwaitingResponseHWF", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "CloseAwaitingResponseHWF", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "RecalculateInterest", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueHelpWithFeesClaim", "UserRole": "caseworker-cmc", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "IssueHelpWithFeesClaim", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceEntered", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceEntered", "UserRole": "citizen", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceLifted", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceLifted", "UserRole": "citizen", "CRUD": "R"}
 ]
