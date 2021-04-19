@@ -47,6 +47,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentAmount", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentReference", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentStatus", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "errorCodeMessage", "UserRole": "caseworker-cmc", "CRUD": "CU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentDateCreated", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentNextUrl", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "paymentTransactionId", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
