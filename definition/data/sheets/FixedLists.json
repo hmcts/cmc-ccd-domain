@@ -261,5 +261,5 @@
   {"ID": "ReviewOrderCheck", "ListElementCode": "LA_DRAW_ORDER", "ListElement": "Yes, I want to generate and draw the order.", "DisplayOrder":1},
   {"ID": "ReviewOrderCheck", "ListElementCode": "LA_REQUESTS_REVIEW_BY_JUDGE", "ListElement": "No, I want a Judge to review the order first.", "DisplayOrder":2},
   {"ID": "BsTypeList", "ListElementCode": "STANDARD_BS_ENTERED", "ListElement": "Standard Breathing Space", "DisplayOrder":1},
-  {"ID": "BsTypeList", "ListElementCode": "MENTAL_BS_ENTERED", "ListElement": "Mental Health Crises Moratorium", "DisplayOrder":2}
+  {"ID": "BsTypeList", "ListElementCode": "MENTAL_BS_ENTERED", "ListElement": "Mental Health Crisis Moratorium", "DisplayOrder":2}
 ]
