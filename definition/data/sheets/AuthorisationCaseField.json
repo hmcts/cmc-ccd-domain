@@ -366,5 +366,9 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "DrawDirectionOrder", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrDrawOrder", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrDrawOrder", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrDrawOrder", "UserRole": "citizen", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrDrawOrder", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "preferredDQPilotCourt", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "preferredDQPilotCourt", "UserRole": "caseworker-cmc", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "preferredDQPilotCourt", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "preferredDQPilotCourt", "UserRole": "citizen", "CRUD": "CRUD"}
 ]
