@@ -221,6 +221,8 @@
   {"ID": "RpaType", "ListElementCode": "CCJ", "ListElement": "CCJ"},
   {"ID": "RpaType", "ListElementCode": "DEFENDANT_RESPONSE", "ListElement": "Defendant Response"},
   {"ID": "RpaType", "ListElementCode": "PAID_IN_FULL", "ListElement": "Paid in Full"},
+  {"ID": "RpaType", "ListElementCode": "BREATHING_SPACE_ENTERED", "ListElement": "Enter Breathing Space"},
+  {"ID": "RpaType", "ListElementCode": "BREATHING_SPACE_LIFTED", "ListElement": "Lift Breathing Space"},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_CLAIMANT", "ListElement": "Application by Claimant", "DisplayOrder":1},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_DEFENDANT", "ListElement": "Application by Defendant", "DisplayOrder":2},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":3},
