@@ -13,7 +13,7 @@ deploy:
   script: "./gradlew bintrayUpload"
   skip_cleanup: true
   on:
-    repo: hmcts/cmc-ccd-doma
+    repo: hmcts/cmc-ccd-domain
     tags: true
 env:
   global:
