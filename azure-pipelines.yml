@@ -42,7 +42,8 @@ jobs:
         set -e
         if [ $(Build.Reason) == 'PullRequest' ]
         then
-          imageTag=pr-$(echo $(Build.SourceBranch) | cut -d'/' -f 3)
+          commitId=$(echo $(Build.SourceVersion) | cut -b 1-8)
+          imageTag=pr-$(echo $(Build.SourceBranch) | cut -d'/' -f 3)-$commitId
         else
           imageTag=$(echo $(Build.SourceBranch) | cut -d'/' -f 3 | sed 's/v//')
         fi
