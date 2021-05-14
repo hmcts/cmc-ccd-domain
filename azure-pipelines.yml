@@ -29,13 +29,10 @@ jobs:
 
 - job: Release
   displayName: 'Build and Push Docker Image to ACR'
-  condition: and(succeeded(), startsWith(variables['Build.SourceBranch'], 'refs/tags/')) # TAGS ONLY
   dependsOn: Test
   pool:
     vmImage: 'Ubuntu 16.04'
   steps:
-  - powershell: |
-      Write-Host ("##vso[task.setvariable variable=imageTag;]$((Get-Content VERSION.yaml -Raw) -replace 'TAG: ','')")
   - task: AzureCLI@1
     inputs:
       failOnStandardError: false  # does not work with AzureCLI task
@@ -43,7 +40,13 @@ jobs:
       scriptLocation: 'inlineScript'
       inlineScript: |
         set -e
+        if [ $(Build.Reason) == 'PullRequest']
+        then
+          imageTag=pr-$(echo $(Build.SourceBranch) | cut -d'/' -f 3)
+        else
+          imageTag=$(echo $(Build.SourceBranch) | cut -d'/' -f 3 | sed 's/v//')
+        fi
         echo "Building $(repository):$(imageTag) ..."
-        az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
-        az acr repository update --name $(acrName) --image $(repository):$(imageTag) --delete-enabled false --write-enabled false
+       # az acr build -r $(acrName) -t $(repository):$(imageTag) -g $(acrResourceGroup) -f definition/Dockerfile .
+       #az acr repository update --name $(acrName) --image $(repository):$(imageTag) --delete-enabled false --write-enabled false
         echo "Finished"
