@@ -40,7 +40,7 @@ jobs:
       scriptLocation: 'inlineScript'
       inlineScript: |
         set -e
-        if [ $(Build.Reason) == 'PullRequest']
+        if [ $(Build.Reason) == 'PullRequest' ]
         then
           imageTag=pr-$(echo $(Build.SourceBranch) | cut -d'/' -f 3)
         else
