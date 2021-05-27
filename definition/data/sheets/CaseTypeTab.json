@@ -45,5 +45,6 @@
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "feeRemitted", "TabFieldDisplayOrder": 43},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "id", "TabFieldDisplayOrder": 29, "FieldShowCondition": "helpWithFeesNumber!=\"\""},
   {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "breathingSpaceSummaryLabel", "TabFieldDisplayOrder": 44, "FieldShowCondition": "breathingSpace!=\"\""},
-  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "breathingSpace", "TabFieldDisplayOrder": 45}
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "breathingSpace", "TabFieldDisplayOrder": 45},
+  {"CaseTypeID": "MoneyClaimCase", "TabID": "ClaimDetails", "TabLabel": "Claim Details", "TabDisplayOrder": 2, "CaseFieldID": "outstandingFeeAmountInPennies", "TabFieldDisplayOrder": 28}
 ]
