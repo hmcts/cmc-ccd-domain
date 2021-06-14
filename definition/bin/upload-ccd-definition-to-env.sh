@@ -41,7 +41,6 @@ az account show &> /dev/null || {
 ENV=${1}
 VERSION=${2}
 
-PROXY=http://proxyout.reform.hmcts.net:8080
 IDAM_URI="http://idam-api-idam-${ENV}.service.core-compute-idam-${ENV}.internal"
 AUTH_PROVIDER_BASE_URL="http://rpe-service-auth-provider-${ENV}.service.core-compute-${ENV}.internal"
 CCD_STORE_BASE_URL="http://ccd-definition-store-api-${ENV}.service.core-compute-${ENV}.internal"
