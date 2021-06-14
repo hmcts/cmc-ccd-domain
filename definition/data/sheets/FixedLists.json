@@ -221,6 +221,8 @@
   {"ID": "RpaType", "ListElementCode": "CCJ", "ListElement": "CCJ"},
   {"ID": "RpaType", "ListElementCode": "DEFENDANT_RESPONSE", "ListElement": "Defendant Response"},
   {"ID": "RpaType", "ListElementCode": "PAID_IN_FULL", "ListElement": "Paid in Full"},
+  {"ID": "RpaType", "ListElementCode": "BREATHING_SPACE_ENTERED", "ListElement": "Enter Breathing Space"},
+  {"ID": "RpaType", "ListElementCode": "BREATHING_SPACE_LIFTED", "ListElement": "Lift Breathing Space"},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_CLAIMANT", "ListElement": "Application by Claimant", "DisplayOrder":1},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "APPLICATION_BY_DEFENDANT", "ListElement": "Application by Defendant", "DisplayOrder":2},
   {"ID": "ProceedOnPaperReason", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":3},
@@ -276,5 +278,7 @@
   {"ID": "moreInfoNeededDocumentList", "ListElementCode": "PRISONERS_INCOME", "ListElement": "Prisoners Income", "DisplayOrder":8},
   {"ID": "moreInfoNeededDocumentList", "ListElementCode": "ANY_OTHER_INCOME", "ListElement": "Any Other Income", "DisplayOrder":9},
   {"ID": "ReviewOrderCheck", "ListElementCode": "LA_DRAW_ORDER", "ListElement": "Yes, I want to generate and draw the order.", "DisplayOrder":1},
-  {"ID": "ReviewOrderCheck", "ListElementCode": "LA_REQUESTS_REVIEW_BY_JUDGE", "ListElement": "No, I want a Judge to review the order first.", "DisplayOrder":2}
+  {"ID": "ReviewOrderCheck", "ListElementCode": "LA_REQUESTS_REVIEW_BY_JUDGE", "ListElement": "No, I want a Judge to review the order first.", "DisplayOrder":2},
+  {"ID": "BsTypeList", "ListElementCode": "STANDARD_BS_ENTERED", "ListElement": "Standard Breathing Space", "DisplayOrder":1},
+  {"ID": "BsTypeList", "ListElementCode": "MENTAL_BS_ENTERED", "ListElement": "Mental Health Crisis Moratorium", "DisplayOrder":2}
 ]
