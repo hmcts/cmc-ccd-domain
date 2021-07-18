@@ -85,6 +85,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "preferredCourtObjectingParty", "Label": "Preferred court objected by", "FieldType": "FixedList", "FieldTypeParameter":"ResponseSubject", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "preferredCourtObjectingReason", "Label": "Objection reason", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "responseDeadlinePreview", "Label": "  ", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "deadlineWarningMessage", "Label": "  ", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "calculatedResponseDeadline", "Label": "Calculated response deadline", "FieldType": "Date", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "newRequestedCourt", "Label": "Objecting party's requested court", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "preferredDQCourt", "Label": "Preferred court", "FieldType": "Text", "SecurityClassification": "Public"},
