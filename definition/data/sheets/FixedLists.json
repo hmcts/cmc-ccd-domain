@@ -278,7 +278,7 @@
   {"ID": "TransferReason", "ListElementCode": "ENFORCEMENT", "ListElement": "Enforcement", "DisplayOrder":3},
   {"ID": "TransferReason", "ListElementCode": "DIRECTIONS", "ListElement": "For directions", "DisplayOrder":4},
   {"ID": "TransferReason", "ListElementCode": "HEARING", "ListElement": "For a hearing", "DisplayOrder":5},
-  {"ID": "TransferReason", "ListElementCode": "LISTING", "ListElement": "Listing", "DisplayOrder":6},
+  {"ID": "TransferReason", "ListElementCode": "INTERLOCUTORY_JUDGEMENT", "ListElement": "Interlocutory Judgement", "DisplayOrder":6},
   {"ID": "TransferReason", "ListElementCode": "JUDGES_ORDER", "ListElement": "Judge's order", "DisplayOrder":7},
   {"ID": "TransferReason", "ListElementCode": "LA_ORDER", "ListElement": "Legal Advisor's order", "DisplayOrder":8},
   {"ID": "TransferReason", "ListElementCode": "LISTING", "ListElement": "Listing", "DisplayOrder":9},
