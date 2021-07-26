@@ -62,12 +62,8 @@ dependencies {
 }
 
 jar {
-    getArchiveFileName().set(provider {
-        'empty.jar'
-    })
-
     manifest {
-        attributes 'Implementation-Title': project.name, 'Implementation-Version': project.version.toString()
+        attributes 'Implementation-Title': project.name, 'Implementation-Version': project.version
     }
 }
 
