@@ -88,5 +88,6 @@
         <cve>CVE-2020-5398</cve>
         <cve>CVE-2020-5421</cve>
         <cve>CVE-2021-22112</cve>
+        <cve>CVE-2018-15756</cve>
     </suppress>
 </suppressions>
