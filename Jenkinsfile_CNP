@@ -113,33 +113,41 @@ withPipeline(type, product, component) {
     env.ENVIRONMENT = "perftest"
   }
 
+  after('test') {
+    builder.gradle('integration')
+
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: '**/reports/*.json'
+
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: '**/reports/**/*'
+  }
+
   before('highleveldatasetup') {
     archiveCoreCaseDataDefinitions()
   }
 
-    before('smoketest:preview') {
-    }
+  before('smoketest:preview') {
+  }
 
-    after('smoketest:preview') {
-      steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'output/**/*'
-    }
+  after('smoketest:preview') {
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'output/**/*'
+  }
 
-    before('functionalTest:preview') {
-    }
+  before('functionalTest:preview') {
+  }
 
-    after('functionalTest:preview') {
-      steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'output/**/*'
-    }
+  after('functionalTest:preview') {
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'output/**/*'
+  }
 
-    before('smoketest:aat') {
-    }
+  before('smoketest:aat') {
+  }
 
-    after('smoketest:aat') {
-    }
+  after('smoketest:aat') {
+  }
 
-    before('functionalTest:aat') {
-    }
+  before('functionalTest:aat') {
+  }
 
-    after('functionalTest:aat') {
-    }
+  after('functionalTest:aat') {
+  }
 }
