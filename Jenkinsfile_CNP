@@ -114,9 +114,9 @@ withPipeline(type, product, component) {
   }
 
   after('test') {
-    junit 'build/test-results/test/**/*.xml'
-  } finally {
-      junit allowEmptyResults: true, '**/test-results/**/*.xml'
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: '**/reports/tests/**/*'
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: '**/reports/tests/integration/**/*'
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: '**/test-results/**/*.xml'
   }
 
   before('highleveldatasetup') {
