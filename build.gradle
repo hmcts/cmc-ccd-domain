@@ -76,23 +76,6 @@ allprojects {
 }
 
 sourceSets {
-    functionalTest {
-        java {
-            compileClasspath += main.output
-            runtimeClasspath += main.output
-            srcDir file('src/functionalTest/java')
-        }
-        resources.srcDir file('src/functionalTest/resources')
-    }
-
-    smokeTest {
-        java {
-            compileClasspath += main.output
-            runtimeClasspath += main.output
-            srcDir file('src/smokeTest/java')
-        }
-        resources.srcDir file('src/smokeTest/resources')
-    }
 }
 
 tasks.withType(JavaCompile) {
@@ -100,8 +83,6 @@ tasks.withType(JavaCompile) {
 }
 
 tasks.withType(Test) {
-    useJUnitPlatform()
-
     testLogging {
         exceptionFormat = 'full'
     }
@@ -138,29 +119,10 @@ sonarqube {
     }
 }
 
-def versions = [
-        junit              : '5.7.0',
-        junitPlatform      : '1.7.1',
-]
-
-ext.libraries = [
-        junit5: [
-                "org.junit.jupiter:junit-jupiter-api:${versions.junit}",
-                "org.junit.jupiter:junit-jupiter-engine:${versions.junit}",
-                "org.junit.jupiter:junit-jupiter-params:${versions.junit}",
-                "org.junit.platform:junit-platform-commons:${versions.junitPlatform}",
-                "org.junit.platform:junit-platform-engine:${versions.junitPlatform}"
-        ]
-]
-
 dependencies {
     implementation group: 'com.github.hmcts', name: 'befta-fw', version: '8.2.0'
 
     testImplementation libraries.junit5
-
-    functionalTestImplementation sourceSets.main.runtimeClasspath
-
-    smokeTestImplementation sourceSets.main.runtimeClasspath
 }
 
 wrapper {
