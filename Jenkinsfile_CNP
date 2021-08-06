@@ -5,7 +5,7 @@ import uk.gov.hmcts.contino.AppPipelineConfig
 
 def type = "java"
 def product = "cmc"
-def component = "cmc-ccd-domain"
+def component = "ccd"
 AppPipelineConfig pipelineConf
 
 static LinkedHashMap<String, Object> secret(String secretName, String envVariable) {
