@@ -77,6 +77,8 @@ tasks.withType(JavaCompile) {
 }
 
 tasks.withType(Test) {
+    useJUnitPlatform()
+
     testLogging {
         exceptionFormat = 'full'
     }
@@ -108,8 +110,8 @@ sonarqube {
     properties {
         property "sonar.projectName", "CMC :: ccd-domain"
         property "sonar.projectKey", "cmc-ccd-domain"
-        property "sonar.coverage.exclusions", "**/HighLevelDataSetupApp.java"
         property "sonar.host.url", "https://sonar.reform.hmcts.net/"
+        property "sonar.coverage.jacoco.xmlReportPaths", "${jacocoTestReport.reports.xml.destination.path}"
         property "sonar.junit.reportPaths", 'build/test-results/junit-platform'
         property "sonar.jacoco.reportPaths", "${project.buildDir}/jacoco/junitPlatformTest.exec"
     }
@@ -129,6 +131,23 @@ ext.libraries = [
                 "org.junit.platform:junit-platform-engine:${versions.junitPlatform}"
         ]
 ]
+
+jacocoTestReport {
+    executionData(test)
+    executionData fileTree(project.rootDir.absolutePath).include("**/build/jacoco/*.exec")
+    subprojects.each {
+        sourceSets it.sourceSets.main
+    }
+    reports {
+        xml.enabled = true
+        csv.enabled = false
+        xml.destination file("${buildDir}/reports/jacoco/test/jacocoTestReport.xml")
+    }
+}
+
+jacocoTestReport.dependsOn {
+    subprojects*.test
+}
 
 dependencies {
     implementation group: 'com.github.hmcts', name: 'befta-fw', version: '8.2.0'
