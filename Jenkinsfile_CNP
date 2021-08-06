@@ -1,11 +1,12 @@
 #!groovy
 
 @Library("Infrastructure")
-import uk.gov.hmcts.contino.AppPipelineDsl
+import uk.gov.hmcts.contino.AppPipelineConfig
 
 def type = "java"
 def product = "cmc"
 def component = "cmc-ccd-domain"
+AppPipelineConfig pipelineConf
 
 static LinkedHashMap<String, Object> secret(String secretName, String envVariable) {
   [$class     : 'AzureKeyVaultSecret',
@@ -107,7 +108,7 @@ withPipeline(type, product, component) {
     onPerftest{
       env.ENVIRONMENT = "perftest"
     }
-
+  pipelineConf = config
   enableAksStagingDeployment()
   disableLegacyDeploymentOnAAT()
   enableSlackNotifications('#cmc_tech_notifications')
