@@ -1,6 +1,11 @@
-FROM hmctspublic.azurecr.io/base/java:openjdk-11-distroless-1.2
+# ---- Base image - order important ----
+FROM hmctspublic.azurecr.io/ccd/definition-processor:latest as base
 
-COPY build/libs/empty.jar /opt/app/
+# ----        Runtime image         ----
+FROM hmctspublic.azurecr.io/ccd/definition-importer:latest as runtime
+RUN apk add --no-cache curl jq zip unzip git
+COPY --from=base . .
+COPY ./definition/data /data
 
 EXPOSE 4000
-CMD [ "empty.jar" ]
+CMD cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx && "/wait" && "/scripts/upload-definition.sh" && [ "empty.jar" ]
