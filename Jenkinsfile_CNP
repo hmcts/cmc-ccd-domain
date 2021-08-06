@@ -1,14 +1,13 @@
 #!groovy
 
 @Library("Infrastructure")
-import uk.gov.hmcts.contino.AppPipelineConfig
+import uk.gov.hmcts.contino.AppPipelineDsl
 
 def type = "java"
 def product = "cmc"
-def component = "ccd"
-AppPipelineConfig pipelineConf
+def component = "cmc-ccd-domain"
 
-static Map<String, Object> secret(String secretName, String envVariable) {
+static LinkedHashMap<String, Object> secret(String secretName, String envVariable) {
   [$class     : 'AzureKeyVaultSecret',
    secretType : 'Secret',
    name       : secretName,
@@ -90,60 +89,32 @@ def uploadCoreCaseDataDefinitions(env) {
   }
 }
 
-withPipeline(type, product, component) {
-  pipelineConf = config
-  disableLegacyDeployment()
-  enableAksStagingDeployment()
-  enableSlackNotifications('#cmc_tech_notifications')
-  syncBranchesWithMaster(['demo'])
-  enableHighLevelDataSetup()
-  loadVaultSecrets(secrets)
+def vaultOverrides = [
+    'preview' : 'aat'
+]
 
-  onPR {
-    env.ENVIRONMENT = "preview"
-    env.DEFINITION_STORE_URL_BASE = "https://ccd-definition-store-cmc-ccd-pr-${CHANGE_ID}.service.core-compute-preview.internal"
-  }
-  onMaster {
-    env.ENVIRONMENT="aat"
-  }
-  onDemo {
-    env.ENVIRONMENT = "demo"
-  }
-  onPerftest{
-    env.ENVIRONMENT = "perftest"
-  }
+withPipeline(type, product, component) {
+    onPR {
+      env.ENVIRONMENT = "preview"
+      env.DEFINITION_STORE_URL_BASE = "https://ccd-definition-store-cmc-ccd-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+    }
+    onMaster {
+      env.ENVIRONMENT="aat"
+    }
+    onDemo {
+      env.ENVIRONMENT = "demo"
+    }
+    onPerftest{
+      env.ENVIRONMENT = "perftest"
+    }
+
+  enableAksStagingDeployment()
+  disableLegacyDeploymentOnAAT()
+  enableSlackNotifications('#cmc_tech_notifications')
+  loadVaultSecrets(secrets)
+  disableLegacyDeployment()
 
   after('test') {
-    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'output/**/*'
-  }
-
-  before('highleveldatasetup') {
-    archiveCoreCaseDataDefinitions()
-  }
-
-  before('smoketest:preview') {
-  }
-
-  after('smoketest:preview') {
-    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'output/**/*'
-  }
-
-  before('functionalTest:preview') {
-  }
-
-  after('functionalTest:preview') {
-    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'output/**/*'
-  }
-
-  before('smoketest:aat') {
-  }
-
-  after('smoketest:aat') {
-  }
-
-  before('functionalTest:aat') {
-  }
-
-  after('functionalTest:aat') {
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: '**/reports/checkstyle/*.html'
   }
 }
