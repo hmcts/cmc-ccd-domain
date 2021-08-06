@@ -8,7 +8,7 @@ def product = "cmc"
 def component = "ccd"
 AppPipelineConfig pipelineConf
 
-static LinkedHashMap<String, Object> secret(String secretName, String envVariable) {
+static Map<String, Object> secret(String secretName, String envVariable) {
   [$class     : 'AzureKeyVaultSecret',
    secretType : 'Secret',
    name       : secretName,
