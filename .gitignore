@@ -1,8 +1,7 @@
 .gradle
-/build/
-/bin/
+**/build/
 !gradle/wrapper/gradle-wrapper.jar
-definition/releases
+*.class
 
 ### STS ###
 .apt_generated
@@ -20,4 +19,3 @@ definition/releases
 *.ipr
 
 .DS_Store
-
