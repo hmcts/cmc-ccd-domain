@@ -147,3 +147,4 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "breathingSpaceSummaryLabel", "Label": "**Breathing space details**", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "errorCodeMessage", "Label": "Error Code Message for Legal rep Payment", "FieldType": "Text", "SecurityClassification": "Public"}
 ]
+
