@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import uk.gov.hmcts.cmc.ccd.domain.defendant.CcdDefendant;
 import uk.gov.hmcts.cmc.ccd.domain.evidence.CcdEvidenceRow;
 
