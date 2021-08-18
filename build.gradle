@@ -132,7 +132,7 @@ sonarqube {
         property "sonar.coverage.jacoco.xmlReportPaths", "${jacocoTestReport.reports.xml.destination.path}"
         property "sonar.junit.reportPaths", 'build/test-results/junit-platform'
         property "sonar.jacoco.reportPaths", "${project.buildDir}/jacoco/junitPlatformTest.exec"
-        property "sonar.coverage.exclusions", "**/HighLevelDataSetupApp.java"
+        property "sonar.coverage.exclusions", "**/*.java"
     }
 }
 
