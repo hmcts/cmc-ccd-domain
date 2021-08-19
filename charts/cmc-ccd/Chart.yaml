@@ -1,0 +1,12 @@
+apiVersion: v2
+description: A Helm chart for cmc-ccd App
+name: cmc-ccd-domain
+home: https://github.com/hmcts/cmc-ccd-domain
+version: 0.0.1
+maintainers:
+  - name: HMCTS OCMC team
+
+dependencies:
+  - name: java
+    version: 3.4.5
+    repository: '@hmctspublic'

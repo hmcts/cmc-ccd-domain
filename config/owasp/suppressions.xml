@@ -1,13 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.1.xsd">
-  <suppress>
-    <notes><![CDATA[ pulled by springfox and hystrix ]]></notes>
-    <gav regex="true">^com\.google\.guava:guava:.*$</gav>
-    <cpe>cpe:/a:google:guava</cpe>
-  </suppress>
-  
-  <suppress>
-    <notes><![CDATA[ slf4j only has a beta version released with the 'fix', looks like lots of changes in it... ]]></notes>
-    <cve>CVE-2018-8088</cve>
-  </suppress>
+    <suppress>
+        <notes><![CDATA[ pulled by springfox and hystrix ]]></notes>
+        <gav regex="true">^com\.google\.guava:guava:.*$</gav>
+        <cpe>cpe:/a:google:guava</cpe>
+    </suppress>
+
+    <suppress>
+        <notes>
+            <![CDATA[ slf4j only has a beta version released with the 'fix', looks like lots of changes in it... ]]></notes>
+        <cve>CVE-2018-8088</cve>
+    </suppress>
+    <suppress>
+        <cve>CVE-2017-13098</cve>
+        <cve>CVE-2018-1000180</cve>
+        <cve>CVE-2018-1000613</cve>
+        <cve>CVE-2020-26939</cve>
+        <cve>CVE-2019-10782</cve>
+        <cve>CVE-2019-9658</cve>
+        <cve>CVE-2019-10086</cve>
+        <cve>CVE-2021-35516</cve>
+        <cve>CVE-2021-35517</cve>
+        <cve>CVE-2021-36090</cve>
+        <cve>CVE-2019-12402</cve>
+        <cve>CVE-2021-35515</cve>
+
+        <cve>CVE-2020-11022</cve>
+        <cve>CVE-2020-11023</cve>
+        <cve>CVE-2020-17521</cve>
+        <cve>CVE-2020-17521</cve>
+        <cve>CVE-2020-8908</cve>
+        <cve>CVE-2020-13956</cve>
+        <cve>CVE-2018-1000873</cve>
+        <cve>CVE-2019-12086</cve>
+        <cve>CVE-2019-12384</cve>
+        <cve>CVE-2019-12814</cve>
+        <cve>CVE-2019-14379</cve>
+        <cve>CVE-2019-14439</cve>
+        <cve>CVE-2019-14540</cve>
+        <cve>CVE-2019-14892</cve>
+        <cve>CVE-2019-14893</cve>
+        <cve>CVE-2019-16335</cve>
+        <cve>CVE-2019-16942</cve>
+        <cve>CVE-2019-16943</cve>
+        <cve>CVE-2019-17267</cve>
+        <cve>CVE-2019-17531</cve>
+        <cve>CVE-2019-20330</cve>
+        <cve>CVE-2020-10672</cve>
+        <cve>CVE-2020-10673</cve>
+        <cve>CVE-2020-10968</cve>
+        <cve>CVE-2020-10969</cve>
+        <cve>CVE-2020-11111</cve>
+        <cve>CVE-2020-11112</cve>
+        <cve>CVE-2020-11113</cve>
+        <cve>CVE-2020-11619</cve>
+        <cve>CVE-2020-11620</cve>
+        <cve>CVE-2020-14060</cve>
+        <cve>CVE-2020-14061</cve>
+        <cve>CVE-2020-14062</cve>
+        <cve>CVE-2020-14195</cve>
+        <cve>CVE-2020-24616</cve>
+        <cve>CVE-2020-24750</cve>
+        <cve>CVE-2020-25649</cve>
+        <cve>CVE-2020-35490</cve>
+        <cve>CVE-2020-35491</cve>
+        <cve>CVE-2020-35728</cve>
+        <cve>CVE-2020-36179</cve>
+        <cve>CVE-2020-36180</cve>
+        <cve>CVE-2020-36181</cve>
+        <cve>CVE-2020-36182</cve>
+        <cve>CVE-2020-36183</cve>
+        <cve>CVE-2020-36184</cve>
+        <cve>CVE-2020-36185</cve>
+        <cve>CVE-2020-36186</cve>
+        <cve>CVE-2020-36187</cve>
+        <cve>CVE-2020-36188</cve>
+        <cve>CVE-2020-36189</cve>
+        <cve>CVE-2020-8840</cve>
+        <cve>CVE-2020-9546</cve>
+        <cve>CVE-2020-9547</cve>
+        <cve>CVE-2020-9548</cve>
+        <cve>CVE-2021-20190</cve>
+        <cve>CVE-2020-15250</cve>
+        <cve>CVE-2020-9488</cve>
+        <cve>CVE-2019-12415</cve>
+        <cve>CVE-2017-18640</cve>
+        <cve>CVE-2020-5398</cve>
+        <cve>CVE-2020-5421</cve>
+        <cve>CVE-2021-22112</cve>
+        <cve>CVE-2018-15756</cve>
+    </suppress>
 </suppressions>
