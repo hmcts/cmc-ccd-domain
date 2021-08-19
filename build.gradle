@@ -68,10 +68,10 @@ allprojects {
             url 'https://jitpack.io'
         }
         maven {
-            url  "http://repo.spring.io/milestone"
+            url "http://repo.spring.io/milestone"
         }
         maven {
-            url  "https://repo.spring.io/libs-milestone"
+            url "https://repo.spring.io/libs-milestone"
         }
     }
 }
@@ -106,6 +106,12 @@ tasks.withType(Test) {
     testLogging {
         exceptionFormat = 'full'
     }
+}
+
+task highLevelDataSetup(type: JavaExec) {
+    main = "uk.gov.hmcts.cmc.ccd.domain.befta.HighLevelDataSetupApp"
+    classpath += sourceSets.main.runtimeClasspath
+    jvmArgs = ['--add-opens=java.base/java.lang.reflect=ALL-UNNAMED']
 }
 
 test {
@@ -154,8 +160,8 @@ jacocoTestReport.dependsOn {
 }
 
 def versions = [
-        junit              : '5.7.0',
-        junitPlatform      : '1.7.1'
+        junit        : '5.7.0',
+        junitPlatform: '1.7.1'
 ]
 
 ext.libraries = [
