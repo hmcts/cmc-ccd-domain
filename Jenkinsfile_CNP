@@ -45,7 +45,6 @@ def archiveCoreCaseDataDefinitions() {
       echo "environemnt is ${PROD_ENV}"
       dir("${WORKSPACE}/definition/bin") {
         sh """
-          eval \$(./variables/load-${PROD_ENV}-environment-variables.sh)
           ./build-release-ccd-definition.sh ${PROD_ENV}
         """
       }
@@ -58,7 +57,6 @@ def archiveCoreCaseDataDefinitions() {
   } else if ( env.ENVIRONMENT == 'preview') {
     dir("${WORKSPACE}/definition/bin") {
       sh """
-          eval \$(./variables/load-preview-environment-variables.sh ${CHANGE_ID})
           ./build-release-ccd-definition.sh preview
       """
     }
@@ -69,7 +67,6 @@ def archiveCoreCaseDataDefinitions() {
   } else {
     dir("${WORKSPACE}/definition/bin") {
       sh """
-          eval \$(./variables/load-${env.ENVIRONMENT}-environment-variables.sh)
           ./build-release-ccd-definition.sh ${env.ENVIRONMENT}
         """
     }
@@ -84,7 +81,6 @@ def uploadCoreCaseDataDefinitions(env) {
   dir("${WORKSPACE}/definition/bin"){
     ccdDefinitionFilePath="${WORKSPACE}/build/ccd-release-config/cmc-ccd-${env}.xlsx"
     sh """
-      eval \$(./variables/load-${env}-environment-variables.sh)
       ./utils/ccd-import-definition.sh ${ccdDefinitionFilePath}
     """
   }
