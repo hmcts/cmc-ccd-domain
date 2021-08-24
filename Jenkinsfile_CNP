@@ -109,7 +109,6 @@ withPipeline(type, product, component) {
       env.ENVIRONMENT = "perftest"
     }
   pipelineConf = config
-  enableAksStagingDeployment()
   disableLegacyDeploymentOnAAT()
   enableSlackNotifications('#cmc_tech_notifications')
   loadVaultSecrets(secrets)
