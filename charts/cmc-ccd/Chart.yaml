@@ -1,23 +1,26 @@
 apiVersion: v2
-description: A Helm chart for cmc-ccd App
-name: cmc-ccd-domain
-home: https://github.com/hmcts/cmc-ccd-domain
-version: 0.0.1
+name: cmc-claim-store
+home: https://github.com/hmcts/cmc-claim-store
+version: 4.1.30
+description: Helm chart for the HMCTS CMC Claim-Store service
+# be aware when bumping version that it is used elsewhere, e.g.:
+# chart-cmc - demo: https://github.com/hmcts/chart-cmc/tree/master/cmc
+# flux - AAT AKS: https://github.com/hmcts/cnp-flux-config/blob/365e8ee13e20d4f66c925f5a0648db26dcad8872/k8s/aat/money-claims/claim-store/claim-store.yaml#L15
+# prob other envs for flux ^^^
 maintainers:
-  - name: HMCTS OCMC team
-
+  - name: HMCTS CMC Dev Team
+    email: cmc-developers@HMCTS.NET
 dependencies:
   - name: java
     version: 3.6.0
     repository: '@hmctspublic'
-  - name: ccd
-    version: 5.0.6
-    repository: '@hmctspublic'
-  - name: idam-pr
-    version: ~2.2.3
-    repository: '@hmctspublic'
-    condition: idam-pr.enabled
+
   - name: postgresql
     version: 8.9.8
     repository: https://charts.bitnami.com/bitnami
     condition: postgresql.enabled
+
+  - name: ccd
+    version: 5.0.4
+    repository: '@hmctspublic'
+    condition: ccd.enabled
