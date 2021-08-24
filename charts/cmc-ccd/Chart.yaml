@@ -8,5 +8,16 @@ maintainers:
 
 dependencies:
   - name: java
-    version: 3.4.5
+    version: 3.6.0
     repository: '@hmctspublic'
+  - name: ccd
+    version: 5.0.6
+    repository: '@hmctspublic'
+  - name: idam-pr
+    version: ~2.2.3
+    repository: '@hmctspublic'
+    condition: idam-pr.enabled
+  - name: postgresql
+    version: 8.9.8
+    repository: https://charts.bitnami.com/bitnami
+    condition: postgresql.enabled
