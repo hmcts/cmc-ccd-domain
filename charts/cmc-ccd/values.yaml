@@ -5,7 +5,6 @@ ccd:
 
 java:
   image: hmctspublic.azurecr.io/cmc/claim-store:latest
-  ingressHost: cmc-claim-store-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal
   applicationPort: 4400
   aadIdentityName: money-claims
   keyVaults:
