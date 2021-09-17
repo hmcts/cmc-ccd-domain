@@ -9,4 +9,5 @@ COPY ./definition/data /data
 
 EXPOSE 4000
 USER root
-CMD cd /opt/ccd-definition-processor && chmod 777 /data/cmc-ccd.xlsx && yarn json2xlsx -D /data/sheets -o /data/cmc-ccd.xlsx && "/wait" && "/scripts/upload-definition.sh" && [ "empty.jar" ]
+RUN chmod 777 /data/cmc-ccd.xlsx
+CMD cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /data/cmc-ccd.xlsx && "/wait" && "/scripts/upload-definition.sh" && [ "empty.jar" ]
