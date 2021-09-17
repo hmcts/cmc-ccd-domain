@@ -8,5 +8,5 @@ COPY --from=base . .
 COPY ./definition/data /data
 
 EXPOSE 4000
-CHMOD 777 /cmc-ccd.xlsx
+RUN chmod 777 /cmc-ccd.xlsx
 CMD cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx && "/wait" && "/scripts/upload-definition.sh" && [ "empty.jar" ]
