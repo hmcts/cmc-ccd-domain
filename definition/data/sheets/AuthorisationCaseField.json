@@ -364,6 +364,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "hwfDocumentsToBeSentBefore", "UserRole": "citizen", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "DrawDirectionOrder", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "DrawDirectionOrder", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "lastEventTriggeredForHwfCase", "UserRole": "caseworker-cmc", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "DrawDirectionOrder", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrDrawOrder", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "reviewOrDrawOrder", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
