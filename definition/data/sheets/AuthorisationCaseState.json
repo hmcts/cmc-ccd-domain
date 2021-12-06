@@ -95,13 +95,13 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementSigned", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementSigned", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementSigned", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "citizen", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-solicitor", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "citizen", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "closedDraftNotIssued", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "closedDraftNotIssued", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "R"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-judge", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-solicitor", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "citizen", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "closedDraftNotIssued", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "closedDraftNotIssued", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CRUD"}
 ]
