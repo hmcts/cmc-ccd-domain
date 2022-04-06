@@ -158,7 +158,7 @@
   {"ID": "HearingDurationType", "ListElementCode": "THREE_HOURS", "ListElement": "Three hours"},
   {"ID": "HearingDurationType", "ListElementCode": "TWO_AND_HALF_HOURS", "ListElement": "Two and half hours"},
   {"ID": "HearingDurationType", "ListElementCode": "TWO_HOURS", "ListElement": "Two hours"},
-  {"ID": "HearingDurationType", "ListElementCode": "ONE_AND_HALF_HOUR", "ListElement": "One and half hour"},
+  {"ID": "HearingDurationType", "ListElementCode": "ONE_AND_HALF_HOURS", "ListElement": "One and half hours"},
   {"ID": "HearingDurationType", "ListElementCode": "ONE_HOUR", "ListElement": "One hour"},
   {"ID": "HearingDurationType", "ListElementCode": "HALF_HOUR", "ListElement": "30 minutes"},
   {"ID": "DirectionPartyType", "ListElementCode": "CLAIMANT", "ListElement": "Claimant"},
