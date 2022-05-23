@@ -12,9 +12,7 @@ deploy:
 - provider: script
   script: "./gradlew bintrayUpload"
   skip_cleanup: true
-  on:
-    repo: hmcts/cmc-ccd-domain
-    tags: true
+  
 env:
   global:
   - secure: BsSREqNyCTZbvTzsLtNghyjY/sfPGfeymgNoTzpXht7fe/FrRZi47RxnIPmszVLExEoZIo+8CiyJwlWUJ7UuXoNwqldXKiUi6cSiI24SWM42n7XgiTO72eH1U1WmqEQ9wVOTktALnHyzofZyZrWKhslhSMb3+Qcc7yOF+ZGEu3wU/uHvfaWO2UBdobK6PbkvED6MZZ2rmP5wL9kr4NMWOOcdtPAl0ZDDGTE3vehvai1uDcdXfJlBJ6aeCI3sPVFCpvzP2U+YMrnIgsNzFNyRYrdNgEOw6vJtjsogHGaRp6/AS48gJLe+E6BH7h/kOs5M7MbvBjpek/Jawj+e57lPSmtaYRuKANqF/8SXm77PSw7f8+hzScv0CsVVFt14cP42dCUOOcgWpYk0u4Z8mPWPbCjkryS1KCgPgzBQ6xb8/SDc6YsdZeyxF9Vlse9ZUC0s2vrSnXzoWb/YTnKfuAzxNoYvV92Azai7jfyx8s3Tqqg9we3j00ggOfOrLeLVbh0XUdeOsqZEee5L+CZuBDRQOwEys/Pvbm17lYW08t2zyTYjYIAbyCL/wr2ZvwwNzz7vcvtcdkR4HwPTPHa6O80KgGKbzKNERzAB9fL4bhZfHdUc82puhfUStBwtzbwNMZC7hl3B4/muzZV5Vig2foh3tO65TcY/EJTkeZch7MJ4LOU=
