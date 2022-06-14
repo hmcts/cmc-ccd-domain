@@ -384,5 +384,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "breathingSpaceSummaryLabel", "UserRole": "caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "breathingSpaceSummaryLabel", "UserRole": "caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "breathingSpaceSummaryLabel", "UserRole": "caseworker-cmc", "CRUD": "R"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "errorCodeMessage", "UserRole": "caseworker-cmc", "CRUD": "CU"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "errorCodeMessage", "UserRole": "caseworker-cmc", "CRUD": "CU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "TTL", "UserRole": "TTL-admin", "CRUD": "CRU"}
 ]

@@ -1,0 +1,13 @@
+[
+  {"RoleName" : "idam:caseworker-cmc", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "caseworker-cmc", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
+  {"RoleName" : "idam:citizen", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "citizen", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
+  {"RoleName" : "idam:caseworker-cmc-judge", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "caseworker-cmc-judge", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
+  {"RoleName" : "idam:caseworker-cmc-legaladvisor", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "caseworker-cmc-legaladvisor", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
+  {"RoleName" : "idam:caseworker-cmc-anonymouscitizen", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "caseworker-cmc-anonymouscitizen", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
+  {"RoleName" : "idam:caseworker-cmc-systemupdate", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "caseworker-cmc-systemupdate", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
+  {"RoleName" : "idam:caseworker-cmc-solicitor", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "caseworker-cmc-solicitor", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
+  {"RoleName" : "idam:caseworker-cmc-pcqextractor", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "caseworker-cmc-pcqextractor", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
+  {"RoleName" : "idam:letter-holder", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "letter-holder", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
+  {"RoleName" : "hmcts-case-admin", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "TTL-admin", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""}
+
+]
