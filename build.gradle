@@ -24,8 +24,6 @@ def fileVersion = new org.yaml.snakeyaml.Yaml().load(new File("VERSION.yaml").ne
 group = 'uk.gov.hmcts.reform'
 version = fileVersion.TAG
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
