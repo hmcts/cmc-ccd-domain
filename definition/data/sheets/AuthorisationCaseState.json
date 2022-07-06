@@ -103,33 +103,33 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "closedDraftNotIssued", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "closedDraftNotIssued", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "closedDraftNotIssued", "UserRole": "caseworker-cmc-anonymouscitizen", "CRUD": "CRUD"},
 
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "create", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "open", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "closed", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settled", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForDirections", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForJudgeDirections", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "stayed", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderForJudgeReview", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderForLAReview", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderDrawn", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "transferred", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "approved", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForTransfer", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "reconsiderationRequested", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "referredMediation", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "proceedsInCaseman", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingCitizenPayment", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForPaperDQ", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentRequested", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentDecideAmount", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "businessQueue", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementSigned", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
-  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "create", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "open", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "closed", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settled", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForDirections", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForJudgeDirections", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "stayed", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderForJudgeReview", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderForLAReview", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "orderDrawn", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "transferred", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "approved", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForTransfer", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "reconsiderationRequested", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "referredMediation", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "proceedsInCaseman", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingCitizenPayment", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "readyForPaperDQ", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentRequested", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "judgmentDecideAmount", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementMade", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "redeterminationRequested", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "businessQueue", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "settlementAgreementSigned", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "hwfApplicationPending", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "awaitingResponseHWF", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseStateID": "closedDraftNotIssued", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRUD"}
 ]
