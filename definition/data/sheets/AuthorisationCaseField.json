@@ -535,5 +535,5 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "breathingSpaceLiftSummary", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "breathingSpaceSummaryLabel", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "errorCodeMessage", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRU"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "TTL", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "TTL", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRU"}
 ]
