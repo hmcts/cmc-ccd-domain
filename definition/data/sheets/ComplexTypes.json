@@ -27,6 +27,7 @@
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "reasonForExpertAdvice", "FieldType": "Text", "ElementLabel": "Reason why Expert advice is needed", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "vulnerabilityQuestions", "FieldType": "YesOrNo", "ElementLabel": "Is Vulnerable", "SecurityClassification": "Public"},
   {"ID": "DirectionsQuestionnaire", "ListElementCode": "vulnerabilityDetails", "FieldType": "Text", "ElementLabel": "Vulnerability Details", "SecurityClassification": "Public"},
+  {"ID": "DirectionsQuestionnaire", "ListElementCode": "vulnerabilityDetails2", "FieldType": "YesOrNo", "ElementLabel": "Vulnerability Details 2", "SecurityClassification": "Public"},
   {"ID": "Telephone", "ListElementCode": "telephoneNumber", "FieldType": "Text", "ElementLabel": "Contact Number", "SecurityClassification": "Public"},
   {"ID": "Telephone", "ListElementCode": "telephoneUsageType", "FieldType": "Text", "ElementLabel": "Phone type", "SecurityClassification": "Public"},
   {"ID": "Telephone", "ListElementCode": "contactDirection", "FieldType": "Text", "ElementLabel": "Contact comment", "SecurityClassification": "Public"},
