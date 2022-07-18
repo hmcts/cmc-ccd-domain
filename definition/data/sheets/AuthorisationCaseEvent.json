@@ -348,6 +348,6 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceEntered", "UserRole": "citizen", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceLifted", "UserRole": "caseworker-cmc", "CRUD": "CRUD"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "BreathingSpaceLifted", "UserRole": "citizen", "CRUD": "CRUD"},
-  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageTTL", "UserRole": "TTL-admin", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageTTL", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "migrateCase", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRU"}
 ]
