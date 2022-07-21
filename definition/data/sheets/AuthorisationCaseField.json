@@ -388,5 +388,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "TTL", "UserRole": "TTL-admin", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "TTL", "UserRole": "caseworker-cmc", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "TTL", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "TTL", "UserRole": "citizen", "CRUD": "CRU"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "migrationId", "UserRole": "citizen", "CRUD": "CRU"},
   {"CaseTypeID": "MoneyClaimCase", "CaseFieldID": "migrationId", "UserRole": "caseworker-cmc-systemupdate", "CRUD": "CRU"}
 ]
