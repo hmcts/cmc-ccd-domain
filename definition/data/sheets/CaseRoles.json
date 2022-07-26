@@ -1,0 +1,10 @@
+[
+  {
+    "CaseTypeID": "MoneyClaimCase",
+    "ID": "[CREATOR]",
+    "Name": "Creator",
+    "Description": "Creator of case",
+    "JurisdictionID": "CMC",
+    "SecurityClassification": "Public"
+  }
+]
