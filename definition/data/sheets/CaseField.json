@@ -145,6 +145,9 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "breathingSpaceSummary", "Label": "Check the details", "FieldType": "BreathingSpaceDetails", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "breathingSpaceLiftSummary", "Label": "Check the details", "FieldType": "BreathingSpaceLiftDetails", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "breathingSpaceSummaryLabel", "Label": "**Breathing space details**", "FieldType": "Label", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "errorCodeMessage", "Label": "Error Code Message for Legal rep Payment", "FieldType": "Text", "SecurityClassification": "Public"}
+  {"CaseTypeID": "MoneyClaimCase", "ID": "errorCodeMessage", "Label": "Error Code Message for Legal rep Payment", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "TTL", "Label": "Time to live", "FieldType": "TTL", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "migrationId", "Label": "Migration Id", "FieldType": "Text", "SecurityClassification": "Public"}
+
 ]
 
