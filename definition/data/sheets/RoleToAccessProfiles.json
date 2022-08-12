@@ -9,5 +9,6 @@
   {"RoleName" : "idam:caseworker-cmc-pcqextractor", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "caseworker-cmc-pcqextractor", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
   {"RoleName" : "idam:letter-holder", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "letter-holder", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
   {"RoleName" : "idam:cft-ttl-manager", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "TTL-admin", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
+  {"RoleName" : "idam:payments", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "payments", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""},
   {"RoleName" : "[CREATOR]", "Authorisation": "", "CaseTypeID": "MoneyClaimCase", "AccessProfiles": "[CREATOR]", "ReadOnly": "N", "Disabled": "F", "CaseAccessCategories": ""}
 ]
