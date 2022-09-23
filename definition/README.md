@@ -30,6 +30,10 @@ $ docker build -t hmctspublic.azurecr.io/cmc/ccd-definition-importer:dev -f defi
 ```bash
 $ ./definition/bin/upload-ccd-definition-to-env.sh local dev
 ```
+Note: if you are using Windows with WSL please use the following script to upload:
+```bash
+$ ./definition/bin/wsl-upload-ccd-definition-to-env.sh local dev
+```
 
 Note: if you want to make this semi-permanent also update docker-compose.yaml in cmc-integration-tests project to pin to your dev version:
 ```
