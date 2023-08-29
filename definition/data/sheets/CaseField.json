@@ -132,7 +132,7 @@
   {"CaseTypeID": "MoneyClaimCase", "ID": "moreInfoDetails", "Label": "Details", "FieldType": "TextArea", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfFeeDetailsSummary", "Label": "Summary", "FieldType": "FixedList", "FieldTypeParameter": "HWFFeesSummaryType", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfMandatoryDetails", "Label": "Details ", "FieldType": "TextArea", "SecurityClassification": "Public"},
-  {"CaseTypeID": "MoneyClaimCase", "ID": "remissionFeeAmountMessage", "Label": "Warning: \n Please check you are entering the correct amount, as you will not be able to amend after submission. \n ****", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "MoneyClaimCase", "ID": "remissionFeeAmountMessage", "Label": "Warning: \n Please check you are entering the correct amount, as you will not be able to amend after submission. \n ****", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "feeRemitted", "Label": "Remission Amount", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfDetails", "Label": "HwF details", "FieldType": "HWFDetails", "SecurityClassification": "Public"},
   {"CaseTypeID": "MoneyClaimCase", "ID": "hwfMoreInfoNeededDocuments", "Label": "Proof of the following needed (Select one or more)", "FieldType": "MultiSelectList", "FieldTypeParameter": "moreInfoNeededDocumentList", "SecurityClassification": "Public"},
