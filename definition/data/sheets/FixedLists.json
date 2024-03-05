@@ -152,6 +152,7 @@
   {"ID": "HearingCourtType", "ListElementCode": "CLERKENWELL", "ListElement": "Clerkenwell", "DisplayOrder":2},
   {"ID": "HearingCourtType", "ListElementCode": "EDMONTON", "ListElement": "Edmonton", "DisplayOrder":3},
   {"ID": "HearingCourtType", "ListElementCode": "MANCHESTER", "ListElement": "Manchester", "DisplayOrder":4},
+  {"ID": "HearingCourtType", "ListElementCode": "NEWPORT", "ListElement": "Newport", "DisplayOrder":5},
   {"ID": "HearingCourtType", "ListElementCode": "OTHER", "ListElement": "Other", "DisplayOrder":100},
   {"ID": "HearingDurationType", "ListElementCode": "ONE_DAY", "ListElement": "One day"},
   {"ID": "HearingDurationType", "ListElementCode": "FOUR_HOURS", "ListElement": "Four hours"},
