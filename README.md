@@ -60,3 +60,5 @@ Definitions have a separate release process for promotion to PROD. See definitio
     * cmc-claim-store - master 1.2.1
     * cmc-integration-tests - master 1.2.1
 1. Merge code change in cmc-claim-store after green build (deployed into PROD)
+
+2. test
