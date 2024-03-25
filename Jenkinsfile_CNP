@@ -61,7 +61,7 @@ withPipeline("nodejs", product, component) {
   }
 
   before('smoketest:aat') {
-    uploadCoreCaseDataDefinitions('staging', 'latest')
+    uploadCoreCaseDataDefinitions('aat', 'latest')
   }
 
   afterAlways('smoketest:aat') {
