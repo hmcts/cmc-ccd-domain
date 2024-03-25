@@ -21,3 +21,6 @@ definition/releases
 
 .DS_Store
 
+### Yarn ###
+.yarn
+node_modules
