@@ -1,0 +1,70 @@
+#!groovy
+@Library("Infrastructure")
+
+String product = "cmc"
+String component = "ccd-definitions"
+
+def secrets = [
+        's2s-${env}'      : [
+                secret('microservicekey-ccd-data', 'DATA_STORE_S2S_KEY'),
+                secret('microservicekey-ccd-definition', 'DEFINITION_STORE_S2S_KEY'),
+                secret('microservicekey-ccd-gw', 'API_GATEWAY_S2S_KEY'),
+                secret('microservicekey-ccd-ps', 'PRINT_S2S_KEY'),
+                secret('microservicekey-ccd-admin', 'ADMIN_S2S_KEY')
+        ],
+        'ccd-${env}'      : [
+                secret('postcode-info-address-lookup-token', 'ADDRESS_LOOKUP_TOKEN'),
+                secret('ccd-api-gateway-oauth2-client-secret', 'API_GATEWAY_IDAM_SECRET'),
+                secret('ccd-admin-web-oauth2-client-secret', 'ADMIN_WEB_IDAM_SECRET'),
+                secret('idam-data-store-client-secret','IDAM_OAUTH2_DATA_STORE_CLIENT_SECRET'),
+                secret('idam-data-store-system-user-username','IDAM_DATA_STORE_SYSTEM_USER_USERNAME'),
+                secret('idam-data-store-system-user-password','IDAM_DATA_STORE_SYSTEM_USER_PASSWORD'),
+                secret('ccd-case-document-am-api-s2s-secret', 'CCD_CASE_DOCUMENT_AM_API_SECRET')
+        ],
+]
+
+static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
+  [ $class: 'AzureKeyVaultSecret',
+    secretType: 'Secret',
+    name: secretName,
+    version: '',
+    envVariable: envVar
+  ]
+}
+
+def uploadCoreCaseDataDefinitions(env, version) {
+  dir("${WORKSPACE}/definition/bin"){
+    sh """
+      ./utils/upload-ccd-definition-to-env.sh ${env} ${version}
+    """
+  }
+}
+
+withPipeline("nodejs", product, component) {
+  loadVaultSecrets(secrets)
+
+  onPR{
+    env.ENVIRONMENT="demo"
+    env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-demo.service.core-compute-demo.internal"
+  }
+  onMaster{
+    env.ENVIRONMENT="aat"
+    env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-aat.service.core-compute-aat.internal"
+  }
+
+  before('smoketest:preview') {
+    uploadCoreCaseDataDefinitions('demo', 'pr-615-3d45757c')
+  }
+
+  afterAlways('smoketest:preview') {
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'smoke-output/**'
+  }
+
+  before('smoketest:aat') {
+    uploadCoreCaseDataDefinitions('staging', 'latest')
+  }
+
+  afterAlways('smoketest:aat') {
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'smoke-output/**'
+  }
+}
