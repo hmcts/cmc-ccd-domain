@@ -8,30 +8,36 @@ import java.util.Locale;
 
 public class HighLevelDataSetupApp extends DataLoaderToDefinitionStore {
 
+    private final CcdEnvironment environment;
+
     public HighLevelDataSetupApp(CcdEnvironment dataSetupEnvironment) {
         super(dataSetupEnvironment);
+        environment = dataSetupEnvironment;
     }
 
     public static void main(String[] args) throws Throwable {
         main(HighLevelDataSetupApp.class, args);
     }
 
-    @Override
-    protected List<String> getAllDefinitionFilesToLoadAt(String definitionsPath) {
+    private String getDefinitionFile() {
         String environmentName = environment.name().toLowerCase(Locale.UK);
-        return List.of(String.format("build/releases/cmc-ccd-%s.xlsx", environmentName));
+        return String.format("build/releases/cmc-ccd-%s.xlsx", environmentName);
+    }
+
+    @Override
+    public void importDefinitions() {
+        importDefinitionsAt(getDefinitionFile());
     }
 
     @Override
     protected void doLoadTestData() {
-        List<String> definitionFileResources = getAllDefinitionFilesToLoadAt(definitionsPath);
+        String definitionFile = getDefinitionFile();
         CcdEnvironment currentEnv = (CcdEnvironment) getDataSetupEnvironment();
         try {
             if (currentEnv != null) {
                 importDefinitions();
             } else {
-                definitionFileResources.forEach(file ->
-                        System.out.println("definition file \"" + file + "\" is skipped on " + currentEnv));
+                System.out.println("definition file \"" + definitionFile + "\" is skipped on " + currentEnv);
             }
         } catch (Exception e) {
             System.out.println("Error on uploading ccd definition file - " + e.getMessage());
