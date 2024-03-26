@@ -1,5 +1,5 @@
 nodejs:
-  image: hmctspublic.azurecr.io/cmc/ccd-domain:latest
+  image: hmctspublic.azurecr.io/cmc/ccd-definition-importer:latest
   applicationPort: 3000
   aadIdentityName: money-claims
   environment:
