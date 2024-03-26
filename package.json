@@ -6,6 +6,7 @@
     "setup": "git submodule update --init --recursive && cd ccd-definition-processor && yarn install",
     "generate-excel": "cd ccd-definition-processor && yarn json2xlsx -D ../definition/data/sheets -o ../build/releases/cmc-ccd-${ENVIRONMENT:-local}.xlsx",
     "test": "echo test",
+    "lint": "echo lint",
     "prepare": "husky"
   },
   "dependencies": {
