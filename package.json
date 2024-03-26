@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "CMC CCD Domain and Definitions",
   "scripts": {
-    "setup": "git submodule update --init --recursive && git submodule foreach --recursive git pull origin master && cd ccd-definition-processor && yarn install",
-    "generate-excel": "cd ccd-definition-processor && yarn json2xlsx -D ../definition/data/sheets -o ../build/cmc-ccd-${ENVIRONMENT:-local}.xlsx",
+    "setup": "git submodule update --init --recursive && cd ccd-definition-processor && yarn install",
+    "generate-excel": "cd ccd-definition-processor && yarn json2xlsx -D ../definition/data/sheets -o ../build/releases/cmc-ccd-${ENVIRONMENT:-local}.xlsx",
     "test": "echo test",
     "prepare": "husky"
   },
