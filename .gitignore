@@ -20,6 +20,12 @@ definition/releases
 
 .DS_Store
 
-### Yarn ###
-.yarn
+# Yarn 3 files
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 node_modules
