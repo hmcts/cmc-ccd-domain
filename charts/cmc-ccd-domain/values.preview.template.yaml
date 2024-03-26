@@ -1,8 +1,0 @@
-nodejs:
-  image: ${IMAGE_NAME}
-  ingressIP: ${INGRESS_IP}
-  consulIP: ${CONSUL_LB_IP}
-  ingressHost: ${SERVICE_FQDN}
-  environment:
-    REFORM_TEAM: cmc
-    REFORM_SERVICE_NAME: ccd-domain
