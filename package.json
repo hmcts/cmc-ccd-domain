@@ -7,6 +7,7 @@
     "generate-excel": "cd ccd-definition-processor && yarn json2xlsx -D ../definition/data/sheets -o ../build/releases/cmc-ccd-${ENVIRONMENT:-local}.xlsx",
     "lint": "echo lint",
     "test": "echo test",
+    "test:a11y": "echo test:a11y",
     "test:coverage": "echo test:coverage",
     "prepare": "husky"
   },
