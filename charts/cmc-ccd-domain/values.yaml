@@ -1,6 +1,2 @@
-nodejs:
-  applicationPort: 3000
-  aadIdentityName: money-claims
-
 cmc-claim-store:
   enabled: false

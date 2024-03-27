@@ -1,2 +1,0 @@
-nodejs:
-  ingressHost: ${SERVICE_FQDN}
