@@ -17,7 +17,7 @@ Currently the release process is two phases. Automated definition generation in 
 1. Run `./definition/bin/pull-definition-from-docker.sh prod 1.2.2` as above for PROD.
 1. Clone previous release Jira ticket for CCD team and attach definitions for uploading (AAT & PROD). Add to parent confluence doc: https://tools.hmcts.net/confluence/display/ROC/CCD+Reference+Material
 
-# Developing 
+# Developing
 
 If you need to work with local definitions:
 
@@ -41,7 +41,7 @@ Note: if you want to make this semi-permanent also update docker-compose.yaml in
       image: hmctspublic.azurecr.io/cmc/ccd-definition-importer:dev
 ```
 
-## Extracting a local Excel definition 
+## Extracting a local Excel definition
 
 Outputs file into {Current Directory}/releases/cmc-ccd.xlsx
 

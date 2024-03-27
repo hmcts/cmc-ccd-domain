@@ -43,28 +43,21 @@ def uploadCoreCaseDataDefinitions(env, version) {
 withPipeline("nodejs", product, component) {
   loadVaultSecrets(secrets)
 
-  onPR{
-    env.ENVIRONMENT="demo"
-    env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-demo.service.core-compute-demo.internal"
-  }
   onMaster{
     env.ENVIRONMENT="aat"
     env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-aat.service.core-compute-aat.internal"
   }
 
-  before('smoketest:preview') {
-    uploadCoreCaseDataDefinitions('demo', 'pr-615-3d45757c')
-  }
-
-  afterAlways('smoketest:preview') {
-    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'smoke-output/**'
-  }
-
   before('smoketest:aat') {
-    uploadCoreCaseDataDefinitions('aat', 'latest')
+    uploadCoreCaseDataDefinitions('aat', 'pr-615-3d45757c')
   }
 
   afterAlways('smoketest:aat') {
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'smoke-output/**'
+  }
+
+  afterAlways('functionalTest:aat') {
+    sh 'exit 1'
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test-results/functional/**/*'
   }
 }

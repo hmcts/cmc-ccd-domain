@@ -1,0 +1,19 @@
+{
+  "name": "cmc-ccd-domain",
+  "version": "0.0.1",
+  "description": "CMC CCD Domain and Definitions",
+  "scripts": {
+    "lint": "echo lint",
+    "test": "echo test",
+    "test:a11y": "echo test:a11y",
+    "test:coverage": "echo test:coverage",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11"
+  },
+  "packageManager": "yarn@3.5.0"
+}

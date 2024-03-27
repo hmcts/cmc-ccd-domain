@@ -51,14 +51,13 @@ case ${ENV} in
   local)
     PROXY=""
     IDAM_URI=http://host.docker.internal:5000
-    IMPORTER_USERNAME=ccd-importer@server.net
-    IMPORTER_PASSWORD=Password12
-    CLIENT_SECRET=12345678
+    IMPORTER_USERNAME=ccd.docker.default@hmcts.net
+    IMPORTER_PASSWORD=Password12!
+    CLIENT_SECRET=ccd_gateway_secret
     REDIRECT_URI=http://localhost:3451/oauth2redirect
     CCD_STORE_BASE_URL=http://host.docker.internal:4451
-    AUTH_PROVIDER_BASE_URL=http://host.docker.internal:4552
+    AUTH_PROVIDER_BASE_URL=http://host.docker.internal:4502
     CLAIM_STORE_URL=http://host.docker.internal:4400 # docker-compose service
-    MICROSERVICE=ccd_gateway
   ;;
   perftest)
     IDAM_URI=https://idam-api.perftest.platform.hmcts.net
