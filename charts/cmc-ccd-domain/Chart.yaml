@@ -8,3 +8,6 @@ dependencies:
   - name: nodejs
     version: 3.0.3
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
+  - name: claim-store
+    version: 4.1.53
+    repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
