@@ -5,8 +5,8 @@ name: cmc-ccd-domain
 home: https://github.com/hmcts/cmc-ccd-domain
 version: 0.0.2
 dependencies:
-  - name: java
-    version: 5.2.0
+  - name: node
+    version: 3.1.0
     repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
   - name: cmc-claim-store
     version: 4.1.53
