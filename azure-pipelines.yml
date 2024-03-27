@@ -2,7 +2,7 @@ name: cmc-ccd-domain pipeline
 
 variables:
   serviceConnection: 'azurerm-prod'
-  repository: cmc/ccd-definition-importer
+  repository: cmc/ccd-domain
   acrName: hmctspublic
   acrResourceGroup: rpe-acr-prod-rg
 
