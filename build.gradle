@@ -59,7 +59,7 @@ jar {
 
 checkstyle {
   maxWarnings = 50
-  toolVersion = '8.14'
+  toolVersion = '8.45.1'
 }
 
 task printVersion {
