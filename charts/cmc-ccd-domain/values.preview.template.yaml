@@ -1,4 +1,4 @@
-nodejs:
+java:
   image: ${IMAGE_NAME}
   ingressIP: ${INGRESS_IP}
   consulIP: ${CONSUL_LB_IP}
