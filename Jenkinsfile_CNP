@@ -4,6 +4,8 @@
 String product = "cmc"
 String component = "ccd-domain"
 
+def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
+
 def secrets = [
         's2s-${env}'      : [
                 secret('microservicekey-ccd-data', 'DATA_STORE_S2S_KEY'),
@@ -32,24 +34,24 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
   ]
 }
 
-def uploadCoreCaseDataDefinitions(env, version) {
-  dir("${WORKSPACE}/definition/bin"){
-    sh """
-      ./utils/upload-ccd-definition-to-env.sh ${env} ${version}
-    """
-  }
-}
-
 withPipeline("nodejs", product, component) {
   loadVaultSecrets(secrets)
+  enableHighLevelDataSetup()
 
   onMaster{
     env.ENVIRONMENT="aat"
     env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-aat.service.core-compute-aat.internal"
   }
 
+  before('highleveldatasetup') {
+    yarnBuilder.yarn('setup')
+    stageWithAgent('Generate CMC CCD domain and defintion config', product) {
+      yarnBuilder.yarn('generate-excel')
+    }
+  }
+
   before('smoketest:aat') {
-    uploadCoreCaseDataDefinitions('aat', 'pr-615-3d45757c')
+    yarnBuilder.yarn('setup')
   }
 
   afterAlways('smoketest:aat') {
