@@ -5,13 +5,6 @@ String product = "cmc"
 String component = "ccd-domain"
 
 def secrets = [
-        'cmc-${env}': [
-                secret('citizen-oauth-client-secret', 'OAUTH_CLIENT_SECRET'),
-                secret('smoke-test-citizen-username', 'SMOKE_TEST_CITIZEN_USERNAME'),
-                secret('smoke-test-user-password', 'SMOKE_TEST_USER_PASSWORD'),
-                secret('ccd-importer-username', 'CCD_CONFIGURER_IMPORTER_USERNAME'),
-                secret('ccd-importer-password', 'CCD_CONFIGURER_IMPORTER_PASSWORD'),
-        ],
         's2s-${env}' : [
                 secret('microservicekey-ccd-data', 'DATA_STORE_S2S_KEY'),
                 secret('microservicekey-ccd-definition', 'DEFINITION_STORE_S2S_KEY'),
