@@ -5,6 +5,9 @@ nodejs:
     maxReplicas: 5 # Required setting
     targetCPUUtilizationPercentage: 80 # Default is 80% target CPU utilization
 
+cmc-claim-store:
+  enabled: false
+
 ccd:
   enabled: false
 
