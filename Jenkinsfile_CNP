@@ -56,7 +56,7 @@ withPipeline("nodejs", product, component) {
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'smoke-output/**'
   }
 
-  afterAlways('functionalTest:preview') {
+  afterAlways('functionalTest:aat') {
     sh 'exit 1'
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test-results/functional/**/*'
   }
