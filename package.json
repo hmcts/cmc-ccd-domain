@@ -12,6 +12,7 @@
     "test:coverage": "echo test:coverage",
     "test:functional": "echo test:functional",
     "test:smoke": "echo test:smoke",
+    "highLevelDataSetup": "echo './gradlew highLevelDataSetup --args=$1' > ./temp.sh && sh ./temp.sh",
     "prepare": "husky"
   },
   "dependencies": {
