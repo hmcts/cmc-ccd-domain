@@ -38,6 +38,10 @@ withPipeline("nodejs", product, component) {
   loadVaultSecrets(secrets)
   enableHighLevelDataSetup()
 
+  onPR{
+    env.ENVIRONMENT="preview"
+    env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-aat.service.core-compute-aat.internal"
+  }
   onMaster{
     env.ENVIRONMENT="aat"
     env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-aat.service.core-compute-aat.internal"
@@ -45,7 +49,7 @@ withPipeline("nodejs", product, component) {
 
   before('highleveldatasetup') {
     yarnBuilder.yarn('setup')
-    stageWithAgent('Generate CMC CCD domain and defintion config', product) {
+    stageWithAgent('Generate CMC CCD domain and definition config', product) {
       yarnBuilder.yarn('generate-excel')
     }
   }
