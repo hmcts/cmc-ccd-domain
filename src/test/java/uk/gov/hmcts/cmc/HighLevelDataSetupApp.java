@@ -21,7 +21,7 @@ public class HighLevelDataSetupApp extends DataLoaderToDefinitionStore {
 
     private String getDefinitionFile() {
         String environmentName = environment.name().toLowerCase(Locale.UK);
-        return String.format("build/releases/cmc-ccd-%s.xlsx", environmentName);
+        return String.format("definition/xlsx/cmc-ccd-%s.xlsx", environmentName);
     }
 
     @Override
