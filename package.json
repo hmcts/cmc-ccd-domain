@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "CMC CCD Domain and Definitions",
   "scripts": {
+    "start": "node index.js",
     "lint": "echo lint",
     "test": "echo test",
     "test:a11y": "echo test:a11y",
