@@ -94,7 +94,7 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
 
 task highLevelDataSetup(type: JavaExec) {
     main = "uk.gov.hmcts.cmc.HighLevelDataSetupApp"
-    classpath += sourceSets.main.runtimeClasspath
+    classpath += sourceSets.test.runtimeClasspath
     jvmArgs = ['--add-opens=java.base/java.lang.reflect=ALL-UNNAMED']
 }
 
