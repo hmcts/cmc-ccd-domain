@@ -19,10 +19,10 @@ plugins {
     id 'org.sonarqube' version '3.0'
 }
 
-def fileVersion = new org.yaml.snakeyaml.Yaml().load(new File("VERSION.yaml").newInputStream())
-
-group = 'uk.gov.hmcts.reform'
-version = fileVersion.TAG
+//def fileVersion = new org.yaml.snakeyaml.Yaml().load(new File("VERSION.yaml").newInputStream())
+//
+//group = 'uk.gov.hmcts.reform'
+//version = fileVersion.TAG
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
