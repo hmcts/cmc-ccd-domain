@@ -51,6 +51,7 @@ withPipeline("nodejs", product, component) {
     yarnBuilder.yarn('setup')
     stageWithAgent('Generate CMC CCD domain and definition config', product) {
       yarnBuilder.yarn('generate-excel')
+      steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definition/xlsx/*.xlsx'
     }
   }
 
