@@ -39,9 +39,9 @@ dependencies {
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.16.0'
     implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.32'
     testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test'
-    testImplementation group: 'com.github.hmcts', name: 'befta-fw', version: '8.10.1', {
-        exclude group: 'junit', module: 'junit'
-    }
+
+    testImplementation group: 'com.github.hmcts', name: 'befta-fw', version: '8.10.1'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.7.1'
 }
 
 bootJar {
@@ -90,6 +90,12 @@ task sourcesJar(type: Jar, dependsOn: classes) {
 task javadocJar(type: Jar, dependsOn: javadoc) {
     archiveClassifier = 'javadoc'
     from javadoc.destinationDir
+}
+
+task highLevelDataSetup(type: JavaExec) {
+    main = "uk.gov.hmcts.cmc.HighLevelDataSetupApp"
+    classpath += sourceSets.test.runtimeClasspath
+    jvmArgs = ['--add-opens=java.base/java.lang.reflect=ALL-UNNAMED']
 }
 
 artifacts {

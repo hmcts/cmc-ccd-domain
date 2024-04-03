@@ -3,17 +3,26 @@
   "version": "0.0.1",
   "description": "CMC CCD Domain and Definitions",
   "scripts": {
+    "start": "node index.js",
+    "generate-excel": "./bin/pull-definition-from-docker.sh ${ENVIRONMENT:-local}",
     "lint": "echo lint",
     "test": "echo test",
     "test:a11y": "echo test:a11y",
     "test:coverage": "echo test:coverage",
+    "test:functional": "echo test:functional",
+    "test:smoke": "echo test:smoke",
+    "highLevelDataSetup": "echo './gradlew highLevelDataSetup --args=$1' > ./temp.sh && sh ./temp.sh",
     "prepare": "husky"
   },
   "dependencies": {
+    "@hmcts/nodejs-healthcheck": "^1.8.4",
+    "@hmcts/properties-volume": "^1.1.0",
+    "config": "^3.3.11",
+    "express": "^4.19.2",
     "minimist": "^1.2.8"
   },
   "devDependencies": {
     "husky": "^9.0.11"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@3.8.1"
 }
