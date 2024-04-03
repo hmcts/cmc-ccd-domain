@@ -3,40 +3,30 @@ package uk.gov.hmcts.cmc;
 import uk.gov.hmcts.befta.dse.ccd.CcdEnvironment;
 import uk.gov.hmcts.befta.dse.ccd.DataLoaderToDefinitionStore;
 
-import java.util.Locale;
+import java.util.List;
 
 public class HighLevelDataSetupApp extends DataLoaderToDefinitionStore {
 
-    private final CcdEnvironment environment;
+    private static final String definitionsPath = "ccd_definition";
 
     public HighLevelDataSetupApp(CcdEnvironment dataSetupEnvironment) {
-        super(dataSetupEnvironment);
-        environment = dataSetupEnvironment;
+        super(dataSetupEnvironment, definitionsPath);
     }
 
     public static void main(String[] args) throws Throwable {
         main(HighLevelDataSetupApp.class, args);
     }
 
-    private String getDefinitionFile() {
-        String environmentName = environment.name().toLowerCase(Locale.UK);
-        return String.format("definition/xlsx/cmc-ccd-%s.xlsx", environmentName);
-    }
-
-    @Override
-    public void importDefinitions() {
-        importDefinitionsAt(getDefinitionFile());
-    }
-
     @Override
     protected void doLoadTestData() {
-        String definitionFile = getDefinitionFile();
+        List<String> definitionFileResources = getAllDefinitionFilesToLoadAt(definitionsPath);
         CcdEnvironment currentEnv = (CcdEnvironment) getDataSetupEnvironment();
         try {
             if (currentEnv != null) {
                 importDefinitions();
             } else {
-                System.out.println("definition file \"" + definitionFile + "\" is skipped on " + currentEnv);
+                definitionFileResources.forEach(file ->
+                    System.out.println("definition file \"" + file + "\" is skipped on " + currentEnv));
             }
         } catch (Exception e) {
             System.out.println("Error on uploading ccd definition file - " + e.getMessage());
