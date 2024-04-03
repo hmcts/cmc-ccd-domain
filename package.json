@@ -4,8 +4,7 @@
   "description": "CMC CCD Domain and Definitions",
   "scripts": {
     "start": "node index.js",
-    "setup": "git submodule update --init --recursive && cd ccd-definition-processor && yarn install",
-    "generate-excel": "cd ccd-definition-processor && yarn json2xlsx -D ../definition/data/sheets -o ../definition/xlsx/cmc-ccd-${ENVIRONMENT:-local}.xlsx",
+    "generate-excel": "./bin/pull-definition-from-docker.sh",
     "lint": "echo lint",
     "test": "echo test",
     "test:a11y": "echo test:a11y",

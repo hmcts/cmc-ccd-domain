@@ -1,13 +1,8 @@
 #!/bin/bash
 set -e
 
-if (( $# < 2 )); then
-    echo "Usage pull-definition-from-docker.sh ENV VERSION"
-    exit 1
-fi
-
-ENV="${1:-}"
-VERSION="${2:-}"
+ENV="${1:-local}"
+VERSION="${2:-latest}"
 
 case ${ENV} in
   local)
@@ -21,17 +16,19 @@ case ${ENV} in
     exit 1 ;;
 esac
 
-echo "Pulling definition version: ${VERSION}..."
-docker pull hmctspublic.azurecr.io/cmc/ccd-definition-importer:${VERSION}
+root_dir=$(realpath $(dirname ${0})/..)/definition
+echo ${root_dir}
+config_dir=${root_dir}/data/sheets
+definition_output_file=${root_dir}/xlsx/cmc-ccd-${ENV}.xlsx
+
+if [[ ! -e ${definition_output_file} ]]; then
+   touch ${definition_output_file}
+fi
 
 echo "Generating definition file..."
 docker run --rm --name json2xlsx \
-  -v $(pwd)/definition/releases:/tmp \
-  -e "CCD_DEF_CLAIM_STORE_BASE_URL=${CLAIM_STORE_URL}" `# templated in definitions excel` \
-  hmctspublic.azurecr.io/cmc/ccd-definition-importer:${VERSION} \
-  sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /tmp/cmc-ccd.xlsx && yarn cache clean"
-
-echo "Versioning definition file..."
-mv ./definition/releases/cmc-ccd.xlsx ./definition/releases/cmc-ccd-v${VERSION}_$(echo $ENV | tr a-z A-Z).xlsx
-
-echo "Saved: ./definition/releases/cmc-ccd-v${VERSION}_$(echo $ENV | tr a-z A-Z).xlsx"
+  -v ${config_dir}:/tmp/definition \
+  -v ${definition_output_file}:/tmp/definition.xlsx \
+  -e "CCD_DEF_CLAIM_STORE_BASE_URL=${CLAIM_STORE_URL}" \
+  hmctspublic.azurecr.io/ccd/definition-processor:${VERSION} \
+  json2xlsx -D /tmp/definition -o /tmp/definition.xlsx
