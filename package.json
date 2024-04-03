@@ -4,7 +4,7 @@
   "description": "CMC CCD Domain and Definitions",
   "scripts": {
     "start": "node index.js",
-    "generate-excel": "./bin/pull-definition-from-docker.sh",
+    "generate-excel": "./bin/pull-definition-from-docker.sh ${ENVIRONMENT:-local}",
     "lint": "echo lint",
     "test": "echo test",
     "test:a11y": "echo test:a11y",

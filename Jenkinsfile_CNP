@@ -48,19 +48,10 @@ withPipeline("nodejs", product, component) {
   }
 
   before('highleveldatasetup') {
-    yarnBuilder.yarn('setup')
     stageWithAgent('Generate CMC CCD domain and definition config', product) {
       yarnBuilder.yarn('generate-excel')
       steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definition/xlsx/*.xlsx'
     }
-  }
-
-  before('smoketest:aat') {
-    yarnBuilder.yarn('setup')
-  }
-
-  afterAlways('smoketest:aat') {
-    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'smoke-output/**'
   }
 
   afterAlways('functionalTest:aat') {
