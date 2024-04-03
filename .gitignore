@@ -2,6 +2,7 @@
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 definition/xlsx/*.xlsx
+*.xlsx
 
 ### STS ###
 .apt_generated
