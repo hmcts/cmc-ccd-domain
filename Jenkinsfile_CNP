@@ -40,15 +40,17 @@ withPipeline("nodejs", product, component) {
 
   onPR{
     env.ENVIRONMENT="preview"
-    env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-aat.service.core-compute-aat.internal"
   }
   onMaster{
     env.ENVIRONMENT="aat"
-    env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-aat.service.core-compute-aat.internal"
+  }
+  onDemo{
+    env.ENVIRONMENT="demo"
   }
 
   before('highleveldatasetup') {
     stageWithAgent('Generate CMC CCD domain and definition config', product) {
+      env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-${env.ENVIRONMENT}.service.core-compute-${env.ENVIRONMENT}.internal"
       yarnBuilder.yarn('generate-excel')
       yarnBuilder.yarn('copy-excel-to-resources')
       steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definition/xlsx/*.xlsx'
@@ -56,7 +58,7 @@ withPipeline("nodejs", product, component) {
   }
 
   afterAlways('functionalTest:aat') {
-    sh 'exit 1'
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test-results/functional/**/*'
+    env.ENVIRONMENT="prod"
   }
 }
