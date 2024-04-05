@@ -23,6 +23,11 @@ def secrets = [
             secret('idam-data-store-system-user-password','IDAM_DATA_STORE_SYSTEM_USER_PASSWORD'),
             secret('ccd-case-document-am-api-s2s-secret', 'CCD_CASE_DOCUMENT_AM_API_SECRET')
         ],
+        'cmc-${env}': [
+            secret('ccd-importer-username', 'DEFINITION_IMPORTER_USERNAME'),
+            secret('ccd-importer-password', 'DEFINITION_IMPORTER_PASSWORD'),
+            secret('citizen-oauth-client-secret', 'OAUTH_CLIENT_SECRET'),
+        ],
 ]
 
 static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
