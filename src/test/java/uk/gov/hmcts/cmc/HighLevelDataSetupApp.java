@@ -24,6 +24,7 @@ public class HighLevelDataSetupApp extends DataLoaderToDefinitionStore {
     protected void doLoadTestData() {
         List<String> definitionFileResources = getAllDefinitionFilesToLoadAt(definitionsPath);
         CcdEnvironment currentEnv = (CcdEnvironment) getDataSetupEnvironment();
+        System.out.println("current environment:  " + currentEnv);
         try {
             if (currentEnv != null && !SKIPPED_ENVS.contains(currentEnv)) {
                 importDefinitions();
