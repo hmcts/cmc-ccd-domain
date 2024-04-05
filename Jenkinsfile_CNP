@@ -57,13 +57,16 @@ withPipeline("nodejs", product, component) {
     stageWithAgent('Generate CMC CCD domain and definition config', product) {
       env.CCD_DEF_CLAIM_STORE_BASE_URL = "http://cmc-claim-store-${env.ENVIRONMENT}.service.core-compute-${env.ENVIRONMENT}.internal"
       yarnBuilder.yarn('generate-excel')
-      yarnBuilder.yarn('copy-excel-to-resources')
+      if(env.ENVIRONMENT != 'preview') {
+        yarnBuilder.yarn('copy-excel-to-resources')
+      }
       steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definition/xlsx/*.xlsx'
     }
   }
 
   afterAlways('functionalTest:aat') {
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test-results/functional/**/*'
+    yarnBuilder.yarn('empty-resources-dir')
     env.ENVIRONMENT="prod"
   }
 }
