@@ -6,6 +6,7 @@
     "start": "node index.js",
     "generate-excel": "./bin/pull-definition-from-docker.sh ${ENVIRONMENT:-local}",
     "copy-excel-to-resources": "cp -R definition/xlsx/cmc-ccd-${ENVIRONMENT:-local}.xlsx src/test/resources/ccd_definition",
+    "empty-resources-dir": "rm src/test/resources/ccd_definition/*.xlsx",
     "lint": "echo lint",
     "test": "echo test",
     "test:a11y": "echo test:a11y",

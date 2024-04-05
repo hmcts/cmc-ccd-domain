@@ -66,6 +66,7 @@ withPipeline("nodejs", product, component) {
 
   afterAlways('functionalTest:aat') {
     steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test-results/functional/**/*'
+    yarnBuilder.yarn('empty-resources-dir')
     env.ENVIRONMENT="prod"
   }
 }
