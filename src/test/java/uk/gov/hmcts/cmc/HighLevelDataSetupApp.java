@@ -3,11 +3,14 @@ package uk.gov.hmcts.cmc;
 import uk.gov.hmcts.befta.dse.ccd.CcdEnvironment;
 import uk.gov.hmcts.befta.dse.ccd.DataLoaderToDefinitionStore;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class HighLevelDataSetupApp extends DataLoaderToDefinitionStore {
 
     private static final String definitionsPath = "ccd_definition";
+    private static final List<CcdEnvironment> SKIPPED_ENVS = Arrays.asList(
+        CcdEnvironment.PREVIEW);
 
     public HighLevelDataSetupApp(CcdEnvironment dataSetupEnvironment) {
         super(dataSetupEnvironment, definitionsPath);
@@ -22,7 +25,7 @@ public class HighLevelDataSetupApp extends DataLoaderToDefinitionStore {
         List<String> definitionFileResources = getAllDefinitionFilesToLoadAt(definitionsPath);
         CcdEnvironment currentEnv = (CcdEnvironment) getDataSetupEnvironment();
         try {
-            if (currentEnv != null) {
+            if (currentEnv != null && !SKIPPED_ENVS.contains(currentEnv)) {
                 importDefinitions();
             } else {
                 definitionFileResources.forEach(file ->
