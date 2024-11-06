@@ -69,4 +69,5 @@ withPipeline("nodejs", product, component) {
     yarnBuilder.yarn('empty-resources-dir')
     env.ENVIRONMENT="prod"
   }
+
 }
