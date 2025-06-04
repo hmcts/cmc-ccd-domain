@@ -17,14 +17,14 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@hmcts/nodejs-healthcheck": "^1.8.4",
+    "@hmcts/nodejs-healthcheck": "^1.8.5",
     "@hmcts/properties-volume": "^1.1.0",
     "config": "^3.3.11",
-    "express": "^4.19.2",
+    "express": "^4.20.0",
     "minimist": "^1.2.8"
   },
   "devDependencies": {
     "husky": "^9.0.11"
   },
-  "packageManager": "yarn@3.8.1"
+  "packageManager": "yarn@3.8.7"
 }

@@ -238,6 +238,7 @@
   {"ID": "CourtList", "ListElementCode": "Plymouth Combined Court", "ListElement": "Plymouth Combined Court"},
   {"ID": "CourtList", "ListElementCode": "Peterborough Combined Court Centre", "ListElement": "Peterborough Combined Court Centre"},
   {"ID": "CourtList", "ListElementCode": "Oxford Combined Court Centre", "ListElement": "Oxford Combined Court Centre"},
+  {"ID": "CourtList", "ListElementCode": "Online Civil Money Claims Service Centre", "ListElement": "Online Civil Money Claims Service Centre"},
   {"ID": "CourtList", "ListElementCode": "Nuneaton County Court", "ListElement": "Nuneaton County Court"},
   {"ID": "CourtList", "ListElementCode": "Nottingham County Court and Family Court", "ListElement": "Nottingham County Court and Family Court"},
   {"ID": "CourtList", "ListElementCode": "Norwich Combined Court Centre", "ListElement": "Norwich Combined Court Centre"},

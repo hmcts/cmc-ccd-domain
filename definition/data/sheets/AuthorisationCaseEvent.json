@@ -278,6 +278,7 @@
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc-judge", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ReviewJudgeComments", "UserRole":"caseworker-cmc-legaladvisor", "CRUD": "R"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "PaperResponseOCON9xForm", "UserRole":"caseworker-cmc", "CRUD": "CRUD"},
+  {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-rparobot", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-judge", "CRUD": "CR"},
   {"CaseTypeID": "MoneyClaimCase", "CaseEventID": "ManageDocuments", "UserRole":"caseworker-cmc-legaladvisor", "CRUD": "CR"},
