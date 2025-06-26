@@ -16,14 +16,14 @@ plugins {
 group = 'uk.gov.hmcts.reform'
 version = '0.0.1'
 
-tasks.withType(JavaCompile) {
+tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }
 
 repositories {
     mavenCentral()
     mavenLocal()
-    maven { url 'https://jitpack.io' }
+    maven { url 'https://pkgs.dev.azure.com/hmcts/Artifacts/_packaging/hmcts-lib/maven/v1' }
 }
 
 dependencyManagement {
@@ -61,7 +61,7 @@ checkstyle {
     getConfigDirectory().set(new File(rootDir, 'config/checkstyle'))
 }
 
-task printVersion {
+tasks.register('printVersion') {
     doLast {
         print project.version
     }
@@ -81,18 +81,20 @@ def pomConfig = {
     }
 }
 
-task sourcesJar(type: Jar, dependsOn: classes) {
+tasks.register('sourcesJar', Jar) {
+    dependsOn classes
     archiveClassifier = 'sources'
     from sourceSets.main.allSource
 }
 
-task javadocJar(type: Jar, dependsOn: javadoc) {
+tasks.register('javadocJar', Jar) {
+    dependsOn javadoc
     archiveClassifier = 'javadoc'
     from javadoc.destinationDir
 }
 
-task highLevelDataSetup(type: JavaExec) {
-    main = "uk.gov.hmcts.cmc.HighLevelDataSetupApp"
+tasks.register('highLevelDataSetup', JavaExec) {
+    mainClass = "uk.gov.hmcts.reform.civil.HighLevelDataSetupApp"
     classpath += sourceSets.test.runtimeClasspath
     jvmArgs = ['--add-opens=java.base/java.lang.reflect=ALL-UNNAMED']
 }
@@ -118,6 +120,16 @@ publishing {
                 root.appendNode('name', 'Money Claim CCD Domain')
                 root.appendNode('url', 'https://github.com/hmcts/cmc-ccd-domain')
                 root.children().last() + pomConfig
+            }
+        }
+    }
+    repositories {
+        maven {
+            name = "AzureArtifacts"
+            url = uri("https://pkgs.dev.azure.com/hmcts/Artifacts/_packaging/hmcts-lib/maven/v1")
+            credentials {
+                username = System.getenv("AZURE_DEVOPS_ARTIFACT_USERNAME")
+                password = System.getenv("AZURE_DEVOPS_ARTIFACT_TOKEN")
             }
         }
     }
