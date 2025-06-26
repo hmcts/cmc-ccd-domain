@@ -94,7 +94,7 @@ tasks.register('javadocJar', Jar) {
 }
 
 tasks.register('highLevelDataSetup', JavaExec) {
-    mainClass = "uk.gov.hmcts.reform.civil.HighLevelDataSetupApp"
+    mainClass = "uk.gov.hmcts.cmc.HighLevelDataSetupApp"
     classpath += sourceSets.test.runtimeClasspath
     jvmArgs = ['--add-opens=java.base/java.lang.reflect=ALL-UNNAMED']
 }
