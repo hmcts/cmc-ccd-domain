@@ -57,7 +57,7 @@ jar {
 
 checkstyle {
     maxWarnings = 0
-    toolVersion = '8.45.1'
+    toolVersion = '10.26.1'
     getConfigDirectory().set(new File(rootDir, 'config/checkstyle'))
 }
 
