@@ -3,7 +3,7 @@ appVersion: '1.0'
 description: A Helm chart for cmc ccd domain
 name: cmc-ccd-domain
 home: https://github.com/hmcts/cmc-ccd-domain
-version: 0.0.4
+version: 0.0.5
 dependencies:
   - name: nodejs
     version: 3.2.0
@@ -13,10 +13,10 @@ dependencies:
     repository: 'oci://hmctspublic.azurecr.io/helm'
     condition: ccd.enabled
   - name: xui-webapp
-    version: 1.0.31
+    version: 1.0.40
     repository: 'oci://hmctspublic.azurecr.io/helm'
     condition: xui-webapp.enabled
   - name: idam-pr
-    version: 2.3.0
+    version: 2.3.1
     repository: 'oci://hmctspublic.azurecr.io/helm'
     condition: idam-pr.enabled
