@@ -26,5 +26,5 @@
   "devDependencies": {
     "husky": "^9.0.11"
   },
-  "packageManager": "yarn@3.8.1"
+  "packageManager": "yarn@3.8.7"
 }
