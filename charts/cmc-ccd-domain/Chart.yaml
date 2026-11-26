@@ -6,7 +6,7 @@ home: https://github.com/hmcts/cmc-ccd-domain
 version: 0.0.6
 dependencies:
   - name: nodejs
-    version: 3.2.0
+    version: 3.3.1
     repository: 'oci://hmctsprod.azurecr.io/helm'
   - name: ccd
     version: 9.2.2
