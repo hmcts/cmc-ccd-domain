@@ -25,7 +25,7 @@ xui-webapp:
   nodejs:
     imagePullPolicy: Always
     releaseNameOverride: ${SERVICE_NAME}-xui-webapp
-    image: hmctspublic.azurecr.io/xui/webapp:latest
+    image: hmctsprod.azurecr.io/xui/webapp:latest
     ingressHost: xui-${SERVICE_FQDN}
     environment:
       NODE_TLS_REJECT_UNAUTHORIZED: 0
@@ -126,7 +126,7 @@ ccd:
 
   ccd-admin-web:
     nodejs:
-      image: hmctspublic.azurecr.io/ccd/admin-web:latest
+      image: hmctsprod.azurecr.io/ccd/admin-web:latest
       ingressHost: admin-web-${SERVICE_FQDN}
       keyVaults:
       environment:
@@ -225,7 +225,7 @@ ccd:
       requests:
         cpu: 1000m
         memory: 1024Mi
-    image: hmctspublic.azurecr.io/ccd/logstash
+    image: hmctsprod.azurecr.io/ccd/logstash
     imageTag: "latest"
     logstashJavaOpts: -Xmx1g -Xms512M
     extraEnvs:

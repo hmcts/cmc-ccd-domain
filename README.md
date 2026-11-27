@@ -20,11 +20,11 @@ Version number is defined in file [VERSION.yaml](./VERSION.yaml), both artefacts
 On any tagged commit Travis and Azure DevOps will release both artefacts. 
 
 - Travis will build and push to bintray: http://dl.bintray.com/hmcts/hmcts-maven/uk/gov/hmcts/reform/cmc/ccd-domain/
-- Azure DevOps will build and push to ACR: hmctspublic.azurecr.io/cmc/ccd-definition-importer
+- Azure DevOps will build and push to ACR: hmctsprod.azurecr.io/cmc/ccd-definition-importer
 
 Both status's are refelected on README with build badges.
 
-*NOTE:* Docker images are write and delete protected to stop overwriting tags. If you do need to delete an image then you will need to disable these flags, e.g.: `az acr repository update --name hmctspublic --image cmc/ccd-definition-importer:1.2.2 --delete-enabled true  --write-enabled true` 
+*NOTE:* Docker images are write and delete protected to stop overwriting tags. If you do need to delete an image then you will need to disable these flags, e.g.: `az acr repository update --name hmctsprod --image cmc/ccd-definition-importer:1.2.2 --delete-enabled true  --write-enabled true`
 
 #### To release:
 

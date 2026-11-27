@@ -1,4 +1,4 @@
-FROM hmctspublic.azurecr.io/base/node:22-alpine as base
+FROM hmctsprod.azurecr.io/base/node:22-alpine AS base
 USER root
 WORKDIR /opt/app
 RUN mkdir -p /opt/app/.yarn && chown -R hmcts:hmcts /opt/app

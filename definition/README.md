@@ -6,7 +6,7 @@ The JSON will contain templated values like `CCD_DEF_BASE_URL`. An example is fo
 
 # Release Process
 
-Currently the release process is two phases. Automated definition generation in a Docker image and then the release. Releasing to PROD is a manual process that requires a Jira ticket to be raised with CCD team. Generation happens with a PR here, then approval and merge to master, this creates a new `hmctspublic.azurecr.io/cmc/ccd-definition-importer` Docker image. This image has JSON definition data baked in and will be responsible for loading definitions into AKS and local development environments.
+Currently the release process is two phases. Automated definition generation in a Docker image and then the release. Releasing to PROD is a manual process that requires a Jira ticket to be raised with CCD team. Generation happens with a PR here, then approval and merge to master, this creates a new `hmctsprod.azurecr.io/cmc/ccd-definition-importer` Docker image. This image has JSON definition data baked in and will be responsible for loading definitions into AKS and local development environments.
 
 ## Step by Step Release:
 
@@ -23,7 +23,7 @@ If you need to work with local definitions:
 
 1. Build a new cmc-ccd-definition-importer, tagged with `dev`. In root directory:
 ```bash
-$ docker build -t hmctspublic.azurecr.io/cmc/ccd-definition-importer:dev -f definition/Dockerfile .
+$ docker build -t hmctsprod.azurecr.io/cmc/ccd-definition-importer:dev -f definition/Dockerfile .
 ```
 
 2. Upload to local environment:
@@ -38,7 +38,7 @@ $ ./bin/wsl-upload-ccd-definition-to-env.sh local dev
 Note: if you want to make this semi-permanent also update docker-compose.yaml in cmc-integration-tests project to pin to your dev version:
 ```
     ccd-importer:
-      image: hmctspublic.azurecr.io/cmc/ccd-definition-importer:dev
+      image: hmctsprod.azurecr.io/cmc/ccd-definition-importer:dev
 ```
 
 ## Extracting a local Excel definition 
@@ -48,7 +48,7 @@ Outputs file into {Current Directory}/releases/cmc-ccd.xlsx
 ```
 docker run --rm --name json2xlsx \
   -v $(pwd)/releases:/tmp \
-  hmctspublic.azurecr.io/cmc/ccd-definition-importer:dev \
+  hmctsprod.azurecr.io/cmc/ccd-definition-importer:dev \
   sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /tmp/cmc-ccd.xlsx"
 ```
 

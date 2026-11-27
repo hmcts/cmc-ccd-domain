@@ -3,8 +3,7 @@ name: cmc-ccd-domain pipeline
 variables:
   serviceConnection: 'azurerm-prod'
   repository: cmc/ccd-definition-importer
-  acrName: hmctspublic
-  acrResourceGroup: rpe-acr-prod-rg
+  acrName: hmctsprod
 
 trigger:
   branches:
@@ -22,10 +21,17 @@ jobs:
   pool:
     vmImage: ubuntu-latest
   steps:
-  - script: |
-      CCD_DEF_CLAIM_STORE_BASE_URL=http://localhost
-      docker build -f definition/Dockerfile -t test-image .
-      docker run --rm test-image sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx"
+  - task: AzureCLI@2
+    inputs:
+      azureSubscription: $(serviceConnection)
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: |
+        set -e
+        az acr login --name $(acrName)
+        CCD_DEF_CLAIM_STORE_BASE_URL=http://localhost
+        docker build -f definition/Dockerfile -t test-image .
+        docker run --rm test-image sh -c "cd /opt/ccd-definition-processor && yarn json2xlsx -D /data/sheets -o /cmc-ccd.xlsx"
 
 - job: Release
   displayName: 'Build and Push Docker Image to ACR'
@@ -48,6 +54,6 @@ jobs:
           imageTag=$(echo $(Build.SourceBranch) | cut -d'/' -f 3 | sed 's/v//')
         fi
         echo "Building $(repository):$imageTag ..."
-        az acr build -r $(acrName) -t $(repository):$imageTag -g $(acrResourceGroup) -f definition/Dockerfile .
+        az acr build -r $(acrName) -t $(repository):$imageTag -f definition/Dockerfile .
         az acr repository update --name $(acrName) --image $(repository):$imageTag --delete-enabled false --write-enabled false
         echo "Finished"
